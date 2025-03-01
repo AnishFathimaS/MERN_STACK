@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Methods</title>
+    <!-- Switch case, Object methods -> object, array destructruing, get, set method, size, delete, clear, has, for in loop, for of loop  -->
+</head>
+<body>
+    <h1>Object Destructruing</h1>
+    <p id="ptag"></p>
+    <h1>Array Destructruing</h1>
+    <p id="ptag1"></p>
+    <h1>Get Method</h1>
+    <p id="ptag2"></p>
+    <h1>Set Method</h1>
+    <p id="ptag3"></p>
+    <h1>Size Method</h1>
+    <p id="ptag4"></p>
+    <h1>For in loop</h1>
+    <p id="ptag5"></p>
+    <h1>For of loop</h1>
+    <p id="ptag6"></p>
+
+</body>
+</html>
+<script>
+    //Switch Case
+
+    // const num = 2;
+
+    // switch (num % 2) {
+    //     case 0:
+    //         document.write(`${num} is Even`);
+    //         break;
+    //     case 1:
+    //         document.write(`${num} is Odd`);
+    //         break;
+    //     default:
+    //         document.write("Invalid Input");
+    //         break;
+    // }
+
+    //Destructruing Object
+
+    const obj1 = {
+        firstname : "Anis",     
+        secondname : "Fathima",
+        from : "Trichy"
+    }
+    let {firstname,secondname,from} =obj1;
+    
+    // document.getElementById("ptag").innerHTML = obj1.firstname + " " + obj1.secondname; 
+    document.getElementById("ptag").innerHTML = firstname + " " + secondname + " From " + from;
+
+    //Destructruing Array
+
+    const arr = ["Anis","Fathima","19","Trichy"];
+    const [a,b,c,d] = arr;
+    document.getElementById("ptag1").innerHTML = a + " " + b + " " + c + " " + d;
+
+
+    //Get Method 
+
+    const obj2 = new Map([
+        ["firstname","Sara"],
+        ["secondname","Fathima"]
+    ]);
+    document.getElementById("ptag2").innerHTML = obj2.get("secondname") ;
+
+    //Set Method 
+
+    const obj3 = new Map([
+        ["firstname","Sara"],
+        ["secondname","Fathima"]
+    ]);
+    obj3.set("age",40);
+    document.getElementById("ptag3").innerHTML = obj3.get("age") ;
+
+    //Size , Delete , Clear , Has
+
+    const obj4 = new Map([
+        ["firstname","Sara"],
+        ["secondname","Fathima"],
+        ["age","40"]
+    ]);
+    obj4.delete("age");
+    // obj4.clear();
+    document.getElementById("ptag4").innerHTML = obj4.size;
+    // document.getElementById("ptag4").innerHTML = obj4.has("secondname"); //iruka illaiya
+
+    //For in loop
+
+    // var person = {
+    //     firstname:"anis", 
+    //     lastname:"fathima", 
+    //     age:19
+    // }; 
+
+    // var txt = "";
+    // for (let a in person) {
+    // txt += person[a] + " ";
+    // }
+
+    // document.getElementById("ptag5").innerHTML = txt;
+
+    //For of loop
+
+    var detail = ["Anis","Fathima","19","Trichy"];
+
+    var txt = "";
+    for (let a of detail) {
+    txt += a + " ";
+    }
+
+    document.getElementById("ptag6").innerHTML = txt;
+
+</script>                                   

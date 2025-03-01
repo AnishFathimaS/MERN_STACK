@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="default">Default</button>
+
+    <script>
+
+        document.querySelector("#start").addEventListener("click",increase);
+
+        var padding = 0;
+        function increase(){
+            padding+=10;
+            document.querySelector("#start").style.padding=`${padding}px`;
+        }
+
+        document.querySelector("#stop").addEventListener("click",stop);
+
+        function stop(){
+            document.querySelector("#start").removeEventListener("click",increase);
+        }
+
+        document.querySelector("#default").addEventListener("click",Default);
+
+        function Default(){
+            document.querySelector("#start").style.padding=`1px 6px`;
+        }
+
+    </script>
+    
+</body>
+</html>

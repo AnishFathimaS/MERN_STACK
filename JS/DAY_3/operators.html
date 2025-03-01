@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- OPERATORS  -->
+
+  <!-- ARITHMETIC OPERTORS => +, -, *, **, /, % -->
+  <!-- ASSIGNMENT OPERATOR => += , -=, *=, /=  -->
+  <!-- COMPARISON OPERATOR => == , !=, ===, !==  -->
+  <!-- RELATIONAL OPERATOR => <, >, <=, >=  -->
+  <!-- LOGICAL OPERATOR => &&, ||, ! -->
+  <!-- UNARY OPERATOR => post increment, pre increment, post decrement, pre decrement  -->
+  <!-- TERNARY OPERATOR => (condition) ? true : false -->
+
+  <script>
+
+    var a = 2;
+    var b = 5;
+
+    // a+=b => 10+=2 => 12
+    // b+=a => 2+=10 => 12
+
+    // a+=b => a + b = a 
+
+    // document.write(`<h4>Arithmetic Operator </h4>`)
+    // document.write(`<h4> ${a} + ${b} = ${a+b} </h4>`)
+    // document.write(`<h4> ${a} - ${b} = ${a-b} </h4>`)
+    // document.write(`<h4> ${a} * ${b} = ${a*b} </h4>`)
+    // document.write(`<h4> ${a} ** ${b} = ${a**b} </h4>`) // 10^2 = 100
+    // document.write(`<h4> ${a} / ${b} = ${a/b} </h4>`)
+    // document.write(`<h4> ${a} % ${b} = ${a%b} </h4>`)
+
+    // document.write(`<h4>Assignment Operator </h4>`)
+    // document.write(`<h4> ${a} += ${b} = ${a+=b} </h4>`) // 10 + 2 => 12 , a = 12
+    // document.write(`<h4> ${a} -= ${b} = ${a-=b} </h4>`) // 12 - 2 => 10, a = 10
+    // document.write(`<h4> ${a} *= ${b} = ${a*=b} </h4>`) // 10 * 2 => 20, a = 20
+    // document.write(`<h4> ${a} /= ${b} = ${a/=b} </h4>`) // 20 / 2 => 10
+
+    // document.write(`<h4>  Comparison Operator </h4>`)
+    // document.write(`${a == b} <br>`)
+    // document.write(`${a != b} <br>`)
+    // document.write(`${a === b} <br>`)
+    // document.write(`${a !== b} <br>`) 
+
+    // document.write(`<h4>  Relational Operator </h4>`)
+    // document.write(`<h4> ${a>b} </h4>`)
+    // document.write(`<h4> ${a<b} </h4>`)
+    // document.write(`<h4> ${a<=b} </h4>`)
+    // document.write(`<h4> ${a>=b} </h4>`)
+
+    // document.write(`<h4>  Logical Operator </h4>`)
+
+    // document.write(`<h4>  AND Operator </h4>`)
+    // document.write(`${true && true} <br>`) //true
+    // document.write(`${true && false} <br>`) //false
+    // document.write(`${false && true} <br>`) //false
+    // document.write(`${false && false} <br>`) //false
+
+    // document.write( 8>3 && 4>3, '<br>') //true && true => true
+    // document.write( 4<7 && 2>3, '<br>') //true && false => false
+    // document.write( 6>9 && 2<=2, '<br>') //false && true => false
+    // document.write( 6<3 && 2<=1, '<br>') //false && false => false
+
+    // document.write(`<h4> OR Operator </h4>`)
+    // document.write(`${true || true} <br>`) //true
+    // document.write(`${true || false} <br>`) //true
+    // document.write(`${false || true} <br>`) //true
+    // document.write(`${false || false} <br>`) //false
+
+    // document.write( 8>=8 || 4<6 , '<br>')  // true || true => true
+    // document.write( 8>=4 || 4<3 , '<br>')  // true || false => true
+    // document.write( 5<3 || 6>3 , '<br>') // false || true => true
+    // document.write(9<4 || 6>9, '<br>') // false || false => false
+
+    // document.write(`<h4> NOT Operator </h4>`)
+    // document.write(`${ !(8 === '8') }`)
+
+    // document.write(`<h4>  Unary Operator </h4>`)
+    // document.write(`<h4> Post Increment </h4>`)
+
+    // var num = 5;
+    // console.log(num); //5
+    // console.log(num++); //5
+    // console.log(num++); //6
+    // console.log(num); //7
+
+    // console.log(num); //5
+    // console.log(++num); //6
+    // console.log(num); //6
+    
+    // console.log(num); //5
+    // console.log(++num); //6
+    // console.log(num++); //6
+    // console.log(num); //7
+
+    // console.log(num); //5
+    // console.log(num--); //5
+    // console.log(num); //4
+    // console.log(num--); //4
+    // console.log(num); //3
+
+    // console.log(num); //5
+    // console.log(--num); //4
+    // console.log(num--); //4
+    // console.log(num); //3
+
+    document.write(`<h4>  Ternary Operator </h4>`)
+    document.write(`<h4> (Condition) ? true : false </h4>`)
+    // document.write((8>10) ? 'True Statement' : 'False Statement')
+
+    var age = 10;
+    // document.write(( age > 18 ) ? 'Eligible to vote' : 'Not Eligible to vote')
+    document.write(('8'==8) ? 'true' : 'false', '<br>')
+    document.write(('8'===8) ? 'true' : 'false')
+
+  </script>
+
+</body>
+</html>

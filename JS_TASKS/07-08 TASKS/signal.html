@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div{
+            height: 150px;
+            width: 150px;
+            border-radius: 150%;
+        }
+        .container{
+            background-color: black;
+            height: 170px;
+            width: 170px;
+            padding-top: 20px;
+            padding-left: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="div"></div>
+    </div>
+</body>
+</html>
+<script>
+    document.querySelector("#div").style.background='red';
+    document.querySelector("#div").setAttribute('class',' ');
+
+    function Red(){
+        document.querySelector("#div").style.background=`red`;
+        document.querySelector("#div").setAttribute('class',' ');
+        document.querySelector("#div").setAttribute('class','red');
+    }
+    function Yellow(){
+        document.querySelector("#div").style.background=`yellow`;
+        document.querySelector("#div").setAttribute('class',' ');
+        document.querySelector("#div").setAttribute('class','yellow');
+    }
+    function Green(){
+        document.querySelector("#div").style.background=`green`;
+        document.querySelector("#div").setAttribute('class',' ');
+        document.querySelector("#div").setAttribute('class','green');
+    }
+    function Signal(){
+        setTimeout(Yellow, 2000);
+        setTimeout(Green, 4000);
+        setTimeout(Red,1000);
+    }
+    setInterval(Signal, 10000);
+</script>

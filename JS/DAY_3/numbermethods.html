@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <!-- Number Methods => toFixed, toExponential, toString, Number(), isNaN, isFininte, parseInt, parseFloat, Math.sqrt, Math.random, Math.ceil, Math.floor -->
+   <script>
+
+    // var num = 10.79;
+    // document.write(num.toFixed());
+    // document.write(`<br>`)
+    
+    // var num = 1000;
+    // document.write(num.toExponential())
+    // document.write(`<br>`)
+
+    // var num = 80;
+    // console.log(typeof(num));
+    // num = num.toString()
+    // console.log(typeof(num));
+    
+    // var str = '80'
+    // console.log(typeof(str));
+    // str = Number(str)
+    // console.log(typeof(str));
+    
+    // var str1 = '2'
+    // var str2 = '4'
+    // console.log(Number(str1) + Number(str2));
+    
+    // isNaN => is Not an Number ( true, false )
+
+    // var num = 'a'
+    // console.log(isNaN(num));
+
+    // isFinite => Number => true, String => False 
+
+    // var num = 'a'
+    // document.write(isFinite(num))    
+
+    // var num = '156.90'
+    // document.write(parseInt(num))
+    
+    // var num = 156.8908
+    // document.write(parseFloat(num))
+
+    // var num = 36;
+    // document.write(Math.sqrt(num))
+
+    // var num = Math.random()
+    // console.log(num);
+    // console.log(Math.random() * 10);
+    // 0.32 * 10 = 3.2 
+    // console.log(Math.floor(Math.random() * 10));
+    
+    // var num = 3.1;
+    // console.log(Math.ceil(num));
+    
+    // var num = 5.61;
+    // console.log(Math.floor(num));
+
+    // function fun(){
+    //   var num = Math.floor(Math.random() * 10)
+    //   document.getElementById('randomNumber').innerHTML = num
+    // }
+
+    // String Concatenation
+
+    // var a = 10;
+    // console.log('a =', a);
+    
+    // var b = 20;
+    // console.log('a = '+ b);
+
+    // var str = 'Hello';
+    // document.write(`<h1> ${str} </h1>`)
+
+    // var arr = ['anu', 'is', 'name', 'my'];
+    // document.write(`<h1> ${arr[3]} ${arr[2]} ${arr[1]} ${arr[0]} </h1>`)
+
+    // var obj = {
+    //   name : 'anu',
+    //   from : 'trichy',
+    //   age : 20
+    // }
+
+    // document.write(`<h1> ${obj.name} ${obj.from} ${obj.age} 
+    // </h1>`)
+
+    // var num = 9.53;
+    // console.log('Math Ceil = ', Math.ceil(num)); //nearest highest value
+
+    // var num = 5.34;
+    // console.log('Math floor = ', Math.floor(num)); 
+
+    // var num = Math.random() * 10
+    // 0.3456 * 10  => 3.456
+    // console.log('Random Number', num);
+    // console.log(Math.floor(num)); //3
+
+    // var date = new Date();
+    // console.log(date);
+    // console.log(date.getDate());
+    // console.log(date.getDay());
+    // console.log(date.getMonth());
+    // console.log(date.getFullYear());
+
+    function fun(){
+      var num = Math.floor(Math.random() * 5) 
+      document.getElementById('randomNumber').innerHTML = num
+    }
+    
+   </script>
+
+   <button onClick="fun()">Click here to generate random number</button>
+   <h3 id="randomNumber"> </h3>
+
+</body>
+</html>
