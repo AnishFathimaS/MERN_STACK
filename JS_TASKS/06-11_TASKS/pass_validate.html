@@ -12,7 +12,7 @@
 </head>
 <body>
     <form name="myForm">
-        <input type="text" name="pass" onkeyup='fun()'>
+        <input type="text" name="pass" id="inputBox" onkeyup='fun()'>
         <h3 id="cap">First Letter Should be Capital</h3>
         <h3 id="char">Atleast One Special Character</h3>
         <h3 id="min">Minimum 10 Characters</h3>
@@ -21,11 +21,10 @@
 </body>
 </html>
 <script>
-
     
     function fun(){
 
-        var pass = document.myForm.pass.value;
+        var pass = document.getElementById('inputBox').value;
 
         if(pass.length===0){
             document.querySelector('#cap').style.color='black'
@@ -34,10 +33,10 @@
             document.querySelector('#num').style.color='black'
         }
 
-        //First Letter Should be Captial
+        // First Letter Should be Captial
 
         if(isNaN(pass[0])){
-            if((pass[0]=='@') || (pass[0]=='#') || (pass[0]=='$') || (pass[0]=='!') || ( pass[0]=='&') || (pass[0]=='%') || (pass[0]=='*')){
+            if((pass[0]=='@') || (pass[0]=='#') || (pass[0]=='$') || (pass[0]=='!') || ( pass[0]=='&') || (pass[0]=='%') || (pass[0] =='*')){     
                 document.querySelector('#cap').style.color='black'
             }
             else if(pass[0] === pass[0].toUpperCase() ){
@@ -47,9 +46,8 @@
                 document.querySelector('#cap').style.color='red'
             }
         }
-        
 
-        //Atleat One Special Character
+        // Atleat One Special Character
 
         if(pass.includes('@') || pass.includes('#') || pass.includes('$') || pass.includes('!') ||  pass.includes('&') || pass.includes('%') || pass.includes('*')){
             document.querySelector('#char').style.color='green'
@@ -58,7 +56,7 @@
             document.querySelector('#char').style.color='red'
         }
 
-        //Minimum 10 Characters
+        // Minimum 10 Characters
 
         if(pass.length>10){
             document.querySelector('#min').style.color='green'
@@ -67,7 +65,7 @@
             document.querySelector('#min').style.color='red'
         }
 
-        //Minimum 1 Number
+        // Minimum 1 Number
 
         if(pass.includes(0) || pass.includes(1) || pass.includes(2) || pass.includes(3) || pass.includes(4) || pass.includes(5) || pass.includes(6) || pass.includes(7) || pass.includes(8) || pass.includes(9) ){
             document.querySelector('#num').style.color='green'

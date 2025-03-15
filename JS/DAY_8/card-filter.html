@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+        <form onsubmit="Submit(event)">
+            <input type="text" id="searchBox">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <div class="row" id="cardRow">
+            
+        </div>
+   </div>
+
+   <script>
+        const users = [
+            { name: "Abinaya", age : 20},
+            { name: "Anu", age : 25},
+            { name: "Hari", age : 30},
+            { name: "Siva", age : 18 }
+        ];
+
+        const cardFunc = (data) => {
+            var content = '';
+            data.forEach((value) => {
+                content += `
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>${value.name}</h5>
+                            <p>${value.age}</p>
+                        </div>
+                    </div>
+                </div>`
+            })
+            document.getElementById('cardRow').innerHTML = content;
+        }
+        cardFunc(users);
+
+        const Submit = (event) => {
+            event.preventDefault();
+
+            var getValue = document.getElementById('searchBox').value;
+
+            var dataFilter = users.filter(value => value.name.includes(getValue));
+
+            cardFunc(dataFilter)
+        }
+
+   </script>
+</body>
+</html>
