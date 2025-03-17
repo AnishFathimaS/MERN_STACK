@@ -1,103 +1,121 @@
 var all_products = [
-    { id: 1, name: "Product 1", price: 100 },
-    { id: 2, name: "Product 2", price: 200 },
-    { id: 3, name: "Product 3", price: 300 },
-    { id: 4, name: "Product 4", price: 400 },
+    { id: 1, img : 'champs2.jpg', name: "Product 1", price: 100 },
+    { id: 2, img : 'champs2.jpg', name: "Product 2", price: 200 },
+    { id: 3, img : 'champs2.jpg', name: "Product 3", price: 300 },
+    { id: 4, img : 'champs2.jpg', name: "Product 4", price: 400 }
 ];
 
-function display_products(){
-    var productList = '';
-    all_products.map((product)=>{
-        productList += 
-        ` 
-            <div class="col-lg-3 col-md-6 mb-3">
-                <div class="card p-3 shadow">
-                    <h5>${product.name}</h5>
-                    <p>Price: ₹${product.price}</p>
-                    <button class="btn btn-primary" onclick='addToCart(${product.id})'>Add to Cart</button>
+const searchProducts = () => {
+    var searchInput = document.getElementById('searchInput').value.toUpperCase();
+
+    if(searchInput.length === 0){
+        document.getElementById('searchProducts').innerHTML = ''
+    }
+    else{
+        var filterData = all_products.filter((data) => data.name.toUpperCase().includes(searchInput));
+        var searchList = '';
+        filterData.map((product) => {
+        searchList += 
+        `
+            <div class='col-lg-3 col-md-6'>
+                <div class='card mb-5'>
+                    <img src='${product.img}' />
+                    <div class='card-body'>
+                        <h3>${product.name}</h3>
+                        <h3>${product.price}</h3>
+                    </div>
                 </div>
             </div>
         `
-    })
-    document.getElementById('productList').innerHTML = productList;
+        })
+
+        document.getElementById('searchProducts').innerHTML = searchList || `<p class='text-center text-danger'> No Products Found <p>`
+    }
 }
-display_products()
+
+const display_data = () => {
+    var product_list = '';
+    all_products.map((product) => {
+    product_list += 
+    `
+        <div class="col-lg-3 col-md-6">
+            <div class="card mb-5">
+                <img src=${product.img} alt='' />
+                <div class="card-body">
+                    <h3>${product.name}</h3>
+                    <h3>${product.price}</h3>
+                    <button class='btn btn-primary' onclick="addToCart(${product.id})">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    `
+    })
+    document.getElementById('cardRow').innerHTML = product_list;
+}
+display_data();
 
 var cart = [];
 
-// function addToCart(productID){
-//     var product = all_products.find(a => a.id === productID);
-//     cart.push(product)
-//     display_cart(cart)
-// }
+var cartCount = 0;
 
-function addToCart(productID){
-    var product = all_products.find(a => a.id === productID);
-    var existingProduct = cart.find(a => a.id === productID);
-    
-    if(existingProduct){
-        existingProduct.quantity++;
+const cartCountFun = () => {
+    document.getElementById('cartCount').innerHTML = cartCount;
+    document.getElementById('cartCount').style.display = cartCount > 0 ? 'inline-block' : 'none';
+};
+
+const addToCart = (productID) => {
+    var products = all_products.find((a) => a.id === productID);
+    var existing_product = cart.find((a) => a.id === productID);
+    if(existing_product){
+        existing_product.quantity++;
     }
     else{
-        product.quantity = 1;
-        cart.push(product)
+        products.quantity = 1;
+        cart.push(products)
+    }
+    display_cart(cart);
+    cartCount++;
+    cartCountFun()
+}
+
+const display_cart = (products) => {
+    let cart_list = '';
+
+    if (products.length === 0) {
+        cart_list = `
+            <tr>
+                <td colspan="5" class="text-center text-danger">Cart Empty</td>
+            </tr>
+        `;
+    } else {
+        products.map((product) => {
+            cart_list += `
+                <tr>
+                    <td>${product.name}</td>
+                    <td>${product.price}</td>
+                    <td>${product.quantity}</td>
+                    <td>${product.price * product.quantity}</td>
+                    <td>
+                        <button class='btn btn-danger' onclick='removeFromCart(${product.id})'>Remove</button>
+                    </td>
+                </tr>
+            `;
+        });
     }
 
-    display_cart(cart)
-}
+    document.getElementById('cartRow').innerHTML = cart_list;
+};
+display_cart(cart);
 
-function display_cart(cartData){
-    var cartList = '';
-    cartData.map((product) => {
-        cartList += 
-        `<tr>
-            <td>${product.name}</td>
-            <td>₹${product.price}</td>
-            <td>${product.quantity}</td>
-            <td>${product.price * product.quantity}</td>
-            <td><button class="btn btn-danger btn-sm" onclick='removeFromCart(${product.id})'>Remove</button></td>
-        </tr>`;
-    });
-    document.getElementById('cartList').innerHTML = cartList;
-}
-
-
-function removeFromCart(productID){
-    var product = all_products.find(a => a.id === productID);
-    if(product && product.quantity > 1){
+const removeFromCart = (productID) => {
+    var product = all_products.find(a => a.id === productID)      
+    if(product.quantity > 1){
         product.quantity--;
     }
     else{
-        cart = cart.filter(product => product.id !== productID);
+        cart = cart.filter(product => product.id !== productID)
     }
-
     display_cart(cart)
+    cartCount--;
+    cartCountFun()
 }
-
-function searchProducts() {
-    var searchValue = document.getElementById('searchInput').value.toLowerCase();
-
-    if (searchValue.length === 0) {
-        document.getElementById('searchProducts').innerHTML = '';
-    } 
-    else {
-        var filterData = all_products.filter(product =>
-            product.name.toLowerCase().includes(searchValue)
-        );
-
-        var searchList = '';
-        filterData.forEach((product) => {
-            searchList += `
-            <div class="col-lg-6 col-md-6 mb-3">
-                <div class="card p-3 shadow">
-                    <h5>${product.name}</h5>
-                    <p>Price: ₹${product.price}</p>
-                    <button class="btn btn-primary" onclick='addToCart(${product.id})'>Add to Cart</button>
-                </div>
-            </div>`;
-        });
-
-        document.getElementById('searchProducts').innerHTML = searchList || '<p class="text-center w-100 text-danger">No products found</p>';
-    }
-}
-

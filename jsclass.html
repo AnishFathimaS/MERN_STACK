@@ -10,12 +10,11 @@
 </head>
 <body>
 
-    <script src="external.js"></script>
     
     <i class="fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#searchModal"></i>
   
     <div class="modal fade" id="searchModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Search Products</h5>
@@ -35,18 +34,43 @@
     <i class="fa-solid fa-cart-shopping" data-bs-toggle="modal" data-bs-target="#cartModal"></i>
 
     <div class="modal fade" id="cartModal">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Your Cart</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
                 </div>
                 <div class="modal-body">
-                    
+                    <table class="table table-primary text-center my-5">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cartRow">
+            
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row" id="cardRow">
+            
+        </div>
+
+
+
+    </div>
+
+
+    <script src="external.js"></script>
 
 </body>
 </html>

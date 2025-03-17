@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container my-5">
+        
+        <i class="fa fa-search me-5" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+
+        <i class="fa-solid fa-cart-shopping" data-bs-toggle="modal" data-bs-target="#cartModal"></i>
+        <span class="badge bg-primary" id="cartCount">0</span>
+
+        <div class="row" id="cardRow">
+            
+        </div>
+
+        <table class="table table-primary text-center">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cartRow">
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <script>
+
+        var all_products = [
+            { id: 1, img : 'champs2.jpg', name: "Product 1", price: 100 },
+            { id: 2, img : 'champs2.jpg', name: "Product 2", price: 200 },
+            { id: 3, img : 'champs2.jpg', name: "Product 3", price: 300 },
+            { id: 4, img : 'champs2.jpg', name: "Product 4", price: 400 }
+        ];
+
+        function display_products(){
+            var product_list = ''
+            all_products.map((product) => {
+            product_list += `
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <img src='${product.img}' alt=''>
+                        <div class="card-body">
+                            <h5>${product.name}</h5>
+                            <p>${product.price}</p>
+                            <button class='btn btn-primary' onclick='addToCart(${product.id})'>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                `
+            })
+            document.getElementById('cardRow').innerHTML = product_list;
+        }
+        display_products()
+
+        var cart = [];
+
+        function addToCart(productID){
+            var products = all_products.find((a) => a.id === productID);
+            var existing_product = cart.find((a) => a.id === productID);
+            if(existing_product){
+                existing_product.quantity++;
+            }          
+            else{
+                products.quantity = 1;
+                cart.push(products)
+            }
+            display_cart(cart)
+        }
+
+        function display_cart(cartProducts){
+            var cart_list = '';
+            cartProducts.map((product) => {
+                cart_list += 
+                `
+                    <tr>
+                        <td>${product.name}</td>
+                        <td>${product.price}</td>
+                        <td>${product.quantity}</td>
+                        <td><button class='btn btn-danger'>Remove</button></td>
+                    </tr>
+                `
+            })
+            document.getElementById('cartRow').innerHTML = cart_list;
+        }
+        display_cart(cart);
+
+    </script>
+</body>
+</html>
