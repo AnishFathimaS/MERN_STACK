@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      padding: 10px 20px;
+      background-color: black;
+    }
+    #toggle{
+      display: none;
+    }
+    .icon{
+      display: none;
+    }
+    .links a{
+      text-decoration: none;
+      color: white;
+      margin: 0 10px;
+    }
+    @media screen and (max-width:768px){
+      .links{
+        display: none;
+      }
+      .icon{
+        display: flex;
+      }
+      #toggle:checked ~ .links{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: black;
+        width: 100%;
+      }
+      .links a{
+        padding: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello</h1>
+  <div class="container">
+    <h1>Logo</h1>
+    <input type="checkbox" id="toggle">
+    <label for="toggle">
+      <i class="fa-solid fa-bars fa-2x icon"></i>
+    </label>
+    <div class="links">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+      <a href="">Service</a>
+    </div>
+  </div>
 </body>
 </html>
