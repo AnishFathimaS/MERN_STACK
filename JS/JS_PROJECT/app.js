@@ -1,8 +1,8 @@
 var all_products = [
-    { id: 1, img : 'champs2.jpg', name: "Product 1", price: 100 },
-    { id: 2, img : 'champs2.jpg', name: "Product 2", price: 200 },
-    { id: 3, img : 'champs2.jpg', name: "Product 3", price: 300 },
-    { id: 4, img : 'champs2.jpg', name: "Product 4", price: 400 }
+    { id: 1, img : '../../img.jpg', name: "Product 1", price: 100 },
+    { id: 2, img : '../../img.jpg', name: "Product 2", price: 200 },
+    { id: 3, img : '../../img.jpg', name: "Product 3", price: 300 },
+    { id: 4, img : '../../img.jpg', name: "Product 4", price: 400 }
 ];
 
 const searchProducts = () => {
@@ -55,13 +55,14 @@ const display_data = () => {
 display_data();
 
 var cart = [];
-
 var cartCount = 0;
+var totalAmt = 0;
 
 const cartCountFun = () => {
     document.getElementById('cartCount').innerHTML = cartCount;
     document.getElementById('cartCount').style.display = cartCount > 0 ? 'inline-block' : 'none';
 };
+
 
 const addToCart = (productID) => {
     var products = all_products.find((a) => a.id === productID);
@@ -75,7 +76,9 @@ const addToCart = (productID) => {
     }
     display_cart(cart);
     cartCount++;
-    cartCountFun()
+    cartCountFun();
+    totalAmt = totalAmt + products.price;
+    document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`
 }
 
 const display_cart = (products) => {
@@ -99,6 +102,7 @@ const display_cart = (products) => {
                         <button class='btn btn-danger' onclick='removeFromCart(${product.id})'>Remove</button>
                     </td>
                 </tr>
+                
             `;
         });
     }
@@ -119,3 +123,4 @@ const removeFromCart = (productID) => {
     cartCount--;
     cartCountFun()
 }
+
