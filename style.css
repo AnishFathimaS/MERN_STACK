@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 5px 5px 5px silver;
+    padding: 10px;
+    border-radius: 50px;
+    position: sticky;
+    top: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+i{
+    margin: 15px;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.msg{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}

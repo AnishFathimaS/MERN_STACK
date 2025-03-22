@@ -10,4 +10,5 @@ DAY 5.	Flex, Grid, Table
 DAY 6.	Animations ( Transform, Transition ), Root Variable
 DAY 7.	Media Query
 
-PROJECT - W3 School Template
+PROJECT - 1 -> ILIFE 
+PROJECT - 2 -> TEMPLATE

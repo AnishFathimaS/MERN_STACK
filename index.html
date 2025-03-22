@@ -3,10 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <title>FLEX RESPONSIVENESS</title>
+  <style>
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .container > div {
+      flex-grow: 1;
+    }
+    .box1{
+      background-color: blue;
+      height: 100px;
+      width: 100px;
+    }
+    .box2{
+      background-color: red;
+      height: 100px;
+      width: 100px;
+    }
+    .box3{
+      background-color: green;
+      height: 100px;
+      width: 100px;
+    }
+    .box4{
+      background-color: yellow;
+      height: 100px;
+      width: 100px;
+    }
+    @media screen and (max-width:768px){
+      .container > div{
+        flex: 1 50%;
+      }
+    }
+    @media screen and (max-width:320px){
+      .container > div{
+        flex: 1 100%;
+      }
+    }
+    </style>
 </head>
 <body>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis corrupti quos veniam praesentium et magni quaerat explicabo odio? Enim praesentium temporibus odio, fuga corrupti perferendis ut facere laborum et illo dignissimos, eaque ratione placeat deleniti fugiat expedita nihil esse. Temporibus sint repellat non, obcaecati enim placeat consequatur esse aut modi fugit ut tempore deleniti quidem error? Ducimus dolore ad nam ea vero tempora commodi iusto facilis accusantium, sequi voluptatem voluptate reiciendis totam nostrum placeat quo ipsa debitis optio! Officiis alias iste suscipit nostrum, fugiat quas consectetur quibusdam! Omnis delectus asperiores voluptatem autem blanditiis a vero provident nemo quisquam, fugiat incidunt?</p>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
 </body>
 </html>

@@ -17,13 +17,13 @@
 
   <div class="container my-5">
             
-    <i class="fa fa-search me-5" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+    <i class="fa fa-search me-5" data-bs-toggle="modal" data-bs-target="#searchModal"></i>
 
-    <div class="modal fade" id="exampleModal">
+    <div class="modal fade" id="searchModal">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Search Products Here</h5>
+            <h5 class="modal-title">Search Products Here</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
           <div class="modal-body">
@@ -39,24 +39,68 @@
     <i class="fa-solid fa-cart-shopping" data-bs-toggle="modal" data-bs-target="#cartModal"></i>
     <span class="badge bg-primary" id="cartCount">0</span>
 
+    <div class="modal fade" id="cartModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Cart Products</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h5 class="text-end" id="totalamt"></h5>
+            <table class="table table-primary text-center">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total Price</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="cartRow">
+                      
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <i class="fa-regular fa-heart ms-5" data-bs-toggle="modal" data-bs-target="#wishModal"></i>
+    <span class="badge bg-primary" id="wishCount">0</span>
+
+    <div class="modal fade" id="wishModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Wishlist Products</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h5 class="text-end" id="totalamt"></h5>
+            <table class="table table-primary text-center">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="wishRow">
+                      
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="row my-5" id="cardRow">
             
     </div>
-    <h5 class="text-end" id="totalamt"></h5>
 
-    <table class="table table-primary text-center">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Price</th>
-          <th>Quantity</th>
-          <th>Total Price</th>
-          <th>Action</th>
-        </tr>
-      <tbody id="cartRow">
-            
-      </tbody>
-    </table>
+    
 
   </div>
 

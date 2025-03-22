@@ -45,6 +45,7 @@ const display_data = () => {
                     <h3>${product.name}</h3>
                     <h3>${product.price}</h3>
                     <button class='btn btn-primary' onclick="addToCart(${product.id})">Add to Cart</button>
+                    <button class='mt-3 btn btn-primary' onclick="addToWish(${product.id})">Add to Wishlist</button>
                 </div>
             </div>
         </div>
@@ -54,15 +55,15 @@ const display_data = () => {
 }
 display_data();
 
-var cart = [];
-var cartCount = 0;
 var totalAmt = 0;
+var cart = [];
+var wish = [];
+var cartCount = 0;
 
 const cartCountFun = () => {
     document.getElementById('cartCount').innerHTML = cartCount;
     document.getElementById('cartCount').style.display = cartCount > 0 ? 'inline-block' : 'none';
 };
-
 
 const addToCart = (productID) => {
     var products = all_products.find((a) => a.id === productID);
@@ -112,15 +113,77 @@ const display_cart = (products) => {
 display_cart(cart);
 
 const removeFromCart = (productID) => {
-    var product = all_products.find(a => a.id === productID)      
-    if(product.quantity > 1){
+    var product = cart.find(a => a.id === productID);
+
+    if (product.quantity > 1) {
         product.quantity--;
+        totalAmt = totalAmt - product.price;
+    } else {
+        totalAmt = totalAmt - product.price * product.quantity;
+        
+        cart = cart.filter(product => product.id !== productID);
+    }
+
+    document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`;
+    display_cart(cart);
+    cartCount--;
+    cartCountFun();
+};
+
+const display_wish = (products) => {
+    let wish_list = '';
+
+    if (products.length === 0) {
+        wish_list = `
+            <tr>
+                <td colspan="5" class="text-center text-danger">Wishlist Empty</td>
+            </tr>
+        `;
+    } else {
+        products.map((product) => {
+            wish_list += `
+                <tr>
+                    <td>${product.name}</td>
+                    <td>${product.price}</td>
+                    <td>
+                        <button class='btn btn-danger' onclick='removeFromWish(${product.id})'>Remove</button>
+                    </td>
+                </tr>
+                
+            `;
+        });
+    }
+
+    document.getElementById('wishRow').innerHTML = wish_list;
+};
+display_wish(wish);
+
+const addToWish = (productID) => {
+    var products = all_products.find((a) => a.id === productID);
+    
+    var existing_product = wish.find((a) => a.id === productID);
+    if(existing_product){
+        existing_product.quantity++;
     }
     else{
-        cart = cart.filter(product => product.id !== productID)
+        products.quantity = 1;
+        wish.push(products)
+        wishCountFun();
     }
-    display_cart(cart)
-    cartCount--;
-    cartCountFun()
+    display_wish(wish);
 }
 
+const removeFromWish = (productID) => {
+    var product = wish.find(a => a.id === productID);
+
+    wish = wish.filter(product => product.id !== productID);
+
+    document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`;
+    display_wish(wish);
+    wishCountFun();
+};
+
+const wishCountFun = () => {
+    document.getElementById('wishCount').innerHTML = wish.length;
+    document.getElementById('wishCount').style.display = wish.length > 0 ? 'inline-block' : 'none';
+};
