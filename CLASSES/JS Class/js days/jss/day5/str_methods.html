@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>string in js</title>
+</head>
+<body>
+<script type="text/javascript">
+	var x="ilife academy ";    // string; 
+var y='ilife academy ';    // string; 
+var str=String("web robotic"); // String class or function
+document.write(x);
+document.write("<br>");
+document.write(y);
+document.write ("<br>");
+document.write(str);
+
+// template literals
+var str1=`js string`;// symbol name back tick
+document.write(str1);                
+</script>
+
+
+
+<h1>string properties</h1>
+<script type="text/javascript">
+	// String.length
+	   var x1="hello js";
+   document.write(x1.length); 
+	document.write("<br>");
+    
+       var x2="hello world";
+    document.write(x2.length);         // 11
+	document.write("<br>");
+
+     //empty string
+        var x3="";
+   document.write(x3.length);    // 0                            
+</script>
+
+
+
+<h1>string methods</h1>
+<script type="text/javascript">
+	// indexOf
+	var x4="technology"; 
+document.write(x4.indexOf("t"));         // return 0;
+document.write("<br>");               
+document.write(x4.indexOf("o"));         // return 1;
+document.write("<br>");               
+document.write(x4.indexOf("b"));       // return -1;
+document.write("<br>");                            
+
+
+
+
+    // concadenate method in js
+document.write("<h2>concat</h2>");               
+    var x6="java"; 
+   var y1="script "; 
+   document.write(x6.concat(y1));    // return javascript1
+    document.write("<br>");
+
+
+
+
+//aliter method
+    var x7="java "; 
+    var y2="script "; 
+    document.write(x7+y2);    // return javascript
+	
+
+
+    // charAt
+	document.write("<h2>charAt</h2>"); 
+	   var x8="javascript "; 
+  document.write(x8.charAt(9));    
+  document.write(x8.charAt(7));    
+ document.write(x8.charAt(8));  
+              
+
+// charCodeAt
+	document.write("<h2>charCodeAt</h2>"); 
+</script>
+   <p id="demo1"></p>
+<script>
+let text = "HzLLO WORLD";
+let code=text.charCodeAt(1);
+document.getElementById("demo1").innerHTML = code;
+
+
+
+// toUpperCase
+	document.write("<h2>toUpperCase</h2>"); 
+	var x9="apPle "; 
+document.write(x9);
+    document.write("<br>");
+
+document.write(x9.toUpperCase());
+    document.write("<br>");
+ document.write(x9.toLowerCase());
+
+
+    //substr
+	document.write("<h2>substr</h2>"); 
+            var x15="technology"; 
+        document.write(x15.substr(2,1));        
+        document.write("<br>");
+        document.write(x15.substr(4,3));     
+        document.write("<br>");
+        document.write(x15.substr(0,4));       
+        document.write("<br>");
+        document.write(x15.substr(2,2));      
+        
+</script>
+<h1>search</h1>
+ <p id="demo2"></p>
+<script>
+let text1 = " Blue Mr.  has a blue house"
+let position=text1.search("blue");
+document.getElementById("demo2").innerHTML = position;
+</script>
+
+
+<h1>search example-2</h1>
+<p id="demo3"></p>
+<script>
+let text2 = "Mr. Blue has a blue house"
+let position1 = text2.search(/has/);
+document.getElementById("demo3").innerHTML = position1;
+</script>
+
+<!-- trim -->
+<h1>trim</h1>
+<p id="ptag"></p>
+<pre id="pretag"></pre>
+<script type="text/javascript">
+    var x16="                       web    designing   ";
+    document.getElementById("ptag").innerHTML=x16;
+    document.getElementById("pretag").innerHTML=x16.trim();
+
+</script>
+
+
+<!-- replace -->
+<h1>replace</h1>
+<script type="text/javascript">
+	var x17="web web designing designing";
+    document.write(x17.replace("w","W"));          
+    document.write("<br>");                   
+    document.write(x17.replace("designing","development")); 
+    document.write("<br>");        
+    document.write(x17.replace(" ","*"));           
+</script>
+
+
+<!-- split -->
+<h1>split</h1>
+<script type="text/javascript">
+	  var x18="web designing dfgh dfghj efghj";
+   document.write(x18.split(" "));  
+   document.write("<br>");  
+</script>
+
+
+<h1>startsWith</h1>
+ <p id="demo5"></p>
+<script type="text/javascript">
+let text3 = "Hello world, welcome to the universe.";
+let result = text3.startsWith("Hello");
+document.getElementById("demo5").innerHTML =result;
+</script>
+
+
+<h1>includes</h1>
+<script type="text/javascript">
+	var x22="web designing";
+    document.write(x22.includes("de"));            
+    document.write("<br>");            
+    document.write(x22.includes("cm"));          
+</script>
+<h1>endwith</h1>
+<p id="demo30"></p>
+<script>
+let text12 = "Hello world";
+let result12 =  text12.endsWith("ad");
+document.getElementById("demo30").innerHTML = result12;
+</script>
+
+
+</body>
+</html>

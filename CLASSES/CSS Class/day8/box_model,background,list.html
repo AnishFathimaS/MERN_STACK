@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>box-model,background,list style in html</title>
+	<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+
+
+<style type="text/css">
+
+	/*padding all types (top,left,bottom,right)*/
+	
+#space-text{
+		background:red;
+		color:white;
+		padding:12px 15px 10px 5px;
+	}
+
+
+
+	/*margin all types (top,left,right,bottom)*/
+	#space-text1{
+		margin:12px;
+		background:red;
+	}
+
+
+	
+	/*border*/
+	/*Border-Style:solid,dotted,dashed,double,groove,ridge,inset,outset,none,hidden 
+Border-Width:thin,thick,medium,px 
+border color:red,#fffff*/
+	#space-text2{
+		border:thin solid red;
+	}
+
+
+
+	/*background property*/
+	.bg-img{
+		background-image:url(bg.jpg);
+
+
+		/*background-repeat=repeat,repeat-x,repeat-y,no-repeat*/
+		background-repeat:no-repeat;
+		background-size: 100%;
+
+
+		/*bg-position=top,left,right,bottom*/
+		background-position:right;
+
+
+
+		/*bg-attachment:fixed,scroll*/
+		background-attachment:fixed;
+	}
+
+a{
+	display:block;
+}
+h1{
+/*	display:inline;*/
+}
+i{
+	color:grey;
+}
+#user{
+	color:purple;
+}
+#facebook{
+	color:blue;
+}
+</style>
+</head>
+<body>
+<div style="background-color:red;;">
+	<h1 style="display:inline;">Hello</h1>
+		<a href="#" style="display:inline;"> Home</a>
+		<a href="#" style="display:inline;">Contact</a>
+		<a href="#" style="display:inline;">Help</a>
+		<a href="#" style="display:inline;">Email</a>
+</div>
+<h3 class="d-none">
+	<i class="fa-brands fa-facebook" id="facebook"></i>ilife tech<i id="user" class="fa-solid fa-users"></i></h3>
+
+	<!-- padding  -->
+<p id="space-text">this is a ilife academy (padding)</p>
+
+<!-- margin -->
+<p id="space-text1">this is a ilife academy (margin)</p>
+
+
+<!-- border -->
+<p id="space-text2">this is a ilife academy1 (border)</p>
+
+
+<!-- background color -->
+<p style="background-color:red;">this is bg color</p>
+
+
+
+
+<!-- background image -->
+<div class="bg-img">
+
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+	<h1>ilife</h1>
+
+</div>
+
+
+
+
+
+<!-- list style types -->
+<!-- none,disk,circle,square,decimal,decimal-leading-zero,lower-roman,
+	upper-roman,lower-greek,lower-alpha,upper-alpha -->
+<ul style="list-style-type:upper-alpha;">
+	<li>html</li>
+	<li>css</li>
+	<li>js</li>
+	<li>bootstrap</li>
+	<li>jquery</li>
+</ul>
+
+<!-- list style image -->
+<ol style="list-style-type:none;list-style-image:url(img4.gif);">
+	<li>html</li>
+	<li>css</li>
+	<li>js</li>
+	<li>bootstrap</li>
+	<li>jquery</li>
+</ol>
+
+
+
+
+<h1>ilife</h1>
+<h1>ilife</h1>
+<h1>ilife</h1>
+<h1>ilife</h1>
+
+<!-- display =inline,block,none -->
+
+<a href="#">home</a>
+<a href="#">about</a>
+<a href="#">contact-us</a>
+<a href="#">courses</a>
+<a href="#" style="display:none;">download</a>
+
+
+
+
+
+<h1>ilife</h1>
+<h1>ilife</h1>
+<h1>ilife</h1>
+<h1>ilife</h1>
+<h1>ilife</h1>
+<h1>ilife</h1>
+
+<a href="#">ilife</a>
+<a href="#">ilife</a>
+<a href="#">ilife</a>
+<a href="#">ilife</a>
+<a href="#">ilife</a>
+
+</body>
+</html>
+

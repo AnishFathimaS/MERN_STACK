@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jquery in js</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+
+
+
+<!-- jQuery addClass() Method  -->
+<!-- <style type="text/css">
+.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+.blue {
+  color: blue;
+}
+</style> -->
+
+
+<!-- example-2(aliter method) -->
+<style>
+	.important {
+  font-weight: bold;
+  font-size: xx-large;
+}
+.blue {
+  color: blue;
+}
+</style>
+
+<!-- removeclass in jquery -->
+<style type="text/css">
+	.intro {
+  font-size: 120%;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<!-- example-1 -->
+ <!-- <script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    alert("Text: " + $("#test").text());
+  });
+  $("#btn2").click(function(){
+    alert("HTML: " + $("#test").html());
+  });
+});
+</script>
+<p id="test">This is some <b>bold</b> text in a paragraph.</p>
+<button id="btn1">Show Text</button>
+<button id="btn2">Show HTML</button> -->
+
+
+
+
+<!-- example-2 -->
+<!-- <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("Value: " + $("#test").val());
+  });
+}); 
+</script>
+<p>Name: <input type="text" id="test" value="Mickey Mouse"></p>
+<button>Show Value</button> -->
+
+
+
+
+<!-- Get Attributes - attr() -->
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    alert($("#w3s").attr("www"));
+  });
+});
+</script>
+<p><a href="https://www. youtube.com" www="123" id="w3s"> youtube.com</a></p>
+<button>Show href Value</button>
+
+
+
+
+
+
+<!-- jQuery append() Method -->
+<!-- <script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("p").append(" <b>Appended text</b>.");
+  });
+ $("#btn2").click(function(){
+    $("ol").prepend("<li>Appended item</li>");
+  });
+});
+</script>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+ <ol>
+  <li>List item 1</li>
+  <li>List item 2</li>
+  <li>List item 3</li>
+</ol>
+<button id="btn1">Append text</button>
+<button id="btn2">Append list items</button> -->
+
+
+
+
+
+
+
+<!-- jQuery prepend() Method -->
+<!-- 
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("p").prepend("<b>Prepended text</b>. ");
+  });
+  $("#btn2").click(function(){
+    $("ol").prepend("<li>Prepended item</li>");
+  });
+});
+</script>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<ol>
+  <li>List item 1</li>
+  <li>List item 2</li>
+  <li>List item 3</li>
+</ol>
+<button id="btn1">Prepend text</button>
+<button id="btn2">Prepend list item</button> -->
+
+
+
+<!-- jQuery remove() Method -->
+
+<!-- <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").empty();
+  });
+});
+</script>
+<div id="div1" style="width:300px;border:1px solid black;background-color:yellow;">
+<h1>Hello h1</h1>
+<h2>Hello h2</h2>
+<h3>Hello h3</h3>
+<h4>Hello h4</h4>
+<h5>Hello h5</h5>
+<h6>Hello h6</h6>
+</div>
+<br>
+<button>Remove div element</button> -->
+
+
+
+
+
+<!-- jQuery empty() Method -->
+<!-- <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").empty();
+  });
+});
+</script>
+<div id="div1" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+This is some text in the div.
+<p>This is a paragraph in the div.</p>
+<p>This is another paragraph in the div.</p>
+</div>
+<br>
+<button>Empty the div element</button> -->
+
+
+
+
+
+
+<!-- Filter the Elements to be Removed -->
+
+<!-- <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").remove(".test");
+  });
+});
+</script>
+<p>This is a paragraph.</p>
+<h2 class="test">Hello</h2>
+<p class="test">This is another paragraph.</p>
+<p class="test">This is another paragraph.</p>
+<button>Remove all p elements with class="test"</button> -->
+
+
+
+
+
+
+<!-- jQuery addClass() Method -->
+
+<!-- <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("h1,p").addClass("blue");
+    $("div").addClass("important");
+  });
+});
+</script>
+<h1>Apple is a fruit</h1>
+<h2>Lotus is a flower</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<div>This is some important text!</div><br>
+<button>Add classes to elements</button> -->
+
+
+
+
+
+<!-- example-2(aliter method) -->
+<!-- <div id="div1">This is some text.</div>
+<div id="div2">This is some text.</div>
+<br>
+<button>Add classes to first div element</button>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").addClass("important blue");
+  });
+});
+</script>-->
+<!-- 
+<h1 class="myH1">fjkhdkijf kjhefjkgh jsdhfgkjdsfh jbdsjkfhg  Hello lkjdkfjhdsf hdfkhg hkdhfj kkjhndfjkg</h1> 
+
+<script>
+    $(document).ready(function(){
+      var a=$(".myH1").html();
+      var b=a.split(" Hello ");
+      alert(b)
+      alert(b[0])
+      alert(b[1])
+    })
+</script> -->
+
+
+
+
+
+
+<!--jquery remove class -->
+
+<!-- <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").removeClass("intro");
+  });
+});
+</script>
+<h1>This is a heading</h1>
+<p class="intro">This is a paragraph.</p>
+<p class="intro">This is another paragraph.</p>
+<button>Remove the "intro" class from all p elements</button> -->
+</body>
+</html>

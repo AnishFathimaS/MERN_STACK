@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js 1st class</title>
+</head>
+<body>
+<h1>ilife</h1>
+
+<!-- internal js -->
+<script>
+     document.write("Hello !!");
+     // alert("0987654");
+     console.log("iuytrew");
+ </script>
+
+
+<!-- external js -->
+<script src="custom.js"></script>
+
+
+<!-- inline js -->
+<button onclick="alert('Hello I am button')">Check</button>
+<marquee onmouseover="stop()" onmouseout="start()">Hello Javascript</marquee>
+
+
+
+  <!-- example-2 -->
+  <a href="#" onclick="print()">Print</a><br>
+
+
+
+
+  <!-- js output -->
+<script>
+    console.error("zaa");
+</script>
+
+
+<!-- alert -->
+<!-- <script>
+    // var,let,const
+    var x1=10;
+    var x2=20;
+    x=x1+x2;
+    alert(x);
+</script> -->
+
+
+
+<!-- prompt -->
+<!-- <script>
+    var x2=prompt("Enter Age");
+    alert(x2); 
+</script> -->
+
+
+
+<!-- confirm -->
+<!-- <script>
+    var x=confirm("Press Ok or Cancel");
+    alert(x);
+    // alert("hi hello");
+
+</script>
+ -->
+
+<!-- comment 2nd chapter -->
+
+
+<!-- noscript -->
+<noscript>
+    var x="Please Enable Javascript";
+    document.write(x);
+</noscript>
+<script>
+    console.log('Javascript ');
+</script>
+
+
+
+<!-- variable in js -->
+<script>
+    var $x="Web designing";   
+    document.write($x); 
+    document.write("<br>");
+    var y='Web page';
+    document.write(y);  
+    document.write("<br>");
+    var z=9;  
+    document.write(z +" is  a number");     //concadenate method     
+     document.write("<br>");
+     var a=2, b=3, c=5;    // multiple variables in single line
+    document.write(a + " is an natural number");
+    document.write("<br>");
+    document.write(b +" "+"is an odd number");
+    document.write("<br>");	
+    document.write(c);
+    document.write("<br>");
+    var u;                 // u is undefined
+    document.write(u);
+        var u1=undefined;                 // u is undefined
+    document.write(u1);
+
+    document.write("<br>");
+</script>
+
+
+
+
+<!-- Change value of variable -->
+<script>
+var x13="hello";
+console.log(x13);        //  "hello"  
+ x13="hola";
+ console.log(x13);        // "hola"      
+</script>
+
+
+
+
+<!-- strict mode var in js -->
+<script>			
+var x14="Web designing";       	 // allowed in strict mode
+document.write(x14);
+document.write("<br>");
+
+
+x2="javascript";        	 // not allowed in strict mode
+document.write(x2);
+document.write("<br>");
+document.write("<hr>");// allowed
+
+
+x=10;    // allowed
+document.write(x);
+document.write("<br>");
+document.write("<hr>");
+
+
+
+// what is octal numbers?
+
+// examples of octal numbers:01234 -077 0312.Positive octal numbers must begin with 0 (zero) followed by octal digit(s). Negative octal numbers must begin with -0 followed by octal digit(s).
+
+ var y13=45;                     // not allowed, it's octal notation
+document.write(y13);// value is 8 
+document.write("<hr>");
+</script>
+
+<hr>
+<hr>
+<button id="demo1">Hello</button>
+<button onclick="document.getElementById('demo1').innerHTML='Helloow';">Change</button>
+<hr>
+<hr>
+<hr>
+<!-- let and constant -->
+<script>
+let  x16=10 + "is an block Scope statement";
+document.write(x16)
+// Here x is 10
+// document.getElementById("demo1").innerHTML="Helloow";
+</script>
+
+
+
+<!-- constant in js -->
+<script>            
+    const pi=Math.PI;    // pi is a constant, and can't be changed
+    document.write(pi);
+    document.write("<br>");
+</script>
+
+    
+
+<button onclick="document.getElementById('myImage').src='1.png'">Image1</button>
+
+<img id="myImage" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='2.png'">Image2</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+ 

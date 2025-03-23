@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>arrays in js</title>
+</head>
+<body>
+
+<!-- <p id="dem"></p>
+<script>
+const a=["red", "green","yellow"];
+document.getElementById("dem").innerHTML = a[1];
+</script> -->
+
+
+<!-- using the array keyword in js -->
+<!-- <p id="demo3"></p>
+<script>
+const colors = new Array("red", "green", "yellow");
+document.getElementById("demo3").innerHTML = colors[0];
+</script> -->
+
+
+<!-- array are objects -->
+<!-- <p id="demo11"></p>
+<script>
+const person=["John", "Doe",46];
+document.getElementById("demo11").innerHTML = "My name is "+person[0]+" my age is "+person[2];
+</script> -->
+
+
+<!-- array properties -->
+
+<!-- <h1>length Property</h1>
+<p id="demo1"></p>
+<script>
+const fruits=[121,12,"Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits.length;
+</script>  -->
+
+<!-- <h1>accessing the Last array element</h1>
+<p id="demo2"></p>
+<script>
+const fruits1=["pine apple","Banana", "Orange", "Apple", "Mango"];
+var len =fruits1.length;
+
+document.getElementById("demo2").innerHTML = fruits1[len-1];
+</script> -->
+
+<!-- 
+<h1>Accessing the Last Array Element</h1>
+<p id="demo"></p>
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango",90,20,40,60];
+document.getElementById("demo").innerHTML = fruits[fruits.length-1];
+</script> -->
+
+<!-- <h1>Looping Array Elements</h1>
+<div id="demo12"></div>
+<script>
+  const a=["hi","hello","bye","jhsgdf","sadkfljak","sdhfjsavdhjg"];
+  var val="<ul>";
+  for(i=0;i<a.length;i++){
+      // val+="<li>"+a[i]+"</li>"
+      val+=`<li>${a[i]}</li>`
+  }
+  val+="</ul>";
+  document.getElementById("demo12").innerHTML=val;
+document.write("<hr>")
+</script> -->
+
+
+
+
+
+<!-- Sorting Arrays -->
+<!-- <p id="demo2"></p>
+<script>
+const fruits = [15,2,20,100,10,1];
+fruits.sort(function(a,b){
+  return b-a;
+}); -->
+
+
+<!-- // 1,12,200,19,25,4;
+
+
+
+
+document.getElementById("demo2").innerHTML = fruits; -->
+</script>
+
+
+<!-- Reversing an Array -->
+<!-- <p id="demo2"></p>
+<script>
+// Create and display an array:
+const fruits = [1,300,500,1500,29,40];
+
+fruits.sort();
+document.getElementById("demo2").innerHTML = fruits;
+</script> -->
+
+
+
+<!-- Numeric Sort -->
+<!-- <div id="demo2"></div>
+<script>
+const points=[40, 100, 1, 5, 25, 10]; 
+const points2=[60,20,2000,10,900]; 
+const func=function(a, b){
+  return  a-b;
+} 
+const func1=function(a, b){
+  return  b-a;
+} 
+points.sort(func);
+points2.sort(func);
+document.getElementById("demo2").innerHTML = points+ "<br>";
+document.getElementById("demo2").innerHTML += points2;
+</script> -->
+
+
+
+<!-- Compare Function -->
+<!-- <button onclick="myFunction1()">Sort Alphabetically</button>
+<button onclick="myFunction2()">Sort Numerically</button>
+<p id="demo"></p>
+<script>
+const points = [40, 100, 1, 5, 25, 10];
+document.getElementById("demo").innerHTML =points;  
+function myFunction1() {
+  points.sort();
+  document.getElementById("demo").innerHTML = points;
+}
+function myFunction2() {
+  points.sort(function(a, b){return a - b});
+  document.getElementById("demo").innerHTML = points;
+} -->
+
+<script>
+
+const a=["Mango","Apple","Orange","Mango","Cherry"];
+const b=[1,8,20,100,90,10];
+let text=b.find(Fun);
+
+function Fun(a,b){
+    return a>20;
+}
+console.log(text);
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
+
+
+

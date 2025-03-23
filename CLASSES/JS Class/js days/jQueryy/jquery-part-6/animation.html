@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animation in jquery</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+
+$(document).ready(function(){
+  const anim={
+    marginLeft:'250px',
+    padding:'40px',
+    fontSize:'40px'
+  }
+  $("button").click(function(){
+    $("div").animate(anim);
+  });
+});
+ </script>
+ <button>Start Animation</button>
+<div style="background:#98bf21;height:100px;width:100px;">hello</div>
+
+
+<!-- <script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({
+      height: '150px',
+      width: '150px',
+      opacity: '0.5',
+      left: '250px'
+    });
+  });
+});
+</script> 
+<button>Start Animation</button>
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> -->
+
+
+
+
+<!-- <script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({
+      left: '250px',
+      height: '100px',
+      width: '+=200px'
+    });
+  });
+});
+</script> 
+<button>Start Animation</button>
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> -->
+
+
+
+
+
+<!-- <script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({
+      height: 'toggle'
+    });
+  });
+});
+</script> 
+<button>Start Animation</button>
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> -->
+
+
+
+
+
+
+
+<!-- <script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div = $("div");
+    div.animate({height: '300px', opacity: '0.4'}, "slow");
+    div.animate({height: '100px', opacity: '0.4'}, "slow");
+    div.animate({width: '300px', opacity: '0.8'}, "slow");
+    div.animate({width: '100px', opacity: '0.8'}, "slow");
+
+  });
+});
+</script> 
+<button>Start Animation</button>
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> -->
+
+
+
+
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div = $("div");  
+    div.animate({fontSize: '3em'});
+    div.animate({left: '100px'});
+  });
+});
+</script> 
+<button>Start Animation</button>
+<div style="background:#98bf21;height:100px;width:200px;position:absolute;">HELLO</div>
+
+
+</body>
+</html>

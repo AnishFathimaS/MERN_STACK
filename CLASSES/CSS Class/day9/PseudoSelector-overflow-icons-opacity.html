@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta 
+	charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pseudo selector,overflow,icons,opacity in css</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style type="text/css">	
+		/*pseudo selector*/
+		
+		
+		a:hover{
+			color:greenyellow;
+		}
+		a:visited{
+			color:red;
+		}
+		a:hover{
+			color:greenyellow;
+		}
+		a:active{
+			color:black;
+		}
+		
+		.overflow-visible{
+			background-color:coral;
+  			width:200px;
+  			height:55px;
+  			border:1px solid;
+/*  			overflow:visible;*/
+		}
+		.overflow-hidden{
+			background-color: coral;
+  			width: 200px;
+  			height: 65px;
+  			border: 1px solid;
+  			overflow:hidden;
+		}
+		.overflow-scroll{
+			background-color: coral;
+  			width: 200px;
+  			height: 65px;
+  			border: 1px solid;
+  			overflow:scroll;
+		}
+		.overflow-auto{
+			background-color: coral;
+  			width: 200px;
+  			height: 65px;
+  			border: 1px solid;
+  			overflow:auto;
+		}
+		/*0-0.9*/
+		img{
+			opacity:1;
+		}
+		ul li{
+			color:red;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><p>ew</p></li>
+		<li>qwedw</li>
+		<li>qwewq</li>
+		<li>qweqws</li>
+	</ul>
+
+	<h1><i class="fa-regular fa-hand-holding-medical"></i>web design</h1>
+
+	<!-- pseudo selector in css -->
+	<a href="https://www.youtube.com/" id="link"><i class="fa-sharp fa-regular fa-print"></i>link1</a>
+	<a href="#h1" id="hover"><i class="fa-solid fa-envelope"></i>link2</a>
+	<a href="https://www.youtube.com/" id="active">link3</a>
+	<a href="#h3" id="visited">link4</a>
+	<a href="#h5" id="visited">link4</a>
+	<a href="#h6" id="visited">link4</a>
+
+<br>
+<br>
+
+<h1 id="h1">Hello</h1>
+<h1 id="h2">Hello</h1>
+<h1 id="h3">Hello</h1>
+<h1 id="h5">Hello</h1>
+<h1 id="h6">Hello</h1>
+	<!-- overflow in css -->
+	<div class="overflow-visible"><i class="fa-brands fa-instagram"></i>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.
+	</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+	<!-- overflow hidden -->
+	<div class="overflow-hidden"><i class="fa-brands fa-whatsapp"></i>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<!-- overflow scroll -->
+		<div class="overflow-scroll"><i class="fa-brands fa-facebook"></i>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+	<!-- overflow auto -->
+		<div class="overflow-auto">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<!-- opacity -->
+	<img src="img1.jpg" width="450">
+
+<br>
+<br>
+	<!-- icons -->
+	<i class="fa fa-cloud"></i>
+    <i class="fa fa-heart"></i>
+    <i class="fa fa-car"></i>
+    <i class="fa fa-file"></i>
+</body>
+</html>

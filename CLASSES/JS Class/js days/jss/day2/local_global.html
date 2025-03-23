@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>local & global</title>
+</head>
+<body>
+
+	<!-- global variable -->
+    <script type="text/javascript">
+        var x="hello js";        // global variable
+        var y=88;                // another global variable
+        console.log(x);          
+        console.log(y);    
+        function myFunction(){
+        console.log(x)           // returns "hello js"
+        console.log(y);          // returns 88
+    }
+    </script>
+<!-- local variable -->
+<script type="text/javascript">
+function myFunction(){
+var a="local variable";
+var b="local variable";    
+console.log(a);    
+console.log(b);    
+}
+myFunction()        // call the function
+console.log(a);    // x is not defined
+console.log(b);    // y is not defined
+</script>
+</body>
+</html>

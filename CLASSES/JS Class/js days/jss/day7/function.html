@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>function in js</title>
+</head>
+<body>
+<h1>function in js</h1>
+
+<button id="hello" onclick="Welcome()">Hello</button>
+<button id="hello1" onclick="Welcome1()">Hello1</button>
+<script type="text/javascript">
+    function Welcome(){
+        document.getElementById("hello").innerHTML="Bye";
+    }
+    function Welcome1(){
+        document.getElementById("hello1").innerHTML="Bye";
+    }
+
+</script>
+<!-- function declaration -->
+<!-- <script>
+    function add(){ 
+          // code inside
+    } 
+</script> -->
+<!-- call a function -->
+<script>
+    function sayHi(){ 
+        console.log('hello');               
+    };
+sayHi();
+</script>
+
+
+
+
+<!-- function expression -->
+<!-- <script>
+   var myfunction=function(){ 
+   // code inside 
+   };
+</script> -->
+
+<script>
+    var sayBye=function(){ 
+    console.log('bye bye');               
+};
+sayBye();
+</script>
+
+
+
+
+<script>
+    var good_bye=function(){
+        alert("Good Bye")
+        };
+    good_bye()     // will work
+</script>
+<button onclick="good_bye()">Click</button>
+<button onclick="good_bye()">Click</button>
+<button onclick="good_bye()">Click</button>
+<button onclick="good_bye()">Click</button>
+
+
+
+<!-- call a function using onclick attribute -->
+<script>
+    function sayHi(){
+    alert("Hi");
+    }
+</script>
+<button onclick="sayHi()">Say Hi</button>
+
+
+ <!-- Function returns number -->
+<script type="text/javascript">
+	function getNumber(){
+    return 2+3;   
+}
+document.write(getNumber());       
+</script>
+
+<img id="myImg" height="100" width="200">
+<button onclick="fun1()">Click Me 1</button>
+<button onclick="fun2()">Click Me 2</button>
+<!-- <script type="text/javascript">
+    document.getElementById("myImg").src="1.jpg";
+    function fun1(){
+        document.getElementById("myImg").src="1.jpg";
+    }
+    
+    function fun2(){
+        document.getElementById("myImg").src="2.png";
+    }
+</script> -->
+
+
+</body>
+</html>

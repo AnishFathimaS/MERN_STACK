@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>objects in js</title>
+</head>
+<body>
+
+
+<!-- object syntax -->
+
+<!-- example-1(1st method) -->
+<!-- <p id="demo" style="color:red;text-transform: uppercase;"></p>
+<script>
+let person={
+  firstName:"John",
+  lastName:"Doe",
+  age     :50,
+  eyeColor  :"blue"
+};
+document.getElementById("demo").innerHTML = person.firstName+ person.lastName;
+</script> -->
+
+
+<!-- Using an Object Literal -->
+<!-- <p id="demo"></p>
+<script>
+
+
+
+
+const sentance={
+  name:"Hari",
+  words1:"I am",
+  place:"Trichy",
+  from:"from",
+}
+document.getElementById("demo").innerHTML=sentance.words1+" "+sentance.name+" "+sentance.words1+" "+sentance.from+" "+sentance.place;
+</script> -->
+
+
+<!-- example-2(2nd method)  -->
+<!-- <p id="demo"></p>
+<script>
+const person4 = {
+
+};
+person4.firstName = "John";
+person4.lastName = "Doe";
+person4.age = 50;
+person4.eyeColor = "blue"; 
+
+
+document.getElementById("demo").innerHTML =
+person4.firstName + " is " + person4.age + " years old.";
+</script> -->
+
+
+
+
+<!-- example-3(3rd method) -->
+<!-- <p id="demo"></p>
+<script>
+const person =new Object();
+
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue"; 
+
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script> -->
+
+
+
+
+<!-- Adding New Properties -->
+<!-- <h1>Adding New Properties</h1>
+<p id="demo"></p>
+<script>
+const person = {
+  firstname: "John",
+  lastname: "Doe",
+  age:10,
+  eyecolor: "blue"
+};
+person.nationality = "English";
+document.getElementById("demo").innerHTML =
+person.firstname + " is " + person.nationality + ".";
+</script> -->
+
+
+
+<!-- Deleting Properties -->
+<!-- <h1>Deleting Properties</h1>
+<p id="demo"></p>
+<script>
+const person= {
+  firstname: "John",
+  lastname: "Doe",
+  age: 50,
+  eyecolor: "blue"
+};
+delete person.age;
+document.getElementById("demo").innerHTML =
+person.firstname +" is   "+person1.age +" years old.";
+</script> -->
+
+
+<!-- Nested Objects -->
+<!-- <h1>Nested Objects</h1>
+<p id="demo4"></p>
+<script>
+const obj={
+  name:"John",
+  age:30,
+  cars:{
+    car1:"Ford",
+    car2:"BMW",
+    car3:{
+      car11:"Audi",
+      car12:"Benz",
+      car13:"Shift"
+    },
+    car4:"Toyato"
+  },
+  colors:{
+    c1:"red",
+    c2:"blue",
+    c3:"green"
+  }
+}
+
+document.write( `<p>${obj.cars.car4} is  <span style='color:${obj.colors.c3}'>${obj.colors.c3}</span> color`)
+</script> -->
+
+
+
+<!-- using this keyword -->
+<!-- <p id="demo"></p>
+<script>
+// Create an object:
+const person = {
+  firstName: "Hari",
+  lastName: "Haran",
+  a1:"Manoj",
+  b1:"Kumar",
+  fullName : function (){
+    return this.a1 + " " + this.b1;
+  }
+};
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.fullName();
+</script>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

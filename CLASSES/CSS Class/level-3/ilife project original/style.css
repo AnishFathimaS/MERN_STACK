@@ -1,0 +1,206 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:calibri;
+	
+}
+
+.wrapper{
+	height:auto;
+	width:1024px;
+	margin:auto;
+}
+
+header{
+	height:150px;
+	width:1024px;
+	background-image: url(img/header.jpg);
+	float:left;
+}
+
+.logo{
+	height:150px;
+	width:224px;
+	float:left;
+}
+
+.title{
+	height:150px;
+	width:800px;
+	float:left;
+}
+h1.title-head{
+	color:white;
+	font-size:50px;
+	margin:40px 25px;
+}
+nav{
+	height:50px;
+	width:1024px;
+	background:#efe7e5;
+	float:left;
+}
+ul.menu{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+ul.menu li a{
+	text-decoration:none;
+	color:white;
+	font-size:19px;
+	float:left;
+	margin:5px 5px;
+	padding:9px 10px;
+	background-color:#64c4dc;
+}
+ul.menu li a:hover,ul.menu li a.active
+{
+	background:#f42d70;
+}
+section{
+	min-height:528px;
+	width:1024px;
+	float:left;
+}
+.slider{
+	height:270px;
+	width:1024px;
+	float:left;
+}
+.content{
+	height:250px;
+	width:1024px;
+	float:left;
+}
+.Welcome{
+	height:250px;
+	width:512px;
+	color:pink;
+	float:left;
+}
+.Welcome_head{
+	color:#f42d70;
+	margin-left:20px;
+	
+}
+p.para{
+	color:grey;
+	margin-left:20px;
+	text-align:justify;
+}
+.news{
+	height:250px;
+	width:512px;
+	/*background-color: green;*/
+	margin-left: 512px;
+	
+}
+ul{
+	list-style-type:none;
+}
+.news_head{
+	color:blue;
+	margin-left:20px;
+}
+.news_list{
+	list-style:none;
+	color:grey;
+
+	
+}
+
+.About_head{
+	color:pink;
+}
+.Our vision{
+	color:pink;
+}
+
+
+
+footer{
+	height:40px;
+	width:1024px;
+	background:lightblue;
+	color:darkblue;
+	float:left;
+}
+
+
+ul.service{
+	margin:10px;
+	padding:0;
+	float:left;
+	color:pink;
+}
+ul.service li{
+	width:480px;
+	height:250px;
+	list-style:none;
+	float:left;
+	background:#efe7e5;
+	margin:5px;
+	
+	
+}
+.service .para{
+
+padding-right:25px;
+}
+button{
+	padding: 10px 20px;
+    background-color: #64c4dc;
+    color: white;
+    margin-left: 70%;
+}
+
+button:hover{
+	background-color:pink;
+	
+}
+ul.portfolio{
+	margin:0;
+	padding:0;
+	
+}
+
+ul.portfolio li{
+
+	float:left;
+	width:300px;
+	height:210px;
+	margin:5px;
+	
+}
+
+
+span .footer_Content{
+	color:white;
+	font-size:17px;
+	margin-left:10px;
+}
+/*contact*/
+
+.contact-left{
+height:500px ;
+width:512px;
+float:left;
+}
+.contact-left form{
+	padding:50px;
+}
+input{
+	height: 30px;
+	width: 220px;
+	border:none;
+	background-color: #f4f4f4;
+	margin-left: 20px;
+}
+.contact-right{
+height:500px;
+width:512px;
+/*background-color:yellow;*/
+margin-left:512px;	background-color:blue;
+	color:white;
+}

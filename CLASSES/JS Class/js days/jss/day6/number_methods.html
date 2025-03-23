@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>number in js</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+	 var a=3;  // number; 
+	  var b=3.6;        
+	 document.write(a);
+	 document.write("<br>");
+	 document.write(b);
+	 document.write("<br>");
+	  var c=3e3;        // exponential number (3000)
+	 document.write(c);
+	 document.write("<br>");
+	  var d=0xf;        // number in hexadecimal (10)
+	 document.write(d);
+	 document.write("<br>");
+	  var e=0724567890;        // number in octal (8)
+	 document.write(e);
+	 document.write("<br>");
+	 var f=0o15;       // number in octal(8)
+	 document.write(f);
+	 document.write("<br>");
+	  var h=NaN;        // not a number
+	 document.write(h);
+	 document.write("<br>");
+	 var i=isFinite;   // number more than 10308
+	 document.write(i);
+
+	 // alert(isFinite("12+3"))
+	 // alert(isNaN("23456789a"))
+</script>
+<h1>number methods</h1>
+<script type="text/javascript">
+
+	// toString:The toString() method returns a number as a string.
+
+	  let x=123;
+	  let x22=x.toString();
+	  // alert(typeof x)
+	  // alert(typeof x22)
+
+  document.write(x.toString() + "<br>" +
+   (123).toString() + "<br>" +
+   (100 + 23).toString());
+</script>
+
+
+
+<!-- The toString() Method:
+The toString() method returns a number as a string. -->
+
+
+<p id="demo2"></p>
+
+<script>
+let x57=9950;
+document.getElementById("demo2").innerHTML =
+  x57.toExponential(0) + "<br>" + 
+  x57.toExponential(2) + "<br>" + 
+  x57.toExponential(4) + "<br>" + 
+  x57.toExponential(6);
+</script>
+
+
+<!-- he toFixed() Method:
+toFixed() returns a string, with the number written with a specified number of decimals: -->
+
+<p id="demo4"></p>
+
+<script>
+let x65=100.9769936;
+document.getElementById("demo4").innerHTML =
+  x65.toFixed(0) + "<br>" +
+  x65.toFixed(2) + "<br>" +
+  x65.toFixed(4) + "<br>" +
+  x65.toFixed(6);
+</script>
+
+
+
+<h1>Functions to convert string to number.</h1>
+<ul>
+	<li>Number Function</li>
+	<li>parseint Function</li>
+	<li>parsefloat Function</li>
+</ul>
+
+	<!-- Convert different numbers to a number. -->
+	<h1>Number Function</h1>
+	<p id="demo5"></p>
+<script>
+document.getElementById("demo5").innerHTML =
+Number(999) + "<br>" + 
+Number("999") + "<br>" + 
+Number("999 888");
+</script>
+
+
+<h1>parseInt Function</h1>
+<!-- parseInt() parses a string and returns a whole number. Spaces are allowed. Only the first number is returned. -->
+
+
+<p id="demo1"></p>
+<script>
+document.getElementById("demo1").innerHTML =
+Number.parseInt("10a") + "<br>" +
+Number.parseInt("10.00") + "<br>" +
+Number.parseInt("10.33") + "<br>" +
+Number.parseInt("34 45 66") + "<br>" +
+Number.parseInt("   60   ") + "<br>" +
+Number.parseInt("40 years") + "<br>" +
+Number.parseInt("He was 40");
+</script>
+
+
+
+<h1>parseFloat Function</h1>
+<p id="demo90"></p>
+<script>
+document.getElementById("demo90").innerHTML =
+parseFloat(10) + "<br>" +
+parseFloat("10") + "<br>" +
+parseFloat("10.33") + "<br>" +
+parseFloat("34 45 66") + "<br>" +
+parseFloat("He was 40");
+</script>
+
+<!-- The Number.isInteger() Method:
+The Number.isInteger() method returns true if the argument is an integer. -->
+<p id="demo39"></p>
+
+<script>
+document.getElementById("demo39").innerHTML =
+Number.isInteger(10.8) + "<br>" + Number.isInteger(10.5);
+</script>
+
+
+
+<h1>isNaN</h1>
+<p id="demo3"></p>
+<script>
+let result =
+"Is '123' NaN? "+isNaN('123') + "<br>" +
+"Is 'Hello' NaN? "+isNaN('Hello') + "<br>" +
+"Is '2005/12/12' NaN? "+isNaN('10+5');
+document.getElementById("demo3").innerHTML = result;
+</script>
+
+
+
+
+<h1>isFinite</h1>
+<p id="demo30"></p>
+<script>
+let result12 = isFinite("23408");
+document.getElementById("demo30").innerHTML = result12;
+</script>
+
+
+
+<!-- Number.parseFloat() parses a string and returns a number.
+Spaces are allowed. Only the first number is returned.-->
+
+
+<p id="demo99"></p>
+<script>
+document.getElementById("demo99").innerHTML = 
+Number.parseFloat("10") + "<br>" +
+Number.parseFloat("10.33") + "<br>" +
+Number.parseFloat("10 20 30") + "<br>" +
+Number.parseFloat("10 years") + "<br>" +
+Number.parseFloat("years 10");
+</script>
+
+
+
+
+<!-- The Number.parseInt() Method
+Number.parseInt() parses a string and returns a whole number.
+Spaces are allowed. Only the first number is returned. -->
+
+<p id="demo13"></p>
+
+<script>
+document.getElementById("demo13").innerHTML = 
+  Number.parseInt("-10") + "<br>" +
+  Number.parseInt("-10.99") + "<br>" +
+  Number.parseInt("10") + "<br>" +
+  Number.parseInt("10.33") + "<br>" +
+  Number.parseInt("10 6") + "<br>" +  
+  Number.parseInt("10 years") + "<br>" +  
+  Number.parseInt("years 10");  
+</script>
+
+
+</body>
+</html>
