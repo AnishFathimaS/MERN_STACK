@@ -45,6 +45,7 @@ const display_data = () => {
                     <h3>${product.name}</h3>
                     <h3>${product.price}</h3>
                     <button class='btn btn-primary' onclick="addToCart(${product.id})">Add to Cart</button>
+                    <br>
                     <button class='mt-3 btn btn-primary' onclick="addToWish(${product.id})">Add to Wishlist</button>
                 </div>
             </div>
@@ -174,10 +175,7 @@ const addToWish = (productID) => {
 }
 
 const removeFromWish = (productID) => {
-    var product = wish.find(a => a.id === productID);
-
     wish = wish.filter(product => product.id !== productID);
-
     document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`;
     display_wish(wish);
     wishCountFun();
