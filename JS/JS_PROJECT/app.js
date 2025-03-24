@@ -161,7 +161,6 @@ display_wish(wish);
 
 const addToWish = (productID) => {
     var products = all_products.find((a) => a.id === productID);
-    
     var existing_product = wish.find((a) => a.id === productID);
     if(existing_product){
         existing_product.quantity++;
@@ -183,5 +182,6 @@ const removeFromWish = (productID) => {
 
 const wishCountFun = () => {
     document.getElementById('wishCount').innerHTML = wish.length;
+    console.log(wish.length);
     document.getElementById('wishCount').style.display = wish.length > 0 ? 'inline-block' : 'none';
 };
