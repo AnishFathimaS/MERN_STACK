@@ -1,0 +1,64 @@
+Install GIT
+Check git -v in cmd 
+Set username-> git config --global user.name 'your username in github'
+Set email -> git config --global user.email 'your email in github'
+
+GITHUB
+
+==> Login and Setup your profile
+
+==> Create one repository with readme file as a same username 
+
+==> Template  to Create Profile 
+
+    ## 👋 Hello! I'm your name
+
+    I am a *Full Stack Developer* with a passion for building interactive and scalable web applications. I specialize in both *frontend* and *backend* technologies, creating seamless user experiences and robust server-side logic.
+
+    ## 💻 Technologies & Tools
+
+    ## Frontend Technologies:
+    - *HTML* | *CSS* | *Bootstrap* 
+    - *JavaScript* | *React.js*
+
+    ## Backend Technologies:
+    - *Node.js* | *Express.js*  
+    - *MongoDB* | *Mongoose*
+
+    ## Tools:
+    - *VS Code* 
+
+    ## 📬 Contact Information
+    - *Email*: [youremail@gmail.com](mailto:youremail@gmail.com)
+    - *LinkedIn*: [your name](https://www.linkedin.com/in/yourname/)
+    - *Portfolio*: [yourname-portfolio.netlify.app](https://yourname-portfolio.netlify.app)
+
+    ## 🚀 Let's Build Something Amazing Together!
+    Feel free to reach out to me for collaboration or any exciting opportunities in web development. I'm always eager to learn and grow in the world of technology!
+
+    ---
+
+    Thanks for checking out my profile! 😊
+
+==> Cloning Files from github to local
+
+==> Commands
+
+    ~ git clone "link"
+    ~ cd demo 
+    ~ git add filename (git add index.txt)
+    ~ git commit -m 'commited'
+    ~ git push origin main
+    ~ git remote set-url origin https://<your-username>@github.com/AnishFathimaS/demo.git(put this cmd if suppose get error on git push)
+    ~ git credential reject https://github.com (put this cmd if suppose get error on git push)
+    ~ git pull 
+
+===> Cloning files from local to github
+
+===> Commands
+
+    ~ git init 
+    ~ git remote add origin https://github.com/YourUsername/YourRepository.git
+    ~ git add 'filename' or git add .
+    ~ git commit -m 'committed'
+    ~ git push origin main (git push -u origin main)

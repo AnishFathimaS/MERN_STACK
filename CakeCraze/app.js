@@ -228,9 +228,9 @@ display_products();
 
 var cart = [];
 
-var cartcount = 0;
+var wish = [];
 
-var wishcount = 0;
+var cartcount = 0;
 
 var Totalamount = 0;
 
@@ -279,7 +279,6 @@ const cart_products = (products) => {
 };
 cart_products(cart)
 
-
 const remove_cart = (valueId) => {
   var removal_product = all_products.find((a) => a.id === valueId);
     alert("🍰 Item removed! But there’s always room for more sweets!");
@@ -302,31 +301,30 @@ const remove_cart = (valueId) => {
 }
 
 const wishcountFun = () => {
-  document.getElementById("wishcount").innerHTML = wishcount;
+  document.getElementById("wishcount").innerHTML = wish.length;
   document.getElementById("wishcount").style.display =
-    wishcount > 0 ? "inline" : "none";
+    wish.length > 0 ? "inline" : "none";
 };
 
 const wishFun = (valueID) => {
   var product = all_products.find((a) => a.id === valueID)
   alert("💕 Craving saved! You can check it out anytime.")
-  var addon_products = cart.find((a) => a.id === valueID)
+  var addon_products = wish.find((a) => a.id === valueID)
   if(addon_products){
-    addon_products.quantity
+    addon_products.quantity++;
   }
   else{
     product.quantity = 1
-    cart.push(product);
+    wish.push(product);
+    wishcountFun();
   }
-  wishcount +=product.length();
-  wishcountFun();
-  wishlist_products(cart);
+  wishlist_products(wish);
+  console.log(wish.length);
   
 }
 
 const wishlist_products = (product) => {
   var wish_List ='';
-  console.log(wish_List);
   product.map((value) => {
     wish_List += `
     <tr>
@@ -335,7 +333,7 @@ const wishlist_products = (product) => {
       <td>${value.price} </td>
       <td>${value.quantity}</td>
       <td>${value.price * value.quantity}</td>
-      <td><button onclick='removal_cart(${
+      <td><button onclick='removal_wish(${
         value.id
       })' class="btn btn-danger">-</button></td>
 
@@ -345,21 +343,13 @@ const wishlist_products = (product) => {
   document.getElementById('wishRow').innerHTML = wish_List
   
 }
-wishlist_products(cart)
+wishlist_products(wish)
 
-const removal_cart = (valueID) => {
-  var removal_product = all_products.find((a) => a.id === valueID);
+const removal_wish = (valueID) => {
   alert("💖 Dessert removed from your wishlist. Changed your mind?");
-
-  if(removal_product.quantity > 1){
-    removal_product.quantity--;
-  }
-  else{
-    cart = cart.filter((a) => a.id !== valueID)
-  }
-  wishcount--;
+  wish = wish.filter((a) => a.id !== valueID)
   wishcountFun();
-  wishlist_products(cart);
+  wishlist_products(wish);
 };
 
 function SubmitFun(event){
