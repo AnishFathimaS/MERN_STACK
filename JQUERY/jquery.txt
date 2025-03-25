@@ -2,5 +2,5 @@ JQUERY -> Javascript Query
 JQuery -> Javascript Library
 
 Day 1 -> Selectors, CSS, Events
-Day 2 -> Hide, Show, Fade, Slide, 
-Day 3 -> Animation, Tooltip, Popover.
+Day 2 -> Hide, Show, Fade, Slide,
+Day 3 -> Animation, Tooltip, Popover

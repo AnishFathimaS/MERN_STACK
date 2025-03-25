@@ -29,27 +29,3 @@ FRIDAY
 NM - AJAX
 6 - JS DAY 1
 AD - GITHUB, NETLIFY, BS PROJECT
-
-NETLIFY
-
-GITHUB 
-
-INSTALL GIT and Check git -v installed or not 
-Then setup github and readme file for frontpage
-Then create repository and add one text file.
-then open vs code with one folder and open terminal and put git clone "link"
-
-commands
-
-git clone "link"
-cd demo
-git add filename
-git add text1.txt 
-git commit -m 'commited'
-git push origin main
-git pull ->  for changes that made in github 
-
-git init
-git add .
-git commit -m 'commited'
-create new repository in github
