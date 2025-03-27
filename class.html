@@ -1,13 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>jQuery Class Methods Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid #2196F3;
+            margin: 10px;
+            text-align: center;
+            line-height: 200px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .highlight {
+            background-color: yellow;
+            border-color: gold;
+            color: #333;
+        }
+
+        .shadow {
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .rounded {
+            border-radius: 15px;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <div class="box" id="box">Box</div>
+
+    <button id="addClassBtn">Add Class</button>
+    <button id="removeClassBtn">Remove Class</button>
+    <button id="toggleClassBtn">Toggle Class</button>
+    <button id="checkClassBtn">Check Class</button>
+
+    <script>
+        // **Basic Methods**
+        
+        // 1. Add Class
+        $("#addClassBtn").click(function() {
+            $("#box").addClass("highlight shadow");
+        });
+
+        // 2. Remove Class
+        $("#removeClassBtn").click(function() {
+            $("#box").removeClass("highlight shadow");
+        });
+
+        // 3. Toggle Class
+        $("#toggleClassBtn").click(function() {
+            $("#box").toggleClass("rounded");
+        });
+
+        // **Intermediate Use - Check if Class Exists**
+        $("#checkClassBtn").click(function() {
+            if ($("#box").hasClass("highlight")) {
+                alert("✅ The 'highlight' class is applied!");
+            } else {
+                alert("❌ The 'highlight' class is NOT applied.");
+            }
+        });
+    </script>
+
 </body>
 </html>
