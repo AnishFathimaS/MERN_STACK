@@ -1,71 +1,376 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>jQuery Class Methods Example</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <style>
-        .box {
-            width: 200px;
-            height: 200px;
-            background-color: lightblue;
-            border: 2px solid #2196F3;
-            margin: 10px;
-            text-align: center;
-            line-height: 200px;
-            font-weight: bold;
-            transition: 0.3s;
+        .cls{
+            background-color: blue;
+            color: white;
+            padding: 30px;
         }
-
-        .highlight {
-            background-color: yellow;
-            border-color: gold;
-            color: #333;
-        }
-
-        .shadow {
-            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
-        }
-
-        .rounded {
-            border-radius: 15px;
+        .abc{
+            border: 2px solid red;
         }
     </style>
 </head>
 <body>
+    <!-- HIDE, SHOW, TOGGLE -->
 
-    <div class="box" id="box">Box</div>
+    <!-- HIDE -->
 
-    <button id="addClassBtn">Add Class</button>
-    <button id="removeClassBtn">Remove Class</button>
-    <button id="toggleClassBtn">Toggle Class</button>
-    <button id="checkClassBtn">Check Class</button>
+    <!-- <button id="btn">Click</button> -->
+    <!-- <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur necessitatibus cupiditate iure qui corporis. Vero ab labore natus, in perferendis illum quis reiciendis, excepturi dicta saepe hic voluptates omnis nam consectetur provident atque velit ipsam amet autem laborum. Corrupti magni facilis rem velit placeat, quam obcaecati ipsam ipsum! Voluptates, ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis soluta quisquam recusandae! Asperiores beatae quae deleniti et fuga eligendi quibusdam amet odio ullam id reprehenderit facilis maiores voluptates rerum dolorem vero iste, alias suscipit corrupti dicta recusandae. Illo, dolorum sed corrupti assumenda maxime vel aliquid repellendus ea mollitia debitis voluptates sapiente vero quae incidunt ipsam nemo temporibus voluptatem atque quia repudiandae nulla tenetur? Quia ad eius temporibus inventore tempore impedit quas blanditiis dolorem molestiae, architecto iure accusamus ab dolorum quos culpa voluptatum minus sunt adipisci! Enim magnam autem voluptatum aut. Quas, quasi dignissimos quam commodi aliquam obcaecati dolorem nemo minus.</p> -->
 
     <script>
-        // **Basic Methods**
-        
-        // 1. Add Class
-        $("#addClassBtn").click(function() {
-            $("#box").addClass("highlight shadow");
-        });
+        // $(document).ready(function(){
+            // $('#btn').click(function(){
+                // $('#text').hide()
+                // $('#text').hide(5000)
+                // $('#text').hide('slow')
+                // $('#text').hide('fast')
+            // })
+        // })
+    </script>
 
-        // 2. Remove Class
-        $("#removeClassBtn").click(function() {
-            $("#box").removeClass("highlight shadow");
-        });
+    <!-- <button id="btn">Click</button> -->
+    <!-- <br><br><br> -->
+    <!-- <img src="img1.jpg" alt="" height="400" width="500" id="img"> -->
 
-        // 3. Toggle Class
-        $("#toggleClassBtn").click(function() {
-            $("#box").toggleClass("rounded");
-        });
+    <script>
+        // $(document).ready(function(){
+            // $('#btn').click(function(){
+                // $('#img').hide()
+                // $('#img').hide(1000)
+                // $('#img').hide('slow')
+                // $('#img').hide('fast')
+            // })
+        // })
+    </script>
 
-        // **Intermediate Use - Check if Class Exists**
-        $("#checkClassBtn").click(function() {
-            if ($("#box").hasClass("highlight")) {
-                alert("✅ The 'highlight' class is applied!");
-            } else {
-                alert("❌ The 'highlight' class is NOT applied.");
-            }
-        });
+    <!-- SHOW -->
+
+    <!-- <button id="btn">Click</button> -->
+    <!-- <p id="text" style="display: none;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti unde harum, veritatis nihil facere minima quidem consequatur. Totam excepturi fuga laborum repellendus corrupti expedita qui similique cum ullam quae eum omnis iste placeat neque aut dolore at modi incidunt et sunt, debitis quibusdam, recusandae a? Possimus nesciunt exercitationem harum ex. Nam autem molestias est laboriosam dolorem eos qui in. Praesentium, optio? Hic dolore obcaecati ipsam ut perferendis eveniet, sunt molestias in? Temporibus placeat fugit ipsum reprehenderit vero. Consequatur amet rem culpa aliquam fugiat eligendi sint error non ipsam facere explicabo a exercitationem accusantium soluta, rerum numquam dignissimos minima hic quidem!</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('#btn').click(function(){
+                // $('#text').show()
+                // $('#text').show(5000)
+                // $('#text').show('slow')
+                // $('#text').show('fast')
+            // })
+        // })
+    </script>
+
+    <!-- <button id="btn">Button</button> -->
+    <!-- <br><br> -->
+    <!-- <img src="img1.jpg" alt="" height="400" width="400" style="display: none;"> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('#btn').click(function(){
+                // $('img').show()
+                // $('img').show(1000)
+                // $('img').show('slow')
+                // $('img').show('fast')
+            // })
+        // })
+    </script>
+
+    <!-- TOGGLE -->
+
+    <!-- <button>Click</button> -->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eveniet, quasi molestiae temporibus culpa quibusdam ad eos enim consectetur, dicta quae ipsam tenetur voluptates ducimus iure nihil sit! Fugiat dolore impedit veniam, asperiores est explicabo aspernatur sit tempora accusantium corrupti ratione molestiae? Laborum architecto numquam inventore tempora suscipit, voluptatibus ea vero iste, repudiandae ad dolore voluptatem harum ullam aut nihil hic impedit unde rerum. Laborum, facere. Aliquam rem eius repudiandae hic sit. Quas, magni corrupti. Id quae veniam asperiores, doloribus non reiciendis officiis commodi veritatis provident incidunt ipsam fugiat quam omnis voluptatibus iusto explicabo nisi eos! Quo ab voluptas modi.</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('p').toggle()
+                // $('p').toggle(1000)
+                // $('p').toggle('slow')
+                // $('p').toggle('fast')
+            // })
+        // })
+    </script>
+
+    <!-- <button>Click</button> -->
+    <!-- <br><br><br> -->
+    <!-- <img src="img1.jpg" alt="" height="400" width="400"> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('img').toggle()
+            // })
+        // })
+    </script>
+
+    <!-- FADE - ( Fade In, Fade Out, Fade Toggle, Fade To )-->
+
+    <!-- <button>Click</button> -->
+    <!-- <p style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia velit, saepe totam dicta quasi impedit! In nobis sapiente sequi qui nam autem est, ullam alias, quam eaque libero neque accusamus obcaecati consequatur error ea dolore veritatis natus vero quibusdam recusandae? Placeat tempore ducimus eum rem natus sunt enim minima! Minus assumenda esse distinctio optio labore necessitatibus impedit laborum sunt voluptatibus quos velit, ex laudantium libero aut eaque excepturi officiis blanditiis voluptatum! Eos quae, provident excepturi adipisci iusto commodi minima explicabo veniam itaque ea. Architecto accusamus, fugiat perspiciatis totam quibusdam minus odit recusandae, doloribus voluptatibus necessitatibus in dolorum ut laudantium expedita.</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('p').fadeIn()
+                // $('p').fadeIn(5000)
+                // $('p').fadeIn('slow')
+                // $('p').fadeIn('fast')
+            // })
+        // })
+    </script>
+
+    <!-- <button>Click</button> -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, iure aspernatur dignissimos consequuntur quos at magni. Eaque quidem excepturi quibusdam blanditiis eligendi non earum consequatur, quo tempora autem commodi ipsum amet debitis praesentium sequi! Facere possimus suscipit eaque placeat totam doloremque adipisci. Illum, dolorum alias. Velit iure, harum amet consequatur corrupti, omnis rerum, veritatis quis perferendis dicta ex? Quia deserunt cum mollitia accusamus magnam repellendus quam nobis aliquam, harum suscipit necessitatibus dolore totam animi? Nam, quibusdam totam aliquam cum quae excepturi tempora, non consequuntur, ducimus alias esse labore! Ducimus, eveniet id temporibus esse officia eius velit rem doloribus sapiente illo?</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('p').fadeOut()
+            // })
+        // })
+    </script>
+
+    <!-- <button>Click</button> -->
+    <!-- <br><br><br> -->
+    <!-- <img src="img1.jpg" alt="" width="400" height="300"> -->
+    <!-- <img src="img1.jpg" alt="" width="400" height="300" style="display: none;"> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('img').fadeOut();
+                // $('img').fadeIn();
+            // })
+        // })
+    </script>
+
+    <!-- <button>Click</button> -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ea earum possimus tempore modi? Quisquam eaque beatae iusto molestias doloremque? Hic provident cum a aliquam quo sit laborum at quam blanditiis voluptate, perferendis quis ipsum quas nihil, nisi recusandae laudantium expedita, sequi quae dolorem necessitatibus! Similique iusto ea asperiores mollitia nostrum, laudantium recusandae, consectetur ut totam inventore impedit facere in iure, modi accusamus! Maxime, molestiae commodi cupiditate voluptate maiores ipsam officia reiciendis, delectus corporis nihil sed quibusdam itaque porro, doloremque a placeat nostrum magnam nemo magni quam quisquam quidem nulla tempora excepturi. Iusto ea sint ut. Necessitatibus vitae ea eveniet.</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('p').fadeToggle()
+                // $('p').fadeToggle(1000)
+                // $('p').fadeToggle('slow')
+                // $('p').fadeToggle('fast')
+            // })
+        // })
+    </script>
+
+    <!-- fadeIn( () , 1000, slow, fast ) -->
+    <!-- fadeOut(() , 1000, slow, fast ) -->
+    <!-- fadeToggle( () , 1000, slow, fast ) -->
+    <!-- fadeTo( 1000 , 0.5 ) -->
+    <!-- fadeTo( duration , opacity level ) -->
+
+    <!-- <button>Click</button> -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vero a commodi iusto molestias impedit neque ullam laudantium fugit? Ratione iste culpa fugiat dolores, officiis quis asperiores tempora harum dolorum consectetur deserunt impedit nemo distinctio dolor sed magni quaerat tempore tenetur sit ullam voluptas perferendis suscipit veritatis. Voluptatem corrupti error ut asperiores reprehenderit nesciunt maiores dignissimos ullam odit. Consequuntur aliquid sapiente minima sit? Laudantium cupiditate modi nam maiores quis maxime natus quo. Excepturi aspernatur minus rerum ab, eveniet corrupti impedit quam, nostrum est ipsam exercitationem culpa tempora provident possimus tenetur, enim nobis numquam optio cumque? Consectetur aliquam non exercitationem eum.</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('p').fadeTo(1000, 0.5)
+            // })
+        // })
+    </script>
+
+    <!-- <button>Click</button> -->
+    <!-- <br><br><br> -->
+    <!-- <img src="img1.jpg" alt="" height="300" width="400"> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('img').fadeTo(1000, 0.3)
+            // })
+        // })
+    </script>
+
+    <!-- SLIDE - slideUp, slideDown, slideToggle -->
+
+    <!-- SLIDE UP  -->
+
+    <!-- <button>Click</button> -->
+    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi similique cum enim voluptatum minima. Aliquam, ipsum officia obcaecati inventore possimus quo blanditiis placeat iusto nemo, nesciunt unde, temporibus exercitationem dolorem accusamus voluptate iste labore aliquid repellendus impedit necessitatibus! Officia in, porro aspernatur illum rerum quam excepturi commodi harum ipsa quos a sequi culpa similique deserunt reprehenderit nulla perspiciatis consequuntur odit vitae reiciendis. Doloribus quis quasi adipisci officiis enim ut. Quia quas, magni alias, ex sequi consequatur, hic consequuntur velit quaerat quae obcaecati at! Doloribus perferendis totam, cupiditate porro eligendi illum dicta excepturi est, quibusdam ea molestias suscipit dolores nesciunt dolorum.</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('p').slideUp()
+                // $('p').slideUp(5000)
+                // $('p').slideUp('fast')
+                // $('p').slideUp('slow')
+            // })
+        // })
+    </script>
+
+    <!-- <button>Click</button> -->
+    <!-- <br><br><br> -->
+    <!-- <img src="img1.jpg" alt="" height="300" width="350"> -->
+    
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('img').slideUp()
+                // $('img').slideUp(4000)
+            // })
+        // })
+    </script>
+
+    <!-- SLIDE DOWN -->
+
+    <!-- <button>Click</button> -->
+    <!-- <p style="display: none;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quae ea accusamus! Error voluptates odit iste reprehenderit officia porro ipsum quibusdam harum distinctio tenetur, libero repellendus totam, beatae alias magni assumenda dicta natus quisquam enim sit, obcaecati reiciendis ab sed? Nostrum excepturi numquam necessitatibus nemo. Deleniti ratione dignissimos non labore quod. Dicta, perspiciatis dolores? Maxime eius hic sequi, sint at vitae cum nisi vero libero numquam soluta saepe cupiditate eligendi nihil odit? Sunt maxime molestias sapiente totam deserunt ipsam cumque laboriosam, accusamus a molestiae deleniti. Incidunt deleniti asperiores pariatur dignissimos! Beatae reprehenderit aut quod doloribus eum sit, nesciunt perferendis minima!</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('p').slideDown()
+                // $('p').slideDown(1000)
+            // })
+        // })
+    </script>
+
+    <!-- <button>Click</button> -->
+    <!-- <br><br><br> -->
+    <!-- <img src="img1.jpg" alt="" height="300" width="300"> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('img').slideToggle()
+            // })
+        // })
+    </script>
+
+    <!-- CLASS METHODS - add class, remove class, toggle class -->
+
+    <!-- <button>Click</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur nulla eligendi rerum dolorem? Quae corrupti impedit, tempore, distinctio laborum repellat earum velit voluptate dolores, ratione totam! Aliquid blanditiis ex distinctio molestias quas consequuntur tempore error harum officiis voluptatem nemo libero soluta nulla quasi laborum dignissimos qui maiores iusto in aspernatur, cum nihil facere nostrum voluptatum. Ipsam harum pariatur sint incidunt fugit nisi, sequi quis modi, sunt totam illo debitis eligendi nulla inventore in soluta veniam doloremque beatae, earum expedita placeat. Velit corporis in, similique facere, porro iusto eveniet tempore rem nobis maxime, eos quidem! Quaerat sapiente rerum tempore aspernatur.</p> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('button').click(function(){
+        //         $('p').addClass('cls abc')
+        //     })
+        // })
+    </script>
+
+    <!-- <button>Click</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur nulla eligendi rerum dolorem? Quae corrupti impedit, tempore, distinctio laborum repellat earum velit voluptate dolores, ratione totam! Aliquid blanditiis ex distinctio molestias quas consequuntur tempore error harum officiis voluptatem nemo libero soluta nulla quasi laborum dignissimos qui maiores iusto in aspernatur, cum nihil facere nostrum voluptatum. Ipsam harum pariatur sint incidunt fugit nisi, sequi quis modi, sunt totam illo debitis eligendi nulla inventore in soluta veniam doloremque beatae, earum expedita placeat. Velit corporis in, similique facere, porro iusto eveniet tempore rem nobis maxime, eos quidem! Quaerat sapiente rerum tempore aspernatur.</p> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('button').click(function(){
+        //         $('p').addClass('cls abc');
+        //         $('button').addClass('btn');
+        //     })
+        // })
+    </script>
+
+    <!-- <button>Click</button>
+    <p class="cls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur nulla eligendi rerum dolorem? Quae corrupti impedit, tempore, distinctio laborum repellat earum velit voluptate dolores, ratione totam! Aliquid blanditiis ex distinctio molestias quas consequuntur tempore error harum officiis voluptatem nemo libero soluta nulla quasi laborum dignissimos qui maiores iusto in aspernatur, cum nihil facere nostrum voluptatum. Ipsam harum pariatur sint incidunt fugit nisi, sequi quis modi, sunt totam illo debitis eligendi nulla inventore in soluta veniam doloremque beatae, earum expedita placeat. Velit corporis in, similique facere, porro iusto eveniet tempore rem nobis maxime, eos quidem! Quaerat sapiente rerum tempore aspernatur.</p> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('button').click(function(){
+        //         $('p').addClass('abc')
+        //     })
+        // })
+    </script>
+
+    <!-- <button>Click</button> -->
+    <!-- <p class="cls abc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reprehenderit voluptas iste iure dolorem possimus provident unde delectus eligendi architecto nostrum suscipit obcaecati quae, repellendus non facere ipsam doloremque dolore nesciunt? Doloribus ea, quos eum earum ipsa neque similique maxime doloremque nemo repellendus iste facere voluptates quae rerum minima dicta praesentium ut qui, odio accusantium est. Minus quasi explicabo voluptatem incidunt soluta autem, aliquid at, reiciendis corporis ex, fugiat nam hic deserunt temporibus quis dolor itaque illum voluptatum ipsa natus! Sint aspernatur asperiores aperiam laudantium iure. Dolorum quod eos corporis quidem autem, consectetur natus similique, ut possimus id delectus soluta?</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('p').removeClass('abc cls')
+            // })
+        // })
+    </script>
+
+    <!-- TOGGLE CLASS -->
+
+    <!-- <button>Click</button> -->
+    <!-- <p class="abc cls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi provident minus exercitationem quia ratione numquam vero consequatur natus temporibus rerum quaerat doloremque possimus ducimus dolores doloribus optio iusto aliquam, laboriosam, voluptate explicabo officiis nulla nam distinctio! Eos, alias ullam quis odio cumque culpa. Ipsam porro at ex quibusdam, impedit exercitationem quas distinctio amet est veniam odio laudantium, officiis ea numquam sed fugit incidunt omnis accusantium doloribus necessitatibus enim praesentium veritatis. Totam cumque perferendis labore quisquam earum, vitae modi veritatis numquam, iure a animi maiores commodi, provident libero. Voluptatem eaque impedit deleniti neque assumenda vel est voluptas voluptatum ipsum voluptate.</p> -->
+
+    <script>
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('p').toggleClass('abc cls')
+            // })
+        // })
+    </script>
+
+
+    <!-- PROGRESS -->
+
+    <!-- <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated w-25"></div>
+    </div>
+    <br><br>
+    <div class="progress">
+        <div class="progress-bar w-50"></div>
+    </div>
+    <br><br>
+    <div class="progress">
+        <div class="progress-bar w-75"></div>
+    </div>
+    <br><br>
+    <div class="progress">
+        <div class="progress-bar w-100"></div>
+    </div> -->
+
+    <!-- <button class="btn btn-primary">Click</button>
+    <br><br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped w-50" id="progressID"></div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('#progressID').addClass('progress-bar-animated')
+            })
+        })
+    </script> -->
+
+    <!-- <button class="btn btn-primary">Click</button>
+    <br><br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped w-50 progress-bar-animated" id="progressID"></div>
+    </div> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('button').click(function(){
+        //         $('#progressID').removeClass('progress-bar-animated')
+        //     })
+        // })
+    </script>
+
+    <!-- <button class="btn btn-primary">Click</button>
+    <br><br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated w-50" id="progressID"></div>
+    </div> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $('button').click(function(){
+        //         $('#progressID').toggleClass('progress-bar-animated')
+        //     })
+        // })
     </script>
 
 </body>

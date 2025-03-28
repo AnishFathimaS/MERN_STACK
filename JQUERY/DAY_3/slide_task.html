@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+  <style>
+    * { 
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box; 
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;  
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+      color: white;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: white;
+      margin: 0 15px;
+      padding: 10px 0;
+    }
+
+    .icon {
+      display: none;
+      cursor: pointer;
+      font-size: 24px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #444;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+      }
+
+      .menu a {
+        padding: 10px 20px;
+        border-top: 1px solid #555;
+      }
+
+      .icon {
+        display: block; /* Hamburger icon only for mobile */
+      }
+
+      .menu.active {
+        display: flex;
+      }
+    }
+
+    @media screen and (min-width: 769px) {
+      .menu {
+        display: flex !important;  /* Always visible on larger screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h2 class="logo">MyLogo</h2>
+
+    <div class="icon">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <script>
+    $(function() {
+        $(".icon").click(function() {
+            $(".menu").toggleClass("active");
+        });
+    });
+  </script>
+</body>
+</html>
