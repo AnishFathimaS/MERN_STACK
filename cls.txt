@@ -8,44 +8,32 @@
 05 - 06 -> Divya, Aakash, HariBabu
 06 - 07 -> Free 
 
-MONDAY
+31 - 3 - 2025
 
-NM - GITHUB
-6 - GITHUB, NETLIFY, BS PROJECT
-INTERN - BS 1
-AD - BS - 6
+MONDAY
 
 TUESDAY
 
-NM - JQUERY DAY 1
-6 - JS DAY 1
-INTERN - BS 2
-AD - BS - 7
-
 WEDNESDAY
 
-NM - JQUERY DAY 2
-6 - JS DAY 1
-AD - BS - 8
+NM - JQUERY DAY - 3 
+6 - JS DAY - 3 ( DataTypes, String Methods )
+HAD - BS DAY - 7 ( Navbar, Form, Modal )
+SRI - JS DAY - 1
 
 THURSDAY
 
-NM - JQUERY DAY 3
-6 - JS DAY 1
-AD - BS - 9
+NM - JQUERY DAY - 4
+6 - JS DAY - 4 ( Number Methods, Operators )
+HAD - BS DAY - 8 ( Accordian, Canvas, Collapse )
+SRI - JS DAY - 2
 
 FRIDAY
 
 NM - AJAX
-6 - JS DAY 1
-AD - GITHUB, NETLIFY, BS PROJECT
-
-
-
-
-
-
-
+6 - JS DAY - 5 ( FUNCTIONS, CONDITIONAL STATEMENTS )
+HAD - BS DAY - 9 ( ALL COMPONENTS )
+SRI - REACT DAY - 1
 
 
 HOME 
@@ -63,7 +51,7 @@ sat unclean zip
 sat fresh zip 
 -->
 
-<!-- 27- 03 -->
+<!-- 27 - 03 -->
 
 <!-- 
     President Profile 
@@ -105,8 +93,8 @@ sat fresh zip
 <!-- 
     PRELOADER ✅
     LOGO 14 ✅ 16 ❌ 
-    VERIFY OTP 
-    GET MEMBERSHIP
+    VERIFY OTP ✅
+    GET MEMBERSHIP ✅
     CARD PREVIEW 
 -->
 
@@ -133,6 +121,5 @@ video open vijay
 <!-- PENDING -->
 Header Video pop up icon => link (https://www.youtube.com/watch?v=7ZmdWZeqI6Y) Not Opening ❌
 About the Press - link for vdo play icon ( link : https://www.youtube.com/watch?v=PputcQ6-Xb8) ( Not Opening ) ❌
-VERIFY OTP 
-GET MEMBERSHIP
+GET MEMBERSHIP ✅
 CARD PREVIEW 
