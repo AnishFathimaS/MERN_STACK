@@ -4,7 +4,7 @@
 01 - 02 -> Lunch
 02 - 03 -> Free
 03 - 04 -> Maria, Jude, Dinesh
-04 - 05 -> Srivalli
+04 - 05 -> Free
 05 - 06 -> Divya, Aakash, HariBabu
 06 - 07 -> Free 
 
@@ -34,7 +34,6 @@ NM - AJAX
 6 - JS DAY - 5 ( FUNCTIONS, CONDITIONAL STATEMENTS )
 HAD - BS DAY - 9 ( ALL COMPONENTS )
 SRI - REACT DAY - 1
-
 
 HOME 
 ABOUT - > 
@@ -95,7 +94,7 @@ sat fresh zip
     LOGO 14 ✅ 16 ❌ 
     VERIFY OTP ✅
     GET MEMBERSHIP ✅
-    CARD PREVIEW 
+    CARD PREVIEW ✅
 -->
 
 <!-- 28-03 -->
@@ -122,4 +121,4 @@ video open vijay
 Header Video pop up icon => link (https://www.youtube.com/watch?v=7ZmdWZeqI6Y) Not Opening ❌
 About the Press - link for vdo play icon ( link : https://www.youtube.com/watch?v=PputcQ6-Xb8) ( Not Opening ) ❌
 GET MEMBERSHIP ✅
-CARD PREVIEW 
+CARD PREVIEW ✅

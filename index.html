@@ -3,13 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>jQuery Callback Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            font-weight: bold;
+        }
+        .message {
+            display: none;
+            color: green;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-<<<<<<< HEAD
-    <h1>hbnjkm</h1>
-=======
-    <h1>hbnjkm</h1>
->>>>>>> 34b1a4d7c05692f7efb6a726446f60a79e7e87a2
+
+    <button id="hideBtn">Hide Box</button>
+    <div class="box">Hello</div>
+    <p class="message">Box is now hidden!</p>
+
+    <script>
+        $(document).ready(function(){
+            $("#hideBtn").click(function(){
+                $(".box").fadeOut(1000, function() {
+                  $(".message").fadeIn();
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>
