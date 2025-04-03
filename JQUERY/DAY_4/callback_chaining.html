@@ -5,25 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-    <style>
-        /* EXAMPLE 2 */
-
-        .title, .content{
-            padding: 5px;
-            text-align: center;
-            background-color: lightcoral;
-            color: white;
-        }
-        .content{
-            display: none;
-        }
-    </style>
 </head>
 <body>
     <!-- CALL BACK FUNCTION -->
 
-    <!-- EXAMPLE 2  -->
+    <!-- EXAMPLE 1  -->
 
     <!-- <button>Click</button>
     <p class="text1">Javascript</p>
@@ -39,39 +25,40 @@
         // })
     </script>
 
-    <!-- EXAMPLE 1 -->
+    <!-- EXAMPLE 2 -->
 
-    <button>Click Here to Stop the Slide</button>
-
-    <p class="title">Hello Jquery</p>
-    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit assumenda deserunt aliquam harum laboriosam debitis voluptatibus fugit, veritatis atque perferendis culpa suscipit? Totam dicta voluptates ut ipsa nostrum? Illo, reprehenderit! Vero distinctio inventore et cupiditate exercitationem libero facere amet placeat, commodi ratione totam non harum molestias vitae cum fugit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis architecto cumque quo laboriosam omnis voluptatibus perferendis impedit quasi aspernatur. Officiis culpa quae adipisci eius quisquam labore consectetur aspernatur natus, quasi corrupti facilis nihil veniam architecto consequuntur sapiente quas accusamus qui. Suscipit et illum labore iure nisi odit consectetur in, quod impedit atque? Assumenda exercitationem provident alias fuga et aliquam doloremque incidunt voluptatem. Maiores quis ullam explicabo in tempore voluptates ipsam provident cum possimus quam. Odit aliquam culpa rerum corrupti. Minus in vitae excepturi voluptas voluptate earum maiores eveniet, sapiente esse et incidunt? Nesciunt, quam. Delectus possimus fugit quibusdam quae?</p>
+    <!-- <button>Click</button>
+    <p class="text1">Javascript</p>
+    <p class="text2" style="display: none;">Jquery</p> -->
 
     <script>
-        $(document).ready(function(){
-            $('.title').click(function(){
-                $('.content').slideDown(5000)
-            })
-            $('button').click(function(){
-                $('.content').stop()
-            })
-        })
+        // $(document).ready(function(){
+            // $('button').click(function(){
+                // $('.text1').slideUp(1000, function(){
+                    // $('.text2').slideDown(1000);
+                // });
+            // });
+        // });
     </script>
 
-    <!-- Example 2 -->
-<button>Click</button>
-<p class="text1">Hello, this is Text 1</p>
-<p class="text2" style="display: none;">Now Text 2 is visible</p>
+    <!-- CHAINING -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $('button').click(function(){
-            $('.text1').slideUp(1000, function(){
-                $('.text2').slideDown(1000);
-            });
-        });
-    });
-</script>
+    <!-- EXAMPLE 1 -->
+
+    <!-- <button>Click Me</button> -->
+    <!-- <div class="box">Box</div> -->
+
+    <script>
+        // $(document).ready(function(){
+        //     $("button").click(function(){
+        //         $(".box")
+        //         .slideUp(1000)  
+        //         .slideDown(1000) 
+        //         .css("background-color", "red") 
+        //         .text("Changed!"); 
+        //     });
+        // });
+    </script>
 
 </body>
 </html>

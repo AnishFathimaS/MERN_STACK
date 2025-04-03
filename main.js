@@ -20,35 +20,18 @@
 // helloWorld
 // hello_world
 
-// var update 
+// var re declare 
 
 // var abc = 10; //declaration
 // var abc = 20; // re declare
 // var abc = 30; // re declare
 // console.log(abc)
 
+// var update
+
 // var abc = 10; // declaration
-// console.log(abc); // 10
 // abc = 20; // update
 // console.log(abc); // 20
-
-// var abc = 10;
-// let abc = 20;
-// console.log(abc)
-
-// let abc = 10;
-// abc = 20;
-// console.log(abc);
-
-// var num1 = 10;
-// num1 = 30;
-// console.log(num1);
-
-// var redeclare 
-
-// var num2 = 10;
-// var num2 = 20;
-// console.log(num2)
 
 // let redeclare
 
@@ -61,14 +44,6 @@
 // let num = 5;
 // num = 10;
 // console.log(num);
-
-// const abc = 10;
-// const abc = 20;
-// console.log(abc);
-
-// const abc = 10;
-// abc = 20;
-// console.log(abc);
 
 // const redeclare
 
@@ -122,17 +97,18 @@
 // console.log(a) // false
 // console.log(typeof(a)) // boolean
 
+// NULL
+
 // var a = null;
 // console.log(a);
 // console.log(typeof(a))
 
-// {}
-
-// not defined, 
-// undefined
+// UNDEFINED
 
 // var a ;
 // console.log(a);
+
+// NOT DEFINED
 
 // console.log(b);
 
@@ -147,24 +123,11 @@
 //     key : value,
 //     key : value,
 //     key : value,
-//     key : value,
-//     key : value,
-//     key : value,
 //     key : value
 // }
 
 // var obj = {
 //     name : 'abinaya',
-//     age : 20,
-//     place : 'trichy'
-// }
-// console.log(obj.place)
-
-// var number = 3456789;
-// console.log(number);
-
-// var obj = {
-//     name : 'hello',
 //     place : 'trichy',
 //     number : 234567878
 // }
@@ -199,6 +162,8 @@
 
 // index, position => starts with 0
 
+// FUNCTION
+
 // function funciton_name(){
     // code statement
 // }
@@ -207,6 +172,8 @@
     // console.log('Hello')
 // }
 // fun()
+
+// DATE
 
 // sun = 0,
 // mon = 1,
@@ -231,44 +198,109 @@
 
 // const abc = 'Hello';
 // const text = 'World';
-// console.log(text, abc);
-// console.log(abc+" "+text);
+// console.log(abc ); //hello
+// console.log(text); //world
+
+// console.log(text , abc);
+// console.log(text + " " + abc);
 
 // var text = 'Hello'
+// console.log(text, 'World')
+// console.log(text + ' World')
+// console.log(text , 'Javascript')
 // console.log(text , 25, 'Javascript')
 
+// var text1 = 'Hello'
+// var text2 = 'World'
+// console.log(`${text1} Javascript ${text2}`)
+// Hello Javascript World
+
+// var arr = [ 'name', 'is', 'my' ];
+// console.log(`${arr[2]} ${arr[0]} ${arr[1]} Abinaya `)
+
+// STRING METHODS 
+
+// length, position, indexof, charAt, substr, includes, lowercase, uppercase, push, pop, shift, unshift, trim, replace
+
+// LENGTH - starts with 1
+
+// var text = 'Hello'
+// console.log(text)
+// console.log(text.length)
+
+// var arr = ['html', 'css', 'bootstrap', 'Javssciprt']
+// console.log(arr)
+// console.log(arr[0])
+
+// POSITION, INDEX - starts with 0
+
+// var text = 'Hello'
+// console.log(text);
+// console.log(text[1])
+
+// var abc = ['html', 'css']
+// console.log(abc[1]);
+
+// INDEX OF
+
 // var text = 'Hello';
-// console.log(`${text} javascript`)
+// console.log(text)
+// console.log(text.indexOf('l'))
 
-// var text = 'javascript';
-// console.log(`Hello ${text} jasdfsdf`)
+// charAt
 
-// hello Javscript world
+// var text = 'Hello';
+// console.log(text);
+// console.log(text[0]);
+// console.log(text.charAt(0));
+// console.log(text.charAt(1));
+// console.log(text.charAt(2));
+// console.log(text.charAt(3));
+// console.log(text.charAt(4));
 
+// substr ( start, length )
 
+// var text = 'HelloWorldText';
+// console.log(text.substr(10, 4));
 
+// var text = 'Computer Science Social'
+// console.log(text.substr(9, 7))
 
+// INCLUDES
 
+// var text = 'hello'
+// console.log(text.includes('a'))
+// console.log(text.includes('e'))
 
+// var arr = ['html', 'css','boostrap']
+// console.log(arr.includes('css'))
+// console.log(arr.includes('csgfdhf'))
 
+// LOWERCASE
 
+// var text = 'HELLO'
+// console.log(text);
+// console.log(text.toLowerCase());
 
+// UPPERCASE
 
+// var text = 'hello'
+// console.log(text);
+// console.log(text.toUpperCase());
 
+// PUSH
 
+// var arr = ['html', 'css', 'boostrap'];
+// console.log(arr);
+// console.log(arr.push('javascript'));
+// console.log(arr.push('react'));
+// console.log(arr);
 
+// POP
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var arr = ['html', 'css', 'bootstrap','javascript']
+// console.log(arr.pop()) //javs
+// console.log(arr.pop()) //boot
+// console.log(arr.pop()) //css
+// console.log(arr.pop()) //html
+// console.log(arr);

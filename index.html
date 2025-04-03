@@ -3,41 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jQuery Callback Example</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <style>
-        .box {
-            width: 100px;
-            height: 100px;
-            background-color: blue;
-            text-align: center;
-            line-height: 100px;
-            color: white;
-            font-weight: bold;
-        }
-        .message {
-            display: none;
-            color: green;
-            font-size: 18px;
-            margin-top: 10px;
-        }
-    </style>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- DROPDOWNS, CAROUSEL, BADGE, BUTTONS, BUTTON_GROUP, CARD, LIST GROUP -->
 
-    <button id="hideBtn">Hide Box</button>
-    <div class="box">Hello</div>
-    <p class="message">Box is now hidden!</p>
+    <!-- MODAL -->
 
-    <script>
-        $(document).ready(function(){
-            $("#hideBtn").click(function(){
-                $(".box").fadeOut(1000, function() {
-                  $(".message").fadeIn();
-                });
-            });
-        });
-    </script>
+    <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal1">Click 1</button> -->
+    <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal2">Click 2</button> -->
+    <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal3">Click 3</button> -->
+
+    <!-- <div class="modal" id="mymodal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Title 1</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium possimus soluta beatae dicta assumenda, sequi culpa voluptatum rerum nostrum asperiores mollitia ut consequuntur dignissimos vel. Accusamus doloribus rerum laudantium maxime repudiandae, sint est dolorem commodi rem perferendis eveniet quia modi nulla iusto consectetur minima nam optio beatae reprehenderit magnam!</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="modal" id="mymodal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Title 2</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium possimus soluta beatae dicta assumenda, sequi culpa voluptatum rerum nostrum asperiores mollitia ut consequuntur dignissimos vel. Accusamus doloribus rerum laudantium maxime repudiandae, sint est dolorem commodi rem perferendis eveniet quia modi nulla iusto consectetur minima nam optio beatae reprehenderit magnam!</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="mymodal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Title 3</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium possimus soluta beatae dicta assumenda, sequi culpa voluptatum rerum nostrum asperiores mollitia ut consequuntur dignissimos vel. Accusamus doloribus rerum laudantium maxime repudiandae, sint est dolorem commodi rem perferendis eveniet quia modi nulla iusto consectetur minima nam optio beatae reprehenderit magnam!</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal1">Click 1</button>
+
+    <div class="modal fade" id="mymodal1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Title 1</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium possimus soluta beatae dicta assumenda, sequi culpa voluptatum rerum nostrum asperiores mollitia ut consequuntur dignissimos vel. Accusamus doloribus rerum laudantium maxime repudiandae, sint est dolorem commodi rem perferendis eveniet quia modi nulla iusto consectetur minima nam optio beatae reprehenderit magnam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non obcaecati eligendi praesentium rem quasi, maiores provident magni voluptatum molestiae laboriosam maxime doloremque temporibus quas accusantium illum modi repellendus omnis animi quidem veniam amet cumque magnam corporis eius. Consequuntur explicabo quidem modi? Aperiam non alias fugiat molestias dolore, qui aspernatur hic voluptate consectetur doloremque totam consequuntur accusantium saepe, odio quod iusto voluptatem voluptas facilis debitis reprehenderit ipsum omnis dolores. Numquam id, at cum consequuntur est recusandae beatae dolor maiores sapiente iure odit aperiam labore illum quasi eum sunt, delectus sed corporis nihil nostrum. Enim illum, distinctio deleniti recusandae optio quasi quibusdam doloremque aperiam quas repellendus ea sed eligendi quam amet modi quaerat dolorem! Nostrum sapiente quidem vero culpa non, aliquid voluptatum libero saepe deleniti aspernatur dignissimos labore animi dicta quam veniam. Facere nihil quia eos officia voluptatem, iusto perspiciatis quis. Aspernatur culpa hic obcaecati ipsam fuga possimus, rem cupiditate alias quisquam veniam deserunt odit saepe sed soluta. Modi soluta impedit vitae amet provident maiores nostrum aperiam quos nesciunt beatae ratione quis architecto inventore ad voluptas, recusandae aspernatur reprehenderit quo natus! Dignissimos id odio saepe dolorem impedit harum sunt excepturi expedita molestias voluptate perferendis nobis, tenetur accusamus omnis. Aut tenetur vitae provident sequi harum, accusamus distinctio sint odit ex autem omnis illum aliquam perferendis suscipit corrupti magni itaque voluptatibus ullam. Veritatis dolor expedita qui quod repudiandae, dolorem sapiente culpa libero voluptates necessitatibus quisquam saepe harum eius quaerat impedit ex, maiores nemo. Nulla aspernatur veniam at doloribus explicabo. Iusto ratione nesciunt minima? Pariatur temporibus nobis eligendi doloremque modi laboriosam vel earum exercitationem veritatis magnam minus architecto dignissimos vitae laudantium laborum, officia eius iste ut incidunt aliquam accusamus facere quam vero excepturi! Ad modi, doloribus laboriosam recusandae eum at ab minima, soluta alias omnis, tenetur in facilis quia dolorem suscipit reiciendis architecto doloremque ut.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal1">Click 1</button> -->
+
+    <!-- <div class="modal fade" id="mymodal1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Title 1</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium possimus soluta beatae dicta assumenda, sequi culpa voluptatum rerum nostrum asperiores mollitia ut consequuntur dignissimos vel. Accusamus doloribus rerum laudantium maxime repudiandae, sint est dolorem commodi rem perferendis eveniet qe aperiam quas repellendus ea sed eligendi quam amet modi quaerat dolorem! Nostrum sapiente quidem</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal">Click Modal 1</button>
+
+    <div class="modal fade" id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Title 1</h3>
+                    <button class="btn-close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsa dolore maiores vel tempora exercitationem unde nulla tenetur rerum facere deserunt, minus, nam provident architecto illo error aut. Autem, nemo necessitatibus libero praesentium est perspiciatis velit et, quas fuga provident neque ex repudiandae dolor consequatur excepturi, in asperiores. Est, quod.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mymodal2">Click Modal 2</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="mymodal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Title 2</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsa dolore maiores vel tempora exercitationem unde nulla tenetur rerum facere deserunt, minus, nam provident architecto illo error aut. Autem, nemo necessitatibus libero praesentium est perspiciatis velit et, quas fuga provident neque ex repudiandae dolor consequatur excepturi, in asperiores. Est, quod.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target='#mymodal'>Click</button> -->
+
+    <!-- <div class="modal fade" id="mymodal"> -->
+        <!-- <div class="modal-dialog modal-xl"> -->
+            <!-- <div class="modal-dialog modal-lg"> -->
+                <!-- <div class="modal-dialog modal-md"> -->
+                    <!-- <div class="modal-dialog modal-sm"> -->
+                        <!-- <div class="modal-dialog modal-fullscreen"> -->
+            <!-- <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Title</h2>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque numquam pariatur itaque explicabo inventore voluptatum quis ut dolorum voluptate nihil quia asperiores assumenda neque quasi natus non omnis, est, minima obcaecati dolores? Excepturi maiores reprehenderit aperiam delectus! Ducimus culpa, delectus nisi nostrum, reiciendis itaque quo perspiciatis animi tempora labore alias.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 
+    navbar -> one line alignment
+    navbar-expand-lg -> for expanding larger screen
+    -->
+
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#abc">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="abc">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" data-bs-toggle="dropdown">
+                        Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <li><a class="dropdown-item" href="#">About</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-5" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success">Search</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
 
 </body>
 </html>

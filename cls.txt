@@ -2,10 +2,10 @@
 11 - 12 -> Naveen, Monisha
 12 - 01 -> Shajitha, Jasmine, Ganapathy
 01 - 02 -> Lunch
-02 - 03 -> Free
+02 - 03 -> Aakash
 03 - 04 -> Maria, Jude, Dinesh
-04 - 05 -> Free
-05 - 06 -> Divya, Aakash, HariBabu
+04 - 05 -> Srivalli
+05 - 06 -> Divya, HariBabu
 06 - 07 -> Free 
 
 31 - 3 - 2025
@@ -17,31 +17,38 @@ TUESDAY
 WEDNESDAY
 
 NM - JQUERY DAY - 3 
-6 - JS DAY - 3 ( DataTypes, String Methods )
+6 - JS DAY - 3 ( DataTypes )
 HAD - BS DAY - 7 ( Navbar, Form, Modal )
 SRI - JS DAY - 1
 
 THURSDAY
 
 NM - JQUERY DAY - 4
-6 - JS DAY - 4 ( Number Methods, Operators )
+6 - JS DAY - 4 ( String Methods, Number Methods )
 HAD - BS DAY - 8 ( Accordian, Canvas, Collapse )
 SRI - JS DAY - 2
 
 FRIDAY
 
 NM - AJAX
-6 - JS DAY - 5 ( FUNCTIONS, CONDITIONAL STATEMENTS )
+6 - JS DAY - 5 ( Operators )
 HAD - BS DAY - 9 ( ALL COMPONENTS )
 SRI - REACT DAY - 1
 
-HOME 
-ABOUT - > 
-    PRESIDENT PROFILE 
+
+SAT - PROJECT  
+
+HOME (index.html)
+ABOUT (about.html) - > 
+    PRESIDENT PROFILE ( president-profile.html )
     MEMBERS - >
-        DISTRICT MEMBERS  ( 7 PAGE )
-CONTACT
-MEMBERSHIP 
+        DISTRICT MEMBERS (district-members.html) ( 7 PAGE (district-page-1 to 7) )
+CONTACT ( contact.html )
+MEMBERSHIP ( membership.html )
+GALLERY - IMAGES ( gallery-image.html ), 
+GALLERY - VIDEOS ( gallery-video.html ), 
+GALLERY - MEDIA ( gallery-media.html ), 
+
 
 <!-- 
 shankar zip
@@ -122,3 +129,10 @@ Header Video pop up icon => link (https://www.youtube.com/watch?v=7ZmdWZeqI6Y) N
 About the Press - link for vdo play icon ( link : https://www.youtube.com/watch?v=PputcQ6-Xb8) ( Not Opening ) ❌
 GET MEMBERSHIP ✅
 CARD PREVIEW ✅
+ 
+<!-- 03 - 04 -->
+
+<!-- PENDING -->
+PRE NAV 
+
+Gallery Pages - gallery-image 
