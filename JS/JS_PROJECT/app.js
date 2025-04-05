@@ -1,8 +1,12 @@
 var all_products = [
-    { id: 1, img : '../../img.jpg', name: "Product 1", price: 100 },
-    { id: 2, img : '../../img.jpg', name: "Product 2", price: 200 },
-    { id: 3, img : '../../img.jpg', name: "Product 3", price: 300 },
-    { id: 4, img : '../../img.jpg', name: "Product 4", price: 400 }
+    { id: 1, img : '../../img1.jpg', name: "Product 1", price: 100 },
+    { id: 2, img : '../../img1.jpg', name: "Product 2", price: 200 },
+    { id: 3, img : '../../img1.jpg', name: "Product 3", price: 300 },
+    { id: 4, img : '../../img1.jpg', name: "Product 4", price: 400 },
+    { id: 5, img : '../../img1.jpg', name: "Product 5", price: 500 },
+    { id: 6, img : '../../img1.jpg', name: "Product 6", price: 600 },
+    { id: 7, img : '../../img1.jpg', name: "Product 7", price: 700 },
+    { id: 8, img : '../../img1.jpg', name: "Product 8", price: 800 }
 ];
 
 const searchProducts = () => {
@@ -92,7 +96,8 @@ const display_cart = (products) => {
                 <td colspan="5" class="text-center text-danger">Cart Empty</td>
             </tr>
         `;
-    } else {
+    } 
+    else {
         products.map((product) => {
             cart_list += `
                 <tr>
@@ -104,7 +109,6 @@ const display_cart = (products) => {
                         <button class='btn btn-danger' onclick='removeFromCart(${product.id})'>Remove</button>
                     </td>
                 </tr>
-                
             `;
         });
     }

@@ -1,8 +1,8 @@
-// VARIABLES 
+// VARIABLES
 
 // var, let, const
 
-// var -> redeclare, update 
+// var -> redeclare, update
 // let -> not redeclare, update
 // const -> not redeclare, not update
 
@@ -16,11 +16,11 @@
 
 // hello1
 // dfghj
-// a 
+// a
 // helloWorld
 // hello_world
 
-// var re declare 
+// var re declare
 
 // var abc = 10; //declaration
 // var abc = 20; // re declare
@@ -67,13 +67,13 @@
 // FUNCTION *,
 // DATE,
 
-// NUMBER 
+// NUMBER
 
 // var a = 10;
 // console.log(a);
 // console.log(typeof(a))
 
-// STRING 
+// STRING
 
 // var text = "Hello456789";
 // console.log(text)
@@ -117,7 +117,7 @@
 
 // OBJECT
 
-// SYNTAX 
+// SYNTAX
 
 // variable_type object_name = {
 //     key : value,
@@ -148,9 +148,9 @@
 // console.log(details.name)
 // console.log(details)
 
-// ARRAY 
+// ARRAY
 
-// SYNTAX 
+// SYNTAX
 
 // variable_type array_name = [ data, data ];
 
@@ -165,11 +165,11 @@
 // FUNCTION
 
 // function funciton_name(){
-    // code statement
+// code statement
 // }
 
 // function fun(){
-    // console.log('Hello')
+// console.log('Hello')
 // }
 // fun()
 
@@ -180,8 +180,8 @@
 // tues = 2,
 // wed = 3
 
-// jan = 0, 
-// feb = 1, 
+// jan = 0,
+// feb = 1,
 // mar = 2,
 // april = 3
 
@@ -218,7 +218,7 @@
 // var arr = [ 'name', 'is', 'my' ];
 // console.log(`${arr[2]} ${arr[0]} ${arr[1]} Abinaya `)
 
-// STRING METHODS 
+// STRING METHODS
 
 // length, position, indexof, charAt, substr, includes, lowercase, uppercase, push, pop, shift, unshift, trim, replace
 
@@ -304,3 +304,88 @@
 // console.log(arr.pop()) //css
 // console.log(arr.pop()) //html
 // console.log(arr);
+
+// SHIFT 
+
+// var arr = [ 'html', 'css', 'bootstrap', 'javascript']
+// console.log(arr)
+// console.log(arr.shift())
+// console.log(arr)
+
+// UNSHIFT
+
+// var arr = ['css', 'boostrap', 'javascript'];
+// console.log(arr);
+// console.log(arr.unshift('html'))
+// console.log(arr.unshift('abc'))
+// console.log(arr)
+
+// TRIM 
+
+// var text = '        hello           world        ';
+// console.log(text)
+// console.log(text.trim());
+
+// REPLACE 
+
+// SYNTAX 
+
+// text.replace('currentData', 'replaceData')
+
+// var text = 'Hello World'
+// console.log(text);
+// console.log(text.replace('World', 'Javascript')) 
+
+// document.getElementById('h1tag').innerHTML='Hi'
+
+// document.getElementById('btn').innerHTML='Clicked'
+
+// function fun(){
+//     document.getElementById('h1tag').innerHTML = 'Hi'
+// }
+
+// function hide(){
+//     document.getElementById('h1tag').innerHTML = ''
+// }
+
+// function show(){
+//     document.getElementById('h1tag').innerHTML = 'Hello'
+// }
+
+// function hide(){
+//     document.getElementById('imgTag').src = ''
+// }
+
+// function show(){
+//     document.getElementById('imgTag').src = 'img1.jpg'
+// }
+
+// NUMBER METHODS
+
+// toFixed(), Number(), toString(), isNaN(), isFinite(), parseInt(), parseFloat(), Math.sqrt(), Math.ceil(), Math.floor(), Math.random()
+
+// toFixed() 
+
+// var num = 10.567;
+// console.log(num);
+// console.log(num.toFixed())
+
+// var num = 6.967;
+// console.log(num);
+// console.log(num.toFixed())
+
+// Number 
+
+// var num = 'abc';
+// console.log(typeof(num));
+
+// var convert_num = Number(num);
+// console.log(typeof(convert_num));
+
+// toString()
+
+// var num = 10;
+// console.log(typeof(num))
+
+// var convert_num = num.toString();
+// console.log(typeof(convert_num));
