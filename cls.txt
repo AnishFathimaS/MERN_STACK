@@ -1,4 +1,4 @@
-10 - 11 -> Free
+10 - 11 -> Summer Class
 11 - 12 -> Naveen, Monisha
 12 - 01 -> Shajitha, Jasmine, Ganapathy
 01 - 02 -> Lunch
@@ -12,13 +12,14 @@
 
 MONDAY 
 
-NM - REACT INTRO ❌
-3 - Operators ❌
-3 - Operators ❌
+NM - REACT INTRO
+3 - Operators 
+3 - Operators 
 HAD - BS ( All components ), PROJECT
 
 TUESDAY 
 
+SC - HTML
 NM - REACT DAY 2 ( Js )
 3 - function
 3 - function
@@ -26,6 +27,7 @@ HAD - Netlify, github
 
 WEDNESDAY 
 
+SC - HTML 
 NM - REACT DAY 3 ( Props, style )
 3 - conditional statements
 3 - conditional statements
@@ -33,6 +35,7 @@ HA - JS DAY 1 ( types of outputs, types of js )
 
 THURSDAY 
 
+SC- HTML
 NM - REACT DAY 4 ( events )
 3 - conditional statements
 3 - conditional statements
@@ -40,6 +43,7 @@ HA - JS DAY 2 ( variables, DataTypes )
 
 FRIDAY 
 
+SC - HTML
 NM - REACT DAY 4 ( use state(1) )
 3 - conditional statements
 3 - conditional statements

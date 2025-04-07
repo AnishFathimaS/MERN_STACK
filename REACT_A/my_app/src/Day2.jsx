@@ -4,19 +4,19 @@
 
 // VARIABLES
 
-import React from 'react'
+// import React from 'react'
 
-const Day2 = () => {
-  var a = 'Hello';
-  var b = 'World'
-  return (
-    <>
-      <h1>{a} {b}</h1>
-    </>
-  )
-}
+// const Day2 = () => {
+//   var a = 'Hello';
+//   var b = 'World'
+//   return (
+//     <>
+//       <h1>{a} {b}</h1>
+//     </>
+//   )
+// }
 
-export default Day2
+// export default Day2
 
 // ARRAY 
 
