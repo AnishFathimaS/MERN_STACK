@@ -131,6 +131,7 @@
 //     place : 'trichy',
 //     number : 234567878
 // }
+
 // console.log(obj)
 // console.log(obj.name)
 // console.log(obj.place)
@@ -155,6 +156,7 @@
 // variable_type array_name = [ data, data ];
 
 // let arr = [ 1, 2, 3, 'hello' ];
+// console.log(arr[0])
 // console.log(arr[3]);
 
 // let arr = ['abinaya', 20, 'trichy']
@@ -169,7 +171,7 @@
 // }
 
 // function fun(){
-// console.log('Hello')
+//     console.log('Hello')
 // }
 // fun()
 
@@ -186,28 +188,28 @@
 // april = 3
 
 // var todayDate = new Date();
-// console.log(todayDate.getDate());
+// console.log(todayDate);
 // console.log(todayDate.getDate());
 // console.log(todayDate.getDay());
 // console.log(todayDate.getMonth());
 // console.log(todayDate.getFullYear());
 // console.log(todayDate.getTime());
-// console.log(todayDate.get)
 
 // STRING CONCATENATION
 
-// const abc = 'Hello';
-// const text = 'World';
-// console.log(abc ); //hello
+// var abc = 'Hello';
+// var text = 'World';
+// console.log(abc); //hello
 // console.log(text); //world
 
-// console.log(text , abc);
-// console.log(text + " " + abc);
+// console.log(abc,text)
+// console.log(abc+text)
+// console.log(abc+ ' ' +text)
 
 // var text = 'Hello'
 // console.log(text, 'World')
 // console.log(text + ' World')
-// console.log(text , 'Javascript')
+// console.log(text , 'Javascript')    
 // console.log(text , 25, 'Javascript')
 
 // var text1 = 'Hello'
@@ -216,7 +218,7 @@
 // Hello Javascript World
 
 // var arr = [ 'name', 'is', 'my' ];
-// console.log(`${arr[2]} ${arr[0]} ${arr[1]} Abinaya `)
+// console.log(`${arr[2]} ${arr[0]} ${arr[1]} Abinaya`)
 
 // STRING METHODS
 
@@ -229,8 +231,7 @@
 // console.log(text.length)
 
 // var arr = ['html', 'css', 'bootstrap', 'Javssciprt']
-// console.log(arr)
-// console.log(arr[0])
+// console.log(arr.length)
 
 // POSITION, INDEX - starts with 0
 
@@ -246,6 +247,7 @@
 // var text = 'Hello';
 // console.log(text)
 // console.log(text.indexOf('l'))
+// console.log(text.indexOf('e'))
 
 // charAt
 
@@ -258,7 +260,10 @@
 // console.log(text.charAt(3));
 // console.log(text.charAt(4));
 
-// substr ( start, length )
+// substr ( start (position 0), length )
+
+// var text ='Hello World'
+// console.log(text.substr(6, 5))
 
 // var text = 'HelloWorldText';
 // console.log(text.substr(10, 4));
@@ -293,13 +298,16 @@
 // var arr = ['html', 'css', 'boostrap'];
 // console.log(arr);
 // console.log(arr.push('javascript'));
+// console.log(arr)
 // console.log(arr.push('react'));
 // console.log(arr);
 
 // POP
 
 // var arr = ['html', 'css', 'bootstrap','javascript']
-// console.log(arr.pop()) //javs
+// console.log(arr)
+// console.log(arr.pop()) 
+// console.log(arr)
 // console.log(arr.pop()) //boot
 // console.log(arr.pop()) //css
 // console.log(arr.pop()) //html
@@ -317,12 +325,13 @@
 // var arr = ['css', 'boostrap', 'javascript'];
 // console.log(arr);
 // console.log(arr.unshift('html'))
+// console.log(arr)
 // console.log(arr.unshift('abc'))
 // console.log(arr)
 
 // TRIM 
 
-// var text = '        hello           world        ';
+// var text = '        hello         world      ';
 // console.log(text)
 // console.log(text.trim());
 
@@ -334,30 +343,24 @@
 
 // var text = 'Hello World'
 // console.log(text);
-// console.log(text.replace('World', 'Javascript')) 
+// console.log(text.replace('Hello', 'Javascript')) 
 
-// document.getElementById('h1tag').innerHTML='Hi'
 
-// document.getElementById('btn').innerHTML='Clicked'
+
+// document.getElementById('h1tag').innerHTML = 'Hi'
+
+// document.getElementById('btn').innerHTML = 'Clicked'
 
 // function fun(){
-//     document.getElementById('h1tag').innerHTML = 'Hi'
+//     document.getElementById('btn').innerHTML = 'Clicked'
 // }
 
-// function hide(){
-//     document.getElementById('h1tag').innerHTML = ''
+// function hideFun(){
+//     document.getElementById('imgID').src = ''
 // }
 
-// function show(){
-//     document.getElementById('h1tag').innerHTML = 'Hello'
-// }
-
-// function hide(){
-//     document.getElementById('imgTag').src = ''
-// }
-
-// function show(){
-//     document.getElementById('imgTag').src = 'img1.jpg'
+// function showFun(){
+//     document.getElementById('imgID').src = 'img1.jpg'
 // }
 
 // NUMBER METHODS
@@ -366,11 +369,11 @@
 
 // toFixed() 
 
-// var num = 10.567;
+// var num = 10.56;
 // console.log(num);
 // console.log(num.toFixed())
 
-// var num = 6.967;
+// var num = 10.49;
 // console.log(num);
 // console.log(num.toFixed())
 
@@ -426,7 +429,7 @@
 // console.log(b);
 // console.log(typeof(b))
 
-// var a = '15.678abc';
+// var a = '15.978abc';
 // console.log(a);
 // console.log(typeof(a));
 
@@ -456,20 +459,17 @@
 
 // Math.sqrt()
 
-// var a = 49;
+// var a = 36;
 // console.log(Math.sqrt(a))
 
 // Math.ceil()
 
-// var a = 10.8;
+// var a = 10.1;
 // console.log(Math.ceil(a))
-
-// var b = 10.1;
-// console.log(Math.ceil(b))
 
 // Math.floor();
 
-// var a = 15.745667;
+// var a = 15.145667;
 // console.log(Math.floor(a));
 
 // var b = 16.1;
@@ -477,34 +477,10 @@
 
 // Math.random() 
 
-// var a = Math.random(); // 0.23  , 0.23 * 10 => 1.23
+// var a = Math.floor(Math.random() * 1000);  // 0.32 * 10 => 3.2
 // console.log(a);
 
-// var b = Math.floor( Math.random() * 400); // 0 to 400
-// console.log(b)
-
-// 2
-// 3
-// 23
-
-// function randomFun(){
-    // var num = Math.floor(Math.random() * 20); 
-    // document.getElementById('randomNumber').innerHTML = num
-    // console.log(num)
-    // alert(num)
-// }
-
-// function clrFun(){
-//     document.getElementById('imgID1').src = 'img2.jpg'
-// }
-
-// function bwFun(){
-//     document.getElementById('imgID2').src = 'img1.jpg'
-// }
-
-
 // function fun(){
-    // var a = Math.floor(Math.random() * 10);
-    // console.log(a)
-    // document.getElementById('h1tag').innerHTML = a;
+//     var a = Math.floor(Math.random() * 10);
+//     document.getElementById('h1tag').innerHTML = a
 // }
