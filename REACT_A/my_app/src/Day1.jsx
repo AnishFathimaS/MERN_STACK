@@ -4,22 +4,33 @@
 
 // Functional Compoenent 
 
- // import React from 'react'
+// import React from 'react'
 
-  // function App(){
-  //   return(
-  //     <>
-  //       <h1>xdfgjh</h1>
-  //       <h1>xdfgjh</h1>
-  //     </>
-  //   )
-  // }
+//   function Day1(){
+//     return(
+//       <>
+//         <h1>Hellooo</h1>
+//         <h1>Hellooo</h1>
+//       </>
+//     )
+//   }
 
-  // export default App
+// export default Day1
 
-  // import React from 'react'
+// import React from 'react'
 
-  // const App = () => {
+//   export default function Day1(){
+//     return(
+//       <>
+//         <h1>Hellooo</h1>
+//         <h1>Hellooo</h1>
+//       </>
+//     )
+//   }
+
+// import React from 'react'
+
+  // const Day1 = () => {
   //   return(
   //     <>
   //       <h1>Hello</h1>
@@ -29,15 +40,15 @@
   //   )
   // } 
 
-  // export default App
+// export default Day1
 
-  // rcc, rfc, rfce, rafce
+// rcc, rfc, rfce, rafce
 
 // Class Component
 
 // import React from 'react'
 
-// class App extends React.Component{
+// class Day1 extends React.Component{
 //   render(){
 //     return(
 //       <h1>Hello</h1>
@@ -45,4 +56,4 @@
 //   }
 // }
 
-// export default App
+// export default Day1

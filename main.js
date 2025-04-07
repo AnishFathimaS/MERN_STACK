@@ -186,7 +186,7 @@
 // april = 3
 
 // var todayDate = new Date();
-// console.log(todayDate);
+// console.log(todayDate.getDate());
 // console.log(todayDate.getDate());
 // console.log(todayDate.getDay());
 // console.log(todayDate.getMonth());
@@ -376,11 +376,17 @@
 
 // Number 
 
-// var num = 'abc';
-// console.log(typeof(num));
+// var a = 'abc';
+// console.log(typeof(a));
 
-// var convert_num = Number(num);
+// var convert_num = Number(a);
 // console.log(typeof(convert_num));
+
+// var b = '8';
+// console.log(typeof(b))
+
+// var convert_b = Number(b);
+// console.log(typeof(convert_b))
 
 // toString()
 
@@ -389,3 +395,116 @@
 
 // var convert_num = num.toString();
 // console.log(typeof(convert_num));
+
+// isNaN -> is Not an Number (true, false)
+// Number -> false, String -> True
+
+// var a = 2;
+// console.log(isNaN(a))
+
+// var a = 'abc';
+// console.log(isNaN(a))
+
+// isFinite()
+// Number -> True, String -> False 
+
+// var a = 2;
+// console.log(isFinite(a)); // true
+
+// var b = 'abc'
+// console.log(isFinite(b)) // false
+
+// parseInt()
+
+// datatype change, integer (whole number)
+
+// var a = '15abc';
+// console.log(a);
+// console.log(typeof(a));
+
+// var b = parseInt(a); 
+// console.log(b);
+// console.log(typeof(b))
+
+// var a = '15.678abc';
+// console.log(a);
+// console.log(typeof(a));
+
+// var b = parseInt(a);
+// console.log(b);
+// console.log(typeof(b));
+
+// parseFloat()
+
+// datatype change, float numbers 
+
+// var a = '123abc';
+// console.log(a)
+// console.log(typeof(a));
+
+// var b = parseFloat(a);
+// console.log(b);
+// console.log(typeof(b));
+
+// var a = '123.456abc';
+// console.log(a)
+// console.log(typeof(a));
+
+// var b = parseFloat(a);
+// console.log(b);
+// console.log(typeof(b));
+
+// Math.sqrt()
+
+// var a = 49;
+// console.log(Math.sqrt(a))
+
+// Math.ceil()
+
+// var a = 10.8;
+// console.log(Math.ceil(a))
+
+// var b = 10.1;
+// console.log(Math.ceil(b))
+
+// Math.floor();
+
+// var a = 15.745667;
+// console.log(Math.floor(a));
+
+// var b = 16.1;
+// console.log(Math.floor(b));
+
+// Math.random() 
+
+// var a = Math.random(); // 0.23  , 0.23 * 10 => 1.23
+// console.log(a);
+
+// var b = Math.floor( Math.random() * 400); // 0 to 400
+// console.log(b)
+
+// 2
+// 3
+// 23
+
+// function randomFun(){
+    // var num = Math.floor(Math.random() * 20); 
+    // document.getElementById('randomNumber').innerHTML = num
+    // console.log(num)
+    // alert(num)
+// }
+
+// function clrFun(){
+//     document.getElementById('imgID1').src = 'img2.jpg'
+// }
+
+// function bwFun(){
+//     document.getElementById('imgID2').src = 'img1.jpg'
+// }
+
+
+// function fun(){
+    // var a = Math.floor(Math.random() * 10);
+    // console.log(a)
+    // document.getElementById('h1tag').innerHTML = a;
+// }

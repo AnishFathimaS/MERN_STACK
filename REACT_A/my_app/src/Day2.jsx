@@ -4,25 +4,25 @@
 
 // VARIABLES
 
-// import React from 'react'
+import React from 'react'
 
-// const App = () => {
-//   var a = 'Hello';
-//   var b = 'World'
-//   return (
-//     <>
-//       <h1>{a} {b}</h1>
-//     </>
-//   )
-// }
+const Day2 = () => {
+  var a = 'Hello';
+  var b = 'World'
+  return (
+    <>
+      <h1>{a} {b}</h1>
+    </>
+  )
+}
 
-// export default App
+export default Day2
 
 // ARRAY 
 
 // import React from 'react'
 
-// const App = () => {
+// const Day2 = () => {
 
 //   var arr = ['html', 'css','bootstrap', 'javascript']
 //   var name = ['name', 'abi','my', 'is']
@@ -38,13 +38,13 @@
 //   )
 // }
 
-// export default App
+// export default Day2
 
 // ARRAY IN MAP
 
 // import React from 'react'
 
-// const App = () => {
+// const Day2 = () => {
 
 //   var arr = ['html', 'css','bootstrap', 'javascript']
 //   return (
@@ -58,13 +58,13 @@
 //   )
 // }
 
-// export default App
+// export default Day2
 
 // OBJECT 
 
 // import React from 'react'
 
-// const App = () => {
+// const Day2 = () => {
 
   // var obj = {
   //   name : 'abinaya',
@@ -96,13 +96,13 @@
 //   )
 // }
 
-// export default App
+// export default Day2
 
 // JSON
 
 // import React from 'react'
 
-// const App = () => {
+// const Day2 = () => {
 
 //   var json_obj = [
 //     {
@@ -136,7 +136,7 @@
 
 // import React from 'react'
 
-// const App = () => {
+// const Day2 = () => {
 
 //   var json_obj = [
 //     {
@@ -167,13 +167,13 @@
 //   )
 // }
 
-// export default App
+// export default Day2
 
 // Function using another function 
 
 // import React from 'react'
 
-// const App = () => {
+// const Day2 = () => {
 
 //   var a = 10;
 //   var b = 20;
@@ -189,11 +189,11 @@
 
 // }
 
-// export default App
+// export default Day2
 
 // import React from 'react'
 
-// const App = () => {
+// const Day2 = () => {
 
 //   var a = 10;
 //   var b = 20;
@@ -209,13 +209,13 @@
 
 // }
 
-// export default App
+// export default Day2
 
 // Fetching Data using API 
 
 // import React from 'react'
 
-// const App = () => {
+// const Day2 = () => {
 
 //   async function fun(){
 //     var url = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -236,7 +236,7 @@
 
 // import React from 'react'
 
-// class App extends React.Component{
+// class Day2 extends React.Component{
 //   render(){
 //     return(
 //       <>
@@ -246,11 +246,11 @@
 //   }
 // }
 
-// export default App
+// export default Day2
 
 // import React from 'react'
 
-// class App extends React.Component{
+// class Day2 extends React.Component{
 //   render(){
 //     var a = 10, b = 20;
 //     return(
@@ -261,11 +261,11 @@
 //   }
 // }
 
-// export default App
+// export default Day2
 
 // import React from 'react'
 
-// class App extends React.Component{
+// class Day2 extends React.Component{
 //   render(){
 //     var a = 10, b = 20;
 //     return(
@@ -276,4 +276,4 @@
 //   }
 // }
 
-// export default App
+// export default Day2

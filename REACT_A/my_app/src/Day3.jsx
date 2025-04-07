@@ -1,4 +1,6 @@
-// STYLE
+// STYLE, PROPS
+
+// STYLE ( INLINE CSS, CSS USING OBJECT,  )
 
 // INLINE CSS 
 
@@ -19,7 +21,7 @@
 
 // import React from 'react'
 
-// const Day3 = () => {
+// const App = () => {
 
 //   var obj1 = {
 //     color : 'red',
@@ -35,6 +37,21 @@
 //     <>
 //       <h1 style={obj1}>Hello</h1>
 //       <h1 style={obj2}>Hello</h1>
+//     </>
+//   )
+// }
+
+// export default App
+
+// EXTERNAL CSS
+
+// import React from 'react'
+// import './index.css'
+
+// const Day3 = () => {
+//   return (
+//     <>
+//       <h1>Hello</h1>
 //     </>
 //   )
 // }

@@ -27,7 +27,6 @@ Clear
     index.css
     App.jsx
 
-
 for react shortcuts extenstion name (ES7+ React/Redux/React-Native snippets)
 
 DAY - 1 => SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
