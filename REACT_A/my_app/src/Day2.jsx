@@ -73,16 +73,16 @@
   //   number : 1234567890
   // }
 
-//   var obj = {
-//     name : 'abinaya',
-//     age : 20,
-//     address : {
-//       doorno : 8,
-//       street : '3rd Street',
-//       city : 'Trichy'
-//     },
-//     number : 1234567890
-//   }
+  // var obj = {
+  //   name : 'abinaya',
+  //   age : 20,
+  //   address : {
+  //     doorno : 8,
+  //     street : '3rd Street',
+  //     city : 'Trichy'
+  //   },
+  //   number : 1234567890
+  // }
 
 //   return (
 //     <>
@@ -169,28 +169,6 @@
 
 // export default Day2
 
-// Function using another function 
-
-// import React from 'react'
-
-// const Day2 = () => {
-
-//   var a = 10;
-//   var b = 20;
-
-//   const fun = () => {
-//     return(
-//       <>
-//         <h1>{a + b} </h1>
-//       </>
-//     )
-//   }
-//   return(a, b)
-
-// }
-
-// export default Day2
-
 // import React from 'react'
 
 // const Day2 = () => {
@@ -229,7 +207,7 @@
 //   fun()
 // }
 
-// export default 
+// export default Day2
 
 
 // CLASS COMPONENTS 

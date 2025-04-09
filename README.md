@@ -1,6 +1,6 @@
 # MERN_STACK ANIS FATHIMA
 
-SAT - PROJECT  ( 16 Pages )
+SAT - PROJECT  ( 17 Pages )
 
 HOME (index.html)
 ABOUT (about.html) - > 
@@ -12,6 +12,7 @@ MEMBERSHIP ( membership.html )
 GALLERY - IMAGES ( gallery-image.html ), 
 GALLERY - VIDEOS ( gallery-video.html ), 
 GALLERY - MEDIA ( gallery-media.html ), 
+Organizing Committee ( organizing-committee.html )
 
 <!-- 
 shankar zip
@@ -83,28 +84,28 @@ I make real section - remove image put vdo popup with play btn icon
 ( link 3 : https://www.youtube.com/watch?v=BsGi7boZm7A&t=81s ) ✅
 -->
 
-14 logo 16 logo 
-laptop size membership form 
-video open vijay 
+<!-- 14 logo 16 logo  -->
+<!-- laptop size membership form  -->
+<!-- video open vijay  -->
 
 <!-- PENDING -->
 
-Header Video pop up icon => link (https://www.youtube.com/watch?v=7ZmdWZeqI6Y) Not Opening ❌
-About the Press - link for vdo play icon ( link : https://www.youtube.com/watch?v=PputcQ6-Xb8) ( Not Opening ) ❌
-GET MEMBERSHIP ✅
-CARD PREVIEW ✅
+<!-- Header Video pop up icon => link (https://www.youtube.com/watch?v=7ZmdWZeqI6Y) Not Opening ❌ -->
+<!-- About the Press - link for vdo play icon ( link : https://www.youtube.com/watch?v=PputcQ6-Xb8) ( Not Opening ) ❌ -->
+<!-- GET MEMBERSHIP ✅ -->
+<!-- CARD PREVIEW ✅ -->
  
 <!-- 03 - 04 -->
 
-Gallery Pages - gallery-image, gallery-video, gallery-media ✅
+<!-- Gallery Pages - gallery-image, gallery-video, gallery-media ✅ -->
 
 <!-- 04 - 04 -->
 
-Corrections completed ✅
+<!-- Corrections completed ✅ -->
 
 <!-- 05 - 04 -->
 
-Corrections completed ✅
+<!-- Corrections completed ✅ -->
 
 <!-- PENDING -->
 

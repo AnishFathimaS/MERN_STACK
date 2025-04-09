@@ -12,26 +12,26 @@
 
 MONDAY 
 
-NM - REACT INTRO
-3 - Operators 
-3 - Operators 
-HAD - BS ( All components ), PROJECT
+NM - REACT INTRO ( Doubt Clearance)
+3 - Operators ( Number Methods )
+3 - Operators ( Number Methods )
+HAD - BS ( All components ), PROJECT ( All components )
 
 TUESDAY 
 
-SC - HTML
-NM - REACT DAY 2 ( Js )
-3 - function
-3 - function
-HAD - Netlify, github
+SC - HTML ( HTML )
+NM - REACT DAY 2 ( Js ) ( React Day 1)
+3 - function ( Operators )
+3 - function ( Operators )
+HAD - Netlify, github ( All Components )
 
 WEDNESDAY 
 
-SC - HTML 
-NM - REACT DAY 3 ( Props, style )
-3 - conditional statements
-3 - conditional statements
-HA - JS DAY 1 ( types of outputs, types of js )
+SC - HTML ( HTML )
+NM - REACT DAY 3 ( Props, style ) ( REACT IN JS  )
+3 - conditional statements ( Operators )
+3 - conditional statements ( Operators )
+HA - JS DAY 1 ( types of outputs, types of js ) ( Boostrap OverAll )
 
 THURSDAY 
 
@@ -48,3 +48,4 @@ NM - REACT DAY 4 ( use state(1) )
 3 - conditional statements
 3 - conditional statements
 HA - JS DAY 3 ( String Methods, Number Methods )
+
