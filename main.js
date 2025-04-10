@@ -131,6 +131,7 @@
 //     place : 'trichy',
 //     number : 234567878
 // }
+
 // console.log(obj)
 // console.log(obj.name)
 // console.log(obj.place)
@@ -155,6 +156,7 @@
 // variable_type array_name = [ data, data ];
 
 // let arr = [ 1, 2, 3, 'hello' ];
+// console.log(arr[0])
 // console.log(arr[3]);
 
 // let arr = ['abinaya', 20, 'trichy']
@@ -169,7 +171,7 @@
 // }
 
 // function fun(){
-// console.log('Hello')
+//     console.log('Hello')
 // }
 // fun()
 
@@ -192,22 +194,22 @@
 // console.log(todayDate.getMonth());
 // console.log(todayDate.getFullYear());
 // console.log(todayDate.getTime());
-// console.log(todayDate.get)
 
 // STRING CONCATENATION
 
-// const abc = 'Hello';
-// const text = 'World';
-// console.log(abc ); //hello
+// var abc = 'Hello';
+// var text = 'World';
+// console.log(abc); //hello
 // console.log(text); //world
 
-// console.log(text , abc);
-// console.log(text + " " + abc);
+// console.log(abc,text)
+// console.log(abc+text)
+// console.log(abc+ ' ' +text)
 
 // var text = 'Hello'
 // console.log(text, 'World')
 // console.log(text + ' World')
-// console.log(text , 'Javascript')
+// console.log(text , 'Javascript')    
 // console.log(text , 25, 'Javascript')
 
 // var text1 = 'Hello'
@@ -216,7 +218,7 @@
 // Hello Javascript World
 
 // var arr = [ 'name', 'is', 'my' ];
-// console.log(`${arr[2]} ${arr[0]} ${arr[1]} Abinaya `)
+// console.log(`${arr[2]} ${arr[0]} ${arr[1]} Abinaya`)
 
 // STRING METHODS
 
@@ -229,8 +231,7 @@
 // console.log(text.length)
 
 // var arr = ['html', 'css', 'bootstrap', 'Javssciprt']
-// console.log(arr)
-// console.log(arr[0])
+// console.log(arr.length)
 
 // POSITION, INDEX - starts with 0
 
@@ -246,6 +247,7 @@
 // var text = 'Hello';
 // console.log(text)
 // console.log(text.indexOf('l'))
+// console.log(text.indexOf('e'))
 
 // charAt
 
@@ -258,7 +260,10 @@
 // console.log(text.charAt(3));
 // console.log(text.charAt(4));
 
-// substr ( start, length )
+// substr ( start (position 0), length )
+
+// var text ='Hello World'
+// console.log(text.substr(6, 5))
 
 // var text = 'HelloWorldText';
 // console.log(text.substr(10, 4));
@@ -293,13 +298,16 @@
 // var arr = ['html', 'css', 'boostrap'];
 // console.log(arr);
 // console.log(arr.push('javascript'));
+// console.log(arr)
 // console.log(arr.push('react'));
 // console.log(arr);
 
 // POP
 
 // var arr = ['html', 'css', 'bootstrap','javascript']
-// console.log(arr.pop()) //javs
+// console.log(arr)
+// console.log(arr.pop()) 
+// console.log(arr)
 // console.log(arr.pop()) //boot
 // console.log(arr.pop()) //css
 // console.log(arr.pop()) //html
@@ -317,12 +325,13 @@
 // var arr = ['css', 'boostrap', 'javascript'];
 // console.log(arr);
 // console.log(arr.unshift('html'))
+// console.log(arr)
 // console.log(arr.unshift('abc'))
 // console.log(arr)
 
 // TRIM 
 
-// var text = '        hello           world        ';
+// var text = '        hello         world      ';
 // console.log(text)
 // console.log(text.trim());
 
@@ -334,30 +343,24 @@
 
 // var text = 'Hello World'
 // console.log(text);
-// console.log(text.replace('World', 'Javascript')) 
+// console.log(text.replace('Hello', 'Javascript')) 
 
-// document.getElementById('h1tag').innerHTML='Hi'
 
-// document.getElementById('btn').innerHTML='Clicked'
+
+// document.getElementById('h1tag').innerHTML = 'Hi'
+
+// document.getElementById('btn').innerHTML = 'Clicked'
 
 // function fun(){
-//     document.getElementById('h1tag').innerHTML = 'Hi'
+//     document.getElementById('btn').innerHTML = 'Clicked'
 // }
 
-// function hide(){
-//     document.getElementById('h1tag').innerHTML = ''
+// function hideFun(){
+//     document.getElementById('imgID').src = ''
 // }
 
-// function show(){
-//     document.getElementById('h1tag').innerHTML = 'Hello'
-// }
-
-// function hide(){
-//     document.getElementById('imgTag').src = ''
-// }
-
-// function show(){
-//     document.getElementById('imgTag').src = 'img1.jpg'
+// function showFun(){
+//     document.getElementById('imgID').src = 'img1.jpg'
 // }
 
 // NUMBER METHODS
@@ -366,21 +369,27 @@
 
 // toFixed() 
 
-// var num = 10.567;
+// var num = 10.56;
 // console.log(num);
 // console.log(num.toFixed())
 
-// var num = 6.967;
+// var num = 10.49;
 // console.log(num);
 // console.log(num.toFixed())
 
 // Number 
 
-// var num = 'abc';
-// console.log(typeof(num));
+// var a = 'abc';
+// console.log(typeof(a));
 
-// var convert_num = Number(num);
-// console.log(typeof(convert_num));
+// var b = Number(a);
+// console.log(typeof(b));
+
+// var b = '8';
+// console.log(typeof(b))
+
+// var convert_b = Number(b);
+// console.log(typeof(convert_b))
 
 // toString()
 
@@ -389,3 +398,339 @@
 
 // var convert_num = num.toString();
 // console.log(typeof(convert_num));
+
+// isNaN -> is Not an Number (true, false)
+// Number -> false, String -> True
+
+// var a = 2;
+// console.log(isNaN(a))
+
+// var a = 'abc';
+// console.log(isNaN(a))
+
+// isFinite()
+// Number -> True, String -> False 
+
+// var a = 2;
+// console.log(isFinite(a)); // true
+
+// var b = 'abc'
+// console.log(isFinite(b)) // false
+
+// parseInt()
+
+// datatype change, integer (whole number)
+
+// var a = '15abc';
+// console.log(a);
+// console.log(typeof(a));
+
+// var b = parseInt(a); 
+// console.log(b);
+// console.log(typeof(b))
+
+// var a = '15.978abc';
+// console.log(a); //15.978abc
+// console.log(typeof(a)); //string
+
+// var b = parseInt(a);
+// console.log(b);
+// console.log(typeof(b));
+
+// parseFloat()
+
+// datatype change, float numbers 
+
+// var a = '123abc';
+// console.log(a)
+// console.log(typeof(a));
+
+// var b = parseFloat(a);
+// console.log(b);
+// console.log(typeof(b));
+
+// var a = '123.456abc';
+// console.log(a)
+// console.log(typeof(a));
+
+// var b = parseFloat(a);
+// console.log(b);
+// console.log(typeof(b));
+
+// Math.sqrt()
+
+// var a = 49;
+// console.log(Math.sqrt(a));
+
+// Math.ceil()
+
+// var a = 10.10;
+// console.log(Math.ceil(a))
+
+// Math.floor();
+
+// var a = 15.34;
+// console.log(Math.floor(a));
+
+// var b = 16.1;
+// console.log(Math.floor(b));
+
+// Math.random() 
+
+// var a = Math.floor(Math.random() * 5);
+// console.log(a);
+
+// function fun(){
+//     var randomNum = Math.floor(Math.random() * 10);
+//     document.getElementById('h1tag').innerHTML = `Your otp is : ${randomNum}`
+// }
+
+// OPERATORS
+
+// ARITHIEMTIC OPERATOR - [ +, -, *, **, /, % ] 
+// ASSIGNMENT OPERATOR - [ +=, -=, *=, /=] 
+// COMPARISON OPERATOR - [ ==, !=, ===, !== ] 
+// RELATIONAL OPERATOR - [ <, >, <=, >= ] 
+// LOGICAL OPERATOR - [ &&, ||, ! ]  
+// UNARY OPERATOR - [ POST INCREMENT, PRE INCREMENT, POST DECREMENT, PRE DECREMENT ] 
+// TERNARY OPERATOR - [ (condition) ? true : false ] 
+
+// ARITHIMETIC OPERATOR - [ +, -, *, **, /, % ] 
+
+// var num1 = 10;
+// var num2 = 5;
+// console.log(num1 + num2)
+// console.log(num1 - num2)
+// console.log(num1 * num2)
+// console.log(num1 / num2)
+// console.log(num1 % num2)
+// console.log(num1 ** num2) //10**5 
+
+// 10 + 5 = 15
+
+// console.log(num1 + num2)
+
+// console.log(`${num1} + ${num2} = ${num1 + num2}`)
+
+// function addFun(){
+//     var num1 = Number(document.myform.input1.value);
+//     var num2 = Number(document.myform.input2.value);
+//     document.getElementById('answer').innerHTML = `Answer : ${num1 + num2}`
+// }
+
+// function subFun(){
+//     var num1 = Number(document.myform.input1.value);
+//     var num2 = Number(document.myform.input2.value);
+//     var total = num1 - num2;
+//     document.getElementById('answer').innerHTML = `Answer : ${total}`
+// }
+
+// ASSIGNMENT OPERATOR [ +=, -=, *=, /= ]
+
+// var a = 10;
+// var b = 20;
+// console.log(a+=b);  // ( a = a + b)
+// console.log(a)
+
+// var a = 20;
+// var b = 40;
+// console.log(b-=a); // ( b = b - a)
+// console.log(b)
+
+// var a = 10;
+// var b = 5;
+// console.log(b*=a); // ( b = b * a )
+// console.log(b)
+
+// var a = 10;
+// var b = 5;
+// console.log(a/=b); // ( a = a / b )
+// console.log(a)
+
+// COMPARISON OPERATOR [ ==, !=, ===, !== ]
+
+// var a = 10;
+// var b = 20;
+// console.log(a==b); // false
+
+// var a = 6;
+// var b = 6;
+// console.log(a==b); // true
+
+// var a = '8';
+// var b = 8;
+// console.log(a==b) // true
+
+// var a = 8;
+// var b = 10;
+// console.log(a!=b); // true
+
+// var a = 30;
+// var b = 30;
+// console.log(a!=b); // false
+
+// var a = 10;
+// var b = '20';
+// console.log(a!=b);
+
+// var a = 20;
+// var b = 20;
+// console.log(a===b) // true
+
+// var a = '20';
+// var b = 20;
+// console.log(a===b); // false
+
+// var a = 123;
+// var b = '123';
+// console.log(a===b); // false
+
+// var a = '123';
+// var b = '321';
+// console.log(a===b); // false
+
+// var a = 20;
+// var b = 40;
+// console.log(a!==b); // true
+
+// var a = 20;
+// var b ='40';
+// console.log(a!==b); // true
+
+// var a = 20;
+// var b = '20';
+// console.log(a!==b) // true
+
+// RELATIONAL OPERATOR [ <, >, <=, >= ]
+
+// var a = 5;
+// var b = 4;
+// console.log(a<b); // false
+// console.log(a>b); // true
+
+// var a = 10;
+// var b = 3;
+// console.log(b>a); // false
+// console.log(a<b); // false
+// console.log(a>b); // true
+
+// var a = 6;
+// var b = 6;
+// console.log(a<b)
+// console.log(a>b)
+
+// var a = 5;
+// var b = 5;
+// console.log(a<=b); // true // a less than or equal than b
+// console.log(a>=b); // true
+
+// var a = 50;
+// var b = 30;
+// console.log(b<=a); // true
+// console.log(a>=b); // true
+
+// LOGICAL OPERATOR [ &&, ||, ! ]
+
+// console.log(true && true) // true
+// console.log(true && false) // false
+// console.log(false && true) // false
+// console.log(false && false) // false
+
+// console.log( 8<10 && 5>3 ) // true && true = true
+// console.log(7<3 && 8>4 ) // false && true = false
+// console.log(9<5 && 7<5 ) // false && false = false
+// console.log(6>3 && 3>6) // true && false = false
+
+// console.log(true || true) // true
+// console.log(true || false) // true
+// console.log(false || true) // true
+// console.log(false || false) // false
+
+// console.log(5>9 || 8<4) // false || false = false
+// console.log(9>4 || 4<3) // true || false = true
+// console.log(8<4 || 9>2) // false || true = true
+// console.log(9>3 || 3>2) // true || true = true
+
+// console.log(!(true))
+// console.log(!(false))
+
+// console.log(!(4>6)); // true
+// console.log(!(8>4)); // false
+
+// POST INCREMENT 
+
+// var a = 8;
+// console.log(a++);  // 8 ( a + 1 )
+// console.log(a++); // 9
+// console.log(a); // 10
+
+// PRE INCREMENT 
+
+// var a = 10;
+// console.log(++a); // 11
+// console.log(++a); // 12
+// console.log(a); // 12
+
+// var a = 10;
+// console.log(a++) // 10 ( 11 )
+// console.log(++a) // 12 
+// console.log(++a) // 13
+// console.log(a++) // 13 ( 14 )
+// console.log(a) // 14
+
+// var num = 123;
+// console.log(++num); // 124
+// console.log(num); // 124
+// console.log(num++) // 124
+// console.log(++num) // 126
+// console.log(num) // 126
+
+// POST DECREMENT 
+
+// var a = 5;
+// console.log(a--); // 5
+// console.log(a); // 4
+// console.log(a--); // 4
+// console.log(a) // 3
+
+// PRE DECREMENT 
+
+// var a = 10;
+// console.log(--a); // 9
+// console.log(--a); // 8
+// console.log(a); // 8
+
+// var a = 56;
+// console.log(--a); // 55
+// console.log(--a); // 54
+// console.log(a); // 54
+// console.log(a--); // 54
+// console.log(a--); // 53
+// console.log(a); // 52
+
+// var a = 24;
+// console.log(a++); // 24 ( 25 )
+// console.log(a--); // 25 ( 24 )
+// console.log(--a); // 23
+// console.log(a--); // 23
+// console.log(a); // 22
+// console.log(a++); // 22 ( 23 )
+// console.log(++a); // 24
+// console.log(a--); // 24 ( 23 )
+// console.log(--a); // 22 
+// console.log(a); // 22
+
+// TERNARY OPERATOR 
+
+// condition ? true : false 
+
+// console.log(( 8>5 ) ? 'True' : 'False') // True
+// console.log(( 8>5 ) ? 'False' : 'True') // False
+
+// console.log( ( 8<5 && 9>5 ) ? 'true' : 'false')
+
+// var a = 50;
+// console.log((a>=50) ? 'False' : 'True')
+
+// var age = 15;
+// console.log((age >= 18) ? 'Eligible to Vote' : 'Not Eligible')

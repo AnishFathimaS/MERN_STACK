@@ -27,7 +27,6 @@ Clear
     index.css
     App.jsx
 
-
 for react shortcuts extenstion name (ES7+ React/Redux/React-Native snippets)
 
 DAY - 1 => SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
@@ -51,4 +50,4 @@ DAY - 16 => ROUTING
 DAY - 17 => CRUD 
 DAY - 18 => PACKAGES ( swiper, material ui, react components, daisy ui )
 
-PROJECT - COSTICA FROM THEME 
+PROJECT - COSTICA FROM THEME FOREST
