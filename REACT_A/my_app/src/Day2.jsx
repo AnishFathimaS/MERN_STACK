@@ -179,7 +179,7 @@
 //   const fun = () => {
 //     return(
 //       <>
-//         <h1>{(a + b > 40 ) ? 'true' : 'false'}</h1>
+//         <h1>{(a > b ) ? 'true' : 'false'}</h1>
 //       </>
 //     )
 //   }
@@ -208,7 +208,6 @@
 // }
 
 // export default Day2
-
 
 // CLASS COMPONENTS 
 

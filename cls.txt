@@ -5,14 +5,14 @@
 02 - 03 -> Free
 03 - 04 -> Maria, Jude, Dinesh
 04 - 05 -> Free
-05 - 06 -> Divya, HariBabu, Akash
+05 - 06 -> Divya, HariBabu, Aakash
 06 - 07 -> Free 
 
 07 - 04 - 2025
 
 MONDAY 
 
-NM - REACT INTRO ( Doubt Clearance)
+NM - REACT INTRO ( Doubt Clearance )
 3 - Operators ( Number Methods )
 3 - Operators ( Number Methods )
 HAD - BS ( All components ), PROJECT ( All components )
@@ -20,7 +20,7 @@ HAD - BS ( All components ), PROJECT ( All components )
 TUESDAY 
 
 SC - HTML ( HTML )
-NM - REACT DAY 2 ( Js ) ( React Day 1)
+NM - REACT DAY 2 ( Js ) ( React Day )
 3 - function ( Operators )
 3 - function ( Operators )
 HAD - Netlify, github ( All Components )
@@ -35,17 +35,27 @@ HA - JS DAY 1 ( types of outputs, types of js ) ( Boostrap OverAll )
 
 THURSDAY 
 
-SC- HTML
-NM - REACT DAY 4 ( events )
-3 - conditional statements
-3 - conditional statements
-HA - JS DAY 2 ( variables, DataTypes )
+SC- HTML ( HTML )
+NM - REACT DAY 4 ( events ) ( Style )
+3 - conditional statements ( Functions )
+3 - conditional statements ( Functions )
+HA - JS DAY 2 ( variables, DataTypes ) ( Bootstrap OverAll )
 
 FRIDAY 
 
-SC - HTML
-NM - REACT DAY 4 ( use state(1) )
-3 - conditional statements
-3 - conditional statements
-HA - JS DAY 3 ( String Methods, Number Methods )
+SC - HTML ( Leave )
+NM - REACT DAY 4 ( use state(1) ) ( Props )
+3 - conditional statements ( conditional statements 1 )
+3 - conditional statements ( conditional statements 1 )
+HA - JS DAY 3 ( String Methods, Number Methods ) ( Project Doubt )
 
+Monday - Monisha, Divya
+Tuesday - No Leave
+Wednesday - Monisha, Dinesh, HariBabu
+Thurday - Dinesh
+Friday - Begum2, Jude, Dinesh, Aakash
+
+2 TO 3 - FREE
+3 TO 4 - 6 ( BEGUM2 )
+4 TO 5 - NM
+5 TO 6 - HA 

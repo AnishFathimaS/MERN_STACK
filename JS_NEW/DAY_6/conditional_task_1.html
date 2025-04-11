@@ -19,7 +19,7 @@
 
         function add(){
             if(count < 10){  
-                count = Number(++count); // 0 + 1 = 1
+                count = (++count); // 0 + 1 = 1
                 document.getElementById('num').innerHTML = count;
                 document.getElementById('limit').innerHTML = ''
             }
@@ -30,7 +30,7 @@
 
         function remove(){
             if(count > 0){  
-                count = Number(count - 1);
+                count = (count - 1);
                 document.getElementById('num').innerHTML = count;
                 document.getElementById('limit').innerHTML = ''
             }

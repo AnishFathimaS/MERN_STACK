@@ -722,7 +722,7 @@
 
 // TERNARY OPERATOR 
 
-// condition ? true : false 
+// (condition) ? true : false 
 
 // console.log(( 8>5 ) ? 'True' : 'False') // True
 // console.log(( 8>5 ) ? 'False' : 'True') // False
@@ -734,3 +734,288 @@
 
 // var age = 15;
 // console.log((age >= 18) ? 'Eligible to Vote' : 'Not Eligible')
+
+// Function Syntax, 
+// Function with console.log,
+// Function with return statment,
+// Single Parameter ( console.log, return )
+// Mulitple Parameter ( console.log, return )
+// Default Parameter
+
+// Arrow Function Syntax
+// Arrow Function ( console.log, return )
+// Parameter ( console.log, return )
+// Concise arrow function 
+
+// Async await Function
+
+// LOCAL VARIABLE
+// GLOBAL VARIABLE 
+
+// function function_name(){
+    // code
+// }
+// function_name()
+
+// function fun(){
+//     alert('Hello Function')
+// }
+// fun()
+
+// function fun(){
+//     return ('Hello Function')
+// }
+// console.log(fun())
+
+// Parameter 
+
+// function fun(name){
+//     console.log(`My name is ${name}`)
+// }
+// fun('Abinaya')
+
+// function fun(name){
+//     return (`My name is ${name}`)
+// }
+// console.log(fun('anu'))
+
+// function fun(age){
+//     console.log(`My age is ${age}`)
+// }
+// fun(8)
+
+// function fun(age){
+//     return (`My age is ${age}`)
+// }
+// console.log(fun(7))
+
+// function fun(name, age){
+//     console.log(`My name is ${name}`)
+//     console.log(`My age is ${age}`)
+// }
+// fun('anu', 8)
+
+// function fun(name, age){
+//     return (`My name is ${name}, ${age}`)
+// }
+// alert(fun('anu', 8))
+
+// function fun(name = 'abinaya'){
+//     console.log(`My name is ${name}`)
+// }
+// fun()
+
+// function fun(name = 'abinaya', age ){
+//     console.log(`My name is ${name}, ${age}`)
+// }
+// fun( 'abinaya', 8)
+
+// ARROW Function 
+
+// variable_type function_name = () => {
+    // code
+// }
+
+// function fun1(){
+//     console.log('Hellooo')
+// }
+// fun1()
+
+// const fun2 = () => {
+//     console.log('Hello2')
+// }
+// fun2()
+
+// const fun = () => {
+//     return ('Hello Arrow Function')
+// }
+// console.log(fun())
+
+// const fun = (name = 'hari', age = 8) => {
+//     console.log(`My name is ${name}, ${age}`)
+// }
+// fun('anu')
+
+// const fun1 = () => {
+//     console.log('Helloo')
+// }
+// fun1()
+
+// const fun2 = () => console.log('Hello');
+// fun2()
+
+// var obj = {
+//     name : 'Abinaya',
+//     age : 30,
+//     place : 'trichy'
+// }
+// console.log(obj.place)
+
+// JSON - Javascript Object Notation 
+
+// var json_obj = [
+//     {
+//         key : value,
+//         key : value,
+//         key : value
+//     },
+//     {
+//         key : value,
+//         key : value,
+//         key : value
+//     },
+//     {
+//         key : value,
+//         key : value,
+//         key : value
+//     }
+// ]
+
+// var json_obj = [
+//     {
+//         name : 'abi',
+//         age : 10,
+//         place : 'trichy'
+//     },
+//     {
+//         name : 'anu',
+//         age : 20,
+//         place : 'chennai'
+//     },
+//     {
+//         name : 'hari',
+//         age : 40,
+//         plaace : 'madurai'
+//     }
+// ]
+
+// console.log(json_obj)
+// console.log(json_obj[0])
+// console.log(json_obj[0].place)
+// console.log(json_obj[1])
+// console.log(json_obj[2])
+// console.log(json_obj[2].age)
+
+// async await function 
+
+// async function fun(){
+//     var url = await fetch('https://jsonplaceholder.typicode.com/users')
+//     var data = await url.json()
+//     console.log(data[0].name)
+//     console.log(data[0].email)
+// }
+// fun()
+
+// var func = async () => {
+//     var url = await fetch('https://jsonplaceholder.typicode.com/posts')
+//     var data = await url.json()
+//     console.log(data[0].title)
+//     console.log(data[6].title)
+// }
+// func()
+
+// LOCAL VARIABLE
+
+// function fun(){
+//     var a = 10;
+//     console.log(a) // 10
+// }
+// fun()
+
+// console.log(a) // a is not defined
+
+// GLOBAL VARIBALE 
+
+// var a = 20;
+
+// function fun(){
+//     console.log(a) // 20
+// }
+// fun()
+
+// console.log(a) // 20
+
+// CONDTIONAL STATEMENT 
+
+// IF 
+
+// if(condition){
+    // statement
+// }
+
+// if(8<3){
+//     console.log('True')
+// }
+
+// if(8>4 && 4<3){ // true && false
+//     console.log('True')
+// }
+
+// if(6>4 || 5<3){ // True || False
+//     console.log('True')
+// }
+
+// IF ELSE 
+
+// if(condition){
+    // statement
+// }
+// else{
+    // statement
+// }
+
+// if(8<5){
+//     console.log('True')
+//     console.log('True')
+//     console.log('True')
+//     console.log('True')
+//     console.log('True')
+// }
+// else{
+//     console.log('False')
+// }
+
+// var age = 18;
+
+// if(age >= 18){
+//     console.log('Eligible to Vote')
+// }
+// else{
+//     console.log('Not Eligible to vote')
+// }
+
+// console.log((age >= 18) ? 'Eligible to vote' : 'Not Eligible to Vote')
+
+// var age = prompt('Enter your age');
+
+// if(age >= 18){
+//     console.log('Eligible to vote')
+// }
+// else{
+//     console.log('Not Eligible to vote')
+// }
+
+// var num  = prompt('Enter a Number');
+
+// if(num % 2 == 0){
+//     console.log('Even Number')
+// }
+// else{
+//     console.log('Odd Number')
+// }
+
+// var count = document.getElementById('count').innerHTML
+
+// function addFun(){
+//     if(count < 10){
+//         count = Number(count + 1)
+//         document.getElementById('count').innerHTML = count
+//     }
+// }
+
+// function removeFun(){
+//     if(count > 0){
+//         count = --count;
+//         document.getElementById('count').innerHTML = count
+//     }
+// }

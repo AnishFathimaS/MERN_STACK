@@ -60,25 +60,10 @@
 
 // PROPS
 
-// DIRECT (PROPS)
-
-    // import React from 'react'
-    // import Day3_Props from './Day3_Props'
-
-    // const Day3 = () => {
-    //   return (
-    //     <>
-    //       <Day3_Props name="Abi" message="Welcome To React" />  
-    //     </>
-    //   )
-    // }
-
-    // export default Day3
-
 // VARIABLES (PROPS)
 
     // import React from 'react'
-    // import Day3_Props from './Day3_Props'
+    // import Day3_Props from './Day3_props.jsx'
 
     // const Day3 = () => {
 
@@ -86,11 +71,28 @@
     //     var age = 21
     //     var place = "Trichy"
 
-    //   return (
+    //     return (
+    //         <>
+    //             <Day3_Props user_name={name} user_age={age} user_place={place}/>
+    //             {/* user_name => props name
+    //             {name} => variable name */}
+    //         </>
+    //     )
+    // }
+
+    // export default Day3
+
+// DIRECT (PROPS)
+
+    // import React from 'react'
+    // import Day3_Props from './Day3_Props'
+
+    // const Day3 = () => {
+    // return (
     //     <>
-    //         <Day3_Props stu_name={name} stu_age={age} stu_place={place} />
+    //         <Day3_Props name="Abi" age='8' />  
     //     </>
-    //   )
+    // )
     // }
 
     // export default Day3
@@ -98,38 +100,37 @@
 // ARARY (PROPS)
 
     // import React from 'react'
-    // import Day3_Props from './Day3_Props'
-
+    // import Day3_props from './Day3_Props.jsx'
+    
     // const Day3 = () => {
-
-    //     var arr = ["HTML" , "CSS" , "BOOTSTRAP" , "JAVA SCRIPT" , "REACT"]
-
-    //   return (
-    //     <>
-    //         <Day3_Props array_value={arr} />
-    //     </>
-    //   )
+    //     var arr = ['html', 'css', 'bootstrap', 'javascript']
+    //     return (
+    //         <>
+    //             <Day3_props course_arr={arr}/>
+    //         </>
+    //     )
     // }
-
+    
     // export default Day3
 
 // ARRAY MAP (PROPS)
 
-    // import React from 'react'
-    // import Day3_Props from './Day3_Props'
+    import React from 'react'
+    import Day3_Props from './Day3_Props'
 
-    // const Day3 = () => {
+    const Day3 = () => {
 
-    //     var arr = ["HTML" , "CSS" , "BOOTSTRAP" , "JAVA SCRIPT" , "REACT"]
+        var arr = ["HTML" , "CSS" , "BOOTSTRAP" , "JAVA SCRIPT" , "REACT"]
 
-    //   return (
-    //     <>
-    //         <Day3_Props array_value={arr} />
-    //     </>
-    //   )
-    // }
+      return (
+        <>
+            <Day3_Props array_value={arr} />
+        </>
+      )
+    }
 
-    // export default Day3
+    export default Day3
+
 
 // OBJECT (PROPS)
 
@@ -153,36 +154,67 @@
 
     // export default Day3
 
+
+//     import React from 'react'
+// import Day3_Props from './Day3_Props.jsx'
+    
+//     const Day3 = () => {
+//         var json_obj = [
+//             {
+//                 name : 'abi',
+//                 age : 8,
+//                 place : 'trichy'
+//             },
+//             {
+//                 name : 'anu',
+//                 age : 20,
+//                 place :'chennai'
+//             },
+//             {
+//                 name : 'hari',
+//                 age : 25,
+//                 place : 'madurai'
+//             }
+//         ]
+//         return (
+//             <>
+//                 <Day3_Props props = {json_obj}/>
+//             </>
+//         )
+//     }
+    
+//     export default Day3
+
 // JSON (PROPS)
 
-import React from 'react'
-import Day3_Props from './Day3_Props'
+// import React from 'react'
+// import Day3_Props from './Day3_Props'
 
-const Day3 = () => {
+// const Day3 = () => {
 
-    var data = [
-        {
-            name : "Abi",
-            age : "21", 
-            place : "Trichy"
-        }, 
-        {
-            name : "Banu",
-            age : "22", 
-            place : "Chennai"
-        }, 
-        {
-            name : "Begum",
-            age : "20", 
-            place : "Madurai"
-        }
-    ]
+//     var data = [
+//         {
+//             name : "Abi",
+//             age : "21", 
+//             place : "Trichy"
+//         }, 
+//         {
+//             name : "Banu",
+//             age : "22", 
+//             place : "Chennai"
+//         }, 
+//         {
+//             name : "Begum",
+//             age : "20", 
+//             place : "Madurai"
+//         }
+//     ]
 
-  return (
-    <>
-        <Day3_Props json_value={data} />
-    </>
-  )
-}
+//   return (
+//     <>
+//         <Day3_Props json_value={data} />
+//     </>
+//   )
+// }
 
-export default Day3
+// export default Day3
