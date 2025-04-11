@@ -1,6 +1,6 @@
 // DAY - 2
 
-// VARIABLES, ARRAY, ARRAY USING MAP, OBJECT, JSON, JSON USING MAP, FUNCTION INSIDE ANOTHER FUNCTION, FETCHING DATA IN CONSOLE, CLASS COMPONENTES (3)
+// VARIABLES (NUM, STR), ARRAY, ARRAY USING MAP, OBJECT, JSON, JSON USING MAP, FUNCTION INSIDE ANOTHER FUNCTION, FETCHING DATA IN CONSOLE, CLASS COMPONENTES (3)
 
 // VARIABLES
 
@@ -12,6 +12,20 @@
 //   return (
 //     <>
 //       <h1>{a} {b}</h1>
+//     </>
+//   )
+// }
+
+// export default Day2
+
+// import React from 'react'
+
+// const Day2 = () => {
+//   var a = 10;
+//   var b = 20;
+//   return (
+//     <>  
+//       <h1>{a + b}</h1>
 //     </>
 //   )
 // }

@@ -43,6 +43,7 @@ HA - JS DAY 2 ( variables, DataTypes ) ( Bootstrap OverAll )
 
 FRIDAY 
 
+<<<<<<< HEAD
 SC - HTML ( Leave )
 NM - REACT DAY 4 ( use state(1) ) ( Props )
 3 - conditional statements ( conditional statements 1 )
@@ -59,3 +60,15 @@ Friday - Begum2, Jude, Dinesh, Aakash
 3 TO 4 - 6 ( BEGUM2 )
 4 TO 5 - NM
 5 TO 6 - HA 
+=======
+SC - HTML
+NM - REACT DAY 4 ( use state(1) )
+3 - conditional statements
+3 - conditional statements
+<<<<<<< HEAD
+HA - JS DAY 3 ( String Methods, Number Methods )
+=======
+HA - JS DAY 3 ( String Methods, Number Methods )
+
+>>>>>>> 4eab4a48f9235e91e3654627cc52ecef56126877
+>>>>>>> bb54b5881f99f5fb3dabff3e737f6b4ac66122f6

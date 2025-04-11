@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react'
 
 // function Day2() {
@@ -201,3 +202,5 @@
 // }
 
 // export default Day2
+=======
+>>>>>>> bb54b5881f99f5fb3dabff3e737f6b4ac66122f6
