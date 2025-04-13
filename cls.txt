@@ -43,7 +43,6 @@ HA - JS DAY 2 ( variables, DataTypes ) ( Bootstrap OverAll )
 
 FRIDAY 
 
-<<<<<<< HEAD
 SC - HTML ( Leave )
 NM - REACT DAY 4 ( use state(1) ) ( Props )
 3 - conditional statements ( conditional statements 1 )
