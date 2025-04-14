@@ -1,21 +1,21 @@
-// ADD COUNTER WITH USE STATE
+// ADD COUNTER WITHOUT USE STATE
 
     // import React from 'react'
 
     // const Day4_State_1 = () => {
-    //   var num = 1;
+    //     var num = 1;
 
-    //   const addFun = () => {
-    //     num = num + 1;
-    //     console.log(num)
-    //   }
+    //     const addFun = () => {
+    //         num = num + 1;
+    //         console.log(num)
+    //     }
 
-    //   return (
-    //     <>
-    //       <h1>{num}</h1>
-    //       <button onClick={addFun}>Add</button>
-    //     </>
-    //   )
+    //     return (
+    //         <>
+    //         <h1>{num}</h1>
+    //         <button onClick={addFun}>Add</button>
+    //         </>
+    //     )
     // }
 
     // export default Day4_State_1
@@ -134,13 +134,35 @@
     
     // export default Day4_State_1
 
-// TOGGLE THEME
+// COLOR TOGGLE 
 
     // import React, { useState } from 'react'
     
     // const Day4_State_1 = () => {
+    //     const [bgColor, setBgColor] = useState('blue');
 
-    //     var [darkMode, setDarkMode] = useState(true)
+    //     const changeColor = () => {
+    //         const newColor = bgColor === 'blue' ? 'green' : 'blue';
+    //         setBgColor(newColor);
+    //     };
+
+    //     return (
+    //         <div style={{ backgroundColor: bgColor, padding : '30px' }}>
+    //         <h2>Background Color Changer</h2>
+    //         <button onClick={changeColor}>Change Color</button>
+    //         </div>
+    //     );
+    // }
+    
+    // export default Day4_State_1
+
+// TOGGLE THEME
+
+    // import React, {useState} from 'react'
+    
+    // const Day4_State_1 = () => {
+
+    //     var [ darkMode, setDarkMode ] = useState(true)
 
     //     var themeStyle = {
     //         color : darkMode ? 'white' : 'black',
@@ -148,18 +170,15 @@
     //         padding : '30px'
     //     }
 
-    //     // const toggleTheme = () => {
-    //     //     setDarkMode(!darkMode)
-    //     // }
+    //     const themeToggle = () => {
+    //         setDarkMode(!darkMode)
+    //     }
 
     //     return (
     //         <>
-    //             <div style={themeStyle}>
-    //                 <p>This is {darkMode ? 'Dark' : 'Light'} Mode</p>
-    //             </div>
-    //             <br />
-    //             {/* <button onClick={toggleTheme}>{darkMode ? 'Light' : 'Dark'}</button> */}
-    //             <button onClick={() => {setDarkMode(!darkMode)}}>{darkMode ? 'Light' : 'Dark'}</button>
+    //             <p style={themeStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fuga sed ut aspernatur eius voluptas qui quis? Sit nisi qui possimus doloribus ea! Distinctio libero similique id repudiandae dicta ad ducimus facilis odio atque tempora magni mollitia ipsum aliquam repellendus, omnis doloremque consequatur delectus earum, iusto corporis pariatur! Voluptatum, nobis.</p>
+
+    //             <button onClick={themeToggle}>{darkMode ? 'Light Mode' : 'Dark Mode'}</button>
     //         </>
     //     )
     // }

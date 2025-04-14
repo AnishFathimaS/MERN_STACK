@@ -409,6 +409,71 @@
 // console.log(json_obj[2])
 // console.log(json_obj[2].age)
 
+// var abc = [
+//     {
+//         name : 'Abinaya',
+//         age : 20,
+//         place : 'Trichy'
+//     },
+//     {
+//         name : 'Anu',
+//         age : 23,
+//         place : 'Chennai'
+//     },
+//     {
+//         name : 'Hari',
+//         age : 25,
+//         place : 'Madurai'
+//     },
+// ]
+
+// console.log(abc[2].place)
+
+
+
+
+// async function fun(){
+//     var url = await fetch('https://jsonplaceholder.typicode.com/users')
+//     var data = await url.json()
+//     console.log(data)
+// }
+// fun()
+
+
+// async function fun(){
+//     var url = await fetch('https://jsonplaceholder.typicode.com/posts')
+//     var data = await url.json();
+//     console.log(data[5].title);
+// }
+// fun()
+
+
+// var count = document.getElementById('num').innerHTML;
+
+// function addFun(){
+//     if(count < 10){
+//         count = Number(count + 1);
+//         document.getElementById('num').innerHTML= count
+//         document.getElementById('name').innerHTML = 
+//     }
+//     else{
+//         document.getElementById('name').innerHTML = 'You Reached your maximum Limit'
+//     }
+// }
+
+// function removeFun(){
+//     if(count > 0){
+//         count = Number(count - 1);
+//         document.getElementById('num').innerHTML= count;
+//         document.getElementById('name').innerHTML = ''
+//     }
+//     else{
+//         document.getElementById('name').innerHTML = 'You Reached your minimum Limit'
+//     }
+// }
+
+
+
 // async await function 
 
 // async function fun(){
@@ -439,6 +504,17 @@
 
 // GLOBAL VARIBALE 
 
+// let a = 20;
+
+// console.log(a)
+
+// function fun(){
+//     console.log(a)
+// }
+// fun()
+
+// console.log(a)
+
 // var a = 20;
 
 // function fun(){
@@ -456,12 +532,29 @@
     // statement
 // }
 
+// if(8<6){
+//     console.log('True')
+// }
+
+
+
+
+
+
+
+
+
+
+
 // if(8<3){
 //     console.log('True')
 // }
 
 // if(8>4 && 4<3){ // true && false
 //     console.log('True')
+// }
+// else{
+//     console.log('False')
 // }
 
 // if(6>4 || 5<3){ // True || False
@@ -477,20 +570,16 @@
     // statement
 // }
 
-// if(8<5){
-//     console.log('True')
-//     console.log('True')
-//     console.log('True')
-//     console.log('True')
+// if(8>5){
 //     console.log('True')
 // }
 // else{
 //     console.log('False')
 // }
 
-// var age = 18;
+// var age = 12;
 
-// if(age >= 18){
+// if(age >= 18){ //  12 >= 18
 //     console.log('Eligible to Vote')
 // }
 // else{
@@ -501,20 +590,57 @@
 
 // var age = prompt('Enter your age');
 
-// if(age >= 18){
-//     console.log('Eligible to vote')
-// }
-// else{
-//     console.log('Not Eligible to vote')
+
+// function fun(){
+//     // var age = document.getElementById('num1').value;
+
+//     var age = document.myform.num1.value;
+//     if(age >= 18){
+//         document.getElementById('eligible').innerHTML = 'Eligible to vote'
+//     }
+//     else{
+//         document.getElementById('eligible').innerHTML = 'Not Eligible to vote'
+//     }
 // }
 
-// var num  = prompt('Enter a Number');
+
+// var num = 4;
+
+// if(num % 2 == 0){ // 4 % 2 == 0 
+//     console.log('Even')
+// }
+// else{
+//     console.log('Odd')
+// }
+
+// var num  =  prompt('Enter a Number');
 
 // if(num % 2 == 0){
 //     console.log('Even Number')
 // }
 // else{
 //     console.log('Odd Number')
+// }
+
+// var count = document.getElementById('num').innerHTML
+
+// count = 0
+
+// function addFun(){
+//     // var count  = 1;
+//     if(count < 10){
+//         count = Number(count + 1) // 0 + 1 = 1
+//         document.getElementById('num').innerHTML = count
+//     }
+
+// }
+
+
+// function removeFun(){
+//     if(count > 0){
+//         count = Number(count - 1)
+//         document.getElementById('num').innerHTML = count
+//     }
 // }
 
 // var count = document.getElementById('count').innerHTML
@@ -530,5 +656,227 @@
 //     if(count > 0){
 //         count = --count;
 //         document.getElementById('count').innerHTML = count
+//     }
+// }
+
+// IF
+// IF ELSE
+// ELSE IF 
+// NESTED IF
+
+// SYNTAX 
+
+// if(condition){
+//     // statement
+// }
+// else if(condition){
+//     // statement
+// }
+// else if(condition){
+//     // statement
+// }
+// else if(condition){
+//     // statement
+// }
+// else{
+//     // statement
+// }
+
+// var mark = 30;
+
+// if(mark >= 90){ // 70 > 90
+//     console.log('Grade A')
+// }
+// else if(mark >= 70){ // 70 > 70
+//     console.log('Grade B')
+// }
+// else if(mark >= 50){ // 70 > 50
+//     console.log('Grade C')
+// }
+// else if(mark >= 30){ // 35 > 30
+//     console.log('Grade D')
+// }
+// else{
+//     console.log('Fail')
+// }
+
+// age = below 18 => child, greater than 18 => adult, greater than 30 => men, greater than 45 => senior 
+
+// var age = 15;
+
+// if(age >= 45 ){
+//     console.log('Senior')
+// }
+// else if(age >= 30){
+//     console.log('Men');
+// }
+// else if(age >= 18){
+//     console.log('Adult')
+// }
+// else{
+//     console.log('Child')
+// }
+
+// var num = 'abc';
+
+// if(num % 2 == 0){
+//     console.log('Even')
+// }
+// else{
+//     console.log('Odd')
+// }
+
+// var num = 5;
+
+// if(isNaN(num)){
+//     console.log('Please Enter a Number')
+// }
+// else{
+//     if(num % 2 == 0){
+//         console.log('Even');
+//     }
+//     else{
+//         console.log('Odd');
+//     }
+// }
+
+// ELSE IF 
+
+// if(condition){
+//     // statement
+// }
+// else if(condition){
+//     // statement
+// }
+// else if(condition){
+//     // statement
+// }
+// else if(condition){
+//     // statement
+// }
+// else{
+//     // statement
+// }
+
+// var mark = 80;
+
+// if(mark >= 90){
+//     console.log('Grade A')
+// }
+// else if(mark >=70){
+//     console.log('Grade B')
+// }
+// else if(mark >= 50){
+//     console.log('Grade C')
+// }
+// else if(mark >= 30){
+//     console.log('Grade D');
+// }
+// else{
+//     console.log('Fail')
+// }
+
+// function fun(){
+//    var num = document.getElementById('inputBox').value;
+
+//     if(num % 2 == 0){
+//        document.getElementById('value').innerHTML= `${num} is Even`
+//     }
+//     else{
+//         document.getElementById('value').innerHTML= `${num} is Odd`
+//     }
+// }
+
+// age = greater than 45 => senior 
+// greater than 30 => men
+// greater than 18 => adult 
+// below => child 
+
+// var age = 20;
+
+// if(age >= 45){
+//     console.log('Senior')
+// }
+// else if(age >= 30){
+//     console.log('Men')
+// }
+// else if(age >= 18){
+//     console.log('Adult')
+// }
+// else{
+//     console.log('Child')
+// }
+
+// var a = 'abc';
+
+// if(a % 2 == 0){
+//     console.log('Even')
+// }
+// else{
+//     console.log('Odd')
+// }
+
+// var a = 'abc';
+
+// if(isNaN(a)){
+//     console.log('Please Enter a Number')
+// }
+// else{
+//     if(a % 2 == 0){
+//         console.log('Even')
+//     }
+//     else{
+//         console.log('Odd')
+//     }
+// }
+
+// var a = 'abc';
+
+// if(!isNaN(a)){
+//     if(a % 2 == 0){
+//         console.log('Even')
+//     }
+//     else{
+//         console.log('Odd')
+//     }
+// }
+// else{
+//     console.log('Please Enter a Number')
+// }
+
+// var a = 8;
+
+// if(isFinite(a)){
+//     if(a % 2 == 0){
+//         console.log('Even')
+//     }
+//     else{
+//         console.log('Odd')
+//     }
+// }
+// else{
+//     console.log('Please Enter a Number')
+// }
+
+// var mark = 'abc';
+
+// if(isNaN(mark)){
+//     console.log('Please Enter Your Mark')
+// }
+// else{
+//     if(mark >= 90){
+//         console.log('Grade A')
+//     }
+//     else if(mark >= 70){
+//         console.log('Grade B')
+//     }
+//     else if(mark >= 50){
+//         console.log('Grade C')
+//     }
+//     else if(mark >= 30){
+//         console.log('Grade D')
+//     }
+//     else{
+//         console.log('Fail')
 //     }
 // }
