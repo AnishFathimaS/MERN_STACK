@@ -23,8 +23,8 @@
             event.preventDefault();
             var count = 5;
             document.getElementById('text').innerHTML = `Redirecting in ${count}...`;
-            var interval = setInterval(() => {
-                count--;
+            setInterval(() => {
+                count = count - 1;
                 document.getElementById('text').innerHTML = `Redirecting in ${count}...`;
 
                 if (count === 0) {

@@ -7,47 +7,98 @@
 </head>
 <body>
 
-    <h1 id="tag"></h1>
+    <!-- SET TIMEOUT -->
+
+    <!-- <h1 id="tag">Hello</h1> -->
+
+    <!-- <pYou will be redirect to the next page within 3 seconds</p> -->
 
     <script>
 
-        // setTimeout(function , time)
+        // SET TIMEOUT ( DELAY )
 
-        let timer = setTimeout(() =>{
-            console.log("Hello")
-        } , 3000)
+        // setTimeout(function_name , duration)
 
-        clearTimeout(timer)
+        // function fun(){
+        //     document.getElementById('tag').innerHTML = 'Hi'
+        // }
+        // setTimeout(fun, 3000)
+
+        // const fun = () => {
+        //     document.getElementById('tag').innerHTML = 'Hii'
+        // }
+        
+        // setTimeout(fun, 3000)
 
         // setTimeout(() => {
-        //     document.getElementById("tag").innerHTML = "Set Time out"
-        // }, 2000)
+        //     document.getElementById('tag').innerHTML = 'Hii'
+        // }, 3000)
 
         // setTimeout(() => {
-        //     window.location.href = "https://www.youtube.com/"
+        //     window.location.href = 'https://youtube.com'
+        //     window.location.href = 'navigate.html'
+        // }, 3000)
+
+    </script>
+
+    <!-- SET INTERVAL -->
+
+    <!-- <p id="count"></p> -->
+    <!-- <p id="text"></p> -->
+
+    <script>
+
+        // SET INTERVAL
+
+        // setInterval(function_name, duration)
+
+        // function fun(){
+        //     document.getElementById('text').innerHTML += 'Hello <br>'
+        // }
+        // setInterval(fun, 2000)
+
+        // setInterval(() => {
+        //     document.getElementById('text').innerHTML += 'Hello <br>'
         // }, 2000)
 
-        // setInterval(()=>{
-        //     console.log("Hello")
-        // }, 2000)
+        // var count = 0;
+        // setInterval(() => {
+        //     count = count + 1;
+        //     document.getElementById('count').innerHTML = count
+        // }, 1000)
 
-        // let count = 1
-        // const inerval = setInterval(()=>{
-        //     document.write(`count : ${count}`)
-        //     ++count;
-        //     if(count > 5){
-        //         clearInterval(inerval)
+        // var count = 0;
+        // setInterval(() => {
+        //     if(count < 10){
+        //         count = count + 1;
+        //         document.getElementById('count').innerHTML = count
         //     }
-        // }, 100)
+        // }, 1000)
 
-        var num = 0;
+        // var count = 0;
+        // setInterval(() => {
+        //     count = count - 1;
+        //     document.getElementById('count').innerHTML = count;
+        // }, 1000)
 
-        setInterval(() => {
-            ++num;
-            if(num <= 100){
-                document.getElementById("tag").innerHTML = num;
-            }
-        }, 10)
+        // var count = 10;
+        // setInterval(() => {
+        //     if(count > 0){
+        //         count = count - 1;
+        //         document.getElementById('count').innerHTML = count;
+        //     }
+        // }, 1000)
+
+        // var count = 10;
+        // setInterval(() => {
+        //     if(count > 0){
+        //         count = count - 1;
+        //         document.getElementById('count').innerHTML = count;
+        //         if(count == 0){
+        //             document.getElementById('text').innerHTML = 'Time Up';
+        //         }
+        //     }
+        // }, 1000)
 
     </script>
     

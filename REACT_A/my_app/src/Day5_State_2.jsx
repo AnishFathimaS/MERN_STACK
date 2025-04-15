@@ -1,49 +1,57 @@
 // DIGITAL CLOCK
 
-    // import React, { useState } from 'react';
-
+    // import React, { useState } from 'react'
+    
     // const Day5_State_2 = () => {
-    //   const [time, setTime] = useState(new Date().toLocaleTimeString());
 
-    //   const updateTime = () => {
-    //     setTime(new Date().toLocaleTimeString());
-    //   };
+    //     var [time, setTime] = useState(new Date().toLocaleTimeString())
 
-    //   setInterval(updateTime, 1000); // Update time every second
+    //     const timeFun = () => {
+    //         setTime(new Date().toLocaleTimeString())
+    //     }
 
-    //   return (
-    //     <div style={{ fontSize: '50px', textAlign: 'center', marginTop: '20%' }}>
-    //       {time}
-    //     </div>
-    //   );
-    // };
+    //     setInterval(timeFun, 1000)
 
-    // export default Day5_State_2;
+    //     return (
+    //         <>
+    //             <h1>{time}</h1>
+    //         </>
+    //     )
+    // }
+    
+    // export default Day5_State_2
+
 
 // QR CODE GENERATOR
 
-    // import React, { useState } from 'react'
-
+    // import React, {useState} from 'react'
+    
     // const Day5_State_2 = () => {
-    //     const [text, setText] = useState('');
-    //     const [qr, setQr] = useState('');
-    
-    //     const handleClick = () => {
-    //       setQr(`https://api.qrserver.com/v1/create-qr-code/?data=${text}`);
-    //     };
-    
-    //     return (
-    //       <div style={{ textAlign: 'center', marginTop: '50px' }}>
-    //         <input onChange={(e) => setText(e.target.value)} placeholder="Enter text" />
-    //         <button onClick={handleClick}>Generate</button>
-    //         <div>
-    //           {qr && <img src={qr} alt="QR Code" style={{ marginTop: '20px' }} />}
-    //         </div>
-    //       </div>
-    //     );
-    // }
 
+    //     var [ text, setText ] = useState('')
+    //     var [ qr, setQr ] = useState('')
+
+    //     const inputText = (event) => {
+    //         setText(event.target.value)
+    //     }
+
+    //     const generateQR = () => {
+    //         setQr(`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${text}`)
+    //     }
+
+    //     return (
+    //         <>
+    //             <input type="text" onChange={inputText}/>
+    //             <button onClick={generateQR}>Generate</button>
+    //             <br />
+    //             {qr && <img src={qr} alt="" />}
+    //         </>
+    //     )
+    // }
+    
     // export default Day5_State_2
+
+
 
 // SIMPLE CALCULATOR 
 
