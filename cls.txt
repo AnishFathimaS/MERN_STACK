@@ -8,40 +8,41 @@
 05 - 06 -> HariBabu, Aakash
 06 - 07 -> Free 
 
-14-04-2025
-
-MONDAY
+MONDAY 14-04-2025
 
 SC - CSS ( Day 1 - Types of CSS, Selectors, Color, Background-Colors, Text Properties, Border ) ( LEAVE )
 NM - REACT ( Use State 1 ) ( Use State 1 )
 6 - Conditional Statements ( Conditional Statements )
 HA - Javascript Day 1 ( Types of Outputs, Types of JS ) ( LEAVE )
 
-TUESDAY 
+TUESDAY 15-04-2025
 
-SC - CSS ( Day 2 - Margin, Padding, Background Image, Position, Text-shadow, Box-shadow, List style, Over Flow,  ) ( CSS - Types of CSS ) 
+SC - CSS ( Day 2 - Margin, Padding, Background Image, Position, Text-shadow, Box-shadow, List style, Over Flow x) ( CSS - Types of CSS ) 
 NM - REACT ( Use State 2 ) ( Use State 2 )
 6 - Set Time Out, Set Interval, ( Set Interval )
-HA - Javascript Day 2 ( Variables, DataTypes) ( Types of Outputs, Types of JS )
+HA - Javascript Day 2 ( Variables, DataTypes ) ( Types of Outputs, Types of JS )
 
-WEDNESDAY
+WEDNESDAY 16-04-2025
 
-SC - CSS ( Day 3 - Flex, Animation, Root Variable, Media Query ) 
-NM - REACT ( Use Effect 1 ) 
-6 - Loops
-HA - Javascript Day 3 ( String Methods )
+SC - CSS ( Day 3 - Flex, Animation, Root Variable ) ( Selectors, Border, Text Properties )
+NM - REACT ( Use Effect 1 ) ( Assets, Calculator )
+6 - Loops ( Set Timeout )
+HA - Javascript Day 3 ( String Methods ) ( Variables, DataTypes )
 
-THURSDAY
+THURSDAY 17-04-2025
 
-NM - REACT ( Use Effect 2 )
-6 - Array Methods 1
-HA - Javascript Day 3 ( Number Methods )
+SC - CSS ( Margin, Padding, Background Image, Text-shadow, Box-shadow )
+NM - REACT ( Use Effect 2 ) ( Use Effect )
+6 - Array Methods 1 ( Loops )
+HA - Javascript Day 3 ( Number Methods ) ( String Methods )
 
-FRIDAY 
+FRIDAY 18-04-2025
 
 NM - REACT ( Use Ref 1 )
 6 - Array Methods 2
 HA - Javascript Day 4 ( Operators ) 
 
-Monday - All Present
-Tuesday - All Present
+
+14-04-2025 - Monday - ( Work Half Day )
+15-04-2025 - Tuesday - Absent - Salman, Megha Shri
+16-04-2025 - Wednesday - Absent - Salman, HariBabu

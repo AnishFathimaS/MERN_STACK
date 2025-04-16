@@ -6,103 +6,115 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- LOOPS -->
+
+    <!-- FOR, NESTED FOR, WHILE, DO WHILE -->
+
     <script>
 
         // FOR
 
         // SYNTAX
 
-            // for(initailize; condition; increment /  decrement){
-            //   statments
-            // }
-
-        // INCREMENT   
-        
-        // Example - 1
-
-            // for(let i=1; i <= 5; i++){
-            //     console.log(i)
-            // }
-
-        // Example - 2
-
-            // var otp = "";
-
-            // for(let i=1; i <= 5; i++){
-            //     otp += Math.floor(Math.random()*10)
-            // }
-
-            // console.log("Your OTP : " + otp);
-
-        // Example - 3
-
-            // let arr = ["HTML", "CSS" ,"BOOTSRAP"]
-            
-            // for(let i=0 ; i <= arr.length-1 ; i++){
-            //     console.log(arr[i])
-            // }
-
-        // DECREMENT
-
-        // Example - 1
-
-            // for(let i=5; i>0; i--){
-            //     console.log(i)
-            // }
-
-        // Example - 2
-
-            // let word = "HELLO"
-            // let reverse = ""
-
-            // for(let i=word.length - 1; i>=0; i--){
-            //     reverse += word[i]
-            // }
-            // document.write("reversed word : " + reverse)
-
-        // NESTED FOR LOOP
-
-            // for(let i = 1; i <= 5; i++){
-            //     for(let j = 1; j <= 10; j++){
-            //         console.log(j , " + " , i , " = " , i+j)
-            //     }
-            // }
-
-        // WHILE
-
-        // SYNTAX
-
-            // initialize;
-            // while(condition){
-            //     statement;
-            //     Increment / Decrement;
+            // for(initailize; condition; increment / decrement){
+                // statement
             // }
 
         // INCREMENT
 
-            // let i = 1;
-            // while(i<=5){
+        // EXAMPLE - 1
+
+            // for(var i = 1; i <= 5; i++){
             //     console.log(i)
-            //     i++;
+            // }
+
+        // EXAMPLE - 2
+
+            // var otp = '' 
+
+            // for(var i = 1; i <= 5; i++){
+            //     otp += Math.floor(Math.random() * 10)
+            // }
+            // console.log(otp)
+
+        // EXAMPLE - 3
+
+            // var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
+
+            // for(var i = 0; i < arr.length; i++){
+            //     // console.log(arr[i])
+            //     // document.write(`<h1>${arr[i]}</h1>`)
             // }
 
         // DECREMENT
 
+        // EXAMPLE - 1
+
+            // for(let i = 10; i > 0; i--){
+            //     console.log(i)
+            // }
+
+        // EXAMPLE - 2
+
+            // var arr = [ 'html', 'css', 'bootstrap', 'javascript' ]
+
+            // for(let i = arr.length-1; i >= 0; i--){
+            //     // console.log(arr[i])
+            //     // document.write(`<h1>${arr[i]}</h1>`)
+            // }
+
+        // EXAMPLE - 3
+
+            // var text = 'hello' // olleh
+            // var reverse = ''
+
+            // for(var i = text.length-1; i >= 0; i--){
+            //     reverse += text[i]
+            // }
+            // console.log(reverse)
+
+        // NESTED FOR 
+
+            // for(let i = 1; i <= 5; i++){
+            //     for(let j = 1; j <= 10; j++){
+            //         console.log(`${j} * ${i} = ${i*j}`)
+            //     }
+            // }
+
+        // WHILE 
+
+        // SYNTAX 
+
+            // initialize;
+            // while(condition){
+            //      statement;
+            //      increment / decrement;
+            // }
+
+        // Increment 
+
+            // let i = 1;
+            // while(i <= 5){
+            //     console.log(i);
+            //     i++;
+            // }
+
+        // Decrement 
+
             // let i = 5;
-            // while(i>0){
+            // while(i > 0){
             //     console.log(i)
             //     i--;
             // }
 
-        // Example - 1
+        // EXAMPLE - 1 
 
-            // let password = "123";
-            // let userPassword = ""
-            // while( userPassword !==  password ){
-            //     userPassword = prompt("Enter Your Password : ")
+            // var passoword = '123';
+            // var userPassoword = '';
+            // while( userPassoword != password){
+            //     userPassoword = prompt('Enter your password : ')
             // }
-
-            // console.log("Access Granted!")
+            // console.log('Access Granted')
 
         // DO WHILE
 
@@ -138,9 +150,9 @@
             //     guess = prompt("Enter the correct number : ")
             // }while(guess != correctNumber)
 
-            // console.log("Yes! You've entered the correct number!")
+            // console.log("Yes! You've entered the correct number!")  
 
-        
     </script>
+    
 </body>
 </html>

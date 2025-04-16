@@ -1,147 +1,184 @@
-// SWITCH CASE 
+// VARIABLES
 
-// SYNTAX 
+// var -> redeclare, update
+// let -> not redeclare, update
+// const -> not declare, not update
 
-// switch(condition){
-//     case 1 :
-//         // statement
-//         break;
-//     case 2 :
-//         // statement
-//         break;
-//     case 3 :
-//         // statement
-//         break;
-//     default : 
-//         // statment
+// variable_type variable_name = data;
+
+// var
+
+// re declare
+
+// var a = 10; // declaration
+// var a = 20; // re declare
+// console.log(a)
+
+// update
+
+// var a = 10; // declaration
+// a = 20; // update
+// console.log(a)
+
+// let
+
+// not re declare
+
+// let a = 10;
+// let a = 20;
+// console.log(a) // already declared
+
+// update
+
+// let a = 10;
+// a = 20;
+// console.log(a)
+
+// const 
+
+// re declare
+
+// const a = 10;
+// const a = 20;
+// console.log(a) // already declared
+
+// update
+
+// const a = 10;
+// a = 20;
+// console.log(a) // assignment to constant variable
+
+// variable_name
+
+// abc 
+// abc123
+// abc_def
+// abc_123
+// firstName -> camel case
+
+// 123
+// 123abc
+// abc def
+// abc-def
+
+// DATA TYPES
+
+// NUMBER, STRING, BOOLEAN, OBJECT [ NULL ], FUNCTION, ARRAY, DATE
+
+// NUMBER
+
+// var num = 10;
+// console.log(num)
+// console.log(typeof(num))
+
+// STRING 
+
+// var text = "Hellooo";
+// console.log(text)
+// console.log(typeof(text))
+
+// var a = '10';
+// console.log(a)
+// console.log(typeof(a));
+
+// var b = 'Hello123';
+// console.log(b);
+// console.log(typeof(b));
+
+// BOOLEAN ( true, false )
+
+// var a = true;
+// console.log(a)
+// console.log(typeof(a))
+
+// var a = false;
+// console.log(a)
+// console.log(typeof(a))
+
+// NULL
+
+// var a = null;
+// console.log(a);
+// console.log(typeof(a))
+
+// UNDEFINED
+
+// var a;
+// console.log(a) // undefined
+
+// console.log(b) // not defined ( error )
+
+// FUNCTION*, OBJECT*, ARRAY*, DATE
+
+// FUNCTION
+
+// SYNTAX
+
+// function function_name(){
+    // statement
 // }
-
-// var num = 3;
-
-// switch(num){
-//     case 1 :
-//         console.log('Hello 1')
-//         break;
-//     case 2 :
-//         console.log('Hello 2')
-//         break;
-//     case 3 :
-//         console.log('Hello 3')
-//         break;
-//     default : 
-//         console.log('Invalid')
-// }
-
-// var num1 = document.getElementById('num1').value;
-// var num2 = document.getElementById('num2').value;
-// var operators =  document.getElementById('operator').value;
-
-// var num1 = 10;
-// var num2 = 5;
-// var operator = '*'
-
-// switch(operator){
-//     case '+' :
-//         var result = num1 + num2;
-//         console.log(result)
-//         break;
-//     case '-' :
-//         var result = num1 - num2;
-//         console.log(result)
-//         break;
-//     case '*' :
-//         var result = num1 * num2;
-//         console.log(result)
-//         break;
-//     case '/' :
-//         var result = num1 / num2;
-//         console.log(result)
-//         break;
-//     default : 
-//         var result = 'Invalid Operator'
-//         console.log(result)
-// }
-
-// var icon_arr = ['fa-solid fa-users', 'fa-solid fa-chalkboard-user', 'fa-solid fa-computer', 'fa-solid fa-user']
-
-// var num_arr = [1000, 500, 300, 100]
-
-// var text_arr = [ 'STUDENTS', 'TEACHER', 'DEPARTMENT', 'PROGRAMS']
-
-// document.write(`
-//     <div class="container">
-//         <div class="row">
-//             <div class="col-lg-3 cls">
-//                 <i class='${icon_arr[0]}'></i>
-//                 <h4 id='count1'></h4>
-//                 <p>${text_arr[0]}</p>
-//             </div>
-//             <div class="col-lg-3 cls">
-//                 <i class='${icon_arr[1]}'></i>
-//                 <h4 id=count2></h4>
-//                 <p>${text_arr[1]}</p>
-//             </div>
-//             <div class="col-lg-3 cls">
-//                 <i class='${icon_arr[2]}'></i>
-//                 <h4></h4>
-//                 <p>${text_arr[2]}</p>
-//             </div>
-//             <div class="col-lg-3 text-center">
-//                 <i class='${icon_arr[3]}'></i>
-//                 <h4></h4>
-//                 <p>${text_arr[3]}</p>
-//             </div>
-//         </div>
-//     </div>
-// `)
-
-// var count1 = 0;
-
-// setInterval(() => {
-//     if(count1 < 1100){
-//         count1 = count1 + 1;
-//         document.getElementById('count1').innerHTML = count1
-//     }
-// },10 )
-
-// var count2 = 0;
-
-// setInterval(() => {
-//     if(count2 < 200){
-//         count2 = count2 + 1;
-//         document.getElementById('count2').innerHTML = count2
-//     }
-// }, 10)
-
-// SET INTERVAL
-
-// setInterval(function_name, duration)
-
-// var count = 0
+// function_name()
 
 // function fun(){
-//     count = count + 1;
-//     document.getElementById('count').innerHTML = count
-// }
-// setInterval(fun, 100)
-
-// const fun = () => {
-    // count = count + 1;
-    // document.getElementById('count').innerHTML = count;
+//     alert('Hello Function')
 // }
 
-// setInterval(fun, 100)
+// OBJECT
 
-// setInterval(() => {
-//     count = count + 1;
-//     document.getElementById('count').innerHTML = count;
-// }, 100)
+// SYNTAX
 
-// var count = 100
+// variable_type object_name = {
+//     key : value,
+//     key : value,
+//     key : value,
+//     key : value
+// }
 
-// setInterval(() => {
-//     if(count < 1100){
-//         count = count + 1;
-//         document.getElementById('count').innerHTML = count;
-//     }
-// }, 10)
+// var obj = {
+//     name : 'abinaya',
+//     age : 20,
+//     place : 'trichy'
+// }
+
+// console.log(obj)
+// console.log(obj.age);
+
+// var details = {
+//     student_name : 'anu',
+//     tamil_mark : 90,
+//     english : 70,
+//     maths : 50,
+// }
+
+// console.log(details.student_name);
+// console.log(details.tamil_mark);
+
+// ARRAY - index, position starts with 0
+
+// SYNTAX
+
+// variable_type array_name = [ data, data, data ]
+
+// var arr = [ 'html', 'css', 'bootstrap', 'javascript'];
+// console.log(arr);
+// console.log(arr[0]);
+// console.log(arr[3]);
+
+// DATE
+
+// jan - 0
+// feb - 1
+// march - 2
+// april - 3
+
+// sun = 0
+// mon = 1
+// tues = 2
+// wed = 3
+
+// var todayDate = new Date();
+// console.log(todayDate);
+// console.log(todayDate.getDate());
+// console.log(todayDate.getMonth());
+// console.log(todayDate.getDay());
+// console.log(todayDate.getFullYear());

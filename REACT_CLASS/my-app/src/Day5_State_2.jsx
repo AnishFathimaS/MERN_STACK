@@ -51,25 +51,24 @@
     
     // export default Day5_State_2
 
-
-// SIMPLE CALCULATOR 
+// CALCULATOR
 
     // import React, { useState } from 'react'
-    
+
     // const Day5_State_2 = () => {
 
-    //     var [ input, setInput ] = useState("")
+    //     var [ input, setInput ] = useState('')
 
     //     const display = (e) => {
-    //         setInput(input + e.target.value);
+    //         setInput(input + e.target.value)
     //     }
 
     //     const sum = () => {
     //         try{
     //             setInput(eval(input))
     //         }
-    //         catch{
-    //             alert('Invalid Expression')
+    //         catch(error){
+    //             alert('Invalid')
     //             setInput('')
     //         }
     //     }
@@ -84,40 +83,45 @@
 
     //     return (
     //         <>
-    //             <div>
-    //                 <input type="text" value={input} readOnly />
-    //             </div>
+    //             <input type="text" value={input} readOnly />
+
     //             <div>
     //                 <input type="button" value='1' onClick={display}/>
     //                 <input type="button" value='2' onClick={display}/>
     //                 <input type="button" value='3' onClick={display}/>
     //                 <input type="button" value='4' onClick={display}/>
     //             </div>
+
     //             <div>
     //                 <input type="button" value='5' onClick={display}/>
     //                 <input type="button" value='6' onClick={display}/>
     //                 <input type="button" value='7' onClick={display}/>
     //                 <input type="button" value='8' onClick={display}/>
     //             </div>
+
     //             <div>
     //                 <input type="button" value='9' onClick={display}/>
     //                 <input type="button" value='0' onClick={display}/>
     //                 <input type="button" value='00' onClick={display}/>
     //                 <input type="button" value='.' onClick={display}/>
     //             </div>
+
     //             <div>
-    //                 <input type="button" value='+' onClick={display}/>
-    //                 <input type="button" value='-' onClick={display}/>
-    //                 <input type="button" value='*' onClick={display}/>
-    //                 <input type="button" value='/' onClick={display}/>
+    //                 <input type="button" value='+' onClick={display} />
+    //                 <input type="button" value='-' onClick={display} />
+    //                 <input type="button" value='*' onClick={display} />
+    //                 <input type="button" value='/' onClick={display} />
     //             </div>
+
     //             <div>
-    //                 <input type="button" value='=' onClick={sum}/>
-    //                 <input type="button" value='AC' onClick={allClear}/>
-    //                 <input type="button" value='DE' onClick={deleteNum}/>
+    //                 <input type="button" value='=' onClick={sum} />
+    //                 <input type="button" value='AC' onClick={allClear} />
+    //                 <input type="button" value='X' onClick={deleteNum} />
     //             </div>
+
+
     //         </>
     //     )
     // }
-    
+
     // export default Day5_State_2
