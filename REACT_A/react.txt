@@ -45,9 +45,13 @@ DAY - 11 => USE CONTEXT
 DAY - 12 => USE CONTEXT
 DAY - 13 => USE REDUCER
 DAY - 14 => USE REDUCER
+
 DAY - 15 => BOOTSTRAP COMPONENTS
+
+install - npm i react-bootstrap 
+
 DAY - 16 => ROUTING 
 DAY - 17 => CRUD 
 DAY - 18 => PACKAGES ( swiper, material ui, react components, daisy ui )
 
-PROJECT - COSTICA FROM THEME FOREST
+PROJECT - COSTICA FROM THEME FOREST 

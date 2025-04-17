@@ -182,3 +182,144 @@
 // console.log(todayDate.getMonth());
 // console.log(todayDate.getDay());
 // console.log(todayDate.getFullYear());
+
+// STRING METHODS 
+
+// length, position, charAt, indexOf, lowercase, uppercase, substr, includes, trim, replace, push, pop, shift, unshift
+
+// length - starts with 1
+
+// var a = 'hello';
+// console.log(a);
+// console.log(a.length);
+
+// var array = [ 'html', 'css', 'bootstrap', 'javascript' ]
+// console.log(array);
+// console.log(array.length);
+
+// position - starts with 0
+
+// var a = 'hello';
+// console.log(a[0]);
+// console.log(a[4]);
+
+// var text = 'javascript';
+// console.log(text[4]);
+
+// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ];
+// console.log(arr[1]);
+
+// charAt
+
+// var a = 'hello';
+// console.log(a);
+// console.log(a.charAt(4)); // o
+
+// indexOf
+
+// var a = 'hello';
+// console.log(a);
+// console.log(a.indexOf('e'));
+
+// lowercase
+
+// var text = 'HELLO';
+// console.log(text);
+// console.log(text.toLowerCase());
+
+// uppercase
+
+// var text = 'hello';
+// console.log(text);
+// console.log(text.toUpperCase());
+
+// substr(position, length)
+
+// var text = 'helloworld';
+// console.log(text);
+// console.log(text.substr(0, 5));
+// console.log(text.substr(5, 5));
+
+// var text = 'javascript';
+// console.log(text);
+// console.log(text.substr(0, 4));
+// console.log(text.substr(4, 6));
+
+// includes
+
+// var a = 'hello'
+// console.log(a.includes('h')); // true
+// console.log(a.includes('a')); // false
+
+// trim
+
+// var a = '      Hello      '
+// console.log(a);
+// console.log(a.trim());
+
+// var a = '     Hello      World      '
+// console.log(a);
+// console.log(a.trim());
+
+// replace (currentData, newData)
+
+// var a = 'hello world';
+// console.log(a);
+// console.log(a.replace('world', 'javascript'));
+
+// push
+
+// var arr = ['html', 'css', 'bootstrap'];
+// console.log(arr);
+// console.log(arr.push('javascript'));
+// console.log(arr);
+
+// pop
+
+// var arr = ['html', 'css', 'bootstrap', 'javascript']
+// console.log(arr); // 4
+// console.log(arr.pop()); // javascript
+// console.log(arr);  // 3
+
+// var arr = ['html', 'css', 'bootstrap', 'javascript'];
+// console.log(arr.push('abc')); // html, css, bootstrap, javascript, abc
+// console.log(arr.pop()); // html, css, bootstrap, javascript,
+// console.log(arr.pop()); // html, css, bootstrap
+// console.log(arr.push('xyz')); // html, css, bootstrap, xyz
+// console.log(arr.push('abc')); // html, css, bootstrap, xyz, abc
+// console.log(arr); // html css bootstrap xyz abc
+
+// shift
+
+// var arr = ['html', 'css', 'bootstrap', 'javascript'];
+// console.log(arr);
+// console.log(arr.shift());
+// console.log(arr);
+
+// unshift
+
+// var arr = ['html', 'css', 'bootstrap', 'javascript'];
+// console.log(arr);
+// console.log(arr.unshift('abc'));
+// console.log(arr);
+
+// var arr = ['html', 'css', 'bootstrap', 'javascript'];
+// console.log(arr.unshift('hello')); // 'hello', 'html', 'css', 'bootstrap', 'javascript'
+// console.log(arr.unshift('abc')); // 'abc', 'hello', 'html', 'css', 'bootstrap', 'javascript'
+// console.log(arr.shift()); // 'hello', 'html', 'css', 'bootstrap', 'javascript'
+// console.log(arr.shift()); // 'html', 'css', 'bootstrap', 'javascript'
+// console.log(arr.unshift('hello')); // 'hello', 'html', 'css', 'bootstrap', 'javascript'
+// console.log(arr.shift()); // 'html', 'css', 'bootstrap', 'javascript'
+// console.log(arr);
+
+// var arr = ['html', 'css', 'bootstrap']
+// console.log(arr.push('java'));
+// console.log(arr.push('abc'));
+// console.log(arr.unshift('xyz'));
+// console.log(arr.pop());
+// console.log(arr.unshift('hello'));
+// console.log(arr.shift());
+// console.log(arr.push('hi'));
+// console.log(arr.shift());
+// console.log(arr.pop());
+// console.log(arr); // html, css, bootstrap, java

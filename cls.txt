@@ -1,9 +1,11 @@
+BATCHES
+
 10 - 11 -> Summer Class
 11 - 12 -> Naveen, Monisha
 12 - 01 -> Shajitha, Jasmine, Ganapathy
 01 - 02 -> Lunch
 02 - 03 -> Free
-03 - 04 -> Maria, Jude, Dinesh
+03 - 04 -> Maria, Jude, Dinesh, 
 04 - 05 -> Free
 05 - 06 -> HariBabu, Aakash
 06 - 07 -> Free 
@@ -17,7 +19,7 @@ HA - Javascript Day 1 ( Types of Outputs, Types of JS ) ( LEAVE )
 
 TUESDAY 15-04-2025
 
-SC - CSS ( Day 2 - Margin, Padding, Background Image, Position, Text-shadow, Box-shadow, List style, Over Flow x) ( CSS - Types of CSS ) 
+SC - CSS ( Day 2 - Margin, Padding, Background Image, Position, Text-shadow, Box-shadow, List style, Over Flow) ( CSS - Types of CSS ) 
 NM - REACT ( Use State 2 ) ( Use State 2 )
 6 - Set Time Out, Set Interval, ( Set Interval )
 HA - Javascript Day 2 ( Variables, DataTypes ) ( Types of Outputs, Types of JS )
@@ -32,17 +34,18 @@ HA - Javascript Day 3 ( String Methods ) ( Variables, DataTypes )
 THURSDAY 17-04-2025
 
 SC - CSS ( Margin, Padding, Background Image, Text-shadow, Box-shadow )
-NM - REACT ( Use Effect 2 ) ( Use Effect )
-6 - Array Methods 1 ( Loops )
-HA - Javascript Day 3 ( Number Methods ) ( String Methods )
+NM - REACT ( Use Effect 2 ) ( Bootstrap )
+6 - Array Methods 1 ( Loops ) ( No Class )
+HA - Javascript Day 3 ( Number Methods ) ( String Methods ) 
 
 FRIDAY 18-04-2025
 
-NM - REACT ( Use Ref 1 )
+SC - CSS ( Link, List style, Opacity, OverFlow, Flex )
+NM - REACT ( Use Ref 1 ) ( Bootstrap )
 6 - Array Methods 2
 HA - Javascript Day 4 ( Operators ) 
 
-
 14-04-2025 - Monday - ( Work Half Day )
 15-04-2025 - Tuesday - Absent - Salman, Megha Shri
-16-04-2025 - Wednesday - Absent - Salman, HariBabu
+16-04-2025 - Wednesday - Absent - Salman, Hari Babu
+17-04-2025 - Thursday - Absent - Hari Babu 

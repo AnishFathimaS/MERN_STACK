@@ -63,7 +63,6 @@ const Modals = () => {
                     <Dropdown.Item>Link3</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
-
         </Container>
     )
 }
