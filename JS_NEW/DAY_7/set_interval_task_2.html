@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form onsubmit="fun(event)">
         <labe>Enter Your Name</labe>
         <input type="text" required>
         <br>
@@ -16,14 +16,16 @@
         <label>Enter Your Email</label>
         <input type="email" required>
         <br>
+        <input type="submit">
     </form>
 
-    <button onclick="fun()">Submit</button>
+    <!-- <button onclick="fun()">Submit</button> -->
 
     <p id="text"></p>
 
     <script>
-        function fun(){
+        function fun(event){
+            event.preventDefault();
             var count = 5;
             document.getElementById('text').innerHTML = `You will be redirect to the next page within ${count} seconds`;
             setInterval(() => {

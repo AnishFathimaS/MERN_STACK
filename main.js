@@ -1,325 +1,115 @@
-// VARIABLES
+// TO FIXED 
 
-// var -> redeclare, update
-// let -> not redeclare, update
-// const -> not declare, not update
+// var num = 10.456;
+// console.log(num);
+// console.log(num.toFixed())
 
-// variable_type variable_name = data;
+// var num = 10.578;
+// console.log(num);
+// console.log(num.toFixed())
 
-// var
+// TO STRING ( number to string )
 
-// re declare
-
-// var a = 10; // declaration
-// var a = 20; // re declare
-// console.log(a)
-
-// update
-
-// var a = 10; // declaration
-// a = 20; // update
-// console.log(a)
-
-// let
-
-// not re declare
-
-// let a = 10;
-// let a = 20;
-// console.log(a) // already declared
-
-// update
-
-// let a = 10;
-// a = 20;
-// console.log(a)
-
-// const 
-
-// re declare
-
-// const a = 10;
-// const a = 20;
-// console.log(a) // already declared
-
-// update
-
-// const a = 10;
-// a = 20;
-// console.log(a) // assignment to constant variable
-
-// variable_name
-
-// abc 
-// abc123
-// abc_def
-// abc_123
-// firstName -> camel case
-
-// 123
-// 123abc
-// abc def
-// abc-def
-
-// DATA TYPES
-
-// NUMBER, STRING, BOOLEAN, OBJECT [ NULL ], FUNCTION, ARRAY, DATE
-
-// NUMBER
-
-// var num = 10;
-// console.log(num)
-// console.log(typeof(num))
-
-// STRING 
-
-// var text = "Hellooo";
-// console.log(text)
-// console.log(typeof(text))
-
-// var a = '10';
-// console.log(a)
+// var a = 8;
 // console.log(typeof(a));
 
-// var b = 'Hello123';
+// var convert_a = a.toString();
+// console.log(typeof(convert_a));
+
+// Number() ( string to number )
+
+// var a = 'abc';
+// console.log(typeof(a));
+
+// var convert_a = Number(a);
+// console.log(typeof(convert_a));
+
+// var a = '123'
+// console.log(typeof(a));
+
+// var convert_a = Number(a);
+// console.log(typeof(convert_a));
+
+// isNaN() -> is Not a Number  ( string - true, number - false )
+
+// var a = 'abc';
+// console.log(isNaN(a));
+
+// var b = 12;
+// console.log(isNaN(b));
+
+// isFinite() ( string - false, number - true )
+
+// var a = 'abc';
+// console.log(isFinite(a));
+
+// var b = 678;
+// console.log(isFinite(b));
+
+// var c = 'abc123';
+// console.log(isFinite(c));
+
+// parseInt
+
+// string remove 
+// point value remove 
+// datatype change
+
+// var a = '123.456abc';
+// console.log(a); // 123.456abc
+// console.log(typeof(a)); // string
+
+// var convert_a = parseInt(a);
+// console.log(convert_a); // 123
+// console.log(typeof(convert_a)); // number
+
+// parseFloat
+
+// string remove
+// datatype change
+
+// var b = '123.456abc'
 // console.log(b);
 // console.log(typeof(b));
 
-// BOOLEAN ( true, false )
+// var convert_b = parseFloat(b);
+// console.log(convert_b);
+// console.log(typeof(convert_b));
 
-// var a = true;
-// console.log(a)
-// console.log(typeof(a))
+// Math.sqrt
 
-// var a = false;
-// console.log(a)
-// console.log(typeof(a))
-
-// NULL
-
-// var a = null;
+// var a = 81;
 // console.log(a);
-// console.log(typeof(a))
+// console.log(Math.sqrt(a));
 
-// UNDEFINED
+// var b = 36;
+// console.log(b);
+// console.log(Math.sqrt(b));
 
-// var a;
-// console.log(a) // undefined
+// Math.ceil
 
-// console.log(b) // not defined ( error )
+// var num = 6.45;
+// console.log(num.toFixed()); // 1 to 4 ( 6 ) above 5 ( 7 )
 
-// FUNCTION*, OBJECT*, ARRAY*, DATE
+// var a = 134.734;
+// console.log(a);
+// console.log(a.toFixed()); // 135
+// console.log(Math.ceil(a)); // 135
 
-// FUNCTION
+// Math.floor 
 
-// SYNTAX
+// var a = 12.45;
+// var a = 12.9345675;
+// console.log(a);
+// console.log(Math.floor(a));
 
-// function function_name(){
-    // statement
-// }
-// function_name()
+// Math.random
+
+// var a = Math.floor(Math.random() * 100); // ( 0 to 99 )
+// console.log(a);
 
 // function fun(){
-//     alert('Hello Function')
+//     var randomNum = Math.floor(Math.random() * 100)
+//     // console.log(randomNum);
+//     document.getElementById("value").innerHTML = randomNum
 // }
-
-// OBJECT
-
-// SYNTAX
-
-// variable_type object_name = {
-//     key : value,
-//     key : value,
-//     key : value,
-//     key : value
-// }
-
-// var obj = {
-//     name : 'abinaya',
-//     age : 20,
-//     place : 'trichy'
-// }
-
-// console.log(obj)
-// console.log(obj.age);
-
-// var details = {
-//     student_name : 'anu',
-//     tamil_mark : 90,
-//     english : 70,
-//     maths : 50,
-// }
-
-// console.log(details.student_name);
-// console.log(details.tamil_mark);
-
-// ARRAY - index, position starts with 0
-
-// SYNTAX
-
-// variable_type array_name = [ data, data, data ]
-
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript'];
-// console.log(arr);
-// console.log(arr[0]);
-// console.log(arr[3]);
-
-// DATE
-
-// jan - 0
-// feb - 1
-// march - 2
-// april - 3
-
-// sun = 0
-// mon = 1
-// tues = 2
-// wed = 3
-
-// var todayDate = new Date();
-// console.log(todayDate);
-// console.log(todayDate.getDate());
-// console.log(todayDate.getMonth());
-// console.log(todayDate.getDay());
-// console.log(todayDate.getFullYear());
-
-// STRING METHODS 
-
-// length, position, charAt, indexOf, lowercase, uppercase, substr, includes, trim, replace, push, pop, shift, unshift
-
-// length - starts with 1
-
-// var a = 'hello';
-// console.log(a);
-// console.log(a.length);
-
-// var array = [ 'html', 'css', 'bootstrap', 'javascript' ]
-// console.log(array);
-// console.log(array.length);
-
-// position - starts with 0
-
-// var a = 'hello';
-// console.log(a[0]);
-// console.log(a[4]);
-
-// var text = 'javascript';
-// console.log(text[4]);
-
-// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ];
-// console.log(arr[1]);
-
-// charAt
-
-// var a = 'hello';
-// console.log(a);
-// console.log(a.charAt(4)); // o
-
-// indexOf
-
-// var a = 'hello';
-// console.log(a);
-// console.log(a.indexOf('e'));
-
-// lowercase
-
-// var text = 'HELLO';
-// console.log(text);
-// console.log(text.toLowerCase());
-
-// uppercase
-
-// var text = 'hello';
-// console.log(text);
-// console.log(text.toUpperCase());
-
-// substr(position, length)
-
-// var text = 'helloworld';
-// console.log(text);
-// console.log(text.substr(0, 5));
-// console.log(text.substr(5, 5));
-
-// var text = 'javascript';
-// console.log(text);
-// console.log(text.substr(0, 4));
-// console.log(text.substr(4, 6));
-
-// includes
-
-// var a = 'hello'
-// console.log(a.includes('h')); // true
-// console.log(a.includes('a')); // false
-
-// trim
-
-// var a = '      Hello      '
-// console.log(a);
-// console.log(a.trim());
-
-// var a = '     Hello      World      '
-// console.log(a);
-// console.log(a.trim());
-
-// replace (currentData, newData)
-
-// var a = 'hello world';
-// console.log(a);
-// console.log(a.replace('world', 'javascript'));
-
-// push
-
-// var arr = ['html', 'css', 'bootstrap'];
-// console.log(arr);
-// console.log(arr.push('javascript'));
-// console.log(arr);
-
-// pop
-
-// var arr = ['html', 'css', 'bootstrap', 'javascript']
-// console.log(arr); // 4
-// console.log(arr.pop()); // javascript
-// console.log(arr);  // 3
-
-// var arr = ['html', 'css', 'bootstrap', 'javascript'];
-// console.log(arr.push('abc')); // html, css, bootstrap, javascript, abc
-// console.log(arr.pop()); // html, css, bootstrap, javascript,
-// console.log(arr.pop()); // html, css, bootstrap
-// console.log(arr.push('xyz')); // html, css, bootstrap, xyz
-// console.log(arr.push('abc')); // html, css, bootstrap, xyz, abc
-// console.log(arr); // html css bootstrap xyz abc
-
-// shift
-
-// var arr = ['html', 'css', 'bootstrap', 'javascript'];
-// console.log(arr);
-// console.log(arr.shift());
-// console.log(arr);
-
-// unshift
-
-// var arr = ['html', 'css', 'bootstrap', 'javascript'];
-// console.log(arr);
-// console.log(arr.unshift('abc'));
-// console.log(arr);
-
-// var arr = ['html', 'css', 'bootstrap', 'javascript'];
-// console.log(arr.unshift('hello')); // 'hello', 'html', 'css', 'bootstrap', 'javascript'
-// console.log(arr.unshift('abc')); // 'abc', 'hello', 'html', 'css', 'bootstrap', 'javascript'
-// console.log(arr.shift()); // 'hello', 'html', 'css', 'bootstrap', 'javascript'
-// console.log(arr.shift()); // 'html', 'css', 'bootstrap', 'javascript'
-// console.log(arr.unshift('hello')); // 'hello', 'html', 'css', 'bootstrap', 'javascript'
-// console.log(arr.shift()); // 'html', 'css', 'bootstrap', 'javascript'
-// console.log(arr);
-
-// var arr = ['html', 'css', 'bootstrap']
-// console.log(arr.push('java'));
-// console.log(arr.push('abc'));
-// console.log(arr.unshift('xyz'));
-// console.log(arr.pop());
-// console.log(arr.unshift('hello'));
-// console.log(arr.shift());
-// console.log(arr.push('hi'));
-// console.log(arr.shift());
-// console.log(arr.pop());
-// console.log(arr); // html, css, bootstrap, java

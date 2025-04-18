@@ -1,4 +1,4 @@
-// CARD, MODAL, OFFCANVAS, TABS, ACCORDION ( DEFAULT, CUSTOM )
+// CARD, MODAL, OFFCANVAS, TABS, ACCORDION
 
 // CARD
 
@@ -162,5 +162,36 @@
 
     // export default Bootstrap
 
-// DEFAULT ACCORDION
+// ACCORDION
 
+// import React from 'react'
+// import { Container, Accordion } from 'react-bootstrap'
+
+// const Bootstrap = () => {
+//     return (
+//         <>
+//             <Container>
+//                 <Accordion defaultActiveKey='0'>
+//                     <Accordion.Item eventKey="0"> 
+//                         <Accordion.Header>
+//                             <h1>Title</h1>
+//                         </Accordion.Header>
+//                         <Accordion.Body>
+//                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum soluta ullam possimus illo atque, culpa, voluptatem nulla, iste provident incidunt tempora nam minima eveniet quibusdam voluptas fugiat inventore delectus. Tempore, ducimus rem? Libero temporibus sequi, cumque cupiditate quis nisi. Saepe nihil aperiam quaerat. Eaque eius optio, facilis delectus accusamus nesciunt.</p>
+//                         </Accordion.Body>
+//                     </Accordion.Item>
+//                     <Accordion.Item eventKey="1">
+//                         <Accordion.Header>
+//                             <h1>Title</h1>
+//                         </Accordion.Header>
+//                         <Accordion.Body>
+//                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum soluta ullam possimus illo atque, culpa, voluptatem nulla, iste provident incidunt tempora nam minima eveniet quibusdam voluptas fugiat inventore delectus. Tempore, ducimus rem? Libero temporibus sequi, cumque cupiditate quis nisi. Saepe nihil aperiam quaerat. Eaque eius optio, facilis delectus accusamus nesciunt.</p>
+//                         </Accordion.Body>
+//                     </Accordion.Item>
+//                 </Accordion>
+//             </Container>
+//         </>
+//     )
+// }
+
+// export default Bootstrap
