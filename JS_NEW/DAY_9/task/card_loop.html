@@ -12,10 +12,6 @@
         <form onsubmit="card_fun(event)">
             <div class="row">
                 <div class="col-6 mb-3">
-                    <label>Enter Image Number</label>
-                    <input type="number" id="img_num" value="1" placeholder="Enter image number... (1 or 2)" class="form-control">
-                </div>
-                <div class="col-6 mb-3">
                     <label>Enter Card Title</label>
                     <input type="text" id="card_title" value="Card Title" placeholder="Enter the title of the card..." class="form-control">
                 </div>
@@ -27,7 +23,7 @@
                     <label>Enter the count of the card</label>
                     <input type="number" id="card_count" value="8" placeholder="Enter the count of the card..." class="form-control">
                 </div>
-                <div class="col-12">
+                <div class="col-6 mt-4">
                     <button type="submit" class="btn btn-primary w-100">submit</button>
                 </div>
             </div>
@@ -41,18 +37,17 @@
         function card_fun(event){
             event.preventDefault();
             
-            var img_num = document.getElementById("img_num").value;
             var card_title = document.getElementById("card_title").value;
             var card_count = document.getElementById("card_count").value;
             var col_count = document.getElementById("col_count").value;
 
-            var card_row = document.getElementById("card_row");
+            // var card_row = document.getElementById("card_row");
 
             for(let i = 1; i <= card_count; i++){
-                card_row.innerHTML += `
+                document.getElementById("card_row").innerHTML += `
                     <div class="col-${col_count} my-4">
                         <div class="card">
-                            <img src="${img_num}.png" alt="">
+                            <img src="1.png" alt="">
                             <div class="card-body">
                                 <h3>${card_title}</h3>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, commodi.</p>

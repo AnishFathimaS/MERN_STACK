@@ -1,115 +1,75 @@
-// TO FIXED 
+// ARITHMETIC OPERATOR +, -, *, **, /, %
 
-// var num = 10.456;
-// console.log(num);
-// console.log(num.toFixed())
+// var a = 10;
+// var b = 5;
 
-// var num = 10.578;
-// console.log(num);
-// console.log(num.toFixed())
+// console.log(a+b);
 
-// TO STRING ( number to string )
+// console.log(`${a} + ${b} = ${a+b}`);
+// console.log(`${a} - ${b} = ${a-b}`);
+// console.log(`${a} * ${b} = ${a*b}`);
+// console.log(`${a} / ${b} = ${a/b}`);
+// console.log(`${a} % ${b} = ${a%b}`);
+// console.log(`${a} ** ${b} = ${a**b}`);
+
+// ASSIGNMENT OPERATOR +=, -=, *=, /=
+
+// var a = 2;
+// var b = 4;
+
+// console.log(`a = ${a}, b = ${b}, a+=b = ${a+=b}`);
+// console.log(`a = ${a}, b = ${b}, a-=b = ${a-=b}`);
+// console.log(`a = ${a}, b = ${b}, a*=b = ${a*=b}`);
+// console.log(`a = ${a}, b=${b}, a/=b =${a/=b}`);
+
+// COMPARISON OPERATOR ==, !=, ===, !==
+
+// ==, data type not check, value check
+
+// var a = '8';
+// var b = 8;
+
+// console.log(a==b); // false
 
 // var a = 8;
-// console.log(typeof(a));
+// var b = 8;
 
-// var convert_a = a.toString();
-// console.log(typeof(convert_a));
+// console.log(a==b); // true
 
-// Number() ( string to number )
+// var a = '4'
+// var b = 4
 
-// var a = 'abc';
-// console.log(typeof(a));
+// console.log(a==b);
 
-// var convert_a = Number(a);
-// console.log(typeof(convert_a));
 
-// var a = '123'
-// console.log(typeof(a));
+// !=
 
-// var convert_a = Number(a);
-// console.log(typeof(convert_a));
+// var a = '5';
+// var b = 6;
 
-// isNaN() -> is Not a Number  ( string - true, number - false )
+// console.log(a!=b);
 
-// var a = 'abc';
-// console.log(isNaN(a));
+// === 
 
-// var b = 12;
-// console.log(isNaN(b));
+// value, data type 
 
-// isFinite() ( string - false, number - true )
+// var a = '5';
+// var b = '5';
 
-// var a = 'abc';
-// console.log(isFinite(a));
+// console.log(a === b);
 
-// var b = 678;
-// console.log(isFinite(b));
+// var a = '5';
+// var b = 7;
 
-// var c = 'abc123';
-// console.log(isFinite(c));
+// value, data type 
 
-// parseInt
+// console.log(a !== b);
 
-// string remove 
-// point value remove 
-// datatype change
 
-// var a = '123.456abc';
-// console.log(a); // 123.456abc
-// console.log(typeof(a)); // string
 
-// var convert_a = parseInt(a);
-// console.log(convert_a); // 123
-// console.log(typeof(convert_a)); // number
 
-// parseFloat
-
-// string remove
-// datatype change
-
-// var b = '123.456abc'
-// console.log(b);
-// console.log(typeof(b));
-
-// var convert_b = parseFloat(b);
-// console.log(convert_b);
-// console.log(typeof(convert_b));
-
-// Math.sqrt
-
-// var a = 81;
-// console.log(a);
-// console.log(Math.sqrt(a));
-
-// var b = 36;
-// console.log(b);
-// console.log(Math.sqrt(b));
-
-// Math.ceil
-
-// var num = 6.45;
-// console.log(num.toFixed()); // 1 to 4 ( 6 ) above 5 ( 7 )
-
-// var a = 134.734;
-// console.log(a);
-// console.log(a.toFixed()); // 135
-// console.log(Math.ceil(a)); // 135
-
-// Math.floor 
-
-// var a = 12.45;
-// var a = 12.9345675;
-// console.log(a);
-// console.log(Math.floor(a));
-
-// Math.random
-
-// var a = Math.floor(Math.random() * 100); // ( 0 to 99 )
-// console.log(a);
-
-// function fun(){
-//     var randomNum = Math.floor(Math.random() * 100)
-//     // console.log(randomNum);
-//     document.getElementById("value").innerHTML = randomNum
-// }
+function addFun(){
+    var num1 = Number(document.getElementById('num1').value);
+    var num2 = Number(document.getElementById('num2').value);
+    document.getElementById('result').innerHTML = `Result = ${num1 + num2}`;
+}

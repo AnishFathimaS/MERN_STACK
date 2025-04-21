@@ -1,0 +1,11 @@
+
+/* .accordion-button{
+    color: green !important;
+    background-color: yellow;
+}
+.accordion-button::after{
+    color: yellow !important;
+} */
+.accordion-button.collapsed {
+    color: red;
+}

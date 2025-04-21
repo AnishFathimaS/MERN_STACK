@@ -7,6 +7,6 @@ HTML SYLLABUS
 DAY 1.	Introduction, Structure, Elements, Block, Inline, Entities
 DAY 2.	List, Links
 DAY 3.	Marquee, Audio, Video, Image, Iframe, Tables
-DAY 4.	Form
+DAY 4.	Form 
 
 PROJECT - Landing Page ( FAMOUS PLACE )
