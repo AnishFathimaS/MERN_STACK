@@ -131,37 +131,6 @@
 
     // export default Bootstrap
 
-// TABS
-
-    // import React from 'react'
-    // import { Tab, Tabs } from 'react-bootstrap'
-
-    // const Bootstrap = () => {
-    //     return (
-    //         <>
-    //             <Tabs 
-    //                 defaultActiveKey='title1'   
-    //                 justify
-    //             >
-    //                 <Tab title='Title 1' eventKey="title1">
-    //                     <p>Content for Title1</p>
-    //                 </Tab>
-    //                 <Tab title='Title 2' eventKey="title2">
-    //                     <p>Content for Title2</p>
-    //                 </Tab>
-    //                 <Tab title='Title 3' eventKey="title3">
-    //                     <p>Content for Title3</p>
-    //                 </Tab>
-    //                 <Tab title='Title 4' eventKey="title4">
-    //                     <p>Content for Title4</p>
-    //                 </Tab>
-    //             </Tabs>
-    //         </>
-    //     )
-    // }
-
-    // export default Bootstrap
-
 // ACCORDION
 
 // import React from 'react'
@@ -195,3 +164,34 @@
 // }
 
 // export default Bootstrap
+
+// TABS
+
+    // import React from 'react'
+    // import { Tab, Tabs } from 'react-bootstrap'
+
+    // const Bootstrap = () => {
+    //     return (
+    //         <>
+    //             <Tabs 
+    //                 defaultActiveKey='title1'   
+    //                 justify
+    //             >
+    //                 <Tab title='Title 1' eventKey="title1">
+    //                     <p>Content for Title1</p>
+    //                 </Tab>
+    //                 <Tab title='Title 2' eventKey="title2">
+    //                     <p>Content for Title2</p>
+    //                 </Tab>
+    //                 <Tab title='Title 3' eventKey="title3">
+    //                     <p>Content for Title3</p>
+    //                 </Tab>
+    //                 <Tab title='Title 4' eventKey="title4">
+    //                     <p>Content for Title4</p>
+    //                 </Tab>
+    //             </Tabs>
+    //         </>
+    //     )
+    // }
+
+    // export default Bootstrap
