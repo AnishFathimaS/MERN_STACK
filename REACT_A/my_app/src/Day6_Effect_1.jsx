@@ -25,18 +25,52 @@
 
 // export default Day6_Effect_1
 
-import React, { useEffect } from 'react'
 
-const Day6_Effect_1 = () => {
+// import React, { useState, useEffect } from 'react';
+
+// const UseEffect = () => {
+  
+//   const [num, setNum] = useState(0)
+
+//   const Dec = () =>{
+//     setNum(num - 1)
+//   }
+
+//   const Inc = () =>{
+//     setNum(num + 1)
+//   }
+
+//   useEffect(() => {
+//     console.log('Number changed:', num);
+//   }, [num]); 
+
+//   return (
+//     <div>
+//       <button onClick={Dec}>-</button>
+//       <p>{num}</p>
+//       <button onClick={Inc}>+</button>
+//     </div>
+//   );
+// };
+
+// export default UseEffect;
+
+import React, { useEffect, useState } from 'react';
+
+const NameChecker = () => {
+    const [name, setName] = useState('');
+    const [isLong, setIsLong] = useState(false);
+
     useEffect(() => {
-        console.log('Component mounted!');
-    }, []);
-    
-    return (
-        <div>
-          <h1>Hello, useEffect!</h1>
-        </div>
-    );
-}
+        setIsLong(name.length > 5);
+    }, [name]);
 
-export default Day6_Effect_1
+    return (
+        <>
+            <input type="text" value={name} placeholder="Enter name" onChange={(e) => setName(e.target.value)} />
+            <p>{isLong ? 'Name is long enough' : 'Name is short'}</p>
+        </>
+    );
+};
+
+export default NameChecker;

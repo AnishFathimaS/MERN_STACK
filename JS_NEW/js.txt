@@ -2,5 +2,15 @@ JavaScript Syllabus
 
 * JavaScript is used in webpages for adding interactivity, dynamic content, and functionality ( Authentication, Form Validation, Fetching Data from APIs, Add to Cart ).
 
-Day - 1 => Introduction, Outputs in JavaScript, JS Inline, Internal, External (NODE), Comment Line in JS, Variables.
-Day - 2 => Data Types, String Methods 
+Day - 1 => Introduction, Outputs in JavaScript, JS Inline, Internal, External (NODE), Comment Line in JS, 
+Day - 2 => Variables, Data Types
+Day - 3 => String Methods 
+Day - 4 => Number Methods 
+Day - 5 => Operators
+Day - 6 => Function and its methods
+Day - 7 => Conditional Statements
+Day - 8 => Set Interval, Set Timeout
+Day - 9 => Loops
+Day - 10 => Array Methods 1
+Day - 11 => Array Methods 2
+Day - 12 => Array Methods 3
