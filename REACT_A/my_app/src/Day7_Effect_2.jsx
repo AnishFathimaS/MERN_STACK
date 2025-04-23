@@ -40,6 +40,7 @@
 
 // export default Day7_Effect_2
 
+
 import React, { useState, useEffect } from 'react'
 
 const Day7_Effect_2 = () => {
@@ -48,13 +49,20 @@ const Day7_Effect_2 = () => {
     var [ weather, setWeather ] = useState('');
 
     const fetchWeatherData = async () => {
-        try{
-            var url =  await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=d4a760bc6e759aaa4958a53637de149b&units=metric`)
-            var data = await url.json();
-            setWeather(data);
+        if (input === '') {
+            setWeather('');
         }
-        catch(error){
-            console.error('Error Fetching Data', error)
+        else{
+            try{
+                var url =  await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=d4a760bc6e759aaa4958a53637de149b&units=metric`)
+                var data = await url.json();
+                console.log(data);
+                
+                setWeather(data);
+            }
+            catch(error){
+                console.error('Error Fetching Data', error)
+            }
         }
     }
 
@@ -65,49 +73,22 @@ const Day7_Effect_2 = () => {
     return (
         <>
             <input type="text" onChange={(e) => {setInput(e.target.value)}}/>
-            {weather && weather.main && <h1>{weather.name} : {weather.main.temp}</h1>}
+            {
+                input === '' 
+                ? null 
+                : ( weather && weather.main ) 
+                ? ( <>
+                        <h1>{weather.name}</h1>
+                        <h1>Temperature : {weather.main.temp}°C </h1>
+                        <h1>Humidity : {weather.main.humidity} %</h1>
+                        <h1>Wind : {weather.wind.speed} m/s</h1>
+                        <h1>Condition: {weather.weather[0].description}</h1>
+                    </>
+                ) 
+                : ( <h1>No Data Found</h1> )
+            }
         </>
     )
 }
 
 export default Day7_Effect_2
-
-
-
-// import React, { useState, useEffect } from 'react'
-
-// const Day7_Effect_2 = () => {
-
-//   const [input, setInput] = useState('')
-//   const [weather, setWeather] = useState(null)
-
-//   const API_KEY = 'd4a760bc6e759aaa4958a53637de149b'
-
-//     const fetchWeather = async () => {
-//         try {
-//             const url = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${API_KEY}&units=metric`)
-//             const data = await url.json();
-//             setWeather(data)
-//         } catch (error) {
-//             console.error('Error fetching weather:', error);
-//         }
-//     }
-
-//     useEffect(() => {
-//         fetchWeather()
-//     }, [input])
-
-//     return (
-//         <>
-//             <input type="text" value={input} onChange={(e) => setInput(e.target.value)} placeholder="Enter city name" />
-
-//             {weather && weather.main  && input.length > 0  ? (
-//                 <h1>{weather.name} - {weather.main.temp}°C</h1>
-//             ) : (
-//                 <h1>No Data</h1>
-//             )}
-//         </>
-//     )
-// }
-
-// export default Day7_Effect_2
