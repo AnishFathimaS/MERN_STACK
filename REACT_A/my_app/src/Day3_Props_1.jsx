@@ -160,34 +160,34 @@
 
 // JSON (PROPS)
 
-import React from 'react'
-import Day3_Props_2 from './Day3_Props_2'
+// import React from 'react'
+// import Day3_Props_2 from './Day3_Props_2'
 
-const Day3_Props_1 = () => {
+// const Day3_Props_1 = () => {
 
-    var data = [
-        {
-            name : "Abi",
-            age : "21", 
-            place : "Trichy"
-        }, 
-        {
-            name : "Banu",
-            age : "22", 
-            place : "Chennai"
-        }, 
-        {
-            name : "Begum",
-            age : "20", 
-            place : "Madurai"
-        }
-    ]
+//     var data = [
+//         {
+//             name : "Abi",
+//             age : "21", 
+//             place : "Trichy"
+//         }, 
+//         {
+//             name : "Banu",
+//             age : "22", 
+//             place : "Chennai"
+//         }, 
+//         {
+//             name : "Begum",
+//             age : "20", 
+//             place : "Madurai"
+//         }
+//     ]
 
-  return (
-    <>
-        <Day3_Props_2 json_value={data} />
-    </>
-  )
-}
+//   return (
+//     <>
+//         <Day3_Props_2 json_value={data} />
+//     </>
+//   )
+// }
 
-export default Day3_Props_1
+// export default Day3_Props_1

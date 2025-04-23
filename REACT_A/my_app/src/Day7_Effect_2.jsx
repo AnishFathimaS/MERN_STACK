@@ -41,54 +41,43 @@
 // export default Day7_Effect_2
 
 
-import React, { useState, useEffect } from 'react'
+// import React, { useState, useEffect } from 'react'
 
-const Day7_Effect_2 = () => {
+// const Day7_Effect_2 = () => {
 
-    var [ input, setInput ] = useState('');
-    var [ weather, setWeather ] = useState('');
+//     var [ input, setInput ] = useState('')
+//     var [ weather, setWeather ] = useState('')
 
-    const fetchWeatherData = async () => {
-        if (input === '') {
-            setWeather('');
-        }
-        else{
-            try{
-                var url =  await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=d4a760bc6e759aaa4958a53637de149b&units=metric`)
-                var data = await url.json();
-                console.log(data);
-                
-                setWeather(data);
-            }
-            catch(error){
-                console.error('Error Fetching Data', error)
-            }
-        }
-    }
+//     var API_KEY = 'd4a760bc6e759aaa4958a53637de149b'
 
-    useEffect(() => {
-        fetchWeatherData()
-    }, [input])
+//     const fetchWeatherData = async () => {
+//         var url = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${API_KEY}&units=metric`)
+//         var data = await url.json();
+//         setWeather(data)
+//     }
 
-    return (
-        <>
-            <input type="text" onChange={(e) => {setInput(e.target.value)}}/>
-            {
-                input === '' 
-                ? null 
-                : ( weather && weather.main ) 
-                ? ( <>
-                        <h1>{weather.name}</h1>
-                        <h1>Temperature : {weather.main.temp}°C </h1>
-                        <h1>Humidity : {weather.main.humidity} %</h1>
-                        <h1>Wind : {weather.wind.speed} m/s</h1>
-                        <h1>Condition: {weather.weather[0].description}</h1>
-                    </>
-                ) 
-                : ( <h1>No Data Found</h1> )
-            }
-        </>
-    )
-}
+//     useEffect(() => {
+//         fetchWeatherData()
+//     }, [input])
 
-export default Day7_Effect_2
+//     return (
+//         <>
+//             <input type="text" onChange={(e) => {setInput(e.target.value)}}/>
+
+             
+//             { input === '' ? '' :
+//                 ( weather && weather.main ) ? 
+//                     <>
+//                         <h1>{weather.name}</h1>
+//                         <h1>Temperature : {weather.main.temp} ° C</h1>
+//                     </>
+//                     : 
+//                     <div>
+//                         <h1>No Data Found</h1>
+//                     </div>
+//             }
+//         </>
+//     )
+// }
+
+// export default Day7_Effect_2

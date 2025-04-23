@@ -10,7 +10,7 @@ BATCHES
 05 - 06 -> HariBabu, Aakash
 06 - 07 -> Free 
 
-MONDAY - 21-04-2025
+MONDAY - 21-04-2025 
 
 NM - React Bootstrap ( Modals, Tabs, Offcanvas, Accordion ) 
 3 - Loops - For, Nested For
@@ -29,20 +29,20 @@ WEDNESDAY - 23-04-2025
 NM - Use Effect 2 
 3 - Array Methods 1
 5 - Array Methods 1
-HA - Javascript Day 7 ( Function and its Methods ) 
+HA - Javascript Day 7 ( Function and its Methods ) ( No Class ( Aakash Leave ) )
 
 THURSDAY - 24-04-2025
 
-NM - Use Ref 1 
-3 - Array Methods 3 
-5 - Array Methods 3 
-HA - Javascript Day 8 ( Conditional Statements ) 
+NM - Use Reducer  
+3 - Array Methods 2 
+5 - Array Methods 2 
+HA - Javascript Day 8 ( Function and its Methods ) 
 
 FRIDAY - 25-04-2025
 
-NM - Use Ref 2 
-3 - Object Methods 
-5 - Object Methods 
+NM - Use Ref 
+3 - Array Methods 3
+5 - Array Methods 3
 HA - Javascript Day 9 ( Set Timeout, Set Interval ) 
 
 SATURDAY - 26-04-2025
@@ -53,6 +53,6 @@ ATTENDANCE
 
 21-04-2025 (MON) - Absent - Maria, Hari Babu
 22-04-2025 (TUE) - Absent - Maria, Hari Babu
-23-04-2025 (WED) - 
+23-04-2025 (WED) - Absent - Maria, Hari Babu, Aakash
 24-04-2025 (THU) - 
 25-04-2025 (FRI) - 
