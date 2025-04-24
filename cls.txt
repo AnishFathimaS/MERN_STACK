@@ -33,17 +33,17 @@ HA - Javascript Day 7 ( Function and its Methods ) ( No Class ( Aakash Leave ) )
 
 THURSDAY - 24-04-2025
 
-NM - Use Reducer  
+NM - Use Reducer  ( Project Deployment )
 3 - Array Methods 2 
 5 - Array Methods 2 
 HA - Javascript Day 8 ( Function and its Methods ) 
 
 FRIDAY - 25-04-2025
 
-NM - Use Ref 
+NM - Use Ref (  )
 3 - Array Methods 3
 5 - Array Methods 3
-HA - Javascript Day 9 ( Set Timeout, Set Interval ) 
+HA - Javascript Day 9 ( Conditional Statement ) 
 
 SATURDAY - 26-04-2025
 
@@ -53,6 +53,6 @@ ATTENDANCE
 
 21-04-2025 (MON) - Absent - Maria, Hari Babu
 22-04-2025 (TUE) - Absent - Maria, Hari Babu
-23-04-2025 (WED) - Absent - Maria, Hari Babu, Aakash
-24-04-2025 (THU) - 
+23-04-2025 (WED) - Absent - Maria, Dinesh, Hari Babu, Aakash, 
+24-04-2025 (THU) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan
 25-04-2025 (FRI) - 
