@@ -1,5 +1,6 @@
 import React from 'react'
-import Day7_Effect_2 from './Day7_Effect_2'
+import Day8 from './Day8'
+// import Day7_Effect_2 from './Day7_Effect_2'
 // import Day1_Components from './Day1_Components.jsx'
 // import Day2_JS from './Day2_JS.jsx'
 // import Day3_Props_1 from './Day3_Props_1.jsx'
@@ -20,7 +21,8 @@ const App = () => {
       {/* <Asset /> */}
       {/* <Bootstrap/> */}
       {/* <Day6_Effect_1 /> */}
-      <Day7_Effect_2/>
+      {/* <Day7_Effect_2/> */}
+      <Day8 />
     </>
   )
 }
