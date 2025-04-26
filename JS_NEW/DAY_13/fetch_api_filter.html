@@ -11,49 +11,55 @@
 
         <div class="container">
             <form onsubmit="submitFun(event)">
-                <input type="text" id="inputBox">
+                <input type="text" id="searchInput">
                 <input type="submit">
             </form>
-            <br><br>
             <div class="row" id="cardRow">
-                
+
             </div>
         </div>
 
+
         <script>
-            var all_data = [];
 
-            async function fetch_data(){
-                var url = await fetch("https://jsonplaceholder.typicode.com/users");
-                all_data = await url.json();
-                display_data(all_data)
+            var data = []
+
+            const dataFun = async () => {
+                var url = await fetch('https://jsonplaceholder.typicode.com/users');
+                data = await url.json()
+                cardFun(data)
             }
-            fetch_data();
+            dataFun()
 
-            function display_data(data){
-                var data_content = '';
-                data.forEach((value) => {
-                    data_content += 
-                    `<div class="col-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <p>Name : ${value.name}</p>
-                                <p>Username : ${value.username}</p>
-                                <p>Email : ${value.email}</p>
+
+            const cardFun = (userData) => {
+                var content = ''
+                userData.map((value) => {
+                    content += 
+                    `
+                        <div class='col-4'>
+                            <div class='card my-2'>
+                                <div class='card-body'>
+                                    <p>Name : ${value.name}</p>
+                                    <p>Email : ${value.email}</p>
+                                    <p>UserName : ${value.username}</p>
+                                </div>
                             </div>
                         </div>
-                    </div>`
+                    `
                 })
-                document.getElementById('cardRow').innerHTML = data_content;
+                document.getElementById('cardRow').innerHTML = content;
             }
 
-            function submitFun(event){
-                event.preventDefault();
-                var searchInput = document.getElementById('inputBox').value;
-                var filterData = all_data.filter((value) => value.name.includes(searchInput) || value.email.includes(searchInput));
-                console.log(filterData);
+            const submitFun = (event) => {
+                event.preventDefault()
+                var userSearch = document.getElementById('searchInput').value.toLowerCase();
+                var filterData = data.filter((value) => value.name.toLowerCase().includes(userSearch) || value.email.toLowerCase().includes(userSearch))
+                cardFun(filterData)
             }
+
 
         </script>
+        
     </body>
 </html>

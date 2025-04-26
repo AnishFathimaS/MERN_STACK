@@ -41,7 +41,7 @@ HA - Javascript Day 8 ( Function and its Methods )
 FRIDAY - 25-04-2025
 
 NM - Use Ref ( Use Effect )
-3 - Array Methods 3
+3 - Array Methods 3 
 5 - Array Methods 3
 HA - Javascript Day 9 ( Conditional Statement ) ( No Class ( Aakash Leave ) )
 
@@ -49,9 +49,9 @@ SATURDAY - 26-04-2025
 
 Y - Bootstrap ( 3 Hours [ 10:30 to 11:30, 12:00 to 01:00, 02:30 to 3:30 ] ) 
 
-10:30 to 11:30 - TABLES, DISPLAY, BORDERS 
-12:00 to 01:00 - COLUMN RESPONSIVESNESS, CARDS, 
-02:30 to 03:30 - MODAL, DROPDOWN, PAGINATION
+10:30 to 11:30 - DISPLAY, BORDERS, TABLES 
+12:00 to 01:00 - COLUMN RESPONSIVESNESS, 
+02:30 to 03:30 - MODAL, CARDS, PAGINATION
 
 ATTENDANCE 
 
@@ -78,8 +78,7 @@ HTML DAY 2 => Table, Form
 CSS DAY 1 => Selectors, Hover, Color, Margin, Padding, Background Image
 CSS DAY 2 => Flex, Position, Animation
 
-BOOTSTRAP DAY 1 => Colors, Button, Margin, Padding, 
-BOOTSTRAP DAY 2 => Column Responsiveness, Card, Modal 
+BOOTSTRAP DAY 1 => Colors, Button, Margin, Padding, Column Responsiveness, Card, Modal 
 
 JAVASCRIPT DAY 1 => Variables, Data Types, Operators, 
 JAVASCRIPT DAY 2 => Conditional Statement, Loops
@@ -89,35 +88,34 @@ REACT DAY 2 => Use Effect, Routes
 
 MONDAY - 28-04-2025
 
-IN - HTML DAY 1
 NM - USE REF 
-6 - Fetching API with Filter 
+6 - Fetching API with Filter, Object Methods
 HA - Conditional Statement 
 
 TUESDAY - 29-04-2025
 
-IN - HTML DAY 2 
+IN - HTML DAY 1 
 NM - USE CONTEXT 
 6 - DOM, BOM 
 HA - Set Internal, Set Timeout 
 
 WEDNESDAY - 30-04-2025 
 
-IN - CSS DAY 1
+IN - HTML DAY 2
 NM - ROUTING
 6 - Events, Event listener, Query Selector
 HA - Loops
 
 THURSDAY - 01-05-2025
 
-IN - CSS DAY 2
+IN - CSS DAY 1
 NM - CRUD 
 6 - Form Validation, Password Validation
 HA - Array Methods 1 ( Simple Methods )
 
 FRIDAY - 02-05-2025
 
-IN - BOOTSTRAP DAY 1
+IN - CSS DAY 2
 NM - PACKAGES ( swiper, material ui, react components, daisy ui ), Render 
 6 - Try, Catch, Finally, Throw, Then, Promises 
 HA - Array Methods 2 ( ForEach, Map )
