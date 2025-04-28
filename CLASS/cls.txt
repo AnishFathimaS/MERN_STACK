@@ -10,6 +10,52 @@ BATCHES
 05 - 06 -> HariBabu, Aakash
 06 - 07 -> Free 
 
+----------------------------------------------------------------------------------------------------
+
+MONDAY - 28-04-2025
+
+NM - USE REF 
+8 - Fetching API with Filter, Object Methods
+HA - Conditional Statement 
+
+TUESDAY - 29-04-2025
+
+IN - HTML DAY 1 
+NM - USE CONTEXT 
+8 - DOM, BOM 
+HA - Set Internal, Set Timeout 
+
+WEDNESDAY - 30-04-2025 
+
+IN - HTML DAY 2
+NM - ROUTING
+8 - Events, Event listener, Query Selector
+HA - Loops
+
+THURSDAY - 01-05-2025
+
+IN - CSS DAY 1
+NM - CRUD 
+8 - Form Validation, Password Validation
+HA - Array Methods 1 ( Simple Methods )
+
+FRIDAY - 02-05-2025
+
+IN - CSS DAY 2
+NM - PACKAGES ( swiper, material ui, react components, daisy ui ), Render 
+8 - Try, Catch, Finally, Throw, Then, Promises 
+HA - Array Methods 2 ( ForEach, Map )
+
+ATTENDANCE 
+
+28-04-2025 (MON) - Absent - 
+29-04-2025 (TUE) - Absent - 
+30-04-2025 (WED) - Absent - 
+01-05-2025 (THU) - Absent - 
+02-05-2025 (FRI) - Absent - 
+
+----------------------------------------------------------------------------------------------------
+
 MONDAY - 21-04-2025 
 
 NM - React Bootstrap ( Modals, Tabs, Offcanvas, Accordion ) 
@@ -61,8 +107,7 @@ ATTENDANCE
 24-04-2025 (THU) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan
 25-04-2025 (FRI) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan
 
-
-
+----------------------------------------------------------------------------------------------------
 
 INTERNSHIP - 10 DAYS ( FRONT END REACT )
 
@@ -85,37 +130,3 @@ JAVASCRIPT DAY 2 => Conditional Statement, Loops
 
 REACT DAY 1 => Set Up, Bootstrap, Use State 
 REACT DAY 2 => Use Effect, Routes 
-
-MONDAY - 28-04-2025
-
-NM - USE REF 
-6 - Fetching API with Filter, Object Methods
-HA - Conditional Statement 
-
-TUESDAY - 29-04-2025
-
-IN - HTML DAY 1 
-NM - USE CONTEXT 
-6 - DOM, BOM 
-HA - Set Internal, Set Timeout 
-
-WEDNESDAY - 30-04-2025 
-
-IN - HTML DAY 2
-NM - ROUTING
-6 - Events, Event listener, Query Selector
-HA - Loops
-
-THURSDAY - 01-05-2025
-
-IN - CSS DAY 1
-NM - CRUD 
-6 - Form Validation, Password Validation
-HA - Array Methods 1 ( Simple Methods )
-
-FRIDAY - 02-05-2025
-
-IN - CSS DAY 2
-NM - PACKAGES ( swiper, material ui, react components, daisy ui ), Render 
-6 - Try, Catch, Finally, Throw, Then, Promises 
-HA - Array Methods 2 ( ForEach, Map )

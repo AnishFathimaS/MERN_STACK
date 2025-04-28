@@ -1,25 +1,27 @@
+// EXAMPLE - 1
+
 // import React, { useReducer } from 'react'
 
 // const Day8_Reducer = () => {
 
-//     const obj = {
+//     var obj = {
 //         add : 'add',
 //         sub : 'sub',
-//         mulitple : 'multiple'
+//         multiple : 'multiple'
 //     }
 
-//     const reducerFun = (state, action) => { 
+//     const reducerFun = (state, action) => {
 //         switch(action.type){
-//             case obj.add : 
+//             case obj.add:
 //                 return { count : state.count + 1 }
-//             case obj.sub : 
+//             case obj.sub:
 //                 return { count : state.count - 1 }
-//             case obj.mulitple :
+//             case obj.multiple:
 //                 return { count : state.count * 2 }
 //         }
 //     }
 
-//     var  [ state, dispatch ] = useReducer(reducerFun, { count : 1 })
+//     var [ state, dispatch ] = useReducer(reducerFun, { count : 1 })
 
 //     const addFun = () => {
 //         dispatch({type : obj.add})
@@ -30,14 +32,14 @@
 //     }
 
 //     const multipleFun = () => {
-//         dispatch({type : obj.mulitple})
+//         dispatch({type : obj.multiple})
 //     }
 
 //     return (
 //         <>
 //             <button onClick={addFun}>Add</button>
 //             <button onClick={subFun}>Sub</button>
-//             <button onClick={multipleFun}>Multiple</button>
+//             <button onClick={multipleFun}>Mulitple</button>
 //             <h1>{state.count}</h1>
 //         </>
 //     )
@@ -45,27 +47,33 @@
 
 // export default Day8_Reducer
 
+// EXAMPLE - 2 
 
+import React, { useReducer } from 'react';
 
+const reducerFun = (state, action) => {
+    switch (action.type) {
+        case 'TOGGLE':
+            return { obj: !state.obj };
+        default:
+            return state;
+    }
+};
 
+const Day8_Reducer = () => {
 
-// import React, { useState } from 'react';
+    const [state, dispatch] = useReducer(reducerFun, { obj: true });
 
-//     const Day4_State_1 = () => {
-//       const [isVisible, setIsVisible] = useState(true); 
-    
-//       const toggleVisibility = () => {
-//         setIsVisible(!isVisible); 
-//       };
-    
-//       return (
-//         <div>
-//           <button onClick={toggleVisibility}>
-//             {isVisible ? 'Hide' : 'Show'} Text
-//           </button>
-//            <h1>{isVisible && 'This is some text that can be shown or hidden.'}</h1>
-//         </div>
-//       );
-//     };
-    
-//     export default Day4_State_1;
+    const fun = () => {
+        dispatch({ type: 'TOGGLE' });
+    };
+
+    return (
+        <>
+            <button onClick={fun}>Click</button>
+            <h1>{state.obj && 'Hello'}</h1>
+        </>
+    );
+};
+
+export default Day8_Reducer;

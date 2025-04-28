@@ -110,4 +110,4 @@ I make real section - remove image put vdo popup with play btn icon
 <!-- PENDING -->
 
 PRE NAV ❌
-YOUTUBE VDO NOT OPENING ❌
+YOUTUBE VDO NOT OPENING ❌ h
