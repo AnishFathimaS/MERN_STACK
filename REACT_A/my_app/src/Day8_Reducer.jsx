@@ -49,31 +49,59 @@
 
 // EXAMPLE - 2 
 
-import React, { useReducer } from 'react';
+// import React, { useReducer } from 'react';
 
-const reducerFun = (state, action) => {
-    switch (action.type) {
-        case 'TOGGLE':
-            return { obj: !state.obj };
-        default:
-            return state;
-    }
-};
+// const reducerFun = (state, action) => {
+//     switch (action.type) {
+//         case 'TOGGLE':
+//             return { obj: !state.obj };
+//         default:
+//             return state;
+//     }
+// };
 
-const Day8_Reducer = () => {
+// const Day8_Reducer = () => {
 
-    const [state, dispatch] = useReducer(reducerFun, { obj: true });
+//     const [state, dispatch] = useReducer(reducerFun, { obj: true });
 
-    const fun = () => {
-        dispatch({ type: 'TOGGLE' });
-    };
+//     const fun = () => {
+//         dispatch({ type: 'TOGGLE' });
+//     };
 
-    return (
-        <>
-            <button onClick={fun}>Click</button>
-            <h1>{state.obj && 'Hello'}</h1>
-        </>
-    );
-};
+//     return (
+//         <>
+//             <button onClick={fun}>Click</button>
+//             <h1>{state.obj && 'Hello'}</h1>
+//         </>
+//     );
+// };
 
-export default Day8_Reducer;
+// export default Day8_Reducer;
+
+// EXAMPLE - 3
+
+// import React, { useReducer } from 'react'
+
+// const Day4_State_1 = () => {
+
+//     const reducerFun = (state, action) => {
+//         switch (action.type) {
+//             case 'TOGGLE':
+//                 return { show: !state.show };
+//             default:
+//                 return state;
+//         }
+//     };
+    
+
+//     const [state, dispatch] = useReducer(reducerFun, { show: false });
+
+//     return (
+//         <>
+//             <input type={state.show ? 'text' : 'password'} />
+//             <button onClick={() => dispatch({ type: 'TOGGLE' })}>Click</button>
+//         </>
+//     );
+// };
+
+// export default Day4_State_1

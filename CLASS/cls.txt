@@ -7,22 +7,22 @@ BATCHES
 02 - 03 -> Free 
 03 - 04 -> Maria, Jude, Dinesh, Kaviyarasan, Murugan
 04 - 05 -> Free
-05 - 06 -> HariBabu, Aakash
+05 - 06 -> Aakash
 06 - 07 -> Free 
 
 ----------------------------------------------------------------------------------------------------
 
 MONDAY - 28-04-2025
 
-NM - USE REF 
-8 - Fetching API with Filter, Object Methods
+NM - USE REF ( DOUBT, USE REDUCER )
+8 - Fetching API with Filter, Object Methods ( Filter with JSON )
 HA - Conditional Statement 
 
 TUESDAY - 29-04-2025
 
 IN - HTML DAY 1 
-NM - USE CONTEXT 
-8 - DOM, BOM 
+NM - USE CONTEXT ( USE REF )
+8 - DOM, BOM ( Fetching API with Filter, Object Methods )
 HA - Set Internal, Set Timeout 
 
 WEDNESDAY - 30-04-2025 
@@ -48,7 +48,7 @@ HA - Array Methods 2 ( ForEach, Map )
 
 ATTENDANCE 
 
-28-04-2025 (MON) - Absent - 
+28-04-2025 (MON) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan, 
 29-04-2025 (TUE) - Absent - 
 30-04-2025 (WED) - Absent - 
 01-05-2025 (THU) - Absent - 
