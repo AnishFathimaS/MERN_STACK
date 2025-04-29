@@ -105,3 +105,52 @@
 // };
 
 // export default Day4_State_1
+
+// import React, { useState } from 'react'
+
+// const Day8_Reducer = () => {
+
+//     var [ show, setShow ] = useState(false)
+
+//     const fun = () => {
+//         setShow(!show)
+//     }
+
+//     return (
+//         <>
+//             <input type={ show ? 'text' : 'password'} />
+//             <button onClick={fun}>Click</button>
+//         </>
+//     )
+// }
+
+// export default Day8_Reducer
+
+// import React, { useReducer } from 'react'
+
+// const Day8_Reducer = () => {
+
+//     const reducerFun = (state, action) => {
+//         switch(action.type){
+//             case 'toggle' :
+//                 return { a : !state.a }
+//         }
+//     }
+
+//     var [ state, dispatch ] = useReducer(reducerFun, { a : false })
+
+//     console.log(state.a);
+
+//     const fun = () => {
+//         dispatch({ type : 'toggle' })
+//     }
+    
+//     return (
+//         <>
+//             <input type={state.a ? 'text' : 'password'} />
+//             <button onClick={fun}>Click</button>
+//         </>
+//     )
+// }
+
+// export default Day8_Reducer

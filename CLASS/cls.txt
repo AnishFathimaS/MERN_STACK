@@ -7,7 +7,7 @@ BATCHES
 02 - 03 -> Free 
 03 - 04 -> Maria, Jude, Dinesh, Kaviyarasan, Murugan
 04 - 05 -> Free
-05 - 06 -> Aakash
+05 - 06 -> Aakash 
 06 - 07 -> Free 
 
 ----------------------------------------------------------------------------------------------------
@@ -49,7 +49,7 @@ HA - Array Methods 2 ( ForEach, Map )
 ATTENDANCE 
 
 28-04-2025 (MON) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan, 
-29-04-2025 (TUE) - Absent - 
+29-04-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan
 30-04-2025 (WED) - Absent - 
 01-05-2025 (THU) - Absent - 
 02-05-2025 (FRI) - Absent - 

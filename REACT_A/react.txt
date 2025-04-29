@@ -30,19 +30,18 @@ Clear
 for react shortcuts extenstion name (ES7+ React/Redux/React-Native snippets)
 
 DAY - 1 => SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
-DAY - 2 => JS in REACT 
+DAY - 2 => JS in REACT, EVENT
 DAY - 3 => STYLE, PROPS
-DAY - 4 => EVENT
+DAY - 4 => USE STATE
 DAY - 5 => USE STATE
-DAY - 6 => USE STATE
-DAY - 7 => BOOTSTRAP COMPONENTS, ASSETS
-DAY - 8 => USE EFFECT
-DAY - 9 => USE EFFECT, RUN BUILD 
-DAY - 10 => USE REDUCER 
-DAY - 11 => USE REF
-DAY - 12 => USE CONTEXT
-DAY - 13 => ROUTING 
-DAY - 14 => CRUD 
+DAY - 6 => BOOTSTRAP COMPONENTS, ASSETS
+DAY - 7 => USE EFFECT
+DAY - 8 => USE EFFECT, RUN BUILD 
+DAY - 9 => USE REDUCER 
+DAY - 10 => USE REF
+DAY - 11 => USE CONTEXT
+DAY - 12 => ROUTING 
+DAY - 13 => CRUD 
 DAY - 15 => PACKAGES ( swiper, material ui, react components, daisy ui ), Render
 
 PROJECT - COSTICA FROM THEME FOREST 
