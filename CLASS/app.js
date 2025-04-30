@@ -1,70 +1,45 @@
-// SET TIMEOUT, SET INTERVAL
+var text = ['STUDENTS', 'STAFFS', 'DEPARTMENT', 'PROGRAM']
+var icon = ['fa-solid fa-users', 'fa-solid fa-chalkboard-user', 'fa-solid fa-computer', 'fa-solid fa-user']
 
-// SET TIMEOUT - DELAY
+document.write(`
+    <div class='container text-center bg-color mt-5 p-5'>
+        <div class='row'>
+            <div class='col-lg-3 col-md-6 col-12'>
+                <i class='${icon[0]} fa-2x'></i>
+                <h4 id='count1'></h4>
+                <h4>${text[0]}</h4>
+            </div>
+            <div class='col-lg-3 col-md-6 col-12'>
+                <i class='${icon[1]} fa-2x'></i>
+                <h4 id='count2'></h4>
+                <h4>${text[1]}</h4>
+            </div>
+            <div class='col-lg-3 col-md-6 col-12'>
+                <i class='${icon[2]} fa-2x'></i>
+                <h4>${text[2]}</h4>
+            </div>
+            <div class='col-lg-3 col-md-6 col-12'>
+                <i class='${icon[3]} fa-2x'></i>
+                <h4>${text[3]}</h4>
+            </div>
+        </div>
+    </div>
+`)
 
-// setTimeout(function_name, duration)
+var count1 = 0;
 
-// function abc(){
-//     document.getElementById('h1tag').innerHTML = 'Hi'
-// }
-// setTimeout(abc, 3000) 
+setInterval(() => {
+    if(count1 < 1100){ //  < 1100
+        ++count1;
+        document.getElementById('count1').innerHTML = count1
+    }
+}, 1)
 
-// const fun = () => {
-//     document.getElementById('h1tag').innerHTML = 'Hi'
-// }
-// setTimeout(fun, 5000)
+var count2 = 0;
 
-// setTimeout(() => {
-//     document.getElementById('h1tag').innerHTML = 'Hii'
-// }, 3000)
-
-// function fun(){
-//     window.location.href = 'javascript.html'
-//     window.location.href = 'https://www.youtube.com/'
-// }
-// setTimeout(fun, 3000)
-
-// SET INTERVAL
-
-// setInterval(function_name, duration)
-
-// function fun(){
-//     document.getElementById('h1tag').innerHTML += 'Hi'
-// }
-// setInterval(fun, 3000)
-
-// setInterval(() => {
-//     document.getElementById('h1tag').innerHTML += 'Hi'
-// }, 3000)
-
-// var count = 0;
-
-// setInterval(() => {
-//     count = count + 1;
-//     document.getElementById('count').innerHTML = count
-// }, 1000)
-
-// var count = 0;
-
-// setInterval(() => {
-//     --count;
-//     document.getElementById('count').innerHTML = count
-// }, 1000)
-
-// var count = 0;
-
-// setInterval(() => {
-//     if(count < 10){
-//         ++count; // count = count + 1
-//         document.getElementById('count').innerHTML = count
-//     }
-// }, 1000)
-
-// var count = 10;
-
-// setInterval(() => {
-//     if(count > 0){
-//         --count;
-//         document.getElementById('count').innerHTML = count
-//     }
-// }, 1000)
+setInterval(() => {
+    if(count2 < 200){
+        ++count2;
+        document.getElementById('count2').innerHTML = count2
+    }
+}, 10)

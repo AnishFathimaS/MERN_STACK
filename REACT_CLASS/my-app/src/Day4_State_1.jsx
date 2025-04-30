@@ -1,25 +1,20 @@
 // USE STATE
 
-// import React from 'react'
+import React from 'react'
 
-// const Day4_State_1 = () => {
+const Day4_State_1 = () => {
     
-//     var a = 1;
 
-//     const increase = () => {
-//         a = a + 1;
-//         console.log(a)
-//     }
 
-//     return (
-//         <>
-//             <h1>{a}</h1>
-//             <button onClick={increase}>Click</button>
-//         </>
-//     )
-// }
+    return (
+        <>
+            <h1>{a}</h1>
+            <button onClick={increase}>Click</button>
+        </>
+    )
+}
 
-// export default Day4_State_1 
+export default Day4_State_1 
 
 // variable_type [ defaultVariable, changeVariable ] = useState()
 
