@@ -16,5 +16,4 @@ const Day9_Ref = () => {
     )
 }
 
-
 export default Day9_Ref
