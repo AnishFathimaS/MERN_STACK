@@ -68,7 +68,7 @@
 // VARIABLES (PROPS)
 
     // import React from 'react'
-    // import Day3_Props_2 from './Day3_props_2.jsx'
+    // import Day3_Props_2 from './Day3_Props_2.jsx'
 
     // const Day3_Props_1 = () => {
 
