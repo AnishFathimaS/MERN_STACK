@@ -3,75 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Types</title>
+    <title>Document</title>
 </head>
 <body>
+    <!-- DATA TYPES --> 
 
-    <!-- Two Types 
-        Primitive Data Type => Number, String, Boolean, Undefined, Null
-        Non Primitive Data Type => Object => Date, Array, Null, Function
+    <!-- TYPEOF() -> USED TO FIND THE TYPE OF THE DATA -->
+
+    <!-- 
+        STRING, 
+        NUMBER, 
+        BOOLEAN,
+        UNDEFINED,
+        NULL,
     -->
+
+    <!-- var - redeclare, update
+    let - not redeclare , update
+    const - not redeclare, not update -->
 
     <script>
 
-        let name = "Anu"; // String
-        console.log(typeof(name));
+        // variable_type variable_name = data;
+
+        // STRING
+            // var a = 'hello';    
+            // console.log(a);
+            // console.log(typeof(a));
+        // STRING
+            // var a = '30';    
+            // console.log(a);
+            // console.log(typeof(a));
+        // STRING
+            // var a = hello; //error    
+            // console.log(a);
+            // console.log(typeof(a));
+
+        // NUMBER
+            // var a = 80;    
+            // console.log(a);
+            // console.log(typeof(a));
+
+        // BOOLEAN
+            // var a = true;
+            // console.log(a)
+            // console.log(typeof(a));
+            // var a = false;
+            // console.log(a)
+            // console.log(typeof(a));
+
+        // UNDEFINED 
+            // console.log(a) // not defined ( error )
+            // var a;
+            // console.log(a); // undefined ( data type )
+
+        // NULL 
+            // var a = null;
+            // console.log(a);
         
-        let age = 25; // Number
-        console.log(typeof(age));
-        
-        let isStudent = false; // Boolean
-        console.log(typeof(isStudent));
-
-        let city; // Undefined
-        console.log(typeof(city));
-        
-        let salary = null; // Null => Object
-        console.log(typeof(salary));
-
-        let fruits = ["Apple", "Banana", "Cherry", "Orange"]; // Array
-        console.log(fruits[2]);
-
-        let details = ['name', 'anu', 'is', 'my'];
-        console.log(details[3] + ' ' + details[0] + ' ' + details[2] + ' ' + details[1]);
-        console.log(`${details[3]} ${details[0]} ${details[2]} ${details[1]}`);
-        
-        // length => starts with 1 , 
-        // position, index, key = > starts with 0 
-
-        // Object Syntax
-
-        // let obj_name = {
-        //     key : value
-        // }
-        
-        let person = { 
-            name: "Anu",  
-            age: 30 
-        }; // Object
-
-        console.log(person.name);
-        console.log(person.age);
-
-        // function syntax
-
-        // function functioname(){
-
-        // }
-
-        // function myfun(){
-        //     console.log('My function');
-        // }
-
-        // myfun()
-
-        // Arrow Function
-
-        // const Fun = () => {
-
-        // }
-
     </script>
 
+    <!-- 
+        OBJECT,
+        ARRAY, 
+        FUNCTION,
+        DATE
+    -->
+
+    <!-- <button id="btn" onclick="fun()">Click</button> -->
+
+    <script>
+
+        // ARRAY
+            // SYNTAX
+            // variable_type array_name = [value, value, value];
+
+            // var arr = ['abinaya', 80];
+            // console.log(arr);
+            // console.log(arr[0]);
+            // console.log(arr[1]);
+
+        // OBJECT
+            // SYNTAX
+            // variable_type object_name = {
+            //     key : value,
+            //     key : value,
+            //     key : value
+            // }
+
+            // var obj = {
+            //     name : 'Abinaya',
+            //     age : 20,
+            //     place : 'Trichy'
+            // }
+            // console.log(obj);
+            // console.log(obj.name);
+            // console.log(obj.age);
+            // console.log(obj.place);
+
+        // FUNCTION
+        
+            // SYNTAX
+            // function function_name(){
+            // code
+            // }
+
+            // function fun(){
+            //     document.getElementById('btn').innerHTML = 'Clicked'
+            // }
+
+        // DATE 
+
+        // sun = 0
+        // mon = 1 
+        // tues = 2 
+
+        // Jan = 0
+        // Feb = 1
+        // March = 2
+        // April =  3
+
+            // var todayDate =  new Date();
+            // console.log(todayDate);
+            // console.log(todayDate.getDate());
+            // console.log(todayDate.getDay());
+            // console.log(todayDate.getMonth());
+            // console.log(todayDate.getFullYear());
+            // console.log(todayDate.toLocaleTimeString());
+        
+    </script>
 </body>
 </html>

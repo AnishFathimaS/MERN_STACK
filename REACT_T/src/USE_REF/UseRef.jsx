@@ -24,25 +24,24 @@
 
 // export default UseRef
 
-import React, { useEffect, useRef, useState } from 'react'
+// import React, { useEffect, useRef, useState } from 'react'
 
-const UseRef = () => {
+// const UseRef = () => {
 
-    const [a, setA] = useState('');
-    const reff = useRef(null);
+//     const [a, setA] = useState('');
+//     const reff = useRef(null);
 
-    useEffect(()=>{
-        reff.current = a;
-    },[a])
+//     useEffect(()=>{
+//         reff.current = a;
+//     },[a])
 
-    return (
-        <>
-            <input type="text" ref={reff} onChange={(e) => {setA(e.target.value)}} /><br/>
-            <span>Current Word : {a}</span><br />
-            <span>Previous Word : {reff.current}</span><br />
-        </>
-    )
-}
+//     return (
+//         <>
+//             <input type="text" ref={reff} onChange={(e) => {setA(e.target.value)}} /><br/>
+//             <span>Current Word : {a}</span><br />
+//             <span>Previous Word : {reff.current}</span><br />
+//         </>
+//     )
+// }
 
-export default UseRef
-
+// export default UseRef
