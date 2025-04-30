@@ -28,8 +28,8 @@ HA - Set Internal, Set Timeout
 WEDNESDAY - 30-04-2025 
 
 IN - HTML DAY 2
-NM - ROUTING
-8 - Events, Event listener, Query Selector
+NM - ROUTING ( USE CONTEXT )
+8 - Events, Event listener, Query Selector ( Object Methods, DOM )
 HA - Loops
 
 THURSDAY - 01-05-2025
