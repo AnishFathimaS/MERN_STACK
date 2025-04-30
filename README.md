@@ -12,7 +12,7 @@ MEMBERSHIP ( membership.html )
 GALLERY - IMAGES ( gallery-image.html ), 
 GALLERY - VIDEOS ( gallery-video.html ), 
 GALLERY - MEDIA ( gallery-media.html ), 
-Organizing Committee ( organizing-committee.html  )
+Organizing Committee ( organizing-committee.html )
 
 <!-- 
 shankar zip
