@@ -14,44 +14,39 @@ BATCHES
 
 MONDAY - 28-04-2025
 
-NM - USE REF ( DOUBT, USE REDUCER )
-8 - Fetching API with Filter, Object Methods ( Filter with JSON )
+NM - DOUBT, USE REDUCER
+8 - Filter with JSON
 HA - Conditional Statement 
 
 TUESDAY - 29-04-2025
 
 IN - HTML DAY 1 
-NM - USE CONTEXT ( USE REF )
-8 - DOM, BOM ( Fetching API with Filter, Object Methods )
+NM - USE REF
+8 - Fetching API with Filter, Object Methods
 HA - Set Internal, Set Timeout 
 
 WEDNESDAY - 30-04-2025 
 
 IN - HTML DAY 2
-NM - ROUTING ( USE CONTEXT )
-8 - Events, Event listener, Query Selector ( Object Methods, DOM )
-HA - Loops
+NM - USE CONTEXT
+8 - Object Methods, DOM 
+HA - Doubt in Task
 
-THURSDAY - 01-05-2025
-
-IN - CSS DAY 1
-NM - CRUD 
-8 - Form Validation, Password Validation
-HA - Array Methods 1 ( Simple Methods )
+THURSDAY - 01-05-2025 ( OFFICE LEAVE )
 
 FRIDAY - 02-05-2025
 
-IN - CSS DAY 2
-NM - PACKAGES ( swiper, material ui, react components, daisy ui ), Render 
-8 - Try, Catch, Finally, Throw, Then, Promises 
-HA - Array Methods 2 ( ForEach, Map )
+IN - CSS DAY 1
+NM - ROUTES
+8 - Events, Event listener, Query Selector 
+HA - Loops
 
 ATTENDANCE 
 
 28-04-2025 (MON) - Absent - Maria, Dinesh, Hari Babu, Kaviyarasan, Murugan, 
 29-04-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan
 30-04-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, 
-01-05-2025 (THU) - Absent - 
+01-05-2025 (THU) - Absent - Office Leave
 02-05-2025 (FRI) - Absent - 
 
 ----------------------------------------------------------------------------------------------------
@@ -117,11 +112,11 @@ BOOTSTRAP - 2
 JAVASCRIPT - 2
 REACT - 2
 
-HTML DAY 1 => Elements, List, Links
-HTML DAY 2 => Table, Form
+29-04-2025 - HTML DAY 1 => Elements, List, Links
+30-04-2025 - HTML DAY 2 => Table, Form
 
-CSS DAY 1 => Selectors, Hover, Color, Margin, Padding, Background Image
-CSS DAY 2 => Flex, Position, Animation
+02-04-2025 - CSS DAY 1 => Selectors ( Element, Class, Id, Grouping ), Hover, Color, Margin, Padding, Border, Background Image
+05-04-2025 - CSS DAY 2 => Flex, Position, Animation
 
 BOOTSTRAP DAY 1 => Colors, Button, Margin, Padding, Column Responsiveness, Card, Modal 
 

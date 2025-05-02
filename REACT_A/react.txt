@@ -29,7 +29,7 @@ Clear
 
 for react shortcuts extenstion name (ES7+ React/Redux/React-Native snippets)
 
-DAY - 1 => SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
+DAY - 1 ddd SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
 DAY - 2 => JS in REACT, EVENT
 DAY - 3 => STYLE, PROPS
 DAY - 4 => USE STATE
@@ -42,6 +42,7 @@ DAY - 10 => USE REF
 DAY - 11 => USE CONTEXT
 DAY - 12 => ROUTING 
 DAY - 13 => CRUD 
+DAY - 14 => FORM VALIDATION
 DAY - 15 => PACKAGES ( swiper, material ui, react components, daisy ui ), Render
 
 PROJECT - COSTICA FROM THEME FOREST 
