@@ -1,131 +1,95 @@
-// var obj = {
-//     name : 'abinaya',
-//     age : 20,
-//     place : {
-//         city : 'trichy'
-//     }
-// }
-// console.log(obj.place.city)
+// EVENTS
 
-// var obj = {
-//     name : 'abinaya',
-//     age : 20,
-//     fun : function(){
-//         // console.log(`Hello ${obj.name}`)
-//         console.log(`Hello ${this.name}`)
-//     }
-// }
-// obj.fun()
+// ONCLICK
 
-// SET, GET, DELETE, CLEAR, HAS
-
-// SET
-
-// var obj = {
-//     name : 'abinaya',
-//     age : 20,
-//     place : {
-//         city : 'trichy'
-//     }
+// function clickFun(){
+//     alert('Hello')
 // }
 
-// SYNTAX
+// ONDBLCLICK
 
-// object_name.set(key, value)
+// function dblClickFun(){
+//     alert('Helloo')
+// }
 
-// var value = new Map();
-// value.set('name', 'abinaya');
-// value.set('age', 20);
-// console.log(value);
+// ONMOUSEDOWN
 
-// var obj = new Map();
-// obj.set('place', {'city' : 'trichy'})
-// console.log(obj)
+// function mouseDownFun(){
+//     document.getElementsByTagName('p')[0].innerHTML = 'Button Pressed'
+// }
 
-// GET
+// ONMOUSEUP 
 
-// var obj = new Map();
-// obj.set('name', 'abinaya');
-// obj.set('age', 20);
+// function mouseUpFun(){
+//     document.getElementsByTagName('p')[0].innerHTML = 'Button Released'
+// }
 
-// console.log(obj);
-// console.log(obj.get('name'))
-// console.log(obj.get('age'))
+// ONMOUSEOVER
 
-// DELETE 
+// function mouseOverFun(){
+//     document.getElementsByTagName('p')[0].style.color = 'red'
+// }
 
-// var obj = new Map();
-// obj.set('name', 'abinaya');
-// obj.set('age', 20);
-// console.log(obj.delete('age'));
-// console.log(obj);
+// ONMOUSEOUT 
 
-// CLEAR
+// function mouseOutFun(){
+//     document.getElementsByTagName('p')[0].style.color = 'black'
+// }
 
-// var obj = new Map();
-// obj.set('name', 'abinaya');
-// obj.set('age', 20);
-// console.log(obj);
-// console.log(obj.clear());
-// console.log(obj);
+// ONMOUSEENTER
 
-// HAS
+// function mouseEnterFun(){
+//     document.getElementsByTagName('p')[0].style.backgroundColor = 'blue'
+// }
 
-// var obj = new Map();
-// obj.set('name', 'abinaya');
-// obj.set('age', 20);
-// console.log(obj.has('age')); // true
-// console.log(obj.has('ages')); // false
+// ONMOUSELEAVE
 
-// DOM - Document Object Modal
+// function mouseLeaveFun(){
+//     document.getElementsByTagName('p')[0].style.backgroundColor = 'red'
+// }
 
-// createElement
+// ONSUBMIT
 
-// var h1tag = document.createElement('h1');
-// h1tag.innerHTML = 'Hello from Dom'
-// document.body.appendChild(h1tag)
+// function submitFun(event){
+//     event.preventDefault()
+//     var value = document.getElementById('inputBox').value;
+//     console.log(value)
+// }
 
-// var ptag = document.createElement('p');
-// ptag.innerHTML = 'P Tag';
-// document.body.appendChild(ptag);
+// ONCHANGE
 
-// var atag = document.createElement('a');
-// atag.innerHTML = 'YouTube';
-// atag.href = 'https://www.youtube.com';
-// atag.target = '_blank'
-// document.body.appendChild(atag)
+// function changeFun(){
+//     console.log('Hello')
+// }
 
-// var imgTag = document.createElement('img');
-// imgTag.src = 'img1.jpg';
-// imgTag.height = '400';
-// imgTag.width = '600';
-// document.body.appendChild(imgTag);
+// ONKEYUP
 
-// var centerTag = document.createElement('center');
+// function keyupFun(){
+//     var value = document.getElementById('inputBox').value;
+//     console.log(value);
+// }
 
-// var h1Tag = document.createElement('h1');
-// h1Tag.innerHTML = 'Hello World';
+// ONFOCUS 
 
-// document.body.appendChild(centerTag)
-// centerTag.appendChild(h1Tag)
+// function focusFun(){
+//     document.getElementById('inputBox').style.backgroundColor = 'green'
+// }
 
-// var h1tag = document.createElement('h1');
-// h1tag.innerHTML = 'Hello';
-// h1tag.setAttribute('id', 'h1')
-// document.body.appendChild(h1tag);
-// document.getElementById('h1').style.color = 'red'
-// document.getElementById('h1').style.backgroundColor = 'black'
+// ONBLUR 
 
-// var h1tag = document.createElement('h1');
-// h1tag.innerHTML = 'Hello';
-// h1tag.setAttribute('class', 'cls');
-// document.body.appendChild(h1tag);
+// function blurFun(){
+//     document.getElementById('inputBox').style.backgroundColor = 'white'
+// }
 
-// document.getElementsByClassName('cls')[0].style.color = 'blue'
+// ONRESIZE
 
-// var ptag = document.createElement('p');
-// ptag.innerHTML = 'P tag'
-// ptag.setAttribute('class', 'cls')
-// document.body.appendChild(ptag);
+// window.onresize = function(){
+//     console.log('Hello');
+// }
 
-// document.getElementsByClassName('cls')[1].style.color = 'red'
+// ONLOAD
+
+// function fun(){
+//     alert('Hello')
+// } 
+

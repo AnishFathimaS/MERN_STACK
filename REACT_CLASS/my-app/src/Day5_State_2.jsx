@@ -125,3 +125,50 @@
     // }
 
     // export default Day5_State_2
+
+    import React, { useState, useContext } from 'react'
+    import { myContext } from './CalculatorContext'
+    
+    const Day5_State_2 = () => {
+
+        const{ input, display, sum, allClear, deleteNum } = useContext(myContext)
+
+        return (
+            <>
+                <div>
+                    <input type="text" value={input} readOnly />
+                </div>
+                <div>
+                    <input type="button" value='1' onClick={display}/>
+                    <input type="button" value='2' onClick={display}/>
+                    <input type="button" value='3' onClick={display}/>
+                    <input type="button" value='4' onClick={display}/>
+                </div>
+                <div>
+                    <input type="button" value='5' onClick={display}/>
+                    <input type="button" value='6' onClick={display}/>
+                    <input type="button" value='7' onClick={display}/>
+                    <input type="button" value='8' onClick={display}/>
+                </div>
+                <div>
+                    <input type="button" value='9' onClick={display}/>
+                    <input type="button" value='0' onClick={display}/>
+                    <input type="button" value='00' onClick={display}/>
+                    <input type="button" value='.' onClick={display}/>
+                </div>
+                <div>
+                    <input type="button" value='+' onClick={display}/>
+                    <input type="button" value='-' onClick={display}/>
+                    <input type="button" value='*' onClick={display}/>
+                    <input type="button" value='/' onClick={display}/>
+                </div>
+                <div>
+                    <input type="button" value='=' onClick={sum}/>
+                    <input type="button" value='AC' onClick={allClear}/>
+                    <input type="button" value='DE' onClick={deleteNum}/>
+                </div>
+            </>
+        )
+    }
+    
+    export default Day5_State_2

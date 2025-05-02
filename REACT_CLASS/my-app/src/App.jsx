@@ -1,5 +1,4 @@
 import React from 'react'
-// import Day7_Effect_2 from './Day7_Effect_2.jsx'
 // import Day1_Components from './Day1_Components.jsx'
 // import Day2_JS from './Day2_JS.jsx'
 // import Day3_Props_1 from './Day3_Props_1.jsx'
@@ -8,11 +7,15 @@ import React from 'react'
 // import Asset from './Asset.jsx'
 // import Bootstrap from './Bootstrap.jsx'
 // import Day6_Effect_1 from './Day6_Effect_1.jsx'
+// import Day7_Effect_2 from './Day7_Effect_2.jsx'
+// import WeatherContext from './WeatherContext.jsx'
 // import Day8_Reducer from './Day8_Reducer.jsx'
 // import Day9_Ref from './Day9_Ref.jsx'
-import Day10_Context from './Day10_Context.jsx'
-import Day10_Context_1 from './Day10_Context_1.jsx'
-import Day10_Context_2 from './Day10_Context_2.jsx'
+// import Day10_Context from './Day10_Context.jsx'
+// import Day10_Context_1 from './Day10_Context_1.jsx'
+// import Day10_Context_2 from './Day10_Context_2.jsx'
+import CalculatorContext from './CalculatorContext'
+import Day5_State_2 from './Day5_State_2.jsx'
 
 const App = () => {
   return (
@@ -28,10 +31,16 @@ const App = () => {
       {/* <Day7_Effect_2/> */}
       {/* <Day8_Reducer/> */}
       {/* <Day9_Ref/> */}
-      <Day10_Context>
-        <Day10_Context_1/>
-        <Day10_Context_2/>
-      </Day10_Context>
+      {/* <Day10_Context> */}
+        {/* <Day10_Context_1/> */}
+        {/* <Day10_Context_2/> */}
+      {/* </Day10_Context> */}
+      {/* <WeatherContext> */}
+        {/* <Day7_Effect_2/> */}
+      {/* </WeatherContext> */}
+      <CalculatorContext>
+        <Day5_State_2 />
+      </CalculatorContext>
     </>
   )
 }

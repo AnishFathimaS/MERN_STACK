@@ -1,12 +1,13 @@
 # MERN_STACK ANIS FATHIMA
 
-SAT - PROJECT  ( 17 Pages )
+SAT - PROJECT  ( 18 Pages )
 
 HOME (index.html)
 ABOUT (about.html) - > 
     PRESIDENT PROFILE ( president-profile.html )
     MEMBERS - >
         DISTRICT MEMBERS (district-members.html) ( 7 PAGE (district-page-1 to 7) )
+        CLUB MEMBERS ( club-members.html )
 CONTACT ( contact.html )
 MEMBERSHIP ( membership.html )
 GALLERY - IMAGES ( gallery-image.html ), 
@@ -107,7 +108,14 @@ I make real section - remove image put vdo popup with play btn icon
 
 <!-- Corrections completed ✅ -->
 
+<!-- 02 - 05 -->
+
+<!-- Corrections completed ✅ -->
+
 <!-- PENDING -->
 
 PRE NAV ❌
-YOUTUBE VDO NOT OPENING ❌ h
+YOUTUBE VDO NOT OPENING ❌ 
+MEMBERSHIP FORM NOT DYNAMIC ❌
+ORGANIZING COMMITTEE ONE IMAGE NOT GIVE ❌
+CLUB MEMBERS - 4TH CARD EMAIL ID, LOGO NOT GIVE ❌

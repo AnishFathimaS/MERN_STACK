@@ -1,106 +1,125 @@
-// var text = ['STUDENTS', 'STAFFS', 'DEPARTMENT', 'PROGRAM']
-// var icon = ['fa-solid fa-users', 'fa-solid fa-chalkboard-user', 'fa-solid fa-computer', 'fa-solid fa-user']
+// LOOPS
 
-// document.write(`
-//     <div class='container text-center bg-color mt-5 p-5'>
-//         <div class='row'>
-//             <div class='col-lg-3 col-md-6 col-12'>
-//                 <i class='${icon[0]} fa-2x'></i>
-//                 <h4 id='count1'></h4>
-//                 <h4>${text[0]}</h4>
-//             </div>
-//             <div class='col-lg-3 col-md-6 col-12'>
-//                 <i class='${icon[1]} fa-2x'></i>
-//                 <h4 id='count2'></h4>
-//                 <h4>${text[1]}</h4>
-//             </div>
-//             <div class='col-lg-3 col-md-6 col-12'>
-//                 <i class='${icon[2]} fa-2x'></i>
-//                 <h4>${text[2]}</h4>
-//             </div>
-//             <div class='col-lg-3 col-md-6 col-12'>
-//                 <i class='${icon[3]} fa-2x'></i>
-//                 <h4>${text[3]}</h4>
-//             </div>
-//         </div>
-//     </div>
-// `)
+// FOR LOOP
 
-// var count1 = 0;
+// SYNTAX
 
-// setInterval(() => {
-//     if(count1 < 1100){ //  < 1100
-//         ++count1;
-//         document.getElementById('count1').innerHTML = count1
-//     }
-// }, 1)
+// for(initailization; condition; increment/decrement;){
+    // statement
+// }
 
-// var count2 = 0;
-
-// setInterval(() => {
-//     if(count2 < 200){
-//         ++count2;
-//         document.getElementById('count2').innerHTML = count2
-//     }
-// }, 10)
-
-// LOOPS 
-
-// FOR
-
-// for(i=1; i<=10; i++){
+// for(var i = 1; i <= 5; i++){
 //     console.log(i)
+// }   
+
+// i = 1, 1 <= 5 => 1
+// i = 2, 2 <= 5 => 2
+// i = 3, 3 <= 5 => 3
+// i = 4, 4 <= 5 => 4
+// i = 5, 5 <= 5 => 5
+// i = 6, 6 <= 5 
+
+// for(var i = 1; i <= 10; i++){
+    // console.log(i);
+
+    // if(i % 2 == 0){
+    //     console.log(i);
+    // }
+
+    // if(i % 2 !== 0){
+    //     console.log(i);
+    // }
 // }
 
-// for(i=1; i<=10; i++){
-//     if(i % 2 == 0){
-//         console.log(i)
-//     }
-// }
-
-// for(i=1; i<=10; i++){
-//     if(i % 2 !== 0){
-//         console.log(i)
-//     }
-// }
+// var num = Math.floor(Math.random() * 10000); 
+// 0 to 9999 [ 2, 45, 567, 5677 ]
+// console.log(num);
 
 // var otp = '';
 
-// for( i = 1; i <=4; i++){
-//     otp += Math.floor(Math.random() * 10)
+// for(var i = 1; i <= 4; i++){
+//     otp += Math.floor(Math.random() * 10) // 0 to 9
+// }
+// console.log(otp);
+
+// i = 1, 1 <= 4 => 4
+// i = 2, 2 <= 4 => 3
+// i = 3, 3 <= 4 => 8
+// i = 4, 4 <= 4 => 1
+// i = 5, 5 <= 4 ( false )
+
+// var arr = [ 'html', 'css', 'bootstrap', 'javascript' ];
+// console.log(arr);
+
+// for(var i = 0; i < arr.length; i++){
+    // console.log(arr[i]);
 // }
 
-// console.log(otp)
+// i = 0, 0 <= 3 => arr[0] => html
+// i = 1, 1 <= 3 => arr[1] => css
+// i = 2, 2 <= 3 => arr[2] => bootstrap
+// i = 3, 3 <= 3 => arr[3] => javascript
 
-// var arr = [ 'html', 'css', 'javascript', 'bootstrap'];
+// DECREMENT
 
-// for(i = 0; i < arr.length; i++){
-//     console.log(arr[i])
+// for(var i = 10; i >= 1; i--){
+//     console.log(i);
 // }
 
-// decrement
+// i = 10, 10 >= 1 => 10
+// i = 9, 9 >= 1 => 9 
+// i = 8, 8 >= 1 => 8
+// ...
+// i = 1, 1 >= 1 => 1
+// i = 0, 0 >= 1
 
-// for(i=5; i>=1; i--){
-//     console.log(i)
+// var arr = [ 'html', 'css', 'bootstrap', 'javascript', 'abc', 'xyz' ];
+
+// position - 5
+// length - 6 - 1 => 5
+
+// for(var i = arr.length-1; i >= 0; i--){
+    // console.log(arr[i]); 
 // }
 
-// var arr = [ 'html', 'css', 'javascript', 'bootstrap'];
+// arr[5]
+// i = 3, 3 >= 0 => arr[3] javascript
+// i = 2, 2 >= 0 => arr[2] bootstrap
+// i = 1, 1 >= 0 => arr[1] css
+// i = 0, 0 >= 0 => arr[0] html
 
-// for( i = arr.length - 1; i>=0; i-- ){
-//     console.log(arr[i]);
-// }
-
-// var text = 'abc'; // cba
+// var text = 'hello' // olleh
 // var reverse = ''
 
-// for(i = text.length - 1; i >= 0; i--){
-//     reverse += text[i]
+// for(var i = text.length-1; i >= 0; i--){
+//     reverse += text[i];
 // }
-// console.log(reverse)
+// console.log(reverse);
 
-// for(i=1; i<=10; i++){
-//     for(j=1; j<=10; j++){
-//         // console.log(i, j)
-//         console.log(`${j} + ${i} = ${i + j}`)
+// i = 4, 4 >= 0 => text[4] => reverse = o
+// i = 3, 3 >= 0 => text[3] => reverse += ol
+// i = 2, 2 >= 0 => text[2] => reverse += oll
+// i = 1, 1 >= 0 => text[1] => reverse += olle
+// i = 0, 0 >= 0 => text[0] => reverse += olleh
+
+// NESTED FOR LOOP
+
+// for( var i = 1; i <= 5; i++){
+//     for( var j = 1; j <= 5; j++ ) {
+//         console.log(`${j} X ${i} = ${i * j}`);
 //     }
 // }
+
+// i = tableCount
+// j = end Count
+
+// i = 1, 1 <= 5 
+// j = 1, 1 <= 5 => 1, 1
+// j = 2, 2 <= 5 => 1, 2
+// j = 3, 3 <= 5 => 1, 3
+// j = 4, 4 <= 5 => 1, 4
+// j = 5, 5 <= 5 => 1, 5
+// j = 6, 6 <= 5 ( false )
+
+// i = 2, 2 <= 5
+// j = 1, 1 <= 5 => 2, 1
