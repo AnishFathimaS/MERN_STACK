@@ -13,7 +13,8 @@ import React from 'react'
 // import Day10_Context from './Day10_Context.jsx'
 // import Day10_Context_1 from './Day10_Context_1.jsx'
 // import Day10_Context_2 from './Day10_Context_2.jsx'
-import Router from './Router'
+// import Router from './Router'
+import Crud from './Crud.jsx'
 
 const App = () => {
   return (
@@ -33,7 +34,8 @@ const App = () => {
         <Day10_Context_1/>
         <Day10_Context_2 />
       </Day10_Context> */}
-      <Router />
+      {/* <Router /> */}
+      <Crud />
     </>
   )
 }

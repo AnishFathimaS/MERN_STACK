@@ -31,7 +31,7 @@ A - ARRAY METHODS - 2
 WEDNESDAY - 07-05-2025
 
 IN - BOOTSTRAP DAY 1
-NM - FORM VALIDATION
+NM - FORM PROTECTION
 3 - TRY CATCH FINALLY THROW PROMISES
 5 - TRY CATCH FINALLY THROW PROMISES
 A - ARRAY METHODS - 3
@@ -162,16 +162,19 @@ BOOTSTRAP - 7, 8, 9
 JAVASCRIPT - 12, 13
 REACT - 14, 15, 16
 
-29-04-2025 - HTML DAY 1 => Elements, List, Links
-30-04-2025 - HTML DAY 2 => Table, Form
+02-05-2025 - CSS DAY 1 => Selectors ( Element, Class, Id, Grouping ), Hover, Color, Margin, Padding, Border, Background Image 
 
-02-04-2025 - CSS DAY 1 => Selectors ( Element, Class, Id, Grouping ), Hover, Color, Margin, Padding, Border, Background Image
-05-04-2025 - CSS DAY 2 => Flex, Position, Animation
+05-05-2025 - CSS DAY 2 => Text-shadow, Box-shadow, Over Flow, Flex, Position
 
-BOOTSTRAP DAY 1 => Colors, Button, Margin, Padding, Column Responsiveness, Card, Modal 
+06-05-2025 - CSS DAY 3 => Animations ( Transform, Transition ), Root Variable, Media Query 
 
-JAVASCRIPT DAY 1 => Variables, Data Types, Operators, 
-JAVASCRIPT DAY 2 => Conditional Statement, Loops
+07-05-2025 - BOOTSTRAP DAY 1 => Intro, Colors, Button, Margin, Padding, Width, Typography, Border, Rounded
+08-05-2025 - BOOTSTRAP DAY 2 => Badge, Tables, Column Responsiveness
+09-05-2025 - BOOTSTRAP DAY 3 => Navbar, Carousel, Card, Modal
 
-REACT DAY 1 => Set Up, Bootstrap, Use State 
-REACT DAY 2 => Use Effect, Routes 
+12-05-2025 - JAVASCRIPT DAY 1 => Variables, Data Types, String Concantenation, Operators
+13-05-2025 - JAVASCRIPT DAY 2 => Conditional Statement, Loops, Array Methods
+
+14-05-2025 - REACT DAY 1 => Set Up, Functional Components, Bootstrap, Props
+15-05-2025 - REACT DAY 2 => Bootstrap, Use State, Use Effect
+16-05-2025 - REACT DAY 3 => Use Context, Routes, Form Protection
