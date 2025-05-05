@@ -14,8 +14,8 @@ import React from 'react'
 // import Day10_Context from './Day10_Context.jsx'
 // import Day10_Context_1 from './Day10_Context_1.jsx'
 // import Day10_Context_2 from './Day10_Context_2.jsx'
-import CalculatorContext from './CalculatorContext'
-import Day5_State_2 from './Day5_State_2.jsx'
+// import CalculatorContext from './CalculatorContext'
+// import Day5_State_2 from './Day5_State_2.jsx'
 
 const App = () => {
   return (
@@ -38,9 +38,9 @@ const App = () => {
       {/* <WeatherContext> */}
         {/* <Day7_Effect_2/> */}
       {/* </WeatherContext> */}
-      <CalculatorContext>
+      {/* <CalculatorContext>
         <Day5_State_2 />
-      </CalculatorContext>
+      </CalculatorContext> */}
     </>
   )
 }
