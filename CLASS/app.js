@@ -123,3 +123,70 @@
 
 // i = 2, 2 <= 5
 // j = 1, 1 <= 5 => 2, 1
+
+// WHILE
+
+// SYNTAX 
+
+// initialize
+
+// while(condition){
+    // statement
+    // increment / decrement
+// }
+
+// var i = 1;
+
+// while( i <= 5 ){
+//     console.log(i);
+//     i++
+// }
+
+// var i = 5;
+
+// while(i >= 1){
+//     console.log(i);
+//     i--
+// }
+
+// var password = '123';
+// var user_password = '';
+
+// while(password != user_password){
+//     user_password = prompt('Enter your password')
+// }
+// console.log('Login Successfully')
+
+// DO WHILE
+
+// initialize;
+// do {
+//  statement;
+//  condition;
+// }
+// while(condition)
+
+// var i = 1;
+
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i <= 5)
+
+// var num = ''
+
+// do{
+//     num = prompt('Enter a Number Less than 10')
+// }
+// while(num >= 10)
+
+// var my_num = 8;
+// var user_num = '';
+
+// do{
+//     user_num = prompt('Guess the number between 0 to 10')
+// }
+// while(my_num != user_num);
+
+// console.log('You Guessed Right');

@@ -1,95 +1,47 @@
-// EVENTS
+// addEventListener(event_name, function_name)
+// removeEventListener(event_name, function_name)
 
-// ONCLICK
-
-// function clickFun(){
-//     alert('Hello')
-// }
-
-// ONDBLCLICK
-
-// function dblClickFun(){
+// function addFun(){
 //     alert('Helloo')
 // }
 
-// ONMOUSEDOWN
+// document.getElementById('add_btn').addEventListener('click', addFun)
 
-// function mouseDownFun(){
-//     document.getElementsByTagName('p')[0].innerHTML = 'Button Pressed'
+// function removeFun(){
+//     document.getElementById('add_btn').removeEventListener('click', addFun)
 // }
 
-// ONMOUSEUP 
+// document.getElementById('remove_btn').addEventListener('click', removeFun)
 
-// function mouseUpFun(){
-//     document.getElementsByTagName('p')[0].innerHTML = 'Button Released'
+
+
+// function addFun(){
+//     // white = white ? 'lightblue' : 'white
+
+//     document.body.style.backgroundColor = document.body.style.backgroundColor == 'white' ? 'blue' : 'white'
 // }
 
-// ONMOUSEOVER
+// document.getElementById('add_btn').addEventListener('click', addFun)
 
-// function mouseOverFun(){
-//     document.getElementsByTagName('p')[0].style.color = 'red'
+// var padding = 10
+
+// function paddingAddFun(){
+//     padding++
+//     document.getElementById('add_btn').style.padding = `${padding}px`
+    
 // }
 
-// ONMOUSEOUT 
+// document.getElementById('add_btn').addEventListener('click', paddingAddFun)
 
-// function mouseOutFun(){
-//     document.getElementsByTagName('p')[0].style.color = 'black'
+
+// function removeFun(){
+//     document.getElementById('add_btn').removeEventListener('click', paddingAddFun)
 // }
 
-// ONMOUSEENTER
-
-// function mouseEnterFun(){
-//     document.getElementsByTagName('p')[0].style.backgroundColor = 'blue'
-// }
-
-// ONMOUSELEAVE
-
-// function mouseLeaveFun(){
-//     document.getElementsByTagName('p')[0].style.backgroundColor = 'red'
-// }
-
-// ONSUBMIT
-
-// function submitFun(event){
-//     event.preventDefault()
-//     var value = document.getElementById('inputBox').value;
-//     console.log(value)
-// }
-
-// ONCHANGE
-
-// function changeFun(){
-//     console.log('Hello')
-// }
-
-// ONKEYUP
-
-// function keyupFun(){
-//     var value = document.getElementById('inputBox').value;
-//     console.log(value);
-// }
-
-// ONFOCUS 
-
-// function focusFun(){
-//     document.getElementById('inputBox').style.backgroundColor = 'green'
-// }
-
-// ONBLUR 
-
-// function blurFun(){
-//     document.getElementById('inputBox').style.backgroundColor = 'white'
-// }
-
-// ONRESIZE
-
-// window.onresize = function(){
-//     console.log('Hello');
-// }
-
-// ONLOAD
+// document.getElementById('remove_btn').addEventListener('click', removeFun)
 
 // function fun(){
-//     alert('Hello')
-// } 
+//     document.getElementById('add_btn').style.padding = '1px 2px'
+// }
 
+// document.getElementById('btn').addEventListener('click', fun)

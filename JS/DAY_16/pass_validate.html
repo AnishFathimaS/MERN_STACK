@@ -74,5 +74,24 @@
             
         }
     </script>
+
+
+    <input type="password" id="pass1" placeholder="Enter Password"><br><br>
+    <input type="password" id="pass2" placeholder="Confirm Password"><br><br>
+    <button onclick="checkPassword()">Submit</button>
+
+    <script>
+        function checkPassword() {
+        const pass1 = document.getElementById("pass1").value;
+        const pass2 = document.getElementById("pass2").value;
+
+        if (pass1 === pass2 && pass1 !== "") {
+            window.location.href = "nextpage.html"; 
+        } else {
+            alert("Passwords do not match!");
+        }
+        }
+    </script>
+    
   </body>
 </html>

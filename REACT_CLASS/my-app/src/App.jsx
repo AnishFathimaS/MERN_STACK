@@ -16,6 +16,7 @@ import React from 'react'
 // import Day10_Context_2 from './Day10_Context_2.jsx'
 // import CalculatorContext from './CalculatorContext'
 // import Day5_State_2 from './Day5_State_2.jsx'
+import Router from './Router'
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
       {/* <CalculatorContext>
         <Day5_State_2 />
       </CalculatorContext> */}
+      <Router />
     </>
   )
 }
