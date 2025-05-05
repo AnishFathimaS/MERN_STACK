@@ -1,68 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body onload="fun()">
+<html>
+<body>
 
-    <!-- EVENTS -->
+<button id="notifyBtn">Click Me</button>
 
-    <!-- ONCLICK -->
+<script>
+  const button = document.getElementById('notifyBtn');
 
-    <!-- <button onclick="clickFun()">Click</button> -->
+  function showAlertOnce() {
+    alert("Welcome! This message will only show once.");
+    button.removeEventListener('click', showAlertOnce); // remove after first click
+  }
 
-    <!-- <h1 onclick="clickFun()">Hello</h1> -->
-
-    <!-- ONDBLCLICK -->
-
-    <!-- <button ondblclick="dblClickFun()">Click</button> -->
-
-    <!-- ONMOUSEDOWN & ONMOUSEUP -->
-
-    <!-- <button onmousedown="mouseDownFun()" onmouseup="mouseUpFun()">Click</button> -->
-    <!-- <p></p> -->
-
-    <!-- ONMOUSEOVER -->
-
-    <!-- <p onmouseover="mouseOverFun()">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci nostrum dignissimos ratione. Facilis excepturi sunt tempore beatae recusandae saepe, eum vel optio rerum quibusdam fugit hic velit eaque modi officiis iusto laborum soluta ut itaque autem animi dolor at ratione? Sit dolore exercitationem, vitae fugit maiores voluptatibus neque expedita!</p> -->
-
-    <!-- ONMOUSEOUT -->
-
-    <!-- <p onmouseout="mouseOutFun()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi temporibus, quibusdam error id porro magnam ipsam repudiandae quo at natus sequi inventore assumenda quisquam sint fugiat praesentium voluptate aspernatur eius eos ullam! Sint asperiores tenetur, similique repellat, error magni necessitatibus fuga deleniti sunt illo alias tempore laborum excepturi dignissimos molestiae.</p> -->
-
-    <!-- <p onmouseover="mouseOverFun()" onmouseout="mouseOutFun()">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro vero, tenetur sit sequi veniam temporibus. Iure, nemo labore aperiam ullam ipsam omnis, sint maiores velit qui aliquam dolorem facilis voluptates. Consequuntur, deserunt sed esse at enim, sequi natus optio quia voluptate iste tempore adipisci harum obcaecati quo veniam veritatis explicabo!</p> -->
-
-    <!-- ONMOUSEENTER & ONMOUSELEAVE -->
-
-    <!-- <p onmouseenter="mouseEnterFun()" onmouseleave="mouseLeaveFun()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rerum eligendi tempore, obcaecati sunt modi harum sapiente. Cum similique debitis, illo fugit doloremque maxime fugiat nobis quisquam dignissimos voluptate eius! Expedita exercitationem ab vitae perspiciatis! Cupiditate eum, ut ipsam doloremque aut itaque eaque velit quos, suscipit quas quae, numquam sed!</p> -->
-
-    <!-- ONSUBMIT -->
-
-    <!-- <form onsubmit="submitFun(event)">
-        <input type="text" id="inputBox">
-        <input type="submit">
-    </form> -->
-
-    <!-- ONCHANGE -->
-
-    <!-- <input type="text" onchange="changeFun()"> -->
-
-    <!-- ONKEYUP -->
-
-    <!-- <input type="text" onkeyup="keyupFun()" id="inputBox"> -->
-
-    <!-- ONFOCUS & ONBLUR -->
-
-    <!-- <input type="text" onfocus="focusFun()" onblur="blurFun()" id="inputBox"> -->
-
-    <!-- ONRESIZE -->
-
-    <script src="main.js"></script>
+  button.addEventListener('click', showAlertOnce);
+</script>
 
 </body>
 </html>

@@ -164,7 +164,7 @@ REACT - 14, 15, 16
 
 02-05-2025 - CSS DAY 1 => Selectors ( Element, Class, Id, Grouping ), Hover, Color, Margin, Padding, Border, Background Image 
 
-05-05-2025 - CSS DAY 2 => Text-shadow, Box-shadow, Over Flow, Flex, Position
+05-05-2025 - CSS DAY 2 => Text Properties, Text-shadow, Box-shadow, Over Flow, Flex, Position
 
 06-05-2025 - CSS DAY 3 => Animations ( Transform, Transition ), Root Variable, Media Query 
 
