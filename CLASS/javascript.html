@@ -6,7 +6,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    #hide{
+    #hide, #hide2{
       display: none;
     }
   </style>
@@ -21,41 +21,46 @@
   <!-- <button id="remove_btn">Remove</button> -->
   <!-- <button id="btn">Default Btn</button> -->
 
-  <!-- <form onsubmit="fun(event)">
-    <label>Enter your user name</label>
+  <form onsubmit="submitFun(event)">
+    <label>Enter your name</label>
     <input type="text" id="usernameBox">
     <br>
     <label>Enter your password</label>
     <input type="password" id="passwordBox">
-    <i class="fa-solid fa-eye" id="show" onclick="iconFun()"></i>
-    <i class="fa-solid fa-eye-slash" id="hide" onclick="iconFun()"></i>
+    <i class="fa-solid fa-eye" id="show" onclick="eyeFun()"></i>
+    <i class="fa-solid fa-eye-slash" id="hide" onclick="eyeFun()"></i>
+    <br>
+    <label>confirm password</label>
+    <input type="password" id="passwordBox2">
+    <i class="fa-solid fa-eye" id="show2" onclick="eyeFun2()"></i>
+    <i class="fa-solid fa-eye-slash" id="hide2" onclick="eyeFun2()"></i>
     <br>
     <input type="submit">
-  </form> -->
+  </form>
 
   <p id="error"></p>
 
   <script>
-    function fun(event){
-      event.preventDefault()
+    function submitFun(event){
+      event.preventDefault();
       var username = document.getElementById('usernameBox').value;
       var password = document.getElementById('passwordBox').value;
-
-      if(username == 'abc' && password == 'Abc@123'){
-        window.location.href = 'index.html'
-      }
-      else{
-        document.getElementById('error').innerHTML = 'Invalid Username or Password'
+      var password2 = document.getElementById('passwordBox2').value;
+      if(username == 'abc' && password == 'Abc@123' && password == password2){
+        window.location.href = 'index.html';
+      }      
+      else{ 
+        document.getElementById('error').innerHTML = 'Invalid Inputs'
         document.getElementById('error').style.color = 'red'
       }
     }
 
-    function iconFun(){
+    function eyeFun(){
       var password = document.getElementById('passwordBox');
-      if(password.type === 'password'){
+      if(password.type == 'password'){
         password.type = 'text';
-        document.getElementById('show').style.display = 'none'
-        document.getElementById('hide').style.display = 'inline'
+        document.getElementById('show').style.display = 'none';
+        document.getElementById('hide').style.display = 'inline';
       }
       else{
         password.type = 'password';
@@ -64,6 +69,19 @@
       }
     }
 
+    function eyeFun2(){
+      var password = document.getElementById('passwordBox2');
+      if(password.type == 'password'){
+        password.type = 'text';
+        document.getElementById('show2').style.display = 'none';
+        document.getElementById('hide2').style.display = 'inline';
+      }
+      else{
+        password.type = 'password';
+        document.getElementById('show2').style.display = 'inline';
+        document.getElementById('hide2').style.display = 'none';
+      }
+    }
   </script>
 
   <script src="main.js"></script>
