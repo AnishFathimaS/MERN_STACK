@@ -1,47 +1,61 @@
-// addEventListener(event_name, function_name)
-// removeEventListener(event_name, function_name)
-
-// function addFun(){
-//     alert('Helloo')
-// }
-
-// document.getElementById('add_btn').addEventListener('click', addFun)
-
-// function removeFun(){
-//     document.getElementById('add_btn').removeEventListener('click', addFun)
-// }
-
-// document.getElementById('remove_btn').addEventListener('click', removeFun)
-
-
-
-// function addFun(){
-//     // white = white ? 'lightblue' : 'white
-
-//     document.body.style.backgroundColor = document.body.style.backgroundColor == 'white' ? 'blue' : 'white'
-// }
-
-// document.getElementById('add_btn').addEventListener('click', addFun)
-
-// var padding = 10
-
-// function paddingAddFun(){
-//     padding++
-//     document.getElementById('add_btn').style.padding = `${padding}px`
+function fun(){
+    var password = document.getElementById('password').value;
     
-// }
+    var firstLetter = password.charAt(0)
 
-// document.getElementById('add_btn').addEventListener('click', paddingAddFun)
+    var num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+    var special_char = [ '!', '@', '#', '$', '%', '&', '^' ];
+
+    if(num.some((a) => firstLetter.includes(a))){
+        document.getElementsByTagName('p')[0].style.color = 'red'
+    }
+    else if(special_char.some((a) => firstLetter.includes(a))){
+        document.getElementsByTagName('p')[0].style.color = 'red'
+    }
+    else if(firstLetter == firstLetter.toUpperCase()){ 
+        document.getElementsByTagName('p')[0].style.color = 'green'
+    }
+    else{
+        document.getElementsByTagName('p')[0].style.color = 'red'
+    }
+
+    // Atleast One Number
+
+    if(num.some((a) => password.includes(a))){
+        document.getElementsByTagName('p')[1].style.color = 'green'
+    }
+    else{
+        document.getElementsByTagName('p')[1].style.color = 'red'
+    }
+
+    // Atleast One Special Character
+
+    if(special_char.some((a) => password.includes(a))){
+        document.getElementsByTagName('p')[2].style.color = 'green'
+    }
+    else{
+        document.getElementsByTagName('p')[2].style.color = 'red'
+    }
+
+    // Minimum 5 characters
+
+    if(password.length >= 5){
+        document.getElementsByTagName('p')[3].style.color = 'green'
+    }
+    else{
+        document.getElementsByTagName('p')[3].style.color = 'red'
+    }
 
 
-// function removeFun(){
-//     document.getElementById('add_btn').removeEventListener('click', paddingAddFun)
-// }
+    if(password.length == 0){
+        // document.getElementsByTagName('p')[0].style.color = 'black'
+        // document.getElementsByTagName('p')[1].style.color = 'black'
+        // document.getElementsByTagName('p')[2].style.color = 'black'
+        // document.getElementsByTagName('p')[3].style.color = 'black'
 
-// document.getElementById('remove_btn').addEventListener('click', removeFun)
+        document.querySelectorAll('p').forEach((value) => {
+            value.style.color = 'black'
+        })
+    }
 
-// function fun(){
-//     document.getElementById('add_btn').style.padding = '1px 2px'
-// }
-
-// document.getElementById('btn').addEventListener('click', fun)
+}

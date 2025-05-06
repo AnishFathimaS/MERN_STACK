@@ -14,7 +14,10 @@ import React from 'react'
 // import Day10_Context_1 from './Day10_Context_1.jsx'
 // import Day10_Context_2 from './Day10_Context_2.jsx'
 // import Router from './Router'
-import Crud from './Crud.jsx'
+// import Crud from './Crud.jsx'
+import Routers from './Form/Routers.jsx'
+import Context from './Form/Context.jsx'
+import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
   return (
@@ -35,7 +38,12 @@ const App = () => {
         <Day10_Context_2 />
       </Day10_Context> */}
       {/* <Router /> */}
-      <Crud />
+      {/* <Crud /> */}
+      <BrowserRouter>
+        <Context>
+          <Routers />
+        </Context>
+      </BrowserRouter>
     </>
   )
 }

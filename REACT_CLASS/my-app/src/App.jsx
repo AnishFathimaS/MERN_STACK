@@ -17,6 +17,8 @@ import React from 'react'
 // import CalculatorContext from './CalculatorContext'
 // import Day5_State_2 from './Day5_State_2.jsx'
 import Router from './Router'
+import Crud from './Crud'
+import Crud_Context from './Crud_Context'
 
 const App = () => {
   return (
@@ -42,7 +44,10 @@ const App = () => {
       {/* <CalculatorContext>
         <Day5_State_2 />
       </CalculatorContext> */}
-      <Router />
+      {/* <Router /> */}
+      <Crud_Context>
+        <Crud />
+      </Crud_Context>
     </>
   )
 }
