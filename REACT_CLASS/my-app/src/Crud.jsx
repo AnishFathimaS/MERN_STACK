@@ -32,7 +32,11 @@ const Crud = () => {
                                     <td>{value}</td>
                                     <td className='d-flex gap-3'>
                                         <button className='btn btn-success w-100' onClick={() => viewFun(value)}>View</button>
+
+
                                         <button className='btn btn-warning w-100'>Edit</button>
+
+                                        
                                         <button className='btn btn-danger w-100' onClick={() => deleteFun(index)}>Delete</button>
                                     </td>
                                 </tr>
