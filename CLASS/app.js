@@ -135,10 +135,97 @@
 //     increment/decrement;
 // }
 
-var i = 1;
-while(i <= 5){
-    console.log(i);
-    i++
+// var i = 1;
+// while(i <= 5){
+//     console.log(i);
+//     i++
+// }
+
+// 1 <= 5 true 1
+// 2 <= 5 true 2
+// 5 <= 5 true 5
+// 6 <= 5
+
+// var i = 5;
+// while(i >= 1){
+//     console.log(i);
+//     i--
+// }
+
+// var my_password = 123;
+// var user_password = '';
+
+// while(my_password != user_password){
+//     user_password = prompt('Enter Correct Password')
+// }
+// console.log('Login Successfully');
+
+// DO WHILE
+
+// SYNTAX
+
+// initialization 
+// do{
+    // statement
+    // increment / decrement
+// }
+// while(condition)
+
+// var i = 1;
+
+// do{
+//     console.log(i)
+//     i++;
+// }
+// while(i < 4)
+
+// 1 
+// 2 > 4
+
+// var num = 8;
+// var user_num = ''
+
+// do{
+//     user_num = prompt('Enter any number between 1 to 10')
+// }
+// while(num != user_num) // 8 != 8
+
+// console.log('Correct !');
+
+// 1 to 10 
+
+// var num = ''
+
+// do{
+//     num = prompt('Enter any number less than 10')
+// }
+// while(num > 10) 
+
+// console.log('Correct');
+
+function submitFun(event){
+    event.preventDefault();
+
+    var tableCount = document.getElementById('tableCount').value;
+    var lastCount = document.getElementById('lastCount').value;
+
+    for(i = 1; i <= tableCount; i++){
+        for(j = 1; j<= lastCount; j++){
+            document.write( `${j} X ${i} = ${j*i} <br>` )
+        }
+        document.write(`<br>`)
+    }
 }
 
-// 1 <= 5 true
+// i = 1, 1 <= 2, 
+// j = 1, 1 <= 5 => 1 X 1 = 1
+// j = 2, 2 <= 5 => 2 X 1 = 2
+// j = 5, 5 <= 5 => 5 X 1 = 5 
+// j = 6, 6 <= 5 => false
+
+// i = 2, 2 <= 2,
+// j = 1, 1 <= 5 => 1 X 2 = 2
+// j = 5, 5 <= 5 => 5 X 2 = 10
+// j = 6, 6 <= 5 => false
+
+// i = 3, 3 <= 2

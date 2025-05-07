@@ -16,38 +16,67 @@ import React from 'react'
 // import Day10_Context_2 from './Day10_Context_2.jsx'
 // import CalculatorContext from './CalculatorContext'
 // import Day5_State_2 from './Day5_State_2.jsx'
-import Router from './Router'
-import Crud from './Crud'
-import Crud_Context from './Crud_Context'
+// import Router from './Router'
+// import Crud from './Crud'
+// import Crud_Context from './Crud_Context'
+import Router from './Form/Router'
+import Context from './Form/Context'
+
+import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
   return (
     <>
       {/* <Day1_Components /> */}
+
       {/* <Day2_JS /> */}
+
       {/* <Day3_Props_1 /> */}
+
       {/* <Day4_State_1 /> */}
+
       {/* <Day5_State_2 /> */}
+
       {/* <Asset /> */}
+
       {/* <Bootstrap/> */}
+
       {/* <Day6_Effect_1 /> */}
+
       {/* <Day7_Effect_2/> */}
+
       {/* <Day8_Reducer/> */}
+
       {/* <Day9_Ref/> */}
+
       {/* <Day10_Context> */}
-        {/* <Day10_Context_1/> */}
-        {/* <Day10_Context_2/> */}
+
+      {/* <Day10_Context_1/> */}
+
+      {/* <Day10_Context_2/> */}
+
       {/* </Day10_Context> */}
+
       {/* <WeatherContext> */}
         {/* <Day7_Effect_2/> */}
       {/* </WeatherContext> */}
+
       {/* <CalculatorContext>
         <Day5_State_2 />
       </CalculatorContext> */}
+
       {/* <Router /> */}
-      <Crud_Context>
+
+      {/* <Crud_Context>
         <Crud />
-      </Crud_Context>
+      </Crud_Context> */}
+
+      <BrowserRouter>
+        <Context>
+          <Router />
+        </Context>
+      </BrowserRouter>
+
     </>
   )
 }

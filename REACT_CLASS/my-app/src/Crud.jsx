@@ -4,7 +4,7 @@ import { myContext } from './Crud_Context'
 
 const Crud = () => {
 
-    const { input, setInput, list, viewText, showModal, setShowModal, addFun, deleteFun, viewFun } = useContext(myContext)
+    const { input, setInput, list, viewText, showModal, setShowModal, addFun, deleteFun, viewFun, editFun, edit, editText, setEditText, updateFun } = useContext(myContext)
 
     return (
         <>
@@ -29,13 +29,23 @@ const Crud = () => {
                         <tbody>
                             { list.map((value, index) => (
                                 <tr key={index}>
-                                    <td>{value}</td>
+
+                                    <td>
+                                        {
+                                            edit === index 
+                                            ? ( <input type="text" value={editText} className='form-control' onChange={e => setEditText(e.target.value)} /> )
+                                            : ( value )
+                                        }
+                                    </td>
+
                                     <td className='d-flex gap-3'>
                                         <button className='btn btn-success w-100' onClick={() => viewFun(value)}>View</button>
 
-
-                                        <button className='btn btn-warning w-100'>Edit</button>
-
+                                        {
+                                            edit === index 
+                                            ? ( <button className='btn btn-warning w-100' onClick={updateFun}>Update</button> )
+                                            : ( <button className='btn btn-warning w-100' onClick={() => editFun(index)}>Edit</button> )
+                                        }
                                         
                                         <button className='btn btn-danger w-100' onClick={() => deleteFun(index)}>Delete</button>
                                     </td>

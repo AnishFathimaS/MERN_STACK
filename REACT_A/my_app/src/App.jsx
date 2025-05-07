@@ -15,35 +15,54 @@ import React from 'react'
 // import Day10_Context_2 from './Day10_Context_2.jsx'
 // import Router from './Router'
 // import Crud from './Crud.jsx'
-import Routers from './Form/Routers.jsx'
-import Context from './Form/Context.jsx'
-import { BrowserRouter } from 'react-router-dom'
+// import Routers from './Form/Routers.jsx'
+// import Context from './Form/Context.jsx'
+// import { BrowserRouter } from 'react-router-dom'
+
+import Swiper_Package from './Packages/Swiper_Package'
 
 const App = () => {
   return (
     <>
       {/* <Asset /> */}
+
       {/* <Day1_Components /> */}
+
       {/* <Day2_JS /> */}
+
       {/* <Day3_Props_1 /> */}
+
       {/* <Day4_State_1 /> */}
+
       {/* <Day5_State_2 /> */}
+
       {/* <Bootstrap /> */}
+
       {/* <Day6_Effect_1 /> */}
+
       {/* <Day7_Effect_2 /> */}
+
       {/* <Day8_Reducer /> */}
+
       {/* <Day9_Ref /> */}
+
       {/* <Day10_Context>
         <Day10_Context_1/>
         <Day10_Context_2 />
       </Day10_Context> */}
+
       {/* <Router /> */}
+
       {/* <Crud /> */}
-      <BrowserRouter>
+      
+      {/* <BrowserRouter>
         <Context>
           <Routers />
         </Context>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+        <Swiper_Package />
+
     </>
   )
 }

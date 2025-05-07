@@ -10,6 +10,9 @@ const Crud_Context = ({children}) => {
     const [ showModal, setShowModal ] = useState(false)
     const [ viewText, setViewText ] = useState()
 
+    const [ edit, setEdit ] = useState('')
+    const [ editText, setEditText ] = useState('')
+
     const addFun = () => {
         if(input.length === 0){
             alert('Please Enter Any Task !')
@@ -29,6 +32,18 @@ const Crud_Context = ({children}) => {
         setViewText(value)
     }
 
+    const editFun = (index) => {
+        setEdit(index)
+        setEditText(list[index])
+    }
+
+    const updateFun = () => {
+        setList(list.map((value, index) => 
+            edit === index ? editText : value
+        ))
+        setEdit('')
+    }
+
     const myContextValue = {
         input, setInput, 
         addFun,
@@ -36,7 +51,11 @@ const Crud_Context = ({children}) => {
         viewFun, 
         deleteFun, 
         viewText, 
-        showModal, setShowModal
+        showModal, setShowModal,
+        editFun,
+        edit,
+        editText, setEditText,
+        updateFun
     }
 
     return (
