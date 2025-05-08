@@ -3,14 +3,14 @@ import { Navigate } from 'react-router-dom'
 
 const Protect = ({children}) => {
   
-    var user = localStorage.getItem('username')
+    const user = localStorage.getItem('abc')
 
     if(!user){
-        return <Navigate to='/' />
+        return <Navigate to={'/'} />
     }
 
-    return (children)
+    return children
 
 }
 
-export default Protect 
+export default Protect

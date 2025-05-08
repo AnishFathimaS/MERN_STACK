@@ -3,7 +3,7 @@ var all_products = [
         id: 1, 
         img : '../../CLASS/img1.jpg', 
         name: "Product 1", 
-        price: 100 
+        price: 100,
     },
     { 
         id: 2, 

@@ -175,7 +175,7 @@ REACT - 14, 15, 16
 
 07-05-2025 - BOOTSTRAP DAY 1 => Intro, Colors, Button, Margin, Padding, Width, Typography, Border, Alert, Pagination
 08-05-2025 - BOOTSTRAP DAY 2 => Badge, Tables, DropDown, Column Responsiveness
-09-05-2025 - BOOTSTRAP DAY 3 => Navbar, Carousel, Card, Modal
+09-05-2025 - BOOTSTRAP DAY 3 => Navbar, Carousel, Card, Modal, Collapse
 
 12-05-2025 - JAVASCRIPT DAY 1 => Variables, Data Types, String Concantenation, Operators
 13-05-2025 - JAVASCRIPT DAY 2 => Conditional Statement, Loops, Array Methods

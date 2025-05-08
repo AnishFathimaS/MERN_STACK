@@ -21,6 +21,8 @@ const Context = ({children}) => {
         }
     }
 
+    localStorage.setItem('abc', username)
+
     const myContextValue = {
         submitFun,
         username, password,

@@ -10,8 +10,8 @@ const Form_Submit = () => {
             <h1>Login Successfully !</h1>
             <p>Username : {username}</p>
             <p>Password : {password}</p>
-
-            <button className='btn btn-primary' onClick={() => navigate('/home')}>Go to Home</button>
+            <button onClick={() => navigate('/home')}>Go to Home Page</button>
+            <button onClick={() => navigate('/about')}>Go to About Page</button>
         </>
     )
 }
