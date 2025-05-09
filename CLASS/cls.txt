@@ -62,7 +62,7 @@ ATTENDANCE
 05-05-2025 (MON) - Absent - Jude, Dinesh, Maria, Kaviyarasan, Murugan, Aakash
 06-05-2025 (TUE) - Absent - Pavithran, Jude, Maria, Kaviyarasan, Murugan
 07-05-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, Dinesh, NimishaVardhini, Shajitha Begam
-08-05-2025 (THU) - Absent - 
+08-05-2025 (THU) - Absent - Pavithran, Maria, Kaviyarasan, Murugan
 09-05-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------
@@ -174,8 +174,8 @@ REACT - 14, 15, 16
 06-05-2025 - CSS DAY 3 => Position, Animations, Root Variable, Media Query
 
 07-05-2025 - BOOTSTRAP DAY 1 => Intro, Colors, Button, Margin, Padding, Width, Typography, Border, Alert, Pagination
-08-05-2025 - BOOTSTRAP DAY 2 => Badge, Tables, DropDown, Column Responsiveness
-09-05-2025 - BOOTSTRAP DAY 3 => Navbar, Carousel, Card, Modal, Collapse
+08-05-2025 - BOOTSTRAP DAY 2 => Badge, Tables, DropDown, Collapse, Column Responsiveness
+09-05-2025 - BOOTSTRAP DAY 3 => Navbar, Carousel, Card, Modal, OffCanvas
 
 12-05-2025 - JAVASCRIPT DAY 1 => Variables, Data Types, String Concantenation, Operators
 13-05-2025 - JAVASCRIPT DAY 2 => Conditional Statement, Loops, Array Methods
