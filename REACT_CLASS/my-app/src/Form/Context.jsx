@@ -5,8 +5,8 @@ export const myContext = createContext()
 
 const Context = ({children}) => {
 
-    const [ username, setUsername ] = useState()
-    const [ password, setPassword ] = useState()
+    const [ username, setUsername ] = useState('')
+    const [ password, setPassword ] = useState('')
 
     const navigate = useNavigate()
 

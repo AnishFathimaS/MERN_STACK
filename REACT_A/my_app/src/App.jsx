@@ -1,4 +1,5 @@
 import React from 'react'
+import Swiper_Package from './Swiper_Package'
 // import Asset from './Asset.jsx'
 // import Day1_Components from './Day1_Components.jsx'
 // import Day2_JS from './Day2_JS.jsx'
@@ -14,7 +15,7 @@ import React from 'react'
 // import Day10_Context_1 from './Day10_Context_1.jsx'
 // import Day10_Context_2 from './Day10_Context_2.jsx'
 // import Router from './Router'
-import Crud from './Crud.jsx'
+// import Crud from './Crud.jsx'
 // import Routers from './Form/Routers.jsx'
 // import Context from './Form/Context.jsx'
 // import { BrowserRouter } from 'react-router-dom'
@@ -54,7 +55,7 @@ const App = () => {
 
       {/* <Router /> */}
 
-      <Crud />
+      {/* <Crud /> */}
       
       {/* <BrowserRouter>
         <Context>
@@ -63,6 +64,8 @@ const App = () => {
       </BrowserRouter> */}
 
       {/* <Aos_Package /> */}
+
+      <Swiper_Package />
 
     </>
   )

@@ -86,3 +86,13 @@
 
 // console.log(arr.splice(2, 0, 'abc'));
 // console.log(arr);
+
+
+// const arr = () => {
+
+
+// }
+
+// const arr() => {
+    
+// }
