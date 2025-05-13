@@ -100,9 +100,9 @@ const display_data = () => {
 }
 display_data();
 
-var totalAmt = 0;
 var cart = [];
 var wish = [];
+var totalAmt = 0;
 var cartCount = 0;
 
 const cartCountFun = () => {
@@ -155,7 +155,6 @@ const display_cart = (products) => {
 
     document.getElementById('cartRow').innerHTML = cart_list;
 };
-display_cart(cart);
 
 const removeFromCart = (productID) => {
     var product = cart.find(a => a.id === productID);

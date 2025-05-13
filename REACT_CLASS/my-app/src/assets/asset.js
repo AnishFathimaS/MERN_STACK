@@ -32,3 +32,15 @@ export const product_data = [
         product_desc : 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore tenetur obcaecati deserunt, sed at repellat necessitatibus enim minus! Quibusdam, repellat natus provident deserunt nihil nesciunt nam ut sit nobis laborum, cumque ratione laudantium eum modi quia, consectetur repudiandae voluptatum sint dolorem! Neque officiis autem illum ad. Eos magni in consectetur.'
     }
 ]
+
+const all_product = [
+    {
+        id : 1,
+        category : 'new arraivals',
+        name : 'shirt',
+        img : product_img_1,
+        desc: 'asdfghjk',
+        price : '3450'
+    },
+
+]

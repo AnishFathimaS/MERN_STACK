@@ -1,4 +1,5 @@
 import React from 'react'
+import SwiperPackage from './SwiperPackage'
 // import Day1_Components from './Day1_Components.jsx'
 // import Day2_JS from './Day2_JS.jsx'
 // import Day3_Props_1 from './Day3_Props_1.jsx'
@@ -19,10 +20,10 @@ import React from 'react'
 // import Router from './Router'
 // import Crud from './Crud'
 // import Crud_Context from './Crud_Context'
-import Router from './Form/Router'
-import Context from './Form/Context'
+// import Router from './Form/Router'
+// import Context from './Form/Context'
 
-import { BrowserRouter } from 'react-router-dom'
+// import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
   return (
@@ -71,11 +72,13 @@ const App = () => {
         <Crud />
       </Crud_Context> */}
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Context>
           <Router />
         </Context>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      <SwiperPackage />
 
     </>
   )

@@ -13,6 +13,8 @@
 <body>
 
   <div class="container my-5">
+
+    <!-- SEARCH ICON -->
             
     <i class="fa fa-search me-5" data-bs-toggle="modal" data-bs-target="#searchModal"></i>
 
@@ -28,6 +30,39 @@
             <div class="row" id="searchProducts">
                             
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CART ICON -->
+
+    <i class="fa-solid fa-cart-shopping" data-bs-toggle="modal" data-bs-target="#cartModal"></i>
+    <span class="badge bg-primary" id="cartCount">0</span>
+
+    <div class="modal fade" id="cartModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Cart Products</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <h5 class="text-end" id="totalamt"></h5>
+            <table class="table table-primary text-center">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total Price</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="cartRow">
+                 
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
