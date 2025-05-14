@@ -101,20 +101,35 @@ const display_data = () => {
 display_data();
 
 var cart = [];
+var totalAmt = 0;
+var cartCount = 0;
+
+const cartCountFun = () => {
+    document.getElementById('cartCount').innerHTML = cartCount;
+    document.getElementById('cartCount').style.display = cartCount > 0 ? 'inline' : 'none'
+}
 
 const addToCart = (productID) => {
     var products = all_products.find((a) => a.id === productID);
+
     var existing_product = cart.find((a) => a.id === productID);
 
     if(existing_product){
         products.quantity++;
     }
     else{
+        products.quantity = 1
         cart.push(products);
-        products.quantity = 1;
     }
 
     display_cart(cart)
+
+    totalAmt = totalAmt + products.price;
+    document.getElementById('totalAmt').innerHTML = ` Total : ${totalAmt} `
+
+    cartCount++;
+    cartCountFun()
+
 }
 
 const display_cart = (cart_products) => {
@@ -127,9 +142,30 @@ const display_cart = (cart_products) => {
                 <td>${value.price}</td>
                 <td>${value.quantity}</td>
                 <td>${value.price * value.quantity}</td>
-                <td><button class='btn btn-danger'>Remove</button></td>
+                <td><button class='btn btn-danger' onclick='removeFromCart(${value.id})'>Remove</button></td>
             </tr>
         `
     })
     document.getElementById('cartRow').innerHTML = cart_list
+}
+
+const removeFromCart = (productID) => {
+    var products = cart.find((a) => a.id === productID)
+
+    if(products.quantity > 1){
+        products.quantity--;
+        totalAmt = totalAmt - products.price;
+    }
+    else{
+        cart = cart.filter((a) => a.id !== productID) 
+        totalAmt = totalAmt - products.price * products.quantity;
+    }
+
+    display_cart(cart)
+
+    document.getElementById('totalAmt').innerHTML = ` Total : ${totalAmt} `
+
+    cartCount--;
+    cartCountFun()
+
 }

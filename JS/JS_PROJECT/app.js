@@ -174,6 +174,8 @@ const removeFromCart = (productID) => {
     cartCountFun();
 };
 
+// WISH
+
 const display_wish = (products) => {
     let wish_list = '';
 
