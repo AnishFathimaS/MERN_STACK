@@ -107,7 +107,7 @@ var cartCount = 0;
 
 const cartCountFun = () => {
     document.getElementById('cartCount').innerHTML = cartCount;
-    document.getElementById('cartCount').style.display = cartCount > 0 ? 'inline' : 'none';
+    document.getElementById('cartCount').style.display = (cartCount > 0) ? 'inline' : 'none';
 };
 
 const addToCart = (productID) => {
@@ -123,7 +123,7 @@ const addToCart = (productID) => {
     display_cart(cart);
     cartCount++;
     cartCountFun();
-    totalAmt = totalAmt + products.price;
+    totalAmt = totalAmt + products.price; 
     document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`
 }
 
@@ -157,22 +157,41 @@ const display_cart = (products) => {
 };
 
 const removeFromCart = (productID) => {
-    var product = cart.find(a => a.id === productID);
 
-    if (product.quantity > 1) {
-        product.quantity--;
+    var product = cart.find((a) => a.id === productID)
+
+    if(product.quantity > 1){
+        product.quantity--
         totalAmt = totalAmt - product.price;
-    } else {
-        totalAmt = totalAmt - product.price * product.quantity;
-        
-        cart = cart.filter(product => product.id !== productID);
+    }
+    else{
+        cart = cart.filter((a) => a.id !== productID )
     }
 
-    document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`;
-    display_cart(cart);
+    display_cart(cart)
+    document.getElementById('totalamt').innerHTML = ` Total : ${totalAmt} `
+
     cartCount--;
     cartCountFun();
-};
+}
+
+// const removeFromCart = (productID) => {
+//     var product = cart.find(a => a.id === productID);
+
+//     if (product.quantity > 1) {
+//         product.quantity--;
+//         totalAmt = totalAmt - product.price;
+//     } else {
+//         totalAmt = totalAmt - product.price * product.quantity;
+        
+//         cart = cart.filter(product => product.id !== productID);
+//     }
+
+//     document.getElementById('totalamt').innerHTML = `Total : ${totalAmt}`;
+//     display_cart(cart);
+    // cartCount--;
+    // cartCountFun();
+// };
 
 // WISH
 

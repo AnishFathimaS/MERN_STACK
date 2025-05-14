@@ -104,11 +104,6 @@ var cart = [];
 var totalAmt = 0;
 var cartCount = 0;
 
-const cartCountFun = () => {
-    document.getElementById('cartCount').innerHTML = cartCount;
-    document.getElementById('cartCount').style.display = cartCount > 0 ? 'inline' : 'none'
-}
-
 const addToCart = (productID) => {
     var products = all_products.find((a) => a.id === productID);
 
@@ -125,10 +120,7 @@ const addToCart = (productID) => {
     display_cart(cart)
 
     totalAmt = totalAmt + products.price;
-    document.getElementById('totalAmt').innerHTML = ` Total : ${totalAmt} `
-
-    cartCount++;
-    cartCountFun()
+    document.getElementById('totalAmt').innerHTML = ` Price : ${totalAmt}`
 
 }
 
@@ -150,22 +142,19 @@ const display_cart = (cart_products) => {
 }
 
 const removeFromCart = (productID) => {
-    var products = cart.find((a) => a.id === productID)
+
+    var products = cart.find((a) => a.id === productID);
 
     if(products.quantity > 1){
         products.quantity--;
         totalAmt = totalAmt - products.price;
     }
     else{
-        cart = cart.filter((a) => a.id !== productID) 
-        totalAmt = totalAmt - products.price * products.quantity;
+        totalAmt = totalAmt - products.price * products.quantity
+        cart = cart.filter((a) => a.id !== productID)
     }
 
+    document.getElementById('totalAmt').innerHTML = `Total : ${totalAmt}`;
     display_cart(cart)
-
-    document.getElementById('totalAmt').innerHTML = ` Total : ${totalAmt} `
-
-    cartCount--;
-    cartCountFun()
-
-}
+    
+} 

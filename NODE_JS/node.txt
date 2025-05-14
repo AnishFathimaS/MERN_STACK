@@ -1,7 +1,0 @@
-Node JS 
-
-Javascript Runtime Environment 
-
-DAY - 1 => Node Js Installation , Import Export in Node Js , Run , Nodemon Package
-DAY - 2 => Creating HTML file system , Path , OS
-DAY - 3 => Query String , Try Catch , Then Catch Finally 

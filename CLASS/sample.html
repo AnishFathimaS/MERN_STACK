@@ -1,99 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
 
-<body>
+  <body>
+
   <!-- <form onsubmit="submitFun(event)">
     <input type="text" id="usernameBox">
     <br>
     <input type="password" id="passwordBox">
     <br>
     <input type="submit">
-  </form>
+  </form> -->
 
-  <p id="error"></p> -->
+  <!-- <p id="error"></p> -->
 
-  <script>
-    // function submitFun(event) {
-    //   event.preventDefault()
-    //   var username = document.getElementById('usernameBox').value;
-    //   var password = document.getElementById('passwordBox').value;
+    <script>
+      // function submitFun(event) {
+      //   event.preventDefault()
+      //   var username = document.getElementById('usernameBox').value; 
+      //   var password = document.getElementById('passwordBox').value;
 
-    //   if (username == 'abc' && password == 'Abc@123') {
-    //     window.location.href = 'pass_validate.html'
-    //   }
-    //   else {
-    //     document.getElementById('ptag').innerHTML = 'Invalid username or Password*'
-    //     document.getElementById('ptag').style.color = 'red'
-    //   }
-    // }
-  </script>
+      //   if (username == 'abc' && password == 'Abc@123') { 
+      //     window.location.href = 'pass_validate.html'
+      //   }
+      //   else {
+      //     document.getElementById('error').innerHTML = 'Invalid username or Password*'
+      //     document.getElementById('error').style.color = 'blue'
+      //   }
+      // }
+    </script>
 
-  <!-- FIND & FILTER -->
+    <!-- FIND & FILTER -->
 
-  <script>
-    // Find
+    <script>
+      // Find
 
-    // var num = [1, 4, 3, 2];
+      // var num = [6, 1, 4, 3, 2];
 
-    // var result = num.find((value) => {
-    //     return value % 2 == 0
-    // })
+      // console.log(num.find((a) => a % 2 != 0));
 
-    // console.log(result) // shows first matching result
+      // JSON - JAVASCRIPT OBJECT NOTATION
 
-    //   const users = [
-    //     {
-    //       name: "Arun",
-    //       age: 22,
-    //     },
-    //     {
-    //       name: "Anu",
-    //       age: 18,
-    //     },
-    //     {
-    //       name: "Abi",
-    //       age: 25,
-    //     },
-    //     {
-    //       name: "Hari",
-    //       age: 15,
-    //     },
-    //   ];
+      // const users = [
+      //   {
+      //     name: "Arun",
+      //     age: 13,
+      //   },
+      //   {
+      //     name: "Anu",
+      //     age: 18,
+      //   },
+      //   {
+      //     name: "Abi",
+      //     age: 25,
+      //   },
+      //   {
+      //     name: "Hari",
+      //     age: 15,
+      //   },
+      // ];
 
-    //   const result = users.find((user) => {
-    //     return user.age >= 18
-    //   });
-    //   console.log(result);
+      // console.log(users.find((user) => user.age > 18))
 
-    // Filter
+      // Filter
 
-    // var num = [1 , 2 , 3 , 4]
+      // var num = [1 , 2 , 3 , 4]
 
-    // var result = num.filter((value) => {
-    //     return value % 2 == 0
-    // })
+      // console.log(num.filter((a) => a % 2 == 0));
 
-    // console.log(result) // shows all matching result
+      // var obj = [
+      //   {
+      //     name : 'abinaya',
+      //     age : 22
+      //   },
+      //   {
+      //     name  : 'anu',
+      //     age : 20
+      //   },
+      //   {
+      //     name : 'siva',
+      //     age : 17
+      //   },
+      //   {
+      //     name : 'hari',
+      //     age : 18
+      //   }
+      // ]
 
-  </script>
+      // console.log(obj)
+      // console.log(obj[2].name)
 
-  <!-- <div class="container">
-    <form onsubmit="Submit(event)" class="d-flex gap-5 justify-content-between my-5">
-      <input type="search" id="searchBox" placeholder="Search Here..." class="w-75 form-control">
-      <button class="btn btn-primary w-25" type="submit">Search</button>
-    </form>
-    <div class="row" id="cardRow">
+      // var obj = {
+      //   name : 'abinaya',
+      //   age : 30,
+      //   place : {
+      //     street : '123 street',
+      //     city : 'trichy',
+      //     state : 'tamilnadu'
+      //   }
+      // }
 
+      // console.log(obj)
+      // console.log(obj.age)
+      // console.log(obj.place.street)
+
+    </script>
+
+    <div class="container">
+      <form onsubmit="Submit(event)" class="d-flex gap-5 justify-content-between my-5">
+        <input type="search" id="searchBox" placeholder="Search Here..." class="w-75 form-control">
+        <input type="submit">
+      </form>
+      <div class="row" id="cardRow">
+
+      </div>
     </div>
-  </div> -->
 
-  <!-- <script>
+    <script>
 
     const users = [
       {
@@ -122,35 +152,49 @@
       }
     ];
 
-    const cardFun = (data) => {
-      content = ""
+    function cardFun(data){
+      var content = ''
       data.map((value) => {
         content += `
-                    <div class="col-lg-3 col-md-6">
-                        <div class="card">
-                            <img src="${value.img}" alt="" height="200">
-                            <div class="card-body">
-                                <h4>${value.name}</h4>
-                                <p>Email : ${value.email}</p>
-                            </div>
-                        </div>
-                    </div>
-                `
+          <div class='col-3'>
+            <div class='card'>
+              <img src='${value.img}' />
+              <div class='card-body'>
+                <h4>${value.name}</h4>
+                <p>${value.email}</p>
+              </div>
+            </div>
+          </div>
+        `
       })
-      document.getElementById("cardRow").innerHTML = content
+      document.getElementById('cardRow').innerHTML = content
     }
     cardFun(users)
 
     const Submit = (event) => {
       event.preventDefault()
-      var searchInput = document.getElementById('searchBox').value.toLowerCase();
-      // console.log(searchInput);
-      var filteredUsers = users.filter((value) => value.name.toLowerCase().includes(searchInput) || value.email.toLowerCase().includes(searchInput))
+
+      var searchInput = document.getElementById('searchBox').value;
+
+      var filteredUsers = users.filter((value) => value.name.includes(searchInput) || value.email.includes(searchInput))
       cardFun(filteredUsers)
     }
 
-  </script> -->
+  </script>
 
-</body>
+  <!-- <img src="" > -->
 
+  <!-- DOM -->
+
+  <script>
+    
+    // var imgTag = document.createElement('img');
+    // imgTag.src = 'img1.jpg';
+    // imgTag.height = 300;
+    // imgTag.width = 500;
+    // document.body.appendChild(imgTag)
+
+  </script>
+
+  </body>
 </html>
