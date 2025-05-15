@@ -1,6 +1,6 @@
 // DAY - 1
 
-// INTRO, COMPONENTSIN REACT ( FUNCTION, CLASS )
+// INTRO, COMPONENTS IN REACT ( FUNCTION, CLASS )
 
 // Functional Compoenent 
 
@@ -30,15 +30,15 @@
 
 // import React from 'react'
 
-  // const Day1_Components  = () => {
-  //   return(
-  //     <>
-  //       <h1>Hello</h1>
-  //       <h1>Hello</h1>
-  //       <h1>Hello</h1>
-  //     </>
-  //   )
-  // } 
+//   const Day1_Components  = () => {
+//     return(
+//       <>
+//         <h1>Hello</h1>
+//         <h1>Hello</h1>
+//         <h1>Hello</h1>
+//       </>
+//     )
+//   } 
 
 // export default Day1_Components 
 

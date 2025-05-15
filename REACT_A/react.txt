@@ -1,4 +1,5 @@
-REACT 
+
+
 
 what is react ?
 what is library ?
@@ -6,6 +7,22 @@ d/w library and framework ?
 why .jsx ?
 what is jsx ?
 what is strictmode ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REACT 
 
 Installation & Set up
 
@@ -28,6 +45,39 @@ Clear
     App.jsx
 
 for react shortcuts extenstion name (ES7+ React/Redux/React-Native snippets)
+
+
+
+
+REACT - SINGLE PAGE APPLICATION
+
+
+index.html -> main.jsx -> app.jsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 DAY - 1 => SET UP INTRO, FUNCTIONAL, CLASS COMPONENTS
 DAY - 2 => JS in REACT, EVENT
