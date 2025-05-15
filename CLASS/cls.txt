@@ -1,7 +1,7 @@
 BATCHES
 
 10 - 11 -> Internship ( 3 Weeks )
-11 - 12 -> Reshma, Kangathara, Vibhashini, Nimisha Vardhini, Pavithran, Bharath, Maheshwaran, Dhushyanth, Pavan Kumar, Shree Parameshwaran
+11 - 12 -> Reshma, Kangathara, Vibhashini, Nimisha Vardhini, Pavithran, Barath, Maheshwaran, Dhushyanth, Pavan Kumar, Shree Parameshwaran
 12 - 01 -> Shajitha, Jasmine
 01 - 02 -> Lunch
 02 - 03 -> Free 
@@ -53,7 +53,7 @@ A - API FILTER & DOM
 ATTENDANCE 
 
 12-05-2025 (MON) - Absent - STAFF LEAVE 
-13-05-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan
+13-05-2025 (TUE) - Absent - Maria, Kaviyarasan, Murugan, Barath
 14-05-2025 (WED) - Absent - Maria, Kaviyarasan, Murugan, Aakash
 15-05-2025 (THU) - Absent - 
 16-05-2025 (FRI) - Absent -
