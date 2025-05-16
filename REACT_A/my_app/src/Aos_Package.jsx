@@ -7,6 +7,7 @@ const Aos_Package = () => {
       <h1 data-aos="fade-up">Hello</h1>
 
       <img src={my_asset.my_image} alt="" className='w-25'  data-aos="flip-left"/>
+
     </>
   )
 }

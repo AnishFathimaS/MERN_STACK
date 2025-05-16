@@ -35,9 +35,9 @@
 //     var num = 10;
 
 //     return (
-//         <myContext.Provider value={{num}}>
-//             {children}
-//         </myContext.Provider>
+        // <myContext.Provider value={{num}}>
+        //     {children}
+        // </myContext.Provider>
 //     )
 // }
 
@@ -59,11 +59,11 @@
 //         setCount(count - 1)
 //     }
 
-//     const myContextValue = {
-//         count, 
-//         addFun, 
-//         removeFun
-//     }
+    // const myContextValue = {
+    //     count, 
+    //     addFun, 
+    //     removeFun
+    // }
 
 //     return (
 //         <myContext.Provider value={myContextValue}>
