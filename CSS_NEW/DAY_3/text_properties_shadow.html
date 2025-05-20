@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Properties, Shadow, List Style</title>
+    <title>Text Properties, Shadow</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
         #text-color{
             color: blue;
@@ -66,22 +72,29 @@
             box-shadow: 2px 2px 5px blue;
         }
 
-        ol{
-            list-style-type: circle;
-            list-style-type: disc;
-            list-style-type: decimal;
-            list-style-type: square;
-
-            list-style-type: lower-alpha;
-            list-style-type: upper-alpha;
-            list-style-type: lower-roman;
-            list-style-type: upper-roman;
-
-            list-style-type: none;
+        #font-size{
+            font-size: 30px;
         }
-        ol li::before{
-            content: '* ';
+        #font-weight{
+            font-weight: bold;
+            font-weight: 900;
         }
+        #font-style{
+            font-style: italic;
+        }
+        #css-font-family{
+            /* CSS FONTS */
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        #google-font-family-1{
+            font-family: "Poetsen One", sans-serif;
+        }
+         #google-font-family-2{
+            font-family: "Amatic SC", sans-serif;
+        }
+
+        
     </style>
 </head>
 <body>
@@ -125,14 +138,28 @@
 
         <!-- <img src="img.jpg" alt="" height="300" width="400"> -->
 
-    <!-- List Style -->
+    <!-- Font Size -->
 
-        <!-- <h1>Ordered List</h1> -->
+        <!-- <p>Hello</p> -->
+        <!-- <p id="font-size">Hello</p> -->
 
-        <!-- <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>BOOTSTRAP</li>
-        </ol> -->
+    <!-- Font Weight -->
+
+        <!-- <p>Hello</p> -->
+        <!-- <p id="font-weight">Hello</p> -->
+
+    <!-- Font Style -->
+
+        <!-- <p>Hello</p> -->
+        <!-- <p id="font-style">Hello</p> -->
+
+    <!-- Font Family -->
+
+        <!-- <p>Hello</p> -->
+        <!-- <p id="css-font-family">Hello</p> -->
+        <!-- <p id="google-font-family-1">Hello</p> -->
+        <!-- <p id="google-font-family-2">Hello</p> -->
+
+    
 </body>
 </html>
