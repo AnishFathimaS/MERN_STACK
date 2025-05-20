@@ -14,27 +14,27 @@ BATCHES
 
 MONDAY - 19-05-2025 
 
-10 - CSS DAY 3 [ Display, Text Properties, Text-shadow, Box-shadow, Background Image, List Style ]
+10 - CSS DAY 3
 3 - REACT DAY 1
 5 - REACT DAY 1
-N - NODE DAY 2
-A - ARRAY METHODS DAY 3
+N - REACT PROJECT
+A - MAP TASK
 
 TUESDAY - 20-05-2025 
 
-10 - CSS DAY 4
-3 - REACT DAY 2
-5 - REACT DAY 2
-N - NODE DAY 3
-A - API FILTER, OBJECT METHODS
+10 - CSS DAY 4 [ List Style, Over Flow, Opacity, Float, Table, Cursor, Scroll Behaviour, Position, Z-Index ]
+3 - REACT DAY 1
+5 - REACT DAY 1
+N - NODE DAY 2
+A - ARRAY METHODS
 
 WEDNESDAY - 21-05-2025
 
 10 - CSS DAY 5
 3 - REACT DAY 3
 5 - REACT DAY 3
-N - 
-A - DOM 
+N - NODE DAY 3
+A - API FILTER, OBJECT METHODS
 
 THURSDAY - 22-05-2025
 
@@ -42,7 +42,7 @@ THURSDAY - 22-05-2025
 3 - REACT DAY 4
 5 - REACT DAY 4
 N - 
-A - EVENT, EVENT LISTERNER, QUERY SELECTOR 
+A - DOM 
 
 FRIDAY - 23-05-2025
 
@@ -52,7 +52,7 @@ FRIDAY - 23-05-2025
 N - 
 A - FORM VALIDATION, PASSWORD VALIDATION
 
-19-05-2025 (MON) - Absent - 
+19-05-2025 (MON) - Absent - Nimisha Vardhini, Jasmine Begam, Shajitha Begam, Dinesh, Maria, Kangathara, Murugan
 20-05-2025 (TUE) - Absent - 
 21-05-2025 (WED) - Absent - 
 22-05-2025 (THU) - Absent - 

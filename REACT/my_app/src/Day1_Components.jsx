@@ -48,7 +48,7 @@
 
 // import React from 'react'
 
-// class Day1_Components  extends React.Component{
+// class Day1_Components extends React.Component{
 //   render(){
 //     return(
 //       <h1>Hello</h1>

@@ -1,0 +1,26 @@
+body{
+    /* background-image: url(img1.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-size: width height; */
+    /* background-size: 300px 200px; */
+    /* background-attachment: fixed; */
+
+
+    /* background-position: top left;
+    background-position: top right;
+    background-position: top center;
+
+    background-position: bottom left;
+    background-position: bottom right;
+    background-position: bottom center;
+
+    background-position: center left;
+    background-position: center right;
+    background-position: center; */
+
+    /* background: url(file_name) repeat position / size attachment; */
+
+    /* background: url(img1.jpg) fixed no-repeat center / cover ; */
+
+}

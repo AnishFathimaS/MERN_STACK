@@ -1,6 +1,12 @@
+// FILE SYSTEM ( WRITE & READ )
+
 // WRITING A FILE
 
 // const file = require('fs')
+
+// file.writeFileSync('sample.html', 'Hello')
+
+// file.writeFileSync('sample.html', '<h1>Hello</h1>')
 
 // file.writeFileSync('sample.html', `<!DOCTYPE html>
 // <html lang="en">
