@@ -8,7 +8,7 @@
 // // const filepath = path.join(__dirname)
 // // const filepath = path.join(__dirname , "assets")
 // // const filepath = path.join(__dirname , "assets" , "images")
-// const filepath = path.join(__dirname , "assets" , "images" , "img.jpg")
+// // const filepath = path.join(__dirname , "assets" , "images" , "img.jpg")
 
 // console.log(filepath)
 
