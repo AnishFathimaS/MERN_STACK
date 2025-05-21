@@ -10,6 +10,14 @@ BATCHES
 05 - 06 -> Aakash 
 06 - 07 -> Free
 
+Saturday 
+
+10 to 11 -> Mahalakshimi
+11 to 12 -> Yusuf [ Operators ]
+12 to 1 -> Mahalakshimi
+
+2 to 3:30 -> Methods 
+
 --------------------------------------------------------------------------------------------
 
 MONDAY - 19-05-2025 
@@ -30,10 +38,10 @@ A - ARRAY METHODS
 
 WEDNESDAY - 21-05-2025
 
-10 - CSS DAY 5 [ FLOAT, FLEX, GRID ]
-3 - REACT DAY 2 [ COMPONENTS, JS ]
-5 - REACT DAY 2 [ COMPONENTS, JS ]
-N - NODE DAY 3  [ QUERY STRING ]
+10 - CSS DAY 5 
+3 - REACT DAY 2 
+5 - REACT DAY 2 
+N - NODE DAY 3  [ PATH ]
 A - API FILTER, OBJECT METHODS 
 
 THURSDAY - 22-05-2025

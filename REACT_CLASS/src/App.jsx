@@ -1,9 +1,11 @@
 import React from 'react'
-import Day_1 from './Day_1'
+// import Day_1_Components from './Day_1_Components'
+import Day_2_JS from './Day_2_JS'
 
 function App() {
   return (
-    <Day_1 />
+    // <Day_1_Components />
+    <Day_2_JS />
   )
 }
 

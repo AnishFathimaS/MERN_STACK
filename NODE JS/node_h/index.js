@@ -82,16 +82,16 @@
 
 
 
-// const http = require('http');
-// const url = require('url');
+const http = require('http');
+const url = require('url');
 
-// http.createServer((req, res) => {
-//   const q = url.parse(req.url, true).query;
-//   res.writeHead(200, { 'Content-Type': 'text/plain' });
-//   res.end(`You searched for: ${q.search}`);
-// }).listen(3000,()=>{
-//   console.log('http://localhost:3000')
-// });
+http.createServer((req, res) => {
+  const q = url.parse(req.url, true).query;
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end(`You searched for: ${q.search}`);
+}).listen(3000,()=>{
+  console.log('http://localhost:3000')
+});
 
 
 

@@ -118,23 +118,23 @@
 
 // const Day2_JS = () => {
 
-//   var json_obj = [
-//     {
-//       name : 'abinaya',
-//       age : 20,
-//       place : 'trichy'
-//     },
-//     {
-//       name : 'anu',
-//       age : 24,
-//       place : 'chennai'
-//     },
-//     {
-//       name : 'sree',
-//       age : 26,
-//       place : 'madurai'
-//     }
-//   ]
+  // var json_obj = [
+  //   {
+  //     name : 'abinaya',
+  //     age : 20,
+  //     place : 'trichy'
+  //   },
+  //   {
+  //     name : 'anu',
+  //     age : 24,
+  //     place : 'chennai'
+  //   },
+  //   {
+  //     name : 'sree',
+  //     age : 26,
+  //     place : 'madurai'
+  //   }
+  // ]
 
 //   return (
 //     <>
@@ -223,48 +223,80 @@
 
 // export default Day2_JS
 
-// CLASS COMPONENTS 
+// EVENTS
+
+// ONCLICK
 
 // import React from 'react'
 
-// class Day2_JS extends React.Component{
-//   render(){
-//     return(
-//       <>
-//         <h1>Hello</h1>
-//       </>
-//     )
+// const Day2_JS = () => {
+
+//   const clickFun = () => {
+//     alert('Click Event')
 //   }
+
+//   return (
+//     <>
+//       <button onClick={clickFun}>Click Here</button>
+//     </>
+//   )
 // }
 
 // export default Day2_JS
 
+// ON DOUBLE CLICK
+
 // import React from 'react'
 
-// class Day2_JS extends React.Component{
-//   render(){
-//     var a = 10, b = 20;
-//     return(
-//       <>
-//         <h1>{a + b}</h1>
-//       </>
-//     )
+// const Day2_JS = () => {
+
+//   const dblClickFun = () => {
+//     alert('Hello')
 //   }
+
+//   return (
+//     <>
+//       <button onDoubleClick={dblClickFun}>Click</button>
+//     </>
+//   )
 // }
 
 // export default Day2_JS
 
+// ON MOUSE OVER 
+
 // import React from 'react'
 
-// class Day2_JS extends React.Component{
-//   render(){
-//     var a = 10, b = 20;
-//     return(
-//       <>
-//         <h1>{a + b > 10 ? 'true' : 'false'}</h1>
-//       </>
-//     )
+// const Day2_JS = () => {
+
+//   const mouseOverFun = () => {
+//     alert('Hello')
 //   }
+
+//   return (
+//     <>
+//       <h1 onMouseOver={mouseOverFun}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus est rerum quidem reprehenderit numquam dolorem dicta at voluptatem, quis repudiandae praesentium distinctio tenetur? Esse dolorem consequuntur maiores blanditiis porro laudantium omnis deleniti, nostrum, reiciendis nobis molestiae excepturi! Explicabo reiciendis odio at molestias illo sapiente natus blanditiis officiis, animi veniam ut.</h1>
+//       </>
+//   )
 // }
 
 // export default Day2_JS
+
+// ON MOUSE OUT 
+
+// import React from 'react'
+
+// const Day_2 = () => {
+
+//   const mouseOutFun = () => {
+//     alert('Hello')
+//   }
+
+//   return (
+//     <>
+//       <h1 onMouseOut={mouseOutFun}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores earum ex. Quia rerum libero perferendis cupiditate! Dicta esse dolores consectetur cupiditate totam repellat, aliquid suscipit voluptates ullam nam eius magni labore? Possimus magnam porro sequi sapiente voluptates commodi maiores voluptate. Numquam repellendus minus rerum possimus laborum nihil veritatis facilis!</h1>
+//      </>
+//   )
+// }
+
+// export default Day_2
