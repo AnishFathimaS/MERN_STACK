@@ -48,7 +48,7 @@ const server = http.createServer((req, res) => {
             </div>
         `)
     }
-    else if(req.url === '/submit'){
+    else if(req.url === '/submit       '){
         res.statusCode  = 200;
         res.setHeader('Content-type', 'text/html');
         
