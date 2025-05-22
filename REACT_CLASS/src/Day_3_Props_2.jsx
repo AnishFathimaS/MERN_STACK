@@ -1,10 +1,21 @@
 // import React from 'react'
 
 // const Day_3_Props_2 = (props) => {
-
 //     return (
 //         <>
-//             <h1>{props.values}</h1>
+//             <h1>{props.data1} {props.data2}</h1>
+//         </>
+//     )
+// }
+
+// export default Day_3_Props_2
+
+// import React from 'react'
+
+// const Day_3_Props_2 = ({data1, data2}) => {
+//     return (
+//         <>
+//             <h1>{data1} {data2}</h1>
 //         </>
 //     )
 // }
@@ -14,10 +25,10 @@
 // import React from 'react'
 
 // const Day_3_Props_2 = (props) => {
+
 //     return (
 //         <>
-//             <h1>{props.user_name}</h1>
-//             <h1>{props.user_age}</h1>
+//             <h1>{props.array_data}</h1>
 //         </>
 //     )
 // }
@@ -26,11 +37,11 @@
 
 // import React from 'react'
 
-// const Day_3_Props_2 = ({user_name, user_age}) => {
+// const Day_3_Props_2 = ({array_data}) => {
+
 //     return (
 //         <>
-//             <h1>{user_name}</h1>
-//             <h1>{user_age}</h1>
+//             <h1>{array_data}</h1>
 //         </>
 //     )
 // }
@@ -40,57 +51,40 @@
 // import React from 'react'
 
 // const Day_3_Props_2 = (props) => {
+
 //     return (
 //         <>
-//             <h1>{props.value[0]}</h1>
-//             <h1>{props.value[1]}</h1>
-//             <h1>{props.value[2]}</h1>
-//             <h1>{props.value[3]}</h1>
-//         </>
-//     )
-// }
+//             {/* {props.array_data.map((value) => {
+//                 return(
+//                     <h1>{value}</h1>
+//                 )
+//             })} */}
 
-// export default Day_3_Props_2
-
-
-// import React from 'react'
-
-// const Day_3_Props_2 = ({value}) => {
-//     return (
-//         <>
-//             <h1>{value[0]}</h1>
-//             <h1>{value[1]}</h1>
-//             <h1>{value[2]}</h1>
-//             <h1>{value[3]}</h1>
-//         </>
-//     )
-// }
-
-// export default Day_3_Props_2
-
-
-// import React from 'react'
-
-// const Day_3_Props_2 = (props) => {
-//     return (
-//         <>
-//             {props.value.map((value, index) => (
+//             {/* {props.array_data.map((value, index) => (
 //                 <h1 key={index}>{value}</h1>
-//             ))}
+//             ))} */}
 //         </>
 //     )
 // }
 
 // export default Day_3_Props_2
 
+
 // import React from 'react'
 
-// const Day_3_Props_2 = ({value}) => {
+// const Day_3_Props_2 = ({array_data}) => {
+
 //     return (
 //         <>
-//             {value.map((value, index) => (
+//             {/* {array_data.map((value) => {
+//                 return(
+//                     <h1 key={index}>{value}</h1>
+//                 )
+//             })} */}
+
+//             {/* {array_data.map((value, index) => (
 //                 <h1 key={index}>{value}</h1>
-//             ))}
+//             ))} */}
 //         </>
 //     )
 // }
@@ -102,9 +96,9 @@
 // const Day_3_Props_2 = (props) => {
 //     return (
 //         <>
-//             <h1>{props.value.name}</h1>
-//             <h1>{props.value.age}</h1>
-//             <h1>{props.value.place}</h1>
+//             <h1>{props.obj_data.name}</h1>
+//             <h1>{props.obj_data.age}</h1>
+//             <h1>{props.obj_data.place}</h1>
 //         </>
 //     )
 // }
@@ -114,12 +108,12 @@
 
 // import React from 'react'
 
-// const Day_3_Props_2 = ({value}) => {
+// const Day_3_Props_2 = ({obj_data}) => {
 //     return (
 //         <>
-//             <h1>{value.name}</h1>
-//             <h1>{value.age}</h1>
-//             <h1>{value.place}</h1>
+//             <h1>{obj_data.name}</h1>
+//             <h1>{obj_data.age}</h1>
+//             <h1>{obj_data.place}</h1>
 //         </>
 //     )
 // }
@@ -127,70 +121,30 @@
 // export default Day_3_Props_2
 
 // import React from 'react'
+// import Day_3_Props_1 from './Day_3_Props_1'
 
-// const Day_3_Props_2 = (props) => {
+// const Day_3_Props_2 = () => {
+
+//     var json = [
+//         {
+//             name : 'abinaya',
+//             age : 20,
+//             place : 'trichy'
+//         },
+//         {
+//             name : 'anu',
+//             age : 24,
+//             place : 'chennai'
+//         },
+//         {
+//             name : 'siva',
+//             age : 25,
+//             place : 'tanjore'
+//         },
+//     ]
 //     return (
-//         <>
-//             <h1>{props.data[0].name}</h1>
-//             <h1>{props.data[0].age}</h1>
-
-//             <h1>{props.data[1].name}</h1>
-//             <h1>{props.data[1].age}</h1>
-//         </>
-//     )
-// }
-
-// export default Day_3_Props_2
-
-// import React from 'react'
-
-// const Day_3_Props_2 = ({data}) => {
-//     return (
-//         <>
-//             <h1>{data[0].name}</h1>
-//             <h1>{data[0].age}</h1>
-            
-//             <h1>{data[1].name}</h1>
-//             <h1>{data[1].age}</h1>
-//         </>
-//     )
-// }
-
-// export default Day_3_Props_2
-
-// import React from 'react'
-
-// const Day_3_Props_2 = (props) => {
-
-//     return (
-//         <>
-//             {props.data.map((value, index) => (
-//                 <div key={index}>
-//                     <h1>{value.name}</h1>
-//                     <h1>{value.age}</h1>
-//                     <h1>{value.place}</h1>
-//                 </div>
-//             ))}
-//         </>
-//     )
-// }
-
-// export default Day_3_Props_2
-
-
-// import React from 'react'
-
-// const Day_3_Props_2 = ({data}) => {
-
-//     return (
-//         <>
-//             {data.map((value, index) => (
-//                 <div key={index}>
-//                     <h1>{value.name}</h1>
-//                     <h1>{value.age}</h1>
-//                     <h1>{value.place}</h1>
-//                 </div>
-//             ))}
+//         <>  
+//             <Day_3_Props_1 json_data={json} />
 //         </>
 //     )
 // }

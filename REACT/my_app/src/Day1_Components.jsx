@@ -6,7 +6,7 @@
 
 // import React from 'react'
 
-//   function Day1_Components (){
+//   function Day_1_Components (){
 //     return(
 //       <>
 //         <h1>Hellooo</h1>
@@ -15,11 +15,11 @@
 //     )
 //   }
 
-// export default Day1_Components 
+// export default Day_1_Components 
 
 // import React from 'react'
 
-//   export default function Day1_Components (){
+//   export default function Day_1_Components (){
 //     return(
 //       <>
 //         <h1>Hellooo</h1>
@@ -30,7 +30,7 @@
 
 // import React from 'react'
 
-//   const Day1_Components  = () => {
+//   const Day_1_Components  = () => {
 //     return(
 //       <>
 //         <h1>Hello</h1>
@@ -40,7 +40,7 @@
 //     )
 //   } 
 
-// export default Day1_Components 
+// export default Day_1_Components 
 
 // rcc, rfc, rfce, rafce
 
@@ -48,7 +48,7 @@
 
 // import React from 'react'
 
-// class Day1_Components extends React.Component{
+// class Day_1_Components extends React.Component{
 //   render(){
 //     return(
 //       <h1>Hello</h1>
@@ -56,4 +56,4 @@
 //   }
 // }
 
-// export default Day1_Components 
+// export default Day_1_Components 

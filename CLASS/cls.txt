@@ -10,14 +10,6 @@ BATCHES
 05 - 06 -> Hari Babu, Aakash 
 06 - 07 -> Free
 
-Saturday 
-
-10 to 11 -> Mahalakshimi
-11 to 12 -> Yusuf [ Operators ]
-12 to 1 -> Mahalakshimi
-
-2 to 3:30 -> Methods 
-
 --------------------------------------------------------------------------------------------
 
 MONDAY - 19-05-2025 
@@ -46,24 +38,32 @@ A - AAKASH LEAVE
 
 THURSDAY - 22-05-2025
 
-10 - CSS DAY 6 [ Media Query ]
-3 - REACT DAY 3 [ Style, Props ]
-5 - REACT DAY 3 [ Style, Props ]
-N - NODE DAY 3 [ PATH, URL ]
-HA - 
+10 - CSS DAY 6 
+3 - REACT DAY 3
+5 - REACT DAY 3
+N - NODE DAY 3 
+H - JS
 
 FRIDAY - 23-05-2025
 
-10 - CSS DAY 7
-3 - REACT DAY 5
-5 - REACT DAY 5
-N - 
-A - FORM VALIDATION, PASSWORD VALIDATION
+10 - CSS DAY 7 [ Media Query ] 
+3 - REACT DAY 4 [ Use State ]
+5 - REACT DAY 4 [ Use State ]
+N - FETCHING DATA FROM 
+H - JS [ Loops ( while , do while ), Conditional ( if, if else, else if, nested if ) ]
+
+SATURDAY - 24-05-2025 
+
+10:30 to 11:30 -> Yusuf [ Operators ]
+12:00 to 01:00 -> Yusuf [ String Methods, Number Methods ]
+
+02:30 to 3:30 -> Yusuf[ Functions ]
+
 
 19-05-2025 (MON) - Absent - Nimisha Vardhini, Jasmine Begam, Shajitha Begam, Dinesh, Maria, Murugan, Kaviyarasan
 20-05-2025 (TUE) - Absent - Maria, Murugan, Kaviyarasan
-21-05-2025 (WED) - Absent - Kangathara, Aakash, Naveen
-22-05-2025 (THU) - Absent - 
+21-05-2025 (WED) - Absent - Kangathara, Aakash, Naveen, Maria
+22-05-2025 (THU) - Absent - Vibhashini, Maria
 23-05-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------

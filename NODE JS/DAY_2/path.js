@@ -45,7 +45,7 @@
 //     console.log("Server Running Successfully!")
 // })
 
-// Example - 4 
+// Example - 4 ( URL ) 
 
 // const http = require('http');
 
@@ -65,7 +65,7 @@
 //             <h1>Form Page</h1><br>
 //             <form action="/success" method="POST">
 //                 <input type="text" required>
-//                 <input type="submit" value="Submit">
+//                 <input type="submit">
 //             </form>
 //         `);
 //     }

@@ -1,49 +1,47 @@
 // import React from 'react'
 
-// const Day_3_Style = () => {
-//     return (
-//         <>
-//             <h1 style={{'color' : 'red', 'background-color' : 'black'}}>Hello</h1>
-//             <h1 style={{color : 'blue', backgroundColor : 'black'}}>Hello</h1>
-//         </>
-//     )
-// }
+const Day_3_Style = () => {
+    return (
+        <>
+            <h1 style={{ color:'red', backgroundColor:'blue', padding : '40px 60px' }}>Hello</h1>
 
-// export default Day_3_Style
+            <h1 style={{'color' : 'red', 'background-color':'green'}}>Hello</h1>
+        </>
+    )
+}
 
+export default Day_3_Style 
 
 // import React from 'react'
 
 // const Day_3_Style = () => {
 
-//     const style_1 = {
+//     var obj1 = {
 //         color : 'blue',
-//         backgroundColor : 'black'
 //     }
 
-//     const style_2 = {
+//     var obj2 = {
 //         color : 'red',
-//         backgroundColor : 'black'
 //     }
 
 //     return (
 //         <>
-//             <h1 style={style_1}>Hello</h1>
-//             <h1 style={style_2}>Hello</h1>
+//             <h1 style={obj1}>Hello</h1>
+//             <h1 style={obj2}>Hello</h1>
 //         </>
 //     )
 // }
 
 // export default Day_3_Style
 
-import React from 'react'
+// import React from 'react'
 
-const Day_3_Style = () => {
-    return (
-        <>
-            <h1>Hello</h1>
-        </>
-    )
-}
+// const Day_3_Style = () => {
+//   return (
+//     <>
+//         <h1 id='text'>Hello</h1>
+//     </>
+//   )
+// }
 
-export default Day_3_Style
+// export default Day_3_Style
