@@ -70,9 +70,9 @@
 
             event.preventDefault()
 
-            var searchInput = document.getElementById('searchBox').value;
+            var searchInput = document.getElementById('searchBox').value.toLowerCase();
 
-            var filteredUsers = users.filter((value) => value.name.includes(searchInput));
+            var filteredUsers = users.filter((value) => value.name.toLowerCase().includes(searchInput));
 
             cardFun(filteredUsers)
             

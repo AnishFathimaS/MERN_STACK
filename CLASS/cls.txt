@@ -5,9 +5,9 @@ BATCHES
 12 - 01 -> Shajitha, Jasmine
 01 - 02 -> Lunch
 02 - 03 -> Free 
-03 - 04 -> Ganapathy, Jude, Dinesh, Maria, Kaviyarasan, Murugan
+03 - 04 -> Ganapathy, Jude, Dinesh, Maria
 04 - 05 -> Naveen
-05 - 06 -> Aakash 
+05 - 06 -> Hari Babu, Aakash 
 06 - 07 -> Free
 
 Saturday 
@@ -41,16 +41,16 @@ WEDNESDAY - 21-05-2025
 10 - CSS DAY 5 
 3 - REACT DAY 2 
 5 - REACT DAY 2 
-N - NODE DAY 3  [ PATH ]
-A - API FILTER, OBJECT METHODS 
+N - NAVEEN LEAVE
+A - AAKASH LEAVE  
 
 THURSDAY - 22-05-2025
 
-10 - CSS DAY 6
-3 - REACT DAY 4
-5 - REACT DAY 4
-N - 
-A - DOM 
+10 - CSS DAY 6 [ Media Query ]
+3 - REACT DAY 3 [ Style, Props ]
+5 - REACT DAY 3 [ Style, Props ]
+N - NODE DAY 3 [ PATH, URL ]
+HA - 
 
 FRIDAY - 23-05-2025
 
@@ -62,7 +62,7 @@ A - FORM VALIDATION, PASSWORD VALIDATION
 
 19-05-2025 (MON) - Absent - Nimisha Vardhini, Jasmine Begam, Shajitha Begam, Dinesh, Maria, Murugan, Kaviyarasan
 20-05-2025 (TUE) - Absent - Maria, Murugan, Kaviyarasan
-21-05-2025 (WED) - Absent - 
+21-05-2025 (WED) - Absent - Kangathara, Aakash, Naveen
 22-05-2025 (THU) - Absent - 
 23-05-2025 (FRI) - Absent - 
 
