@@ -55,12 +55,7 @@ H - JS [ Loops ( while , do while ), Conditional ( if, if else, else if, nested 
 SATURDAY - 24-05-2025 
 
 10:30 to 11:30 -> Yusuf [ Operators ]
-<<<<<<< HEAD
-12:00 to 01:00 -> Yusuf [ String Methods, Number Methods   ]
-
-=======
 12:00 to 01:00 -> Yusuf [ String Methods, Number Methods ]
->>>>>>> c6642fafc1261e0fb104f86b4dcd472377125b51
 02:30 to 3:30 -> Yusuf[ Functions ]
 
 
