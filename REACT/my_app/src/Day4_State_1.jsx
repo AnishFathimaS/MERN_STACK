@@ -1,3 +1,5 @@
+// USE STATE ( Count Increase, Count Decrease, With Limit, Hide Show Text, Password Hide Show, Toggle Theme )
+
 // ADD COUNTER WITHOUT USE STATE
 
     // import React from 'react'
