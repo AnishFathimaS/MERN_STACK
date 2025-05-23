@@ -50,7 +50,7 @@ FRIDAY - 23-05-2025
 3 - REACT DAY 4 [ Use State ]
 5 - REACT DAY 4 [ Use State ]
 N - FETCHING DATA FROM FORM 
-H - JS [ Loops ( while , do while ), Conditional ( if, if else, else if, nested if ) ]
+H - JS [ Loops ( while , do while ), Conditional ( if, if else, else if ) ]
 
 SATURDAY - 24-05-2025 
 
@@ -63,7 +63,7 @@ SATURDAY - 24-05-2025
 20-05-2025 (TUE) - Absent - Maria, Murugan, Kaviyarasan
 21-05-2025 (WED) - Absent - Kangathara, Aakash, Naveen, Maria
 22-05-2025 (THU) - Absent - Vibhashini, Maria
-23-05-2025 (FRI) - Absent - Barath, Pavithran, Jasmine Begam, Shajitha Begam, Dinesh, Maria, 
+23-05-2025 (FRI) - Absent - Barath, Pavithran, Jasmine Begam, Shajitha Begam, Dinesh, Maria
 
 --------------------------------------------------------------------------------------------
 
