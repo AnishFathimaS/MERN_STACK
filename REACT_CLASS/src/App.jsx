@@ -3,7 +3,6 @@ import React from 'react'
 // import Day_2_JS from './Day_2_JS'
 // import Day_3_Style from './Day_3_Style'
 // import Day_3_Props_1 from './Day_3_Props_1'
-import Day_4_State from './Day_4_State'
 
 const App = () => {
   return (
@@ -12,7 +11,6 @@ const App = () => {
       {/* <Day_2_JS /> */}
       {/* <Day_3_Style /> */}
       {/* <Day_3_Props_1 /> */}
-      <Day_4_State />
     </>
   )
 }

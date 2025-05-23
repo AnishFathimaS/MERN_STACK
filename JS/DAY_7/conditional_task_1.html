@@ -13,11 +13,11 @@
 
     <script>
 
-        var count = document.getElementById('num').innerHTML;
+        var count = Number(document.getElementById('num').innerHTML);
 
         function add(){
             if(count < 10){  
-                count = (++count); // 0 + 1 = 1
+                count = count + 1; // 0 + 1 = 1
                 document.getElementById('num').innerHTML = count;
                 document.getElementById('limit').innerHTML = ''
             }
