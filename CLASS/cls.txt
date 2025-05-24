@@ -1,6 +1,6 @@
 BATCHES
 
-10 - 11 -> Internship
+10 - 11 -> New Batch
 11 - 12 -> Reshma, Kangathara, Vibhashini, Nimisha Vardhini, Pavithran, Barath, Maheshwaran, Dhushyanth, Pavan Kumar, Shree Parameshwaran
 12 - 01 -> Shajitha, Jasmine
 01 - 02 -> Lunch
@@ -11,6 +11,57 @@ BATCHES
 06 - 07 -> Free
 
 --------------------------------------------------------------------------------------------
+
+MONDAY - 26-05-2025 
+
+NB - HTML DAY 1
+10 - CSS DAY 7 [ Animations, Project ]
+3 - REACT DAY 4 [ Use State ]
+5 - REACT DAY 4 [ Use State ] 
+N - NODE DAY 4 
+H - JS [ Conditional Statements, Set Interval, Set Timeout ]
+
+TUESDAY - 27-05-2025 
+
+10 - 
+3 - Bootstrap Day 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ]
+5 - 
+N - 
+A - 
+
+WEDNESDAY - 28-05-2025
+
+10 - Bootstrap Day 2 [ BORDER, ROUNDED, SHADOW, TABLE, BADGES, CONTAINERS, BREAKPOINTS, COLUMN RESPONSIVESNESS ]
+3 - 
+5 - 
+N - 
+A -   
+
+THURSDAY - 29-05-2025
+
+10 - Bootstrap Day 3 [ CARD, MODAL, DROPDOWN, PAGINATION ]
+3 - 
+5 - 
+N - 
+H - 
+
+FRIDAY - 30-05-2025
+
+10 - Bootstrap Day 4 [ NAVBAR, COLLAPSE, OFFCANVAS ]
+3 - 
+5 - 
+N - 
+H - 
+
+
+26-05-2025 (MON) - Absent - 
+27-05-2025 (TUE) - Absent - 
+28-05-2025 (WED) - Absent - 
+29-05-2025 (THU) - Absent - 
+30-05-2025 (FRI) - Absent - 
+
+--------------------------------------------------------------------------------------------
+
 
 MONDAY - 19-05-2025 
 
@@ -64,6 +115,7 @@ SATURDAY - 24-05-2025
 21-05-2025 (WED) - Absent - Kangathara, Aakash, Naveen, Maria
 22-05-2025 (THU) - Absent - Vibhashini, Maria
 23-05-2025 (FRI) - Absent - Barath, Pavithran, Jasmine Begam, Shajitha Begam, Dinesh, Maria
+24-05-2025 (SAT) - Present - Yusuf
 
 --------------------------------------------------------------------------------------------
 
