@@ -1,28 +1,87 @@
-.box{
-    height: 100px;
-    width: 100px;
+/* button{
     background-color: blue;
-    transition-duration: 2s;
-    margin: 200px;
-}
-.box:hover{
-    /* transform: translate(30px, 40px); */
-    /* transform: translate(30px, 0); */
-    /* transform: translate(0, 50px); */
-    /* transform:  translate(x-axis, y-axis); */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
 
-    /* transform: translateX(50px) */
-    /* transform: translateY(50px) */
-
-    /* transform: perspective(500px) translateZ(100px); */
-    /* transform: perspective(500px) translateZ(-300px); */
-    /* transform: perspective(500px) translate3d(30px, 40px, 100px); */
+    animation-name: button;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-.box:hover{
-    /* transform: rotate(180deg); */
-    /* transform: rotateX(180deg); */
-    /* transform: rotateY(360deg); */
-    /* transform: rotateZ(180deg); */
-    /* transform: rotate3d(1, 0, 1, 180deg); */
+@keyframes button{
+    0%{
+        transform: scale(1.2);
+        box-shadow: 2px 2px 10px blue;
+    }
+    50%{
+        transform: scale(1);
+        box-shadow: 2px 2px 20px blue;
+    }
+    100%{
+        transform: scale(1.2);
+        box-shadow: 2px 2px 10px blue;
+    }
+} */
+/* 
+div{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border: 2px solid silver;
+    border-top: 2px solid blue;
+
+    animation-name: loading;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+/* 
+.container{
+    display: flex;
+    gap: 5px;
+}
+
+.container > div {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: black;
+
+    animation-name: loading;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.box2{
+    animation-delay: 0.3s;
+}
+
+.box3{
+    animation-delay: 0.5s;
+}
+
+@keyframes loading{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+} */

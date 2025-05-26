@@ -1,34 +1,34 @@
 BATCHES
 
-10 - 11 -> New Batch
-11 - 12 -> Reshma, Kangathara, Vibhashini, Nimisha Vardhini, Pavithran, Barath, Maheshwaran, Dhushyanth, Pavan Kumar, Shree Parameshwaran
+10 - 11 -> Deepak Raj, Arun Kumar
+11 - 12 -> Reshma, Kangathara, Vibashini, Nimisha Vardhini, Pavithran, Barath, Maheshwaran, Dhushyanth, Pavan Kumar, Shree Parameshwaran
 12 - 01 -> Shajitha, Jasmine 
 01 - 02 -> Lunch
 02 - 03 -> Free 
 03 - 04 -> Ganapathy, Jude, Dinesh
 04 - 05 -> Naveen
 05 - 06 -> Hari Babu, Aakash 
-06 - 07 -> Free
+06 - 07 -> Free 
 
 --------------------------------------------------------------------------------------------
 
 MONDAY - 26-05-2025 
 
 NB - HTML DAY 1 
-10 - CSS DAY 7 [ Animations, AOS, Project ]
-2 - REACT DAY 4 [ Use State ]
+10 - CSS DAY 7 [ Animations, Project - 1 ]
+2 - REACT DAY 4 [ Use State ] 
 3 - REACT DAY 4 [ Use State ] 
-N - NODE DAY 4 
-H - JS [ Conditional Statements, Set Interval, Set Timeout ]
+N - NODE DAY 4 [ Try Catch ]
+H - H LEAVE
 
 TUESDAY - 27-05-2025 
 
 NB - HTML DAY 2
-10 - Bootstrap Day 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ]
+10 - AOS, ROOT, Bootstrap Day 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ]
 2 - REACT DAY 5 [ Use State ]
 3 - REACT DAY 5 [ Use State ]
 N - EXPRESS DAY 1
-A - DOM, Events
+H - Conditional Statement [ Nested If, Switch ], Set Interval, Set Timeout
 
 WEDNESDAY - 28-05-2025
 
@@ -37,7 +37,7 @@ NB - HTML DAY 3
 2 - REACT DAY 6 [ Bootstrap Components, Assets ]
 3 - REACT DAY 6 [ Bootstrap Components, Assets ]
 N - EXPRESS DAY 2
-A - Event Listener, Query Selector  
+A - DOM, Events
 
 THURSDAY - 29-05-2025
 
@@ -46,7 +46,7 @@ NB - HTML DAY 4
 2 - REACT DAY 7 [ Use Effect ]
 3 - REACT DAY 7 [ Use Effect ]
 N - EXPRESS DAY 3
-HA - Fetching Data from API with filter, Object Methods
+A - Event Listener, Query Selector  
 
 FRIDAY - 30-05-2025
 
@@ -55,17 +55,16 @@ NB - CSS DAY 1
 2 - REACT DAY 7 [ Use Effect, Run Build ]
 3 - REACT DAY 7 [ Use Effect, Run Build ]
 N - MONGO DB DAY 1
-HA - Form Validation, Password Validation
+HA - Fetching Data from API with filter, Object Methods
 
 
-26-05-2025 (MON) - Absent - 
+26-05-2025 (MON) - Absent - Hari Babu, Aakash
 27-05-2025 (TUE) - Absent - 
 28-05-2025 (WED) - Absent - 
 29-05-2025 (THU) - Absent - 
 30-05-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------
-
 
 MONDAY - 19-05-2025 
 

@@ -83,20 +83,20 @@
 // age => less than 8 =>  child, above 8 to 18 => teenager, 
 // 18 to 25 => adult, 25 to 40 => men , above 40 => elder 
 
-var age = 40
+// var age = 40
 
-if(age <= 8){
-    console.log('Child');
-}
-else if(age <= 18){
-    console.log('Teenager')
-}
-else if(age <= 25){
-    console.log('Adult');
-}
-else if(age < 40){
-    console.log('Men');
-}
-else{
-    console.log('Elder')
-}
+// if(age <= 8){
+//     console.log('Child');
+// }
+// else if(age <= 18){
+//     console.log('Teenager')
+// }
+// else if(age <= 25){
+//     console.log('Adult');
+// }
+// else if(age < 40){
+//     console.log('Men');
+// }
+// else{
+//     console.log('Elder')
+// }

@@ -1,98 +1,76 @@
-const http = require("http")
-const querystring = require("querystring")
+const http = require('http')
+const querystring = require('querystring')
 
-const server = http.createServer((req , res) => {
-    
-    if(req.url === "/"){
+const server = http.createServer((req, res) => {
+    if(req.url === '/'){
         res.statusCode = 200;
-        res.setHeader("content-type" , "text/html")
-        res.end(`
-            <div>
-                <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
-                <a href="/register">Form</a>
-            </div>
-            `)
+        res.setHeader('Content-type', 'text/html')
+        res.end(
+            `
+                <div>
+                    <a href='/'>Home</a>
+                    <a href='/about'>About</a>
+                    <a href='/contact'>Contact</a>
+                    <a href='/form'>Register</a>
+                </div>
+            `
+        )
     }
-    else if(req.url === "/about"){
+    else if(req.url === '/about'){
         res.statusCode = 200;
-        res.setHeader("content-type" , "text/html")
-        res.end(`
-            <div>
-                <h1>About Page</h1>
-            </div>
-            `)
+        res.setHeader('Content-type', 'text/html')
+        res.end(
+            `
+                <div>
+                    <h1>About Page</h1>
+                </div>
+            `
+        )
     }
-    else if(req.url === "/contact"){
+    else if(req.url === '/contact'){
         res.statusCode = 200;
-        res.setHeader("content-type" , "text/html")
-        res.end(`
-            <div>
-                <h1>Contact Page</h1>
-            </div>
-            `)
+        res.setHeader('Content-type', 'text/html')
+        res.end(
+            `
+                <div>
+                    <h1>Contact Page</h1>
+                </div>
+            `
+        )
     }
-    else if(req.url === "/register"){
+    else if(req.url === '/form'){
         res.statusCode = 200;
-        res.setHeader("content-type" , "text/html")
-        res.end(`
-            <div>
-                <form action="/success" method="POST">
-                    <input type="text" value="user" name="username" >
-                    <input type="text" value="123" name="password" >
-                    <input type="submit" >
+        res.setHeader('Content-type', 'text/html')
+        res.end(
+            `
+                <form action='/submit' method='POST'>
+                    <input type='text' name='username' required>
+                    <input type='text' name='password' required>
+                    <input type='submit' >
                 </form>
-            </div>
-        `)
+            `
+        )
     }
-    else if(req.url === "/success" && req.method === "POST"){
+    else if(req.url === '/submit' && req.method === 'POST'){
         res.statusCode = 200;
-        res.setHeader("content-type" , "text/html")
+        res.setHeader('Content-type', 'text/html')
 
-        let value = ''
+        var value = ''
 
         req.on('data', (a) => {
-            console.log(a.toString()); 
+            value = querystring.parse(a.toString())
+            console.log(value);
+
+            res.end(
+                `
+                    <h1>Username : ${value.username}</h1>
+                    <h1>Password : ${value.password}</h1>
+                `
+            )
         })
-
-        // let value = ""
-        // req.on("data" , (a) => {
-        //     console.log(a) // Buffer Data
-        //     console.log(a.toString()) // username=user&password=123
-
-        //     // value = a.toString()
-        //     // console.log(value)
-
-        //     value = querystring.parse(a.toString())
-        //     console.log(value)
-
-        //     res.end(`
-        //         <div>
-        //             <h1>Username : ${value.username}</h1>
-        //             <h1>Password : ${value.password}</h1>
-        //         </div>
-        //         `)
-        // })
-
-        // res.end(`
-        //     <div>
-        //         <h1>Success!</h1>
-        //     </div>
-        //     `)
     }
-    else{
-        res.statusCode = 200;
-        res.setHeader("content-type" , "text/html")
-        res.end(`
-            <div>
-                <h1>Error!</h1>
-            </div>
-            `)
-    }
-
 })
 
-server.listen(5000 , () => {
-    console.log("Working...")
+server.listen(8080, () => {
+    console.log('Server Running')
 })
