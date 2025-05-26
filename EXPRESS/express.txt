@@ -2,4 +2,4 @@ EXPRESS JS
 
 DAY 1 => Express JS Package, Creating Multiple Routes, Express Basic Setup
 DAY 2 => Installing Thunder Client Extension, Importing HTML Files in Express, Getting Values from HTML from using URL encoded
-DAY 3 => HBS, EJS, Error Handling
+DAY 3 => HBS, EJS, Error  

@@ -2,10 +2,10 @@ BATCHES
 
 10 - 11 -> New Batch
 11 - 12 -> Reshma, Kangathara, Vibhashini, Nimisha Vardhini, Pavithran, Barath, Maheshwaran, Dhushyanth, Pavan Kumar, Shree Parameshwaran
-12 - 01 -> Shajitha, Jasmine
+12 - 01 -> Shajitha, Jasmine 
 01 - 02 -> Lunch
 02 - 03 -> Free 
-03 - 04 -> Ganapathy, Jude, Dinesh, Maria
+03 - 04 -> Ganapathy, Jude, Dinesh
 04 - 05 -> Naveen
 05 - 06 -> Hari Babu, Aakash 
 06 - 07 -> Free
@@ -14,44 +14,48 @@ BATCHES
 
 MONDAY - 26-05-2025 
 
-NB - HTML DAY 1
-10 - CSS DAY 7 [ Animations, Project ]
-3 - REACT DAY 4 [ Use State ]
-5 - REACT DAY 4 [ Use State ] 
+NB - HTML DAY 1 
+10 - CSS DAY 7 [ Animations, AOS, Project ]
+2 - REACT DAY 4 [ Use State ]
+3 - REACT DAY 4 [ Use State ] 
 N - NODE DAY 4 
 H - JS [ Conditional Statements, Set Interval, Set Timeout ]
 
 TUESDAY - 27-05-2025 
 
-10 - 
-3 - Bootstrap Day 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ]
-5 - 
-N - 
-A - 
+NB - HTML DAY 2
+10 - Bootstrap Day 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ]
+2 - REACT DAY 5 [ Use State ]
+3 - REACT DAY 5 [ Use State ]
+N - EXPRESS DAY 1
+A - DOM, Events
 
 WEDNESDAY - 28-05-2025
 
+NB - HTML DAY 3
 10 - Bootstrap Day 2 [ BORDER, ROUNDED, SHADOW, TABLE, BADGES, CONTAINERS, BREAKPOINTS, COLUMN RESPONSIVESNESS ]
-3 - 
-5 - 
-N - 
-A -   
+2 - REACT DAY 6 [ Bootstrap Components, Assets ]
+3 - REACT DAY 6 [ Bootstrap Components, Assets ]
+N - EXPRESS DAY 2
+A - Event Listener, Query Selector  
 
 THURSDAY - 29-05-2025
 
+NB - HTML DAY 4
 10 - Bootstrap Day 3 [ CARD, MODAL, DROPDOWN, PAGINATION ]
-3 - 
-5 - 
-N - 
-H - 
+2 - REACT DAY 7 [ Use Effect ]
+3 - REACT DAY 7 [ Use Effect ]
+N - EXPRESS DAY 3
+HA - Fetching Data from API with filter, Object Methods
 
 FRIDAY - 30-05-2025
 
+NB - CSS DAY 1
 10 - Bootstrap Day 4 [ NAVBAR, COLLAPSE, OFFCANVAS ]
-3 - 
-5 - 
-N - 
-H - 
+2 - REACT DAY 7 [ Use Effect, Run Build ]
+3 - REACT DAY 7 [ Use Effect, Run Build ]
+N - MONGO DB DAY 1
+HA - Form Validation, Password Validation
 
 
 26-05-2025 (MON) - Absent - 
@@ -112,7 +116,7 @@ SATURDAY - 24-05-2025
 
 19-05-2025 (MON) - Absent - Nimisha Vardhini, Jasmine Begam, Shajitha Begam, Dinesh, Maria, Murugan, Kaviyarasan
 20-05-2025 (TUE) - Absent - Maria, Murugan, Kaviyarasan
-21-05-2025 (WED) - Absent - Kangathara, Aakash, Naveen, Maria
+21-05-2025 (WED) - Absent - Kangathara, Aakash, Naveen, Maria 
 22-05-2025 (THU) - Absent - Vibhashini, Maria
 23-05-2025 (FRI) - Absent - Barath, Pavithran, Jasmine Begam, Shajitha Begam, Dinesh, Maria
 24-05-2025 (SAT) - Present - Yusuf

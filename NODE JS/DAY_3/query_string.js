@@ -6,7 +6,6 @@ const server = http.createServer((req , res) => {
     if(req.url === "/"){
         res.statusCode = 200;
         res.setHeader("content-type" , "text/html")
-        // res.end("Hello")
         res.end(`
             <div>
                 <a href="/">Home</a>
@@ -45,7 +44,7 @@ const server = http.createServer((req , res) => {
                     <input type="submit" >
                 </form>
             </div>
-            `)
+        `)
     }
     else if(req.url === "/success" && req.method === "POST"){
         res.statusCode = 200;
