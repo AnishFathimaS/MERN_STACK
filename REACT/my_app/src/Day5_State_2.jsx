@@ -28,25 +28,27 @@
     
     // const Day5_State_2 = () => {
 
-    //     var [ text, setText ] = useState('')
-    //     var [ qr, setQr ] = useState('')
+    //  var [ text, setText ] = useState('')
 
-    //     const inputText = (event) => {
-    //         setText(event.target.value)
-    //     }
+    //  var [ qr, setQr ] = useState('')
 
-    //     const generateQR = () => {
-    //         setQr(`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${text}`)
-    //     }
+    //  const inputText = (e) => {
+    //     setText(e.target.value)
+    //  }
 
-    //     return (
-    //         <>
-    //             <input type="text" onChange={inputText}/>
-    //             <button onClick={generateQR}>Generate</button>
-    //             <br />
-    //             {qr && <img src={qr} alt="" />}
-    //         </>
-    //     )
+        // const generateQR = () => {
+        //     setQr(`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${text}`)
+        //     setText('')
+        // }
+
+        // return (
+        //     <>
+        //         <input type="text" value={text} onChange={inputText} />
+        //         <button onClick={generateQR}>Generate</button>
+        //         <br />
+        //         { qr ?  <img src={qr} alt="" /> : ''}
+        //     </>
+        // )
     // }
     
     // export default Day5_State_2

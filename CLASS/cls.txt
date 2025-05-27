@@ -14,7 +14,7 @@ BATCHES
 
 MONDAY - 26-05-2025 
 
-NB - HTML DAY 1 
+NB - INTRO 
 10 - CSS DAY 7 [ Animations, Project - 1 ]
 2 - REACT DAY 4 [ Use State ] 
 3 - REACT DAY 4 [ Use State ] 
@@ -23,7 +23,7 @@ H - H LEAVE
 
 TUESDAY - 27-05-2025 
 
-NB - HTML DAY 2
+NB - HTML DAY 1
 10 - AOS, ROOT, Bootstrap Day 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN, WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY ]
 2 - REACT DAY 5 [ Use State ]
 3 - REACT DAY 5 [ Use State ]
@@ -32,7 +32,7 @@ H - Conditional Statement [ Nested If, Switch ], Set Interval, Set Timeout
 
 WEDNESDAY - 28-05-2025
 
-NB - HTML DAY 3
+NB - HTML DAY 2
 10 - Bootstrap Day 2 [ BORDER, ROUNDED, SHADOW, TABLE, BADGES, CONTAINERS, BREAKPOINTS, COLUMN RESPONSIVESNESS ]
 2 - REACT DAY 6 [ Bootstrap Components, Assets ]
 3 - REACT DAY 6 [ Bootstrap Components, Assets ]
@@ -41,7 +41,7 @@ A - DOM, Events
 
 THURSDAY - 29-05-2025
 
-NB - HTML DAY 4
+NB - HTML DAY 3
 10 - Bootstrap Day 3 [ CARD, MODAL, DROPDOWN, PAGINATION ]
 2 - REACT DAY 7 [ Use Effect ]
 3 - REACT DAY 7 [ Use Effect ]
@@ -50,7 +50,7 @@ A - Event Listener, Query Selector
 
 FRIDAY - 30-05-2025
 
-NB - CSS DAY 1
+NB - HTML DAY 4
 10 - Bootstrap Day 4 [ NAVBAR, COLLAPSE, OFFCANVAS ]
 2 - REACT DAY 7 [ Use Effect, Run Build ]
 3 - REACT DAY 7 [ Use Effect, Run Build ]
@@ -58,7 +58,7 @@ N - MONGO DB DAY 1
 HA - Fetching Data from API with filter, Object Methods
 
 
-26-05-2025 (MON) - Absent - Hari Babu, Aakash
+26-05-2025 (MON) - Absent - Hari Babu, Aakash, Maria
 27-05-2025 (TUE) - Absent - 
 28-05-2025 (WED) - Absent - 
 29-05-2025 (THU) - Absent - 
