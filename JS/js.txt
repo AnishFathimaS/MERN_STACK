@@ -22,6 +22,18 @@ Day - 17 => Try, Catch, Finally, Throw, Then, Promises
 
 PROJECT - E COMMERCE with Add to Cart and Wishlist Functionality 
 
+
+
+
+
+
+
+
+
+
+
+
+
 DAY 1 - TYPES OF JS, OUTPUTS, VARIABLES, COMMENTS
 DAY 2 - DATA TYPES, OPERATORS
 DAY 3 - STRING METHODS, NUMBER METHODS
