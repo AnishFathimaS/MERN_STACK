@@ -69,6 +69,11 @@ const server = http.createServer((req, res) => {
             )
         })
     }
+    else{
+        res.statusCode = 404;
+        res.setHeader('Content-type', 'text/html')
+        res.end('<h1>Page Not Found</h1>')
+    }
 })
 
 server.listen(8080, () => {

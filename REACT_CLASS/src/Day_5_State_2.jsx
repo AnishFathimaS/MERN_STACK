@@ -49,70 +49,69 @@
 // export default Day_5_State_2
 
 
-    // import React, { useState } from 'react'
-    
-    // const Day_5_State_2 = () => {
+// import React, { useState } from 'react'
 
-    //     var [ input, setInput ] = useState("")
+// const Day_5_State_2 = () => {
 
-    //     const display = (e) => {
-    //         setInput(input + e.target.value);
-    //     }
+//     var [ input, setInput ] = useState('')
 
-    //     const sum = () => {
-    //         try{
-    //             setInput(eval(input))
-    //         }
-    //         catch{
-    //             alert('Invalid Expression')
-    //             setInput('')
-    //         }
-    //     }
+//     const display = (e) => {
+//         setInput(input + e.target.value)
+//     }       
 
-    //     const allClear = () => {
-    //         setInput('')
-    //     }
+//     const sumFun = () => {
+//         try{
+//             setInput(eval(input))
+//         }
+//         catch{
+//             alert('Invalid Expression')
+//         }
+//     }
 
-    //     const deleteNum = () => {
-    //         setInput(input.slice(0, -1))
-    //     }
+//     const allClear = () => {
+//         setInput('')
+//     }
 
-    //     return (
-    //         <>
-    //             <div>
-    //                 <input type="text" value={input} readOnly />
-    //             </div>
-    //             <div>
-    //                 <input type="button" value='1' onClick={display}/>
-    //                 <input type="button" value='2' onClick={display}/>
-    //                 <input type="button" value='3' onClick={display}/>
-    //                 <input type="button" value='4' onClick={display}/>
-    //             </div>
-    //             <div>
-    //                 <input type="button" value='5' onClick={display}/>
-    //                 <input type="button" value='6' onClick={display}/>
-    //                 <input type="button" value='7' onClick={display}/>
-    //                 <input type="button" value='8' onClick={display}/>
-    //             </div>
-    //             <div>
-    //                 <input type="button" value='9' onClick={display}/>
-    //                 <input type="button" value='0' onClick={display}/>
-    //                 <input type="button" value='00' onClick={display}/>
-    //                 <input type="button" value='.' onClick={display}/>
-    //             </div>
-    //             <div>
-    //                 <input type="button" value='+' onClick={display}/>
-    //                 <input type="button" value='-' onClick={display}/>
-    //                 <input type="button" value='*' onClick={display}/>
-    //                 <input type="button" value='/' onClick={display}/>
-    //             </div>
-    //             <div>
-    //                 <input type="button" value='=' onClick={sum}/>
-    //                 <input type="button" value='AC' onClick={allClear}/>
-    //                 <input type="button" value='DE' onClick={deleteNum}/>
-    //             </div>
-    //         </>
-    //     )
-    // }
-    
-    // export default Day_5_State_2
+//     const deleteFun = () => {
+//         setInput(input.slice(0, -1))
+//     }
+
+//     return (
+//         <>
+//             <div>
+//                 <input type="text" value={input} readOnly />
+//             </div>
+//             <div>
+//                 <input type="button" onClick={display} value='1'/>
+//                 <input type="button" onClick={display} value='2' />
+//                 <input type="button" onClick={display} value='3' />
+//                 <input type="button" onClick={display} value='4' />
+//             </div>
+//             <div>
+//                 <input type="button" onClick={display} value='5' />
+//                 <input type="button" onClick={display} value='6' />
+//                 <input type="button" onClick={display} value='7' />
+//                 <input type="button" onClick={display} value='8' />
+//             </div>
+//             <div>
+//                 <input type="button" onClick={display} value='9' />
+//                 <input type="button" onClick={display} value='0' />
+//                 <input type="button" onClick={display} value='00' />
+//                 <input type="button" onClick={display} value='.' />
+//             </div>
+//             <div>
+//                 <input type="button" onClick={display} value='+' />
+//                 <input type="button" onClick={display} value='-' />
+//                 <input type="button" onClick={display} value='*' />
+//                 <input type="button" onClick={display} value='/' />
+//             </div>
+//             <div>
+//                 <input type="button" value='=' onClick={sumFun} />
+//                 <input type="button" value='AC' onClick={allClear} />
+//                 <input type="button" value='DE' onClick={deleteFun}/>
+//             </div>
+//         </>
+//     )
+// }
+
+// export default Day_5_State_2

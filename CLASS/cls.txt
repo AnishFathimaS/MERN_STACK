@@ -27,17 +27,17 @@ NB - HTML DAY 1
 10 - AOS, ROOT, Bootstrap Day 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN ]
 2 - REACT DAY 5 [ Use State ]
 3 - REACT DAY 5 [ Use State ]
-N - EXPRESS DAY 1
+N - PROJECT
 H - Conditional Statement [ Nested If, Switch ], Set Interval, Set Timeout
 
 WEDNESDAY - 28-05-2025
 
 NB - HTML DAY 2
-10 - Bootstrap Day 2 [ WIDTH, TEXT PROPERTIES, BOOTSTRAP ICONS, DISPLAY, BORDER, ROUNDED, SHADOW, TABLE, BADGES ]
+10 - Bootstrap Day 2 [ WIDTH, TEXT PROPERTIES, DISPLAY, BORDER, ROUNDED, SHADOW, TABLE, BADGES, BOOTSTRAP ICONS ]
 2 - REACT DAY 6 [ Bootstrap Components, Assets ] 
 3 - REACT DAY 6 [ Bootstrap Components, Assets ]
-N - EXPRESS DAY 2
-A - DOM, Events
+N - NODE DAY 3
+A - DOM, Events 
 
 THURSDAY - 29-05-2025
 
