@@ -1,6 +1,6 @@
 BATCHES
 
-10 - 11 -> Deepak Raj, Arun Kumar
+10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, 
 11 - 12 -> Reshma, Kangathara, Vibashini, Nimisha Vardhini, Pavithran, Barath, Maheshwaran, Dhushyanth, Pavan Kumar, Shree Parameshwaran
 12 - 01 -> Shajitha, Jasmine 
 01 - 02 -> Lunch
@@ -32,35 +32,35 @@ H - Conditional Statement [ Nested If, Switch ], Set Interval, Set Timeout
 
 WEDNESDAY - 28-05-2025
 
-NB - HTML DAY 2
+NB - HTML DAY 1
 10 - Bootstrap Day 2 [ WIDTH, TEXT PROPERTIES, DISPLAY, BORDER, ROUNDED, SHADOW, TABLE, BADGES, BOOTSTRAP ICONS ]
-2 - REACT DAY 6 [ Bootstrap Components, Assets ] 
-3 - REACT DAY 6 [ Bootstrap Components, Assets ]
+2 - REACT DAY 6 [ Bootstrap Components ] 
+3 - REACT DAY 6 [ Bootstrap Components ]
 N - NODE DAY 3
-A - DOM, Events 
+A - Aakash LEAVE 
 
 THURSDAY - 29-05-2025
 
 NB - HTML DAY 3
-10 - Bootstrap Day 3 [ CONTAINERS, BREAKPOINTS, COLUMN RESPONSIVESNESS, CARD, MODAL, PAGINATION ]
+10 - Bootstrap Day 3 [ CONTAINERS, BREAKPOINTS, COLUMN RESPONSIVESNESS, CARD, MODAL ]
 2 - REACT DAY 7 [ Use Effect ]
 3 - REACT DAY 7 [ Use Effect ]
 N - EXPRESS DAY 3
-A - Event Listener, Query Selector  
+A - Aakash Leave  
 
 FRIDAY - 30-05-2025
 
 NB - HTML DAY 4
-10 - Bootstrap Day 4 [ DROPDOWN, NAVBAR, COLLAPSE, OFFCANVAS ]
+10 - Bootstrap Day 4 [ DROPDOWN, CAROUSEL, NAVBAR, COLLAPSE ]
 2 - REACT DAY 7 [ Use Effect, Run Build ]
 3 - REACT DAY 7 [ Use Effect, Run Build ]
 N - MONGO DB DAY 1
-HA - Fetching Data from API with filter, Object Methods
+HA - Fetching Data from API with filter, Object Methods 
 
 
 26-05-2025 (MON) - Absent - Hari Babu, Aakash, Maria
-27-05-2025 (TUE) - Absent - 
-28-05-2025 (WED) - Absent - 
+27-05-2025 (TUE) - Absent - Aakash, Maria 
+28-05-2025 (WED) - Absent - Pavithran, NimishaVardhini, Maria, 
 29-05-2025 (THU) - Absent - 
 30-05-2025 (FRI) - Absent - 
 
