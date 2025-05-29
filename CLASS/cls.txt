@@ -18,7 +18,7 @@ NB - INTRO
 10 - CSS DAY 7 [ Animations, Project - 1 ]
 2 - REACT DAY 4 [ Use State ] 
 3 - REACT DAY 4 [ Use State ] 
-N - NODE DAY 4 [ Try Catch ]
+N - NODE DAY 3 [ Try Catch ]
 H - H LEAVE
 
 TUESDAY - 27-05-2025 
@@ -36,16 +36,16 @@ NB - HTML DAY 1
 10 - Bootstrap Day 2 [ WIDTH, TEXT PROPERTIES, DISPLAY, BORDER, ROUNDED, SHADOW, TABLE, BADGES, BOOTSTRAP ICONS ]
 2 - REACT DAY 6 [ Bootstrap Components ] 
 3 - REACT DAY 6 [ Bootstrap Components ]
-N - NODE DAY 3
+N - PROJECT
 A - Aakash LEAVE 
 
 THURSDAY - 29-05-2025
 
-NB - HTML DAY 3
+NB - HTML DAY 2
 10 - Bootstrap Day 3 [ CONTAINERS, BREAKPOINTS, COLUMN RESPONSIVESNESS, CARD, MODAL ]
 2 - REACT DAY 7 [ Use Effect ]
 3 - REACT DAY 7 [ Use Effect ]
-N - EXPRESS DAY 3
+N - NODE DAY 3
 A - Aakash Leave  
 
 FRIDAY - 30-05-2025

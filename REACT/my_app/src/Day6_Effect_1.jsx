@@ -4,91 +4,135 @@
 
 // }, [])
 
-// with dependency [ it runs when the count is change ]
 
-// import React, { useState, useEffect } from 'react'
+// Page Render, Count Change, Code Update => Hello
+
+// import React, { useState } from 'react'
 
 // const Day6_Effect_1 = () => {
 
-//   var [ count, setCount ] = useState(1)
+//     var [ count, setCount ] = useState(1)
 
-//   useEffect(() => {
-//     console.log('Number Changed');
-//   }, [count])
+//     const countFun = () => {
+//         setCount(++count)
+//     }
 
-//   return (
-//     <>
-//       <h1>{count}</h1> 
-//       <button onClick={() => {setCount(++count)}}>Click</button>
-//     </>
-//   )
+//     console.log('Hello')
+
+//     return (
+//         <>
+//             <h1>{count}</h1>
+//             <button onClick={countFun}>Click</button>
+//             fasdfsdfads
+//         </>
+//     )
 // }
 
 // export default Day6_Effect_1
 
+// Use Effect = 3 Types 
 
-// Empty Dependency [ it runs only component is render ]
+// With Dependency 
+// Without Dependency 
+// Empty Dependency
 
-// import React, { useState, useEffect } from 'react'
+// 1. With Dependency => Page Render, Count Change, Code Update
+
+// import React, { useEffect, useState } from 'react'
 
 // const Day6_Effect_1 = () => {
 
-//   var [ count, setCount ] = useState(1)
+//     var [ count, setCount ] = useState(1)
 
-//   useEffect(() => {
-//     console.log('Number Changed');
-//   }, [])
+//     const countFun = () => {
+//         setCount(++count)
+//     }
 
-//   return (
-//     <>
-//       <h1>{count}</h1>
-//       <button onClick={() => {setCount(++count)}}>Click</button>
-//     </>
-//   )
+//     useEffect(() => {
+//         console.log('Number Changed');
+//     }, [count])
+
+//     return (
+//         <>
+//             <h1>{count}</h1>
+//             <button onClick={countFun}>Click</button>
+//         </>
+//     )
 // }
 
 // export default Day6_Effect_1
 
+// 2. Without Dependency => Page Render, Count Change, Code Update
 
-// No dependency [ it runs when the component is reload and when the code is change ]
-
-// import React, { useState, useEffect } from 'react'
+// import React, { useEffect, useState } from 'react'
 
 // const Day6_Effect_1 = () => {
 
-//   var [ count, setCount ] = useState(1)
+//     var [ count, setCount ] = useState(1)
 
-//   useEffect(() => {
-//     console.log('Number Changed');
-//   })
+//     const countFun = () => {
+//         setCount(++count)
+//     }
 
-//   return (
-//     <>
-//       <h1>{count}</h1>
-//       <button onClick={() => {setCount(++count)}}>Click</button>
-//     </>
-//   )
+//     useEffect(() => {
+//         console.log('Number Changed');
+//     })
+
+//     return (
+//         <>
+//             <h1>{count}</h1>
+//             <button onClick={countFun}>Click</button>
+//         </>
+//     )
 // }
 
 // export default Day6_Effect_1
 
+// 3. Empty Dependency => Page Render, Code Update
 
-// import React, { useState, useEffect } from 'react'
+// import React, { useEffect, useState } from 'react'
 
 // const Day6_Effect_1 = () => {
-//   const [name, setName] = useState("");
 
-//   useEffect(() => {
-//     console.log("Name updated:", name);
-//   }, [name]);
+//     var [ count, setCount ] = useState(1)
 
-//   return (
-//     <input type="text" placeholder="Enter name" onChange={(e) => setName(e.target.value)} />
-//   );
+//     const countFun = () => {
+//         setCount(++count)
+//     }
+
+//     useEffect(() => {
+//         console.log('Number Changed');
+//     }, [])
+
+//     return (
+//         <>
+//             <h1>{count}</h1>
+//             <button onClick={countFun}>Click</button>
+//         </>
+//     )
 // }
 
 // export default Day6_Effect_1
 
+// Example - 1 
+
+// import React, { useState, useEffect } from 'react'
+
+// const Day6_Effect_1 = () => {
+//     const [name, setName] = useState("");
+
+//     useEffect(() => {
+//         console.log("Name updated:", name);
+//     }, [name]);
+
+//     return (
+//         <>
+//             <input type="text" placeholder="Enter name" onChange={(e) => setName(e.target.value)} />
+//         </>
+//     );
+// }
+
+// export default Day6_Effect_1
 
 // import React, { useState, useEffect } from 'react'
 
@@ -105,14 +149,11 @@
 //         <>
 //             <button onClick={() => {setBgColor('blue')}}>Blue</button>
 //             <button onClick={() => {setBgColor('red')}}>Red</button>
-//             sdfghjkl;
-//             dfghjkl
 //         </>
 //     )
 // }
 
 // export default Day6_Effect_1
-
 
 // import React, { useState, useEffect } from 'react'
 // import { Container, Card } from 'react-bootstrap'
@@ -135,7 +176,7 @@
 //             <h1>User Name</h1>
 //             {data.map((value, index) => {
 //                 return(
-//                     <Container>
+//                     <Container key={index}>
 //                         <Card>
 //                             <Card.Body>
 //                                 <h3>{value.name}</h3>
