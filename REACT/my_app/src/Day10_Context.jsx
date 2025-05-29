@@ -10,7 +10,11 @@
 //             <Day10_Context_2 value={value} />
 //         </>
 //     )
-// }// import React from 'react'
+// }
+
+// export default Day10_Context
+
+// import React from 'react'
 // import Day10_Context_1 from './Day10_Context_1';
 
 // const Day10_Context = () => {
@@ -26,22 +30,23 @@
 
 // export default Day10_Context
 
-// import React, { createContext } from 'react'
+import React, { createContext } from 'react'
 
-// export const myContext = createContext()
+export const myContext = createContext()
 
-// const Day10_Context = ({children}) => {
+const Day10_Context = ({children}) => {
 
-//     var num = 10;
+  var num = 10;
 
-//     return (
-        // <myContext.Provider value={{num}}>
-        //     {children}
-        // </myContext.Provider>
-//     )
-// }
+  return (
+    <myContext.Provider value={{num}}>
+      {children}  
+    </myContext.Provider>
+  )
+  
+}
 
-// export default Day10_Context
+export default Day10_Context
 
 // import React, { createContext, useState } from 'react'
 
@@ -73,9 +78,6 @@
 // }
 
 // export default Day10_Context
-
-// export default Day10_Context_1  
-
 
 // import React, { createContext } from 'react'
 // import Day10_Context_2 from './Day10_Context_2';

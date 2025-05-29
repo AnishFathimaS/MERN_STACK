@@ -23,7 +23,6 @@
 //         <>
 //             <h1>{count}</h1>
 //             <button onClick={countFun}>Click</button>
-//             fasdfsdfads
 //         </>
 //     )
 // }
@@ -36,7 +35,7 @@
 // Without Dependency 
 // Empty Dependency
 
-// 1. With Dependency => Page Render, Count Change, Code Update
+// 1. With Dependency => Page Render, Count Change, Code Update 
 
 // import React, { useEffect, useState } from 'react'
 

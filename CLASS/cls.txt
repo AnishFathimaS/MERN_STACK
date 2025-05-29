@@ -1,6 +1,6 @@
 BATCHES
 
-10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, 
+10 - 11 -> Deepa Raj, Arun Kumar, Karthikeyan, Dinakaran
 11 - 12 -> Reshma, Kangathara, Vibashini, Nimisha Vardhini, Pavithran, Barath, Maheshwaran, Dhushyanth, Pavan Kumar, Shree Parameshwaran
 12 - 01 -> Shajitha, Jasmine 
 01 - 02 -> Lunch
@@ -23,7 +23,7 @@ H - H LEAVE
 
 TUESDAY - 27-05-2025 
 
-NB - HTML DAY 1
+KADD - HTML DAY 1
 10 - AOS, ROOT, Bootstrap Day 1 [ INTRO, CDN LINK, COLOR, BUTTONS, PADDING, MARGIN ]
 2 - REACT DAY 5 [ Use State ]
 3 - REACT DAY 5 [ Use State ]
@@ -32,7 +32,7 @@ H - Conditional Statement [ Nested If, Switch ], Set Interval, Set Timeout
 
 WEDNESDAY - 28-05-2025
 
-NB - HTML DAY 1
+KADD - HTML DAY 1
 10 - Bootstrap Day 2 [ WIDTH, TEXT PROPERTIES, DISPLAY, BORDER, ROUNDED, SHADOW, TABLE, BADGES, BOOTSTRAP ICONS ]
 2 - REACT DAY 6 [ Bootstrap Components ] 
 3 - REACT DAY 6 [ Bootstrap Components ]
@@ -41,27 +41,26 @@ A - Aakash LEAVE
 
 THURSDAY - 29-05-2025
 
-NB - HTML DAY 2
-10 - Bootstrap Day 3 [ CONTAINERS, BREAKPOINTS, COLUMN RESPONSIVESNESS, CARD, MODAL ]
-2 - REACT DAY 7 [ Use Effect ]
-3 - REACT DAY 7 [ Use Effect ]
-N - NODE DAY 3
+KADD - HTML DAY 2
+10 - Bootstrap Day 3 [ CONTAINERS, BREAKPOINTS, COLUMN RESPONSIVESNESS, CARD ]
+2 - REACT DAY 7 [ Use Context ]
+3 - REACT DAY 7 [ Use Context ]
+N - PROJECT
 A - Aakash Leave  
 
 FRIDAY - 30-05-2025
 
-NB - HTML DAY 4
-10 - Bootstrap Day 4 [ DROPDOWN, CAROUSEL, NAVBAR, COLLAPSE ]
-2 - REACT DAY 7 [ Use Effect, Run Build ]
-3 - REACT DAY 7 [ Use Effect, Run Build ]
-N - MONGO DB DAY 1
+KADD - HTML DAY 3
+10 - Bootstrap Day 4 [ MODAL, DROPDOWN, CAROUSEL, COLLAPSE ]
+2 - REACT DAY 7 [ USE REDUCER, USE REF ]
+N - NODE JS 
 HA - Fetching Data from API with filter, Object Methods 
 
 
 26-05-2025 (MON) - Absent - Hari Babu, Aakash, Maria
 27-05-2025 (TUE) - Absent - Aakash, Maria 
-28-05-2025 (WED) - Absent - Pavithran, NimishaVardhini, Maria, 
-29-05-2025 (THU) - Absent - 
+28-05-2025 (WED) - Absent - Pavithran, NimishaVardhini, Maria, Hari Babu, Aakash
+29-05-2025 (THU) - Absent - Dhushyanth, Nimisha Vardhini, Kangathara, Hari Babu, Aakash
 30-05-2025 (FRI) - Absent - 
 
 --------------------------------------------------------------------------------------------

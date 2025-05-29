@@ -1,14 +1,14 @@
-import React from 'react'
+// import React from 'react'
 
-const Day_3_Props_2 = (props) => {
-    return (
-        <>
-            <h1>{props.data1} {props.data2}</h1>
-        </>
-    )
-}
+// const Day_3_Props_2 = (props) => {
+//     return (
+//         <>
+//             <h1>{props.data1} {props.data2}</h1>
+//         </>
+//     )
+// }
 
-export default Day_3_Props_2
+// export default Day_3_Props_2
 
 // import React from 'react'
 

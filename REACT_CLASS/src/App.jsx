@@ -1,5 +1,8 @@
 import React from 'react'
-import Bootstrap from './Bootstrap'
+import Day_6_Context from './Day_6_Context'
+import ContextProvider from './ContextProvider'
+// import Day_6_Context_2 from './Day_6_Context_2'
+// import Bootstrap from './Bootstrap'
 // import Day1_Components from './Day_1_Components'
 // import Day_2_JS from './Day_2_JS'
 // import Day_3_Style from './Day_3_Style'
@@ -16,7 +19,11 @@ const App = () => {
       {/* <Day_3_Props_1 /> */}
       {/* <Day_4_State /> */}
       {/* <Day_5_State_2 /> */}
-      <Bootstrap />
+      {/* <Bootstrap /> */}
+      <ContextProvider>
+        <Day_6_Context>
+          </Day_6_Context>
+      </ContextProvider>
     </>
   )
 }
