@@ -8,7 +8,60 @@ BATCHES
 03 - 04 -> Ganapathy, Jude, Dinesh
 04 - 05 -> Naveen
 05 - 06 -> Hari Babu, Aakash 
-06 - 07 -> Free 
+06 - 07 -> Mottu Uncle 
+
+--------------------------------------------------------------------------------------------
+
+MONDAY - 02-06-2025 
+
+KADD - HTML DAY 4 
+10 - BOOTSTRAP DAY 4 [ ACCORDION, NAVBAR, CAROUSEL ]
+2 - REACT DAY 9 [ Use Effect, Use Ref ] 
+3 - REACT DAY 9 [ Use Effect, Use Ref ] 
+N - EXPRESS DAY 1
+HA - Fetching Data from API with filter, Object Methods 
+
+TUESDAY - 03-06-2025 
+
+KADD - CSS DAY 1 
+10 - BOOSTRAP DAY 5 [ OFFCANVAS, FORM, INPUTS, PROJECT ]
+2 - REACT DAY 10 [ ROUTE ]
+3 - REACT DAY 10 [ ROUTE ]
+N - EXPRESS DAY 2
+HA - DOM, QUERY SELECTOR
+
+WEDNESDAY - 04-06-2025
+
+KADD - CSS DAY 2
+10 - JS DAY 1
+2 - REACT DAY 11 [ CRUD ] 
+3 - REACT DAY 11 [ CRUD ]
+N - EXPRESS DAY 3
+A - EVents, Event Listener 
+
+THURSDAY - 05-06-2025
+
+KADD - CSS DAY 3 
+10 - JS DAY 2
+2 - REACT DAY 12 [ Form Validation ]
+3 - REACT DAY 12 [ Form Validation ]
+N - 
+HA - Form Validation, Password Validation
+
+FRIDAY - 06-06-2025
+
+KADD - HTML DAY 3
+10 - Bootstrap Day 4 [ MODAL, DROPDOWN, CAROUSEL, COLLAPSE ]
+2 - REACT DAY 12 [ PACKAGES ( swiper, material ui, react components ) ]
+3 - REACT DAY 12 [ PACKAGES ( swiper, material ui, react components ) ]
+N - 
+HA - Try, Catch, Finally, Throw, Then, Promises
+
+02-06-2025 (MON) - Absent -
+03-06-2025 (TUE) - Absent - 
+04-06-2025 (WED) - Absent - 
+05-06-2025 (THU) - Absent - 
+06-06-2025 (FRI) - Absent -  
 
 --------------------------------------------------------------------------------------------
 
@@ -52,8 +105,8 @@ FRIDAY - 30-05-2025
 
 KADD - HTML DAY 3
 10 - Bootstrap Day 4 [ MODAL, DROPDOWN, CAROUSEL, COLLAPSE ]
-2 - REACT DAY 7 [ USE REDUCER, USE REF ]
-N - NODE JS 
+2 - REACT DAY 7 [ USE REDUCER ]
+N - NODE JS DAY 3
 HA - Fetching Data from API with filter, Object Methods 
 
 
@@ -61,7 +114,7 @@ HA - Fetching Data from API with filter, Object Methods
 27-05-2025 (TUE) - Absent - Aakash, Maria 
 28-05-2025 (WED) - Absent - Pavithran, NimishaVardhini, Maria, Hari Babu, Aakash
 29-05-2025 (THU) - Absent - Dhushyanth, Nimisha Vardhini, Kangathara, Hari Babu, Aakash
-30-05-2025 (FRI) - Absent - 
+30-05-2025 (FRI) - Absent - Nimisha Vardhini, Dinesh, Maria, Hari Babu, Aakash
 
 --------------------------------------------------------------------------------------------
 

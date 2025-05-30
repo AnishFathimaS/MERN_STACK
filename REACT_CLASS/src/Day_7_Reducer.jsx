@@ -1,8 +1,6 @@
-// EXAMPLE - 1
-
 // import React, { useState } from 'react'
 
-// const Day8_Reducer = () => {
+// const Day_7_Reducer = () => {
 
 //     var [ count, setCount ] = useState(1)
 
@@ -10,110 +8,133 @@
 //         setCount(++count)
 //     }
 
+//     const removeFun = () => {
+//         setCount(--count)
+//     }
+
 //     return (
 //         <>
 //             <h1>{count}</h1>
 //             <button onClick={addFun}>Add</button>
+//             <button onClick={removeFun}>Remove</button>
 //         </>
 //     )
 // }
 
-// export default Day8_Reducer 
+// export default Day_7_Reducer
 
 // import React, { useReducer } from 'react'
 
-// const Day8_Reducer = () => {
+// const Day_7_Reducer = () => {
 
 //     const reducerFun = ( state, action ) => {
-//         // console.log(state))
-//         // console.log(action)
-//         // console.log(action.type)
-//         // switch(action.type){
-//         //     case 'add' : 
-//         //         return { count : state.count + 1 }
-//         // }
-
 //         if(action.type === 'add'){
 //             return { count : state.count + 1 }
 //         }
-//         else if(action.type === 'sub'){
+//         else if(action.type === 'remove'){
 //             return { count : state.count - 1 }
 //         }
+
 //     }
 
-//     const  [ state, dispatch ] = useReducer(reducerFun, { count : 1 })
+//     const [ state, dispatch ] = useReducer( reducerFun, { count : 1 })
 
-//     // console.log(state);
-//     // console.log(state.count);
-    
 //     const addFun = () => {
-//         dispatch({type : 'add' })
+//         dispatch({ type : 'add'})
 //     }
 
-//     const subFun = () => {
-//         dispatch({type : 'sub'})
+//     const removeFun = () => {
+//         dispatch({ type : 'remove' })
 //     }
 
 //     return (
 //         <>
 //             <h1>{state.count}</h1>
 //             <button onClick={addFun}>Add</button>
-//             <button onClick={subFun}>Sub</button>
+//             <button onClick={removeFun}>Remove</button>
 //         </>
 //     )
 // }
 
-// export default Day8_Reducer
+// export default Day_7_Reducer
+
+
+
+
 
 // import React, { useReducer } from 'react'
 
-// const Day8_Reducer = () => {
+// const Day_7_Reducer = () => {
 
-//     var obj = {
-//         add : 'add',
-//         sub : 'sub',
-//         multiple : 'multiple'
-//     }
-
-//     const reducerFun = (state, action) => {
-//         switch(action.type){
-//             case obj.add:
-//                 return { count : state.count + 1 }
-//             case obj.sub:
-//                 return { count : state.count - 1 }
-//             case obj.multiple:
-//                 return { count : state.count * 2 }
+//     const myFun = ( a, b ) => {
+//         // console.log(a); // { num : 1 }
+//         // console.log(b); // undefined => { type : 'hi }
+//         // console.log(b.type); // undefined => hi
+//         if(b.type === 'hi'){
+//             return { num : a.num + 1 }
 //         }
 //     }
 
-//     var [ state, dispatch ] = useReducer(reducerFun, { count : 1 })
+//     var [ count, setCount ] = useReducer(myFun, { num : 1 })
 
+//     // console.log(count); // { num : 1 }
+//     // console.log(count.num); // 1
+    
 //     const addFun = () => {
-//         dispatch({type : obj.add})
-//     }
-
-//     const subFun = () => {
-//         dispatch({type : obj.sub})
-//     }
-
-//     const multipleFun = () => {
-//         dispatch({type : obj.multiple})
+//         setCount({ type : 'hi' })
 //     }
 
 //     return (
 //         <>
+//             <h1>{count.num}</h1>
 //             <button onClick={addFun}>Add</button>
-//             <button onClick={subFun}>Sub</button>
-//             <button onClick={multipleFun}>Mulitple</button>
-//             <h1>{state.count}</h1>
 //         </>
 //     )
 // }
 
-// export default Day8_Reducer
+// export default Day_7_Reducer
 
 
-// EXAMPLE - 2 
+
+
+
+
+
+
+
+
+
+
+// import React, { useReducer } from 'react';
+
+// const Day_7_Reducer = () => {
+
+//     const reducerFun = (a, action) => {
+//         switch (action.type) {
+//             case 'TOGGLE':
+//                 return { obj: !a.obj };
+//             default:
+//                 return a;
+//         }
+//     };
+
+//     const [state, dispatch] = useReducer(reducerFun, { obj: true });
+
+//     const fun = () => {
+//         dispatch({ type: 'TOGGLE' });
+//     };
+
+//     return (
+//         <>
+//             <button onClick={fun}>Click</button>
+//             <h1>{state.obj && 'Hello'}</h1>
+//         </>
+//     );
+// };
+
+// export default Day_7_Reducer;
+
+
 
 // import React, { useReducer } from 'react'
 
@@ -142,7 +163,9 @@
 // export default Day_7_Reducer
 
 
-// EXAMPLE - 3
+
+
+// // EXAMPLE - 3
 
 //     import React, { useReducer } from 'react'
 
