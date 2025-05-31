@@ -13,5 +13,3 @@ app.post('/submit',(req,res)=>{
     res.send(req.body);
 })
 app.listen(8080);
-
-

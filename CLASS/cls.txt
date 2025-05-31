@@ -20,6 +20,7 @@ KADD - HTML DAY 4
 3 - REACT DAY 9 [ Use Effect, Use Ref ] 
 N - EXPRESS DAY 1
 HA - Fetching Data from API with filter, Object Methods 
+MU - CSS DAY 1
 
 TUESDAY - 03-06-2025 
 
